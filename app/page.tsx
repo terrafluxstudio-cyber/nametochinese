@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { SearchBox, type SearchResult } from "@/components/SearchBox";
@@ -49,6 +50,18 @@ export default function Home() {
         {results.map((r, i) => (
           <ResultCard key={`${r.english}-${r.nationality}-${i}`} result={r} />
         ))}
+      </div>
+
+      <div className="text-center mt-12 mb-4 flex flex-wrap gap-6 justify-center">
+        <Link href="/ru" className="text-sm text-gray-400 hover:text-gray-600 underline underline-offset-2">
+          俄语人名查询 →
+        </Link>
+        <Link href="/ko" className="text-sm text-gray-400 hover:text-gray-600 underline underline-offset-2">
+          韩国人名查询 →
+        </Link>
+        <Link href="/naming-rules" className="text-sm text-gray-400 hover:text-gray-600 underline underline-offset-2">
+          各语言人名规则 →
+        </Link>
       </div>
 
       {/* 底部 */}
