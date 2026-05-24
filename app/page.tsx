@@ -53,7 +53,7 @@ export default function Home() {
 
       {/* 底部 */}
       <footer className="mt-auto pt-16 text-center text-gray-400 text-xs">
-        数据来源：西南大学 ICC 等权威翻译词典
+        © {new Date().getFullYear()} nametochinese.com
       </footer>
     </main>
   );
