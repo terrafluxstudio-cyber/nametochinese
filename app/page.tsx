@@ -62,6 +62,9 @@ export default function Home() {
         <Link href="/naming-rules" className="text-sm text-gray-400 hover:text-gray-600 underline underline-offset-2">
           各语言人名规则 →
         </Link>
+        <Link href="/naming-rules/sinosphere" className="text-sm text-gray-400 hover:text-gray-600 underline underline-offset-2">
+          华人英文名写法 →
+        </Link>
       </div>
 
       {/* 底部 */}
