@@ -68,6 +68,9 @@ export default function Home() {
         <Link href="/pinyin" className="text-sm text-gray-400 hover:text-gray-600 underline underline-offset-2">
           拼音反查中文名 →
         </Link>
+        <Link href="/convert" className="text-sm text-gray-400 hover:text-gray-600 underline underline-offset-2">
+          外文名音译引擎 →
+        </Link>
       </div>
 
       {/* 底部 */}
