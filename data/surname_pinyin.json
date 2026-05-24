@@ -1,3006 +1,4344 @@
 {
-  "a": [
-    {
-      "char": "阿",
-      "freq": 23
-    }
-  ],
-  "an": [
-    {
-      "char": "安",
-      "freq": 4
-    }
-  ],
-  "ba": [
-    {
-      "char": "巴",
-      "freq": 17
-    },
-    {
-      "char": "八",
-      "freq": 1
-    }
-  ],
-  "ban": [
-    {
-      "char": "班",
-      "freq": 6
-    },
-    {
-      "char": "阪",
-      "freq": 1
-    }
-  ],
-  "bei": [
-    {
-      "char": "贝",
-      "freq": 9
-    },
-    {
-      "char": "孛",
-      "freq": 1
-    }
-  ],
-  "ben": [
-    {
-      "char": "本",
-      "freq": 2
-    }
-  ],
-  "bin": [
-    {
-      "char": "宾",
-      "freq": 1
-    },
-    {
-      "char": "彬",
-      "freq": 1
-    }
-  ],
-  "bu": [
-    {
-      "char": "布",
-      "freq": 9
-    },
-    {
-      "char": "卜",
-      "freq": 3
-    },
-    {
-      "char": "步",
-      "freq": 1
-    },
-    {
-      "char": "不",
-      "freq": 1
-    }
-  ],
-  "bo": [
-    {
-      "char": "博",
-      "freq": 6
-    },
-    {
-      "char": "波",
-      "freq": 2
-    },
-    {
-      "char": "播",
-      "freq": 1
-    }
-  ],
-  "bang": [
-    {
-      "char": "邦",
-      "freq": 4
-    }
-  ],
-  "xi": [
-    {
-      "char": "西",
-      "freq": 2
-    },
-    {
-      "char": "席",
-      "freq": 2
-    },
-    {
-      "char": "习",
-      "freq": 1
-    },
-    {
-      "char": "系",
-      "freq": 1
-    },
-    {
-      "char": "希",
-      "freq": 1
-    }
-  ],
-  "da": [
-    {
-      "char": "达",
-      "freq": 12
-    }
-  ],
-  "de": [
-    {
-      "char": "德",
-      "freq": 4
-    }
-  ],
-  "di": [
-    {
-      "char": "迪",
-      "freq": 4
-    },
-    {
-      "char": "翟",
-      "freq": 1
-    },
-    {
-      "char": "地",
-      "freq": 1
-    },
-    {
-      "char": "狄",
-      "freq": 1
-    }
-  ],
-  "duo": [
-    {
-      "char": "多",
-      "freq": 13
-    },
-    {
-      "char": "夺",
-      "freq": 1
-    }
-  ],
-  "du": [
-    {
-      "char": "杜",
-      "freq": 4
-    },
-    {
-      "char": "笃",
-      "freq": 1
-    }
-  ],
-  "ai": [
-    {
-      "char": "艾",
-      "freq": 6
-    },
-    {
-      "char": "埃",
-      "freq": 3
-    },
-    {
-      "char": "爱",
-      "freq": 2
-    },
-    {
-      "char": "暧",
-      "freq": 1
-    },
-    {
-      "char": "隘",
-      "freq": 1
-    }
-  ],
-  "en": [
-    {
-      "char": "恩",
-      "freq": 19
-    }
-  ],
-  "fa": [
-    {
-      "char": "法",
-      "freq": 2
-    }
-  ],
-  "fu": [
-    {
-      "char": "福",
-      "freq": 3
-    },
-    {
-      "char": "傅",
-      "freq": 2
-    },
-    {
-      "char": "阜",
-      "freq": 1
-    },
-    {
-      "char": "孚",
-      "freq": 1
-    },
-    {
-      "char": "服",
-      "freq": 1
-    }
-  ],
-  "jia": [
-    {
-      "char": "嘉",
-      "freq": 9
-    },
-    {
-      "char": "加",
-      "freq": 3
-    },
-    {
-      "char": "贾",
-      "freq": 3
-    }
-  ],
-  "gan": [
-    {
-      "char": "甘",
-      "freq": 6
-    },
-    {
-      "char": "干",
-      "freq": 1
-    }
-  ],
-  "ge": [
-    {
-      "char": "格",
-      "freq": 13
-    },
-    {
-      "char": "戈",
-      "freq": 7
-    },
-    {
-      "char": "葛",
-      "freq": 3
-    },
-    {
-      "char": "革",
-      "freq": 1
-    },
-    {
-      "char": "各",
-      "freq": 1
-    }
-  ],
-  "re": [
-    {
-      "char": "热",
-      "freq": 3
-    },
-    {
-      "char": "惹",
-      "freq": 1
-    }
-  ],
-  "ni": [
-    {
-      "char": "尼",
-      "freq": 6
-    },
-    {
-      "char": "倪",
-      "freq": 2
-    },
-    {
-      "char": "你",
-      "freq": 1
-    }
-  ],
-  "gong": [
-    {
-      "char": "贡",
-      "freq": 8
-    },
-    {
-      "char": "龚",
-      "freq": 2
-    }
-  ],
-  "gu": [
-    {
-      "char": "古",
-      "freq": 3
-    },
-    {
-      "char": "谷",
-      "freq": 2
-    },
-    {
-      "char": "姑",
-      "freq": 1
-    }
-  ],
-  "gai": [
-    {
-      "char": "盖",
-      "freq": 2
-    },
-    {
-      "char": "改",
-      "freq": 1
-    }
-  ],
-  "ji": [
-    {
-      "char": "基",
-      "freq": 5
-    },
-    {
-      "char": "吉",
-      "freq": 4
-    },
-    {
-      "char": "季",
-      "freq": 2
-    },
-    {
-      "char": "缉",
-      "freq": 1
-    },
-    {
-      "char": "及",
-      "freq": 1
-    },
-    {
-      "char": "技",
-      "freq": 1
-    },
-    {
-      "char": "极",
-      "freq": 1
-    },
-    {
-      "char": "济",
-      "freq": 1
-    }
-  ],
-  "hu": [
-    {
-      "char": "胡",
-      "freq": 7
-    }
-  ],
   "yi": [
     {
-      "char": "易",
-      "freq": 3
+      "char": "羿",
+      "freq": 49791
     },
     {
       "char": "伊",
-      "freq": 2
+      "freq": 49762
     },
     {
-      "char": "依",
-      "freq": 1
+      "char": "艾",
+      "freq": 49667
     },
     {
-      "char": "亦",
-      "freq": 1
+      "char": "易",
+      "freq": 49662
+    },
+    {
+      "char": "益",
+      "freq": 49595
     },
     {
       "char": "乙",
-      "freq": 1
+      "freq": 55
     },
     {
-      "char": "裔",
-      "freq": 1
-    }
-  ],
-  "yin": [
-    {
-      "char": "尹",
-      "freq": 2
+      "char": "一",
+      "freq": 32
     },
     {
-      "char": "因",
-      "freq": 1
-    }
-  ],
-  "yue": [
-    {
-      "char": "岳",
-      "freq": 2
+      "char": "义",
+      "freq": 20
     },
     {
-      "char": "约",
-      "freq": 1
-    },
-    {
-      "char": "曰",
-      "freq": 1
-    }
-  ],
-  "ka": [
-    {
-      "char": "卡",
-      "freq": 4
-    }
-  ],
-  "ken": [
-    {
-      "char": "肯",
-      "freq": 1
-    }
-  ],
-  "ke": [
-    {
-      "char": "科",
-      "freq": 11
-    },
-    {
-      "char": "柯",
-      "freq": 5
-    },
-    {
-      "char": "克",
-      "freq": 3
-    },
-    {
-      "char": "可",
-      "freq": 1
-    },
-    {
-      "char": "壳",
-      "freq": 1
-    }
-  ],
-  "kong": [
-    {
-      "char": "孔",
-      "freq": 7
-    }
-  ],
-  "kua": [
-    {
-      "char": "夸",
-      "freq": 1
-    }
-  ],
-  "pa": [
-    {
-      "char": "帕",
-      "freq": 8
-    }
-  ],
-  "peng": [
-    {
-      "char": "彭",
-      "freq": 3
-    },
-    {
-      "char": "蓬",
-      "freq": 2
-    },
-    {
-      "char": "朋",
-      "freq": 1
-    }
-  ],
-  "pu": [
-    {
-      "char": "普",
-      "freq": 3
-    },
-    {
-      "char": "朴",
-      "freq": 1
-    }
-  ],
-  "la": [
-    {
-      "char": "拉",
-      "freq": 13
-    },
-    {
-      "char": "辣",
-      "freq": 1
-    },
-    {
-      "char": "剌",
-      "freq": 1
-    }
-  ],
-  "lin": [
-    {
-      "char": "林",
-      "freq": 7
-    }
-  ],
-  "long": [
-    {
-      "char": "隆",
-      "freq": 2
-    }
-  ],
-  "ma": [
-    {
-      "char": "马",
-      "freq": 19
-    },
-    {
-      "char": "玛",
-      "freq": 1
-    }
-  ],
-  "mai": [
-    {
-      "char": "买",
-      "freq": 3
-    },
-    {
-      "char": "迈",
-      "freq": 2
-    },
-    {
-      "char": "麦",
-      "freq": 1
-    }
-  ],
-  "man": [
-    {
-      "char": "曼",
-      "freq": 3
-    }
-  ],
-  "mo": [
-    {
-      "char": "莫",
-      "freq": 7
-    },
-    {
-      "char": "墨",
-      "freq": 1
-    },
-    {
-      "char": "么",
-      "freq": 1
-    },
-    {
-      "char": "茉",
-      "freq": 1
-    },
-    {
-      "char": "末",
-      "freq": 1
-    }
-  ],
-  "mu": [
-    {
-      "char": "姆",
+      "char": "依",
       "freq": 14
     },
     {
-      "char": "木",
-      "freq": 2
-    },
-    {
-      "char": "牡",
-      "freq": 1
-    },
-    {
-      "char": "穆",
-      "freq": 1
-    }
-  ],
-  "mei": [
-    {
-      "char": "梅",
-      "freq": 9
-    },
-    {
-      "char": "美",
-      "freq": 1
-    },
-    {
-      "char": "每",
-      "freq": 1
-    }
-  ],
-  "na": [
-    {
-      "char": "纳",
-      "freq": 4
-    },
-    {
-      "char": "那",
-      "freq": 2
-    }
-  ],
-  "ao": [
-    {
-      "char": "奥",
-      "freq": 4
-    },
-    {
-      "char": "敖",
-      "freq": 1
-    }
-  ],
-  "wa": [
-    {
-      "char": "瓦",
-      "freq": 4
-    }
-  ],
-  "pan": [
-    {
-      "char": "潘",
-      "freq": 5
-    }
-  ],
-  "pei": [
-    {
-      "char": "佩",
-      "freq": 1
-    },
-    {
-      "char": "裴",
-      "freq": 1
-    }
-  ],
-  "fei": [
-    {
-      "char": "费",
-      "freq": 2
-    },
-    {
-      "char": "菲",
-      "freq": 1
-    },
-    {
-      "char": "肥",
-      "freq": 1
-    },
-    {
-      "char": "妃",
-      "freq": 1
-    }
-  ],
-  "pi": [
-    {
-      "char": "皮",
-      "freq": 1
-    },
-    {
-      "char": "批",
-      "freq": 1
-    }
-  ],
-  "lei": [
-    {
-      "char": "雷",
-      "freq": 4
-    }
-  ],
-  "li": [
-    {
-      "char": "李",
-      "freq": 5
-    },
-    {
-      "char": "力",
-      "freq": 2
-    },
-    {
-      "char": "里",
-      "freq": 1
-    },
-    {
-      "char": "立",
-      "freq": 1
-    }
-  ],
-  "sa": [
-    {
-      "char": "萨",
-      "freq": 10
-    }
-  ],
-  "sang": [
-    {
-      "char": "桑",
-      "freq": 10
-    }
-  ],
-  "sai": [
-    {
-      "char": "塞",
-      "freq": 1
-    },
-    {
-      "char": "赛",
-      "freq": 1
-    }
-  ],
-  "suo": [
-    {
-      "char": "索",
-      "freq": 8
-    },
-    {
-      "char": "所",
-      "freq": 1
-    }
-  ],
-  "song": [
-    {
-      "char": "松",
-      "freq": 5
-    },
-    {
-      "char": "宋",
-      "freq": 3
-    }
-  ],
-  "tan": [
-    {
-      "char": "坦",
-      "freq": 1
-    },
-    {
-      "char": "谭",
-      "freq": 1
-    }
-  ],
-  "qin": [
-    {
-      "char": "琴",
-      "freq": 1
-    },
-    {
-      "char": "秦",
-      "freq": 1
-    },
-    {
-      "char": "沁",
-      "freq": 1
-    }
-  ],
-  "qie": [
-    {
-      "char": "切",
-      "freq": 2
-    },
-    {
-      "char": "茄",
-      "freq": 1
-    }
-  ],
-  "qiong": [
-    {
-      "char": "琼",
-      "freq": 1
-    }
-  ],
-  "tai": [
-    {
-      "char": "泰",
-      "freq": 4
-    },
-    {
-      "char": "台",
-      "freq": 2
-    },
-    {
-      "char": "太",
-      "freq": 1
-    }
-  ],
-  "tuo": [
-    {
-      "char": "托",
-      "freq": 5
-    },
-    {
-      "char": "脱",
-      "freq": 2
-    }
-  ],
-  "tu": [
-    {
-      "char": "土",
+      "char": "亿",
       "freq": 6
     },
     {
-      "char": "图",
-      "freq": 4
-    },
-    {
-      "char": "涂",
-      "freq": 2
-    },
-    {
-      "char": "吐",
-      "freq": 2
-    },
-    {
-      "char": "凸",
-      "freq": 1
-    },
-    {
-      "char": "屠",
-      "freq": 1
-    },
-    {
-      "char": "突",
-      "freq": 1
-    }
-  ],
-  "wu": [
-    {
-      "char": "乌",
-      "freq": 3
-    },
-    {
-      "char": "邬",
-      "freq": 2
-    },
-    {
-      "char": "武",
-      "freq": 1
-    },
-    {
-      "char": "勿",
-      "freq": 1
-    },
-    {
-      "char": "五",
-      "freq": 1
-    },
-    {
-      "char": "屋",
-      "freq": 1
-    },
-    {
-      "char": "吴",
-      "freq": 1
-    },
-    {
-      "char": "伍",
-      "freq": 1
-    }
-  ],
-  "ya": [
-    {
-      "char": "亚",
-      "freq": 6
-    },
-    {
-      "char": "鸭",
-      "freq": 1
-    },
-    {
-      "char": "雅",
-      "freq": 1
-    }
-  ],
-  "yang": [
-    {
-      "char": "杨",
-      "freq": 7
-    },
-    {
-      "char": "扬",
-      "freq": 6
-    },
-    {
-      "char": "仰",
-      "freq": 1
-    }
-  ],
-  "yong": [
-    {
-      "char": "永",
-      "freq": 2
-    },
-    {
-      "char": "用",
-      "freq": 1
-    }
-  ],
-  "za": [
-    {
-      "char": "扎",
-      "freq": 8
-    },
-    {
-      "char": "杂",
-      "freq": 1
-    }
-  ],
-  "ze": [
-    {
-      "char": "泽",
-      "freq": 4
-    },
-    {
-      "char": "则",
-      "freq": 1
-    }
-  ],
-  "zuo": [
-    {
-      "char": "左",
-      "freq": 2
-    },
-    {
-      "char": "佐",
-      "freq": 1
-    },
-    {
-      "char": "作",
-      "freq": 1
-    }
-  ],
-  "zu": [
-    {
-      "char": "祖",
-      "freq": 1
-    }
-  ],
-  "yan": [
-    {
-      "char": "严",
-      "freq": 2
-    },
-    {
-      "char": "炎",
-      "freq": 2
-    },
-    {
-      "char": "晏",
-      "freq": 1
-    },
-    {
-      "char": "衍",
-      "freq": 1
-    },
-    {
-      "char": "演",
-      "freq": 1
-    },
-    {
-      "char": "岩",
-      "freq": 1
-    },
-    {
-      "char": "雁",
-      "freq": 1
-    },
-    {
-      "char": "延",
-      "freq": 1
-    }
-  ],
-  "ou": [
-    {
-      "char": "欧",
-      "freq": 6
-    }
-  ],
-  "qu": [
-    {
-      "char": "区",
-      "freq": 1
-    },
-    {
-      "char": "瞿",
-      "freq": 1
-    },
-    {
-      "char": "曲",
-      "freq": 1
-    },
-    {
-      "char": "屈",
-      "freq": 1
-    }
-  ],
-  "bai": [
-    {
-      "char": "白",
-      "freq": 7
-    },
-    {
-      "char": "拜",
-      "freq": 2
-    },
-    {
-      "char": "柏",
-      "freq": 1
-    }
-  ],
-  "bing": [
-    {
-      "char": "饼",
-      "freq": 1
-    },
-    {
-      "char": "冰",
-      "freq": 1
-    }
-  ],
-  "bao": [
-    {
-      "char": "包",
-      "freq": 4
-    },
-    {
-      "char": "暴",
-      "freq": 1
-    }
-  ],
-  "bian": [
-    {
-      "char": "卞",
-      "freq": 2
-    },
-    {
-      "char": "弁",
-      "freq": 1
-    }
-  ],
-  "biao": [
-    {
-      "char": "彪",
-      "freq": 1
-    }
-  ],
-  "cai": [
-    {
-      "char": "才",
-      "freq": 4
-    },
-    {
-      "char": "蔡",
-      "freq": 4
-    }
-  ],
-  "cha": [
-    {
-      "char": "查",
-      "freq": 3
-    }
-  ],
-  "chai": [
-    {
-      "char": "柴",
-      "freq": 1
-    }
-  ],
-  "zi": [
-    {
-      "char": "仔",
-      "freq": 1
-    },
-    {
-      "char": "子",
-      "freq": 1
-    }
-  ],
-  "zhai": [
-    {
-      "char": "宅",
-      "freq": 1
-    }
-  ],
-  "zhan": [
-    {
-      "char": "詹",
-      "freq": 2
-    },
-    {
-      "char": "湛",
-      "freq": 1
-    },
-    {
-      "char": "沾",
-      "freq": 1
-    },
-    {
-      "char": "展",
-      "freq": 1
-    }
-  ],
-  "zhen": [
-    {
-      "char": "圳",
-      "freq": 1
-    }
-  ],
-  "chang": [
-    {
-      "char": "常",
-      "freq": 1
-    },
-    {
-      "char": "长",
-      "freq": 1
-    },
-    {
-      "char": "昌",
-      "freq": 1
-    }
-  ],
-  "zhang": [
-    {
-      "char": "张",
-      "freq": 2
-    }
-  ],
-  "que": [
-    {
-      "char": "确",
-      "freq": 4
-    },
-    {
-      "char": "却",
-      "freq": 1
-    }
-  ],
-  "cao": [
-    {
-      "char": "曹",
-      "freq": 7
-    }
-  ],
-  "zhao": [
-    {
-      "char": "赵",
-      "freq": 1
-    },
-    {
-      "char": "爪",
-      "freq": 1
-    },
-    {
-      "char": "兆",
-      "freq": 1
-    },
-    {
-      "char": "着",
-      "freq": 1
-    }
-  ],
-  "qia": [
-    {
-      "char": "恰",
-      "freq": 2
-    },
-    {
-      "char": "洽",
-      "freq": 1
-    }
-  ],
-  "zhi": [
-    {
-      "char": "质",
-      "freq": 1
-    },
-    {
-      "char": "支",
-      "freq": 1
-    },
-    {
-      "char": "秩",
-      "freq": 1
-    }
-  ],
-  "zhe": [
-    {
-      "char": "锗",
-      "freq": 1
-    },
-    {
-      "char": "浙",
-      "freq": 1
-    }
-  ],
-  "che": [
-    {
-      "char": "车",
-      "freq": 1
-    }
-  ],
-  "zheng": [
-    {
-      "char": "郑",
-      "freq": 4
-    },
-    {
-      "char": "正",
-      "freq": 1
-    }
-  ],
-  "chen": [
-    {
-      "char": "陈",
-      "freq": 4
-    }
-  ],
-  "jing": [
-    {
-      "char": "井",
-      "freq": 2
-    },
-    {
-      "char": "京",
-      "freq": 1
-    },
-    {
-      "char": "靓",
-      "freq": 1
-    }
-  ],
-  "zhuang": [
-    {
-      "char": "庄",
-      "freq": 3
-    },
-    {
-      "char": "壮",
-      "freq": 1
-    }
-  ],
-  "zhuo": [
-    {
-      "char": "卓",
+      "char": "仪",
       "freq": 5
     },
     {
-      "char": "灼",
-      "freq": 1
-    },
-    {
-      "char": "琢",
-      "freq": 1
-    }
-  ],
-  "jiang": [
-    {
-      "char": "江",
-      "freq": 8
-    },
-    {
-      "char": "姜",
-      "freq": 2
-    },
-    {
-      "char": "匠",
-      "freq": 1
-    }
-  ],
-  "qiao": [
-    {
-      "char": "乔",
-      "freq": 5
-    },
-    {
-      "char": "巧",
-      "freq": 1
-    }
-  ],
-  "jiao": [
-    {
-      "char": "焦",
-      "freq": 1
-    },
-    {
-      "char": "脚",
-      "freq": 1
-    }
-  ],
-  "xie": [
-    {
-      "char": "谢",
+      "char": "以",
       "freq": 4
     },
     {
-      "char": "偕",
-      "freq": 1
-    },
-    {
-      "char": "协",
-      "freq": 1
-    },
-    {
-      "char": "些",
-      "freq": 1
-    },
-    {
-      "char": "屑",
-      "freq": 1
-    }
-  ],
-  "qian": [
-    {
-      "char": "钱",
+      "char": "奕",
       "freq": 4
     },
     {
-      "char": "谦",
-      "freq": 1
-    },
-    {
-      "char": "千",
-      "freq": 1
-    }
-  ],
-  "jian": [
-    {
-      "char": "见",
-      "freq": 6
-    },
-    {
-      "char": "坚",
-      "freq": 4
-    },
-    {
-      "char": "简",
-      "freq": 1
-    },
-    {
-      "char": "间",
-      "freq": 1
-    },
-    {
-      "char": "兼",
-      "freq": 1
-    },
-    {
-      "char": "尖",
-      "freq": 1
-    }
-  ],
-  "chi": [
-    {
-      "char": "尺",
-      "freq": 1
-    }
-  ],
-  "jin": [
-    {
-      "char": "金",
-      "freq": 7
-    },
-    {
-      "char": "浸",
-      "freq": 1
-    },
-    {
-      "char": "晋",
-      "freq": 1
-    },
-    {
-      "char": "今",
-      "freq": 1
-    },
-    {
-      "char": "近",
-      "freq": 1
-    }
-  ],
-  "xiao": [
-    {
-      "char": "肖",
-      "freq": 2
-    },
-    {
-      "char": "晓",
-      "freq": 2
-    },
-    {
-      "char": "小",
-      "freq": 1
-    }
-  ],
-  "qiu": [
-    {
-      "char": "丘",
-      "freq": 2
-    }
-  ],
-  "zao": [
-    {
-      "char": "早",
-      "freq": 1
-    }
-  ],
-  "zong": [
-    {
-      "char": "宗",
-      "freq": 1
-    }
-  ],
-  "chu": [
-    {
-      "char": "储",
-      "freq": 2
-    },
-    {
-      "char": "初",
-      "freq": 1
-    },
-    {
-      "char": "出",
-      "freq": 1
-    },
-    {
-      "char": "楚",
-      "freq": 1
-    }
-  ],
-  "chou": [
-    {
-      "char": "丑",
-      "freq": 1
-    }
-  ],
-  "zou": [
-    {
-      "char": "邹",
-      "freq": 2
-    },
-    {
-      "char": "走",
-      "freq": 1
-    }
-  ],
-  "zhou": [
-    {
-      "char": "周",
-      "freq": 4
-    }
-  ],
-  "zhu": [
-    {
-      "char": "朱",
+      "char": "宜",
       "freq": 3
     },
     {
-      "char": "主",
-      "freq": 1
-    },
-    {
-      "char": "竹",
-      "freq": 1
-    }
-  ],
-  "ju": [
-    {
-      "char": "巨",
+      "char": "亦",
       "freq": 2
     },
     {
-      "char": "咀",
-      "freq": 1
-    }
-  ],
-  "jue": [
-    {
-      "char": "觉",
-      "freq": 1
-    }
-  ],
-  "quan": [
-    {
-      "char": "全",
-      "freq": 1
-    },
-    {
-      "char": "拳",
-      "freq": 1
-    }
-  ],
-  "xu": [
-    {
-      "char": "徐",
-      "freq": 7
-    },
-    {
-      "char": "许",
+      "char": "伇",
       "freq": 2
     },
     {
-      "char": "须",
+      "char": "夷",
       "freq": 1
     },
     {
-      "char": "恤",
-      "freq": 1
-    },
-    {
-      "char": "续",
-      "freq": 1
-    }
-  ],
-  "chun": [
-    {
-      "char": "春",
-      "freq": 1
-    }
-  ],
-  "zhong": [
-    {
-      "char": "中",
-      "freq": 1
-    },
-    {
-      "char": "仲",
-      "freq": 1
-    }
-  ],
-  "ci": [
-    {
-      "char": "次",
-      "freq": 2
-    }
-  ],
-  "cuo": [
-    {
-      "char": "措",
-      "freq": 1
-    }
-  ],
-  "dai": [
-    {
-      "char": "戴",
-      "freq": 1
-    }
-  ],
-  "dan": [
-    {
-      "char": "丹",
-      "freq": 5
-    },
-    {
-      "char": "单",
-      "freq": 2
-    },
-    {
-      "char": "旦",
-      "freq": 1
-    },
-    {
-      "char": "淡",
-      "freq": 1
-    }
-  ],
-  "dao": [
-    {
-      "char": "刀",
-      "freq": 1
-    },
-    {
-      "char": "稻",
+      "char": "已",
       "freq": 1
     }
   ],
   "ding": [
     {
       "char": "丁",
-      "freq": 3
-    }
-  ],
-  "dong": [
-    {
-      "char": "董",
-      "freq": 5
+      "freq": 49824
     },
     {
-      "char": "冬",
-      "freq": 1
-    }
-  ],
-  "ren": [
-    {
-      "char": "仁",
-      "freq": 4
-    },
-    {
-      "char": "任",
-      "freq": 1
-    },
-    {
-      "char": "壬",
-      "freq": 1
-    },
-    {
-      "char": "人",
-      "freq": 1
-    }
-  ],
-  "e": [
-    {
-      "char": "额",
-      "freq": 1
-    },
-    {
-      "char": "厄",
-      "freq": 1
-    }
-  ],
-  "yu": [
-    {
-      "char": "玉",
-      "freq": 3
-    },
-    {
-      "char": "余",
-      "freq": 2
-    },
-    {
-      "char": "于",
-      "freq": 2
-    }
-  ],
-  "hua": [
-    {
-      "char": "华",
-      "freq": 2
-    },
-    {
-      "char": "化",
-      "freq": 1
-    },
-    {
-      "char": "画",
-      "freq": 1
-    }
-  ],
-  "kuai": [
-    {
-      "char": "快",
-      "freq": 1
-    }
-  ],
-  "fan": [
-    {
-      "char": "凡",
-      "freq": 1
-    },
-    {
-      "char": "范",
-      "freq": 1
-    },
-    {
-      "char": "泛",
-      "freq": 1
-    }
-  ],
-  "fang": [
-    {
-      "char": "方",
-      "freq": 4
-    }
-  ],
-  "fo": [
-    {
-      "char": "佛",
-      "freq": 1
-    }
-  ],
-  "feng": [
-    {
-      "char": "封",
-      "freq": 1
-    },
-    {
-      "char": "丰",
-      "freq": 1
-    }
-  ],
-  "huo": [
-    {
-      "char": "霍",
-      "freq": 5
-    },
-    {
-      "char": "火",
-      "freq": 1
-    }
-  ],
-  "kuan": [
-    {
-      "char": "宽",
-      "freq": 1
-    }
-  ],
-  "kui": [
-    {
-      "char": "奎",
-      "freq": 1
-    }
-  ],
-  "fen": [
-    {
-      "char": "分",
-      "freq": 1
-    }
-  ],
-  "gao": [
-    {
-      "char": "高",
-      "freq": 4
-    }
-  ],
-  "ga": [
-    {
-      "char": "噶",
-      "freq": 2
-    },
-    {
-      "char": "尕",
-      "freq": 1
-    }
-  ],
-  "guan": [
-    {
-      "char": "官",
-      "freq": 3
-    },
-    {
-      "char": "关",
-      "freq": 1
-    }
-  ],
-  "guo": [
-    {
-      "char": "郭",
-      "freq": 4
-    },
-    {
-      "char": "果",
-      "freq": 1
-    }
-  ],
-  "xia": [
-    {
-      "char": "夏",
-      "freq": 4
-    },
-    {
-      "char": "下",
-      "freq": 1
-    }
-  ],
-  "han": [
-    {
-      "char": "含",
-      "freq": 1
-    },
-    {
-      "char": "韩",
-      "freq": 1
-    }
-  ],
-  "xiang": [
-    {
-      "char": "向",
-      "freq": 2
-    },
-    {
-      "char": "享",
-      "freq": 1
-    },
-    {
-      "char": "相",
-      "freq": 1
-    }
-  ],
-  "hao": [
-    {
-      "char": "郝",
-      "freq": 2
-    }
-  ],
-  "ha": [
-    {
-      "char": "哈",
-      "freq": 3
-    }
-  ],
-  "he": [
-    {
-      "char": "何",
-      "freq": 2
-    },
-    {
-      "char": "核",
-      "freq": 1
-    },
-    {
-      "char": "合",
-      "freq": 1
-    }
-  ],
-  "xian": [
-    {
-      "char": "冼",
-      "freq": 2
-    },
-    {
-      "char": "仙",
-      "freq": 1
-    }
-  ],
-  "xiong": [
-    {
-      "char": "熊",
-      "freq": 2
-    },
-    {
-      "char": "兄",
-      "freq": 1
-    }
-  ],
-  "hai": [
-    {
-      "char": "海",
-      "freq": 1
-    }
-  ],
-  "kan": [
-    {
-      "char": "堪",
-      "freq": 1
-    },
-    {
-      "char": "看",
-      "freq": 1
-    }
-  ],
-  "hang": [
-    {
-      "char": "行",
-      "freq": 1
-    }
-  ],
-  "hong": [
-    {
-      "char": "洪",
-      "freq": 2
-    },
-    {
-      "char": "弘",
-      "freq": 1
-    }
-  ],
-  "kou": [
-    {
-      "char": "口",
-      "freq": 1
-    }
-  ],
-  "hou": [
-    {
-      "char": "侯",
-      "freq": 1
-    }
-  ],
-  "xin": [
-    {
-      "char": "辛",
-      "freq": 1
-    },
-    {
-      "char": "心",
-      "freq": 1
-    },
-    {
-      "char": "鑫",
-      "freq": 1
-    }
-  ],
-  "xing": [
-    {
-      "char": "邢",
-      "freq": 1
-    },
-    {
-      "char": "形",
-      "freq": 1
-    }
-  ],
-  "xiu": [
-    {
-      "char": "修",
-      "freq": 1
-    },
-    {
-      "char": "秀",
-      "freq": 1
-    }
-  ],
-  "xue": [
-    {
-      "char": "薛",
-      "freq": 1
-    },
-    {
-      "char": "雪",
-      "freq": 1
-    }
-  ],
-  "huang": [
-    {
-      "char": "黄",
-      "freq": 5
-    }
-  ],
-  "huan": [
-    {
-      "char": "宦",
-      "freq": 1
-    }
-  ],
-  "xuan": [
-    {
-      "char": "煊",
-      "freq": 1
-    },
-    {
-      "char": "宣",
-      "freq": 1
-    }
-  ],
-  "hui": [
-    {
-      "char": "惠",
-      "freq": 1
-    },
-    {
-      "char": "彗",
-      "freq": 1
-    },
-    {
-      "char": "卉",
-      "freq": 1
-    }
-  ],
-  "you": [
-    {
-      "char": "尤",
-      "freq": 1
-    },
-    {
-      "char": "又",
-      "freq": 1
-    },
-    {
-      "char": "游",
-      "freq": 1
-    }
-  ],
-  "ran": [
-    {
-      "char": "染",
-      "freq": 1
-    }
-  ],
-  "yao": [
-    {
-      "char": "姚",
-      "freq": 5
-    }
-  ],
-  "ye": [
-    {
-      "char": "叶",
-      "freq": 2
-    },
-    {
-      "char": "夜",
-      "freq": 1
-    },
-    {
-      "char": "业",
-      "freq": 1
-    }
-  ],
-  "si": [
-    {
-      "char": "司",
-      "freq": 6
-    },
-    {
-      "char": "四",
-      "freq": 1
-    },
-    {
-      "char": "斯",
-      "freq": 1
-    },
-    {
-      "char": "肆",
-      "freq": 1
-    }
-  ],
-  "qiang": [
-    {
-      "char": "强",
-      "freq": 1
-    },
-    {
-      "char": "蔷",
-      "freq": 1
-    }
-  ],
-  "ruan": [
-    {
-      "char": "阮",
-      "freq": 2
-    },
-    {
-      "char": "软",
-      "freq": 1
-    }
-  ],
-  "rui": [
-    {
-      "char": "芮",
-      "freq": 3
-    }
-  ],
-  "jie": [
-    {
-      "char": "介",
-      "freq": 1
-    },
-    {
-      "char": "杰",
-      "freq": 1
-    }
-  ],
-  "kai": [
-    {
-      "char": "开",
-      "freq": 1
-    }
-  ],
-  "kang": [
-    {
-      "char": "康",
-      "freq": 2
-    },
-    {
-      "char": "亢",
-      "freq": 1
-    }
-  ],
-  "jiu": [
-    {
-      "char": "九",
-      "freq": 1
+      "char": "定",
+      "freq": 25
     }
   ],
   "qi": [
     {
-      "char": "祁",
-      "freq": 1
+      "char": "戚",
+      "freq": 49968
     },
     {
-      "char": "企",
-      "freq": 1
+      "char": "齐",
+      "freq": 49914
+    },
+    {
+      "char": "祁",
+      "freq": 49896
+    },
+    {
+      "char": "奇",
+      "freq": 1680
+    },
+    {
+      "char": "契",
+      "freq": 165
     },
     {
       "char": "七",
-      "freq": 1
-    }
-  ],
-  "geng": [
+      "freq": 72
+    },
     {
-      "char": "耿",
-      "freq": 1
-    }
-  ],
-  "ku": [
+      "char": "其",
+      "freq": 11
+    },
     {
-      "char": "库",
-      "freq": 2
-    }
-  ],
-  "gou": [
+      "char": "崎",
+      "freq": 11
+    },
     {
-      "char": "苟",
-      "freq": 1
-    }
-  ],
-  "gui": [
-    {
-      "char": "桂",
+      "char": "埼",
       "freq": 2
     },
     {
-      "char": "桧",
-      "freq": 1
-    }
-  ],
-  "kuang": [
-    {
-      "char": "匡",
-      "freq": 1
-    },
-    {
-      "char": "邝",
-      "freq": 1
-    }
-  ],
-  "juan": [
-    {
-      "char": "娟",
-      "freq": 1
-    }
-  ],
-  "kuo": [
-    {
-      "char": "括",
-      "freq": 1
-    }
-  ],
-  "jiong": [
-    {
-      "char": "炯",
-      "freq": 1
-    }
-  ],
-  "guang": [
-    {
-      "char": "光",
-      "freq": 1
-    }
-  ],
-  "lai": [
-    {
-      "char": "赖",
-      "freq": 1
-    },
-    {
-      "char": "来",
-      "freq": 1
-    }
-  ],
-  "liang": [
-    {
-      "char": "梁",
-      "freq": 3
-    },
-    {
-      "char": "粱",
+      "char": "妻",
       "freq": 2
     },
     {
-      "char": "良",
-      "freq": 1
-    }
-  ],
-  "le": [
-    {
-      "char": "勒",
-      "freq": 1
-    }
-  ],
-  "lan": [
-    {
-      "char": "兰",
-      "freq": 1
-    },
-    {
-      "char": "蓝",
-      "freq": 1
-    }
-  ],
-  "leng": [
-    {
-      "char": "冷",
-      "freq": 2
-    }
-  ],
-  "lang": [
-    {
-      "char": "朗",
+      "char": "岐",
       "freq": 2
     },
     {
-      "char": "郎",
-      "freq": 1
-    },
-    {
-      "char": "浪",
-      "freq": 1
-    }
-  ],
-  "lao": [
-    {
-      "char": "劳",
-      "freq": 1
-    },
-    {
-      "char": "老",
-      "freq": 1
-    }
-  ],
-  "liu": [
-    {
-      "char": "刘",
-      "freq": 3
-    },
-    {
-      "char": "柳",
-      "freq": 1
-    },
-    {
-      "char": "六",
-      "freq": 1
-    }
-  ],
-  "luo": [
-    {
-      "char": "洛",
-      "freq": 7
-    },
-    {
-      "char": "罗",
-      "freq": 2
-    },
-    {
-      "char": "骆",
-      "freq": 2
-    }
-  ],
-  "lv": [
-    {
-      "char": "吕",
-      "freq": 5
-    },
-    {
-      "char": "律",
-      "freq": 1
-    }
-  ],
-  "ling": [
-    {
-      "char": "灵",
-      "freq": 1
-    },
-    {
-      "char": "另",
-      "freq": 1
-    }
-  ],
-  "lun": [
-    {
-      "char": "伦",
-      "freq": 3
-    }
-  ],
-  "liao": [
-    {
-      "char": "廖",
-      "freq": 3
-    }
-  ],
-  "lian": [
-    {
-      "char": "连",
-      "freq": 2
-    },
-    {
-      "char": "廉",
-      "freq": 1
-    },
-    {
-      "char": "联",
-      "freq": 1
-    }
-  ],
-  "lie": [
-    {
-      "char": "猎",
-      "freq": 1
-    },
-    {
-      "char": "列",
-      "freq": 1
-    }
-  ],
-  "lu": [
-    {
-      "char": "陆",
-      "freq": 3
-    },
-    {
-      "char": "卢",
-      "freq": 1
-    }
-  ],
-  "luan": [
-    {
-      "char": "栾",
-      "freq": 1
-    }
-  ],
-  "mi": [
-    {
-      "char": "米",
-      "freq": 3
-    },
-    {
-      "char": "弭",
-      "freq": 1
-    }
-  ],
-  "wen": [
-    {
-      "char": "文",
-      "freq": 3
-    },
-    {
-      "char": "温",
-      "freq": 1
-    }
-  ],
-  "meng": [
-    {
-      "char": "孟",
-      "freq": 2
-    },
-    {
-      "char": "蒙",
-      "freq": 1
-    }
-  ],
-  "mao": [
-    {
-      "char": "毛",
-      "freq": 3
-    },
-    {
-      "char": "猫",
-      "freq": 1
-    }
-  ],
-  "wei": [
-    {
-      "char": "未",
-      "freq": 1
-    },
-    {
-      "char": "维",
-      "freq": 1
-    },
-    {
-      "char": "韦",
-      "freq": 1
-    }
-  ],
-  "miao": [
-    {
-      "char": "苗",
-      "freq": 2
-    }
-  ],
-  "mian": [
-    {
-      "char": "免",
-      "freq": 1
-    }
-  ],
-  "yuan": [
-    {
-      "char": "袁",
-      "freq": 2
-    },
-    {
-      "char": "源",
-      "freq": 1
-    },
-    {
-      "char": "元",
-      "freq": 1
-    },
-    {
-      "char": "沅",
-      "freq": 1
-    }
-  ],
-  "ming": [
-    {
-      "char": "名",
-      "freq": 1
-    }
-  ],
-  "wang": [
-    {
-      "char": "旺",
-      "freq": 2
-    },
-    {
-      "char": "汪",
-      "freq": 2
-    },
-    {
-      "char": "望",
-      "freq": 1
-    },
-    {
-      "char": "王",
-      "freq": 1
-    }
-  ],
-  "men": [
-    {
-      "char": "门",
-      "freq": 1
-    }
-  ],
-  "mou": [
-    {
-      "char": "牟",
-      "freq": 1
-    }
-  ],
-  "min": [
-    {
-      "char": "闵",
-      "freq": 1
-    }
-  ],
-  "nai": [
-    {
-      "char": "乃",
-      "freq": 1
-    }
-  ],
-  "nan": [
-    {
-      "char": "男",
-      "freq": 1
-    },
-    {
-      "char": "南",
-      "freq": 1
-    }
-  ],
-  "niu": [
-    {
-      "char": "牛",
-      "freq": 2
-    },
-    {
-      "char": "纽",
-      "freq": 1
-    }
-  ],
-  "wo": [
-    {
-      "char": "我",
-      "freq": 1
-    }
-  ],
-  "wai": [
-    {
-      "char": "外",
-      "freq": 1
-    }
-  ],
-  "ang": [
-    {
-      "char": "昂",
-      "freq": 1
-    }
-  ],
-  "nie": [
-    {
-      "char": "聂",
-      "freq": 2
-    }
-  ],
-  "nian": [
-    {
-      "char": "念",
-      "freq": 1
-    },
-    {
-      "char": "年",
-      "freq": 1
-    }
-  ],
-  "ning": [
-    {
-      "char": "宁",
-      "freq": 1
-    }
-  ],
-  "tang": [
-    {
-      "char": "唐",
-      "freq": 5
-    },
-    {
-      "char": "帑",
-      "freq": 1
-    }
-  ],
-  "nei": [
-    {
-      "char": "内",
-      "freq": 1
-    }
-  ],
-  "nuo": [
-    {
-      "char": "挪",
-      "freq": 1
-    },
-    {
-      "char": "诺",
-      "freq": 1
-    }
-  ],
-  "nv": [
-    {
-      "char": "女",
-      "freq": 1
-    }
-  ],
-  "neng": [
-    {
-      "char": "能",
-      "freq": 1
-    }
-  ],
-  "nong": [
-    {
-      "char": "农",
-      "freq": 1
-    }
-  ],
-  "bi": [
-    {
-      "char": "比",
-      "freq": 1
-    },
-    {
-      "char": "毕",
-      "freq": 1
-    },
-    {
-      "char": "碧",
-      "freq": 1
-    },
-    {
-      "char": "必",
-      "freq": 1
-    }
-  ],
-  "ping": [
-    {
-      "char": "平",
-      "freq": 6
-    }
-  ],
-  "piao": [
-    {
-      "char": "漂",
-      "freq": 1
-    }
-  ],
-  "pang": [
-    {
-      "char": "庞",
-      "freq": 1
-    }
-  ],
-  "qing": [
-    {
-      "char": "清",
-      "freq": 1
-    },
-    {
-      "char": "青",
-      "freq": 1
-    }
-  ],
-  "ri": [
-    {
-      "char": "日",
-      "freq": 2
-    }
-  ],
-  "rou": [
-    {
-      "char": "肉",
-      "freq": 1
-    }
-  ],
-  "sha": [
-    {
-      "char": "沙",
-      "freq": 3
-    },
-    {
-      "char": "砂",
-      "freq": 1
-    }
-  ],
-  "shi": [
-    {
-      "char": "施",
-      "freq": 3
-    },
-    {
-      "char": "世",
-      "freq": 1
-    },
-    {
-      "char": "势",
-      "freq": 1
-    },
-    {
-      "char": "十",
-      "freq": 1
-    },
-    {
-      "char": "失",
-      "freq": 1
-    },
-    {
-      "char": "石",
-      "freq": 1
-    },
-    {
-      "char": "室",
-      "freq": 1
-    },
-    {
-      "char": "式",
-      "freq": 1
-    },
-    {
-      "char": "士",
-      "freq": 1
-    }
-  ],
-  "se": [
-    {
-      "char": "色",
-      "freq": 1
-    }
-  ],
-  "san": [
-    {
-      "char": "三",
-      "freq": 1
-    }
-  ],
-  "can": [
-    {
-      "char": "灿",
-      "freq": 2
-    }
-  ],
-  "sheng": [
-    {
-      "char": "生",
-      "freq": 2
-    },
-    {
-      "char": "盛",
-      "freq": 1
-    },
-    {
-      "char": "升",
-      "freq": 1
-    }
-  ],
-  "shen": [
-    {
-      "char": "沈",
-      "freq": 4
-    },
-    {
-      "char": "申",
-      "freq": 1
-    }
-  ],
-  "sen": [
-    {
-      "char": "森",
-      "freq": 2
-    }
-  ],
-  "shan": [
-    {
-      "char": "山",
-      "freq": 1
-    },
-    {
-      "char": "闪",
-      "freq": 1
-    }
-  ],
-  "shang": [
-    {
-      "char": "上",
-      "freq": 2
-    },
-    {
-      "char": "尚",
-      "freq": 1
-    }
-  ],
-  "shao": [
-    {
-      "char": "邵",
-      "freq": 5
-    }
-  ],
-  "shou": [
-    {
-      "char": "手",
-      "freq": 1
-    }
-  ],
-  "she": [
-    {
-      "char": "佘",
-      "freq": 3
-    },
-    {
-      "char": "摄",
-      "freq": 1
-    }
-  ],
-  "cheng": [
-    {
-      "char": "丞",
-      "freq": 1
-    }
-  ],
-  "shu": [
-    {
-      "char": "书",
-      "freq": 1
-    },
-    {
-      "char": "舒",
-      "freq": 1
-    },
-    {
-      "char": "淑",
-      "freq": 1
-    }
-  ],
-  "shui": [
-    {
-      "char": "水",
-      "freq": 2
-    }
-  ],
-  "cen": [
-    {
-      "char": "岑",
-      "freq": 1
-    }
-  ],
-  "xun": [
-    {
-      "char": "汛",
-      "freq": 1
-    }
-  ],
-  "chong": [
-    {
-      "char": "崇",
-      "freq": 1
-    }
-  ],
-  "su": [
-    {
-      "char": "素",
-      "freq": 1
-    },
-    {
-      "char": "苏",
-      "freq": 1
-    },
-    {
-      "char": "宿",
-      "freq": 1
-    }
-  ],
-  "sun": [
-    {
-      "char": "孙",
-      "freq": 1
-    }
-  ],
-  "ta": [
-    {
-      "char": "塔",
-      "freq": 2
-    },
-    {
-      "char": "她",
-      "freq": 1
-    }
-  ],
-  "tao": [
-    {
-      "char": "陶",
-      "freq": 2
-    }
-  ],
-  "deng": [
-    {
-      "char": "登",
-      "freq": 4
-    },
-    {
-      "char": "邓",
-      "freq": 1
-    }
-  ],
-  "dou": [
-    {
-      "char": "斗",
-      "freq": 1
-    }
-  ],
-  "tie": [
-    {
-      "char": "铁",
-      "freq": 3
-    }
-  ],
-  "teng": [
-    {
-      "char": "滕",
-      "freq": 1
-    }
-  ],
-  "dun": [
-    {
-      "char": "顿",
-      "freq": 2
-    }
-  ],
-  "tian": [
-    {
-      "char": "田",
-      "freq": 2
-    },
-    {
-      "char": "天",
-      "freq": 1
-    }
-  ],
-  "dian": [
-    {
-      "char": "店",
-      "freq": 1
-    }
-  ],
-  "die": [
-    {
-      "char": "叠",
-      "freq": 1
-    },
-    {
-      "char": "跌",
-      "freq": 1
-    }
-  ],
-  "diao": [
-    {
-      "char": "刁",
-      "freq": 1
-    }
-  ],
-  "zang": [
-    {
-      "char": "臧",
-      "freq": 1
-    }
-  ],
-  "zeng": [
-    {
-      "char": "曾",
-      "freq": 4
-    }
-  ],
-  "zai": [
-    {
-      "char": "再",
-      "freq": 1
-    }
-  ],
-  "cui": [
-    {
-      "char": "崔",
-      "freq": 3
-    }
-  ],
-  "chuan": [
-    {
-      "char": "川",
-      "freq": 1
-    }
-  ],
-  "duan": [
-    {
-      "char": "段",
-      "freq": 2
-    },
-    {
-      "char": "端",
-      "freq": 1
-    }
-  ],
-  "tui": [
-    {
-      "char": "推",
-      "freq": 1
-    }
-  ],
-  "tun": [
-    {
-      "char": "屯",
-      "freq": 1
-    }
-  ],
-  "tong": [
-    {
-      "char": "童",
-      "freq": 1
-    }
-  ],
-  "weng": [
-    {
-      "char": "翁",
-      "freq": 2
-    },
-    {
-      "char": "瓮",
+      "char": "器",
       "freq": 1
     }
   ],
   "wan": [
     {
       "char": "万",
+      "freq": 49839
+    },
+    {
+      "char": "丸",
+      "freq": 37
+    },
+    {
+      "char": "完",
+      "freq": 5
+    }
+  ],
+  "zhang": [
+    {
+      "char": "张",
+      "freq": 49977
+    },
+    {
+      "char": "章",
+      "freq": 49961
+    },
+    {
+      "char": "丈",
       "freq": 1
+    }
+  ],
+  "san": [
+    {
+      "char": "三",
+      "freq": 174
+    }
+  ],
+  "shang": [
+    {
+      "char": "汤",
+      "freq": 49929
+    },
+    {
+      "char": "尚",
+      "freq": 49682
+    },
+    {
+      "char": "上",
+      "freq": 109
+    },
+    {
+      "char": "商",
+      "freq": 4
+    }
+  ],
+  "xia": [
+    {
+      "char": "夏",
+      "freq": 49847
+    },
+    {
+      "char": "下",
+      "freq": 127
+    },
+    {
+      "char": "峡",
+      "freq": 3
+    }
+  ],
+  "bu": [
+    {
+      "char": "卜",
+      "freq": 49909
+    },
+    {
+      "char": "步",
+      "freq": 49653
+    },
+    {
+      "char": "布",
+      "freq": 14914
+    },
+    {
+      "char": "不",
+      "freq": 22
+    }
+  ],
+  "yu": [
+    {
+      "char": "喻",
+      "freq": 49965
+    },
+    {
+      "char": "俞",
+      "freq": 49944
+    },
+    {
+      "char": "于",
+      "freq": 49919
+    },
+    {
+      "char": "余",
+      "freq": 49911
+    },
+    {
+      "char": "禹",
+      "freq": 49894
+    },
+    {
+      "char": "虞",
+      "freq": 49840
+    },
+    {
+      "char": "郁",
+      "freq": 49820
+    },
+    {
+      "char": "於",
+      "freq": 49798
+    },
+    {
+      "char": "鬱",
+      "freq": 49717
+    },
+    {
+      "char": "鱼",
+      "freq": 49666
+    },
+    {
+      "char": "庾",
+      "freq": 49658
+    },
+    {
+      "char": "宇",
+      "freq": 33
+    },
+    {
+      "char": "与",
+      "freq": 24
+    },
+    {
+      "char": "俣",
+      "freq": 5
+    },
+    {
+      "char": "域",
+      "freq": 1
+    }
+  ],
+  "chou": [
+    {
+      "char": "仇",
+      "freq": 49759
+    },
+    {
+      "char": "丑",
+      "freq": 4
+    }
+  ],
+  "zhuan": [
+    {
+      "char": "专",
+      "freq": 11
+    }
+  ],
+  "shi": [
+    {
+      "char": "施",
+      "freq": 49978
+    },
+    {
+      "char": "史",
+      "freq": 49938
+    },
+    {
+      "char": "时",
+      "freq": 49918
+    },
+    {
+      "char": "石",
+      "freq": 49813
+    },
+    {
+      "char": "师",
+      "freq": 49632
+    },
+    {
+      "char": "什",
+      "freq": 1737
+    },
+    {
+      "char": "实",
+      "freq": 58
+    },
+    {
+      "char": "室",
+      "freq": 39
+    },
+    {
+      "char": "世",
+      "freq": 12
+    },
+    {
+      "char": "士",
+      "freq": 6
+    },
+    {
+      "char": "仕",
+      "freq": 5
+    },
+    {
+      "char": "势",
+      "freq": 5
+    },
+    {
+      "char": "十",
+      "freq": 5
+    },
+    {
+      "char": "始",
+      "freq": 3
+    },
+    {
+      "char": "侍",
+      "freq": 2
+    },
+    {
+      "char": "使",
+      "freq": 1
+    },
+    {
+      "char": "埘",
+      "freq": 1
+    },
+    {
+      "char": "市",
+      "freq": 1
+    }
+  ],
+  "qiu": [
+    {
+      "char": "邱",
+      "freq": 49850
+    },
+    {
+      "char": "裘",
+      "freq": 49830
+    },
+    {
+      "char": "秋",
+      "freq": 49764
+    },
+    {
+      "char": "仇",
+      "freq": 49759
+    },
+    {
+      "char": "丘",
+      "freq": 797
+    }
+  ],
+  "ye": [
+    {
+      "char": "叶",
+      "freq": 49744
+    },
+    {
+      "char": "夜",
+      "freq": 5
+    },
+    {
+      "char": "业",
+      "freq": 4
+    },
+    {
+      "char": "也",
+      "freq": 1
+    }
+  ],
+  "dong": [
+    {
+      "char": "董",
+      "freq": 49874
+    },
+    {
+      "char": "东",
+      "freq": 49641
+    },
+    {
+      "char": "冬",
+      "freq": 48
+    }
+  ],
+  "diu": [
+    {
+      "char": "丢",
+      "freq": 2
+    }
+  ],
+  "liang": [
+    {
+      "char": "梁",
+      "freq": 49873
+    },
+    {
+      "char": "两",
+      "freq": 10
+    },
+    {
+      "char": "亮",
+      "freq": 2
+    }
+  ],
+  "yan": [
+    {
+      "char": "严",
+      "freq": 49974
+    },
+    {
+      "char": "殷",
+      "freq": 49927
+    },
+    {
+      "char": "颜",
+      "freq": 49858
+    },
+    {
+      "char": "燕",
+      "freq": 49686
+    },
+    {
+      "char": "晏",
+      "freq": 49677
+    },
+    {
+      "char": "阎",
+      "freq": 49674
+    },
+    {
+      "char": "奄",
+      "freq": 4
+    },
+    {
+      "char": "岩",
+      "freq": 4
+    },
+    {
+      "char": "堰",
+      "freq": 1
+    },
+    {
+      "char": "嵒",
+      "freq": 1
+    }
+  ],
+  "zhong": [
+    {
+      "char": "钟",
+      "freq": 49852
+    },
+    {
+      "char": "仲",
+      "freq": 49763
+    },
+    {
+      "char": "终",
+      "freq": 49657
+    },
+    {
+      "char": "中",
+      "freq": 137
+    }
+  ],
+  "feng": [
+    {
+      "char": "冯",
+      "freq": 49992
+    },
+    {
+      "char": "凤",
+      "freq": 49947
+    },
+    {
+      "char": "酆",
+      "freq": 49940
+    },
+    {
+      "char": "封",
+      "freq": 49793
+    },
+    {
+      "char": "丰",
+      "freq": 49609
+    },
+    {
+      "char": "峰",
+      "freq": 28
+    },
+    {
+      "char": "奉",
+      "freq": 1
+    }
+  ],
+  "chuan": [
+    {
+      "char": "串",
+      "freq": 4
+    },
+    {
+      "char": "传",
+      "freq": 3
+    },
+    {
+      "char": "川",
+      "freq": 1
+    }
+  ],
+  "lin": [
+    {
+      "char": "林",
+      "freq": 49854
+    },
+    {
+      "char": "蔺",
+      "freq": 49723
+    },
+    {
+      "char": "临",
+      "freq": 4
+    },
+    {
+      "char": "凛",
+      "freq": 2
+    }
+  ],
+  "dan": [
+    {
+      "char": "单",
+      "freq": 49819
+    },
+    {
+      "char": "石",
+      "freq": 49813
+    },
+    {
+      "char": "丹",
+      "freq": 561
+    },
+    {
+      "char": "噉",
+      "freq": 1
+    }
+  ],
+  "zhu": [
+    {
+      "char": "褚",
+      "freq": 49990
+    },
+    {
+      "char": "朱",
+      "freq": 49984
+    },
+    {
+      "char": "祝",
+      "freq": 49875
+    },
+    {
+      "char": "诸",
+      "freq": 49815
+    },
+    {
+      "char": "宁",
+      "freq": 49760
+    },
+    {
+      "char": "竺",
+      "freq": 49599
+    },
+    {
+      "char": "助",
+      "freq": 19
+    },
+    {
+      "char": "主",
+      "freq": 7
+    },
+    {
+      "char": "侏",
+      "freq": 2
+    }
+  ],
+  "jing": [
+    {
+      "char": "经",
+      "freq": 49832
+    },
+    {
+      "char": "井",
+      "freq": 49784
+    },
+    {
+      "char": "景",
+      "freq": 49748
+    },
+    {
+      "char": "荆",
+      "freq": 49602
+    },
+    {
+      "char": "京",
+      "freq": 114
+    },
+    {
+      "char": "境",
+      "freq": 3
+    },
+    {
+      "char": "丼",
+      "freq": 1
+    }
+  ],
+  "li": [
+    {
+      "char": "李",
+      "freq": 49997
+    },
+    {
+      "char": "厉",
+      "freq": 49754
+    },
+    {
+      "char": "黎",
+      "freq": 49739
+    },
+    {
+      "char": "郦",
+      "freq": 49698
+    },
+    {
+      "char": "利",
+      "freq": 49637
+    },
+    {
+      "char": "力",
+      "freq": 14
+    },
+    {
+      "char": "丽",
+      "freq": 6
+    },
+    {
+      "char": "历",
+      "freq": 2
+    }
+  ],
+  "ju": [
+    {
+      "char": "车",
+      "freq": 49772
+    },
+    {
+      "char": "瞿",
+      "freq": 49675
+    },
+    {
+      "char": "居",
+      "freq": 49655
+    },
+    {
+      "char": "鞠",
+      "freq": 49611
+    },
+    {
+      "char": "巨",
+      "freq": 4
+    },
+    {
+      "char": "具",
+      "freq": 2
+    },
+    {
+      "char": "举",
+      "freq": 1
+    },
+    {
+      "char": "岨",
+      "freq": 1
+    }
+  ],
+  "nai": [
+    {
+      "char": "能",
+      "freq": 49715
+    },
+    {
+      "char": "奈",
+      "freq": 300
+    },
+    {
+      "char": "乃",
+      "freq": 3
+    }
+  ],
+  "jiu": [
+    {
+      "char": "久",
+      "freq": 520
+    },
+    {
+      "char": "九",
+      "freq": 22
+    },
+    {
+      "char": "厩",
+      "freq": 2
+    }
+  ],
+  "zhi": [
+    {
+      "char": "支",
+      "freq": 49838
+    },
+    {
+      "char": "郦",
+      "freq": 49698
+    },
+    {
+      "char": "埴",
+      "freq": 8
+    },
+    {
+      "char": "之",
+      "freq": 3
+    },
+    {
+      "char": "值",
+      "freq": 2
+    },
+    {
+      "char": "凪",
+      "freq": 1
+    }
+  ],
+  "wu": [
+    {
+      "char": "吴",
+      "freq": 49995
+    },
+    {
+      "char": "邬",
+      "freq": 49923
+    },
+    {
+      "char": "伍",
+      "freq": 49912
+    },
+    {
+      "char": "於",
+      "freq": 49798
+    },
+    {
+      "char": "巫",
+      "freq": 49781
+    },
+    {
+      "char": "乌",
+      "freq": 49780
+    },
+    {
+      "char": "武",
+      "freq": 49751
+    },
+    {
+      "char": "毋",
+      "freq": 49615
+    },
+    {
+      "char": "吾",
+      "freq": 13
+    },
+    {
+      "char": "五",
+      "freq": 9
+    },
+    {
+      "char": "务",
+      "freq": 7
+    },
+    {
+      "char": "勿",
+      "freq": 3
+    },
+    {
+      "char": "屋",
+      "freq": 3
+    }
+  ],
+  "zha": [
+    {
+      "char": "查",
+      "freq": 49604
+    },
+    {
+      "char": "乍",
+      "freq": 44
+    }
+  ],
+  "le": [
+    {
+      "char": "乐",
+      "freq": 49920
+    },
+    {
+      "char": "勒",
+      "freq": 3230
+    },
+    {
+      "char": "叻",
+      "freq": 19
+    },
+    {
+      "char": "了",
+      "freq": 3
+    }
+  ],
+  "ping": [
+    {
+      "char": "冯",
+      "freq": 49992
+    },
+    {
+      "char": "平",
+      "freq": 49906
+    },
+    {
+      "char": "塀",
+      "freq": 4
+    },
+    {
+      "char": "屏",
+      "freq": 3
+    },
+    {
+      "char": "乒",
+      "freq": 1
+    }
+  ],
+  "qiao": [
+    {
+      "char": "乔",
+      "freq": 49719
+    }
+  ],
+  "guai": [
+    {
+      "char": "乖",
+      "freq": 1
+    }
+  ],
+  "cheng": [
+    {
+      "char": "成",
+      "freq": 49886
+    },
+    {
+      "char": "盛",
+      "freq": 49855
+    },
+    {
+      "char": "程",
+      "freq": 49808
+    },
+    {
+      "char": "城",
+      "freq": 34
+    },
+    {
+      "char": "乘",
+      "freq": 11
+    },
+    {
+      "char": "呈",
+      "freq": 1
+    }
+  ],
+  "xi": [
+    {
+      "char": "奚",
+      "freq": 49956
+    },
+    {
+      "char": "席",
+      "freq": 49868
+    },
+    {
+      "char": "郗",
+      "freq": 49767
+    },
+    {
+      "char": "习",
+      "freq": 49669
+    },
+    {
+      "char": "喜",
+      "freq": 6
+    },
+    {
+      "char": "夕",
+      "freq": 3
+    },
+    {
+      "char": "嬉",
+      "freq": 2
+    }
+  ],
+  "xiang": [
+    {
+      "char": "项",
+      "freq": 49876
+    },
+    {
+      "char": "羊",
+      "freq": 49799
+    },
+    {
+      "char": "向",
+      "freq": 49664
+    },
+    {
+      "char": "相",
+      "freq": 49605
+    },
+    {
+      "char": "乡",
+      "freq": 6
+    },
+    {
+      "char": "像",
+      "freq": 1
+    },
+    {
+      "char": "响",
+      "freq": 1
+    }
+  ],
+  "shu": [
+    {
+      "char": "朱",
+      "freq": 49984
+    },
+    {
+      "char": "俞",
+      "freq": 49944
+    },
+    {
+      "char": "舒",
+      "freq": 49878
+    },
+    {
+      "char": "束",
+      "freq": 49746
+    },
+    {
+      "char": "殳",
+      "freq": 49639
+    },
+    {
+      "char": "书",
+      "freq": 6
+    },
+    {
+      "char": "叔",
+      "freq": 3
     }
   ],
   "ru": [
     {
+      "char": "茹",
+      "freq": 49670
+    },
+    {
       "char": "入",
+      "freq": 17
+    },
+    {
+      "char": "乳",
+      "freq": 6
+    },
+    {
+      "char": "如",
+      "freq": 6
+    },
+    {
+      "char": "儒",
+      "freq": 4
+    }
+  ],
+  "qian": [
+    {
+      "char": "钱",
+      "freq": 49999
+    },
+    {
+      "char": "千",
+      "freq": 109
+    },
+    {
+      "char": "前",
+      "freq": 63
+    },
+    {
+      "char": "乾",
+      "freq": 1
+    },
+    {
+      "char": "倩",
+      "freq": 1
+    },
+    {
+      "char": "堑",
       "freq": 1
     }
   ],
   "er": [
     {
       "char": "二",
-      "freq": 1
-    }
-  ],
-  "ying": [
+      "freq": 87
+    },
     {
-      "char": "应",
+      "char": "儿",
+      "freq": 5
+    },
+    {
+      "char": "尔",
       "freq": 1
     }
   ],
   "yun": [
     {
-      "char": "恽",
+      "char": "云",
+      "freq": 49960
+    },
+    {
+      "char": "孕",
       "freq": 1
+    }
+  ],
+  "gen": [
+    {
+      "char": "亘",
+      "freq": 4
+    }
+  ],
+  "ya": [
+    {
+      "char": "亚",
+      "freq": 3048
+    }
+  ],
+  "jiao": [
+    {
+      "char": "焦",
+      "freq": 49779
+    },
+    {
+      "char": "交",
+      "freq": 11
+    }
+  ],
+  "chan": [
+    {
+      "char": "单",
+      "freq": 49819
+    },
+    {
+      "char": "产",
+      "freq": 2
+    }
+  ],
+  "heng": [
+    {
+      "char": "衡",
+      "freq": 49654
+    },
+    {
+      "char": "亨",
+      "freq": 598
+    }
+  ],
+  "mu": [
+    {
+      "char": "穆",
+      "freq": 49903
+    },
+    {
+      "char": "莫",
+      "freq": 49833
+    },
+    {
+      "char": "缪",
+      "freq": 49829
+    },
+    {
+      "char": "牧",
+      "freq": 49776
+    },
+    {
+      "char": "慕",
+      "freq": 49672
+    },
+    {
+      "char": "姆",
+      "freq": 868
+    },
+    {
+      "char": "亩",
+      "freq": 10
+    },
+    {
+      "char": "姥",
+      "freq": 4
+    },
+    {
+      "char": "墓",
+      "freq": 1
+    }
+  ],
+  "qin": [
+    {
+      "char": "秦",
+      "freq": 49983
+    },
+    {
+      "char": "亲",
+      "freq": 32
+    }
+  ],
+  "ren": [
+    {
+      "char": "任",
+      "freq": 49943
+    },
+    {
+      "char": "人",
+      "freq": 25
+    },
+    {
+      "char": "仁",
+      "freq": 20
+    },
+    {
+      "char": "壬",
+      "freq": 1
+    }
+  ],
+  "pu": [
+    {
+      "char": "暴",
+      "freq": 49757
+    },
+    {
+      "char": "蒲",
+      "freq": 49732
+    },
+    {
+      "char": "濮",
+      "freq": 49692
+    },
+    {
+      "char": "浦",
+      "freq": 49683
+    },
+    {
+      "char": "仆",
+      "freq": 1
+    }
+  ],
+  "jin": [
+    {
+      "char": "金",
+      "freq": 49972
+    },
+    {
+      "char": "靳",
+      "freq": 49789
+    },
+    {
+      "char": "尽",
+      "freq": 10
+    },
+    {
+      "char": "巾",
+      "freq": 6
+    },
+    {
+      "char": "今",
+      "freq": 5
+    }
+  ],
+  "jie": [
+    {
+      "char": "解",
+      "freq": 49827
+    },
+    {
+      "char": "家",
+      "freq": 49794
+    },
+    {
+      "char": "介",
+      "freq": 3
+    },
+    {
+      "char": "堺",
+      "freq": 1
+    }
+  ],
+  "cong": [
+    {
+      "char": "从",
+      "freq": 49730
+    }
+  ],
+  "lun": [
+    {
+      "char": "伦",
+      "freq": 1410
+    },
+    {
+      "char": "仑",
+      "freq": 1
+    }
+  ],
+  "cang": [
+    {
+      "char": "臧",
+      "freq": 49889
+    },
+    {
+      "char": "苍",
+      "freq": 49714
+    },
+    {
+      "char": "仓",
+      "freq": 32
+    }
+  ],
+  "ta": [
+    {
+      "char": "塔",
+      "freq": 3697
+    },
+    {
+      "char": "他",
+      "freq": 71
+    }
+  ],
+  "xian": [
+    {
+      "char": "咸",
+      "freq": 49727
+    },
+    {
+      "char": "先",
+      "freq": 33
+    },
+    {
+      "char": "仙",
+      "freq": 14
+    },
+    {
+      "char": "县",
+      "freq": 10
+    },
+    {
+      "char": "宪",
+      "freq": 3
+    }
+  ],
+  "dai": [
+    {
+      "char": "戴",
+      "freq": 49885
+    },
+    {
+      "char": "代",
+      "freq": 40
+    }
+  ],
+  "ling": [
+    {
+      "char": "凌",
+      "freq": 49842
+    },
+    {
+      "char": "岭",
+      "freq": 6
+    },
+    {
+      "char": "令",
+      "freq": 3
+    }
+  ],
+  "jia": [
+    {
+      "char": "贾",
+      "freq": 49864
+    },
+    {
+      "char": "家",
+      "freq": 49794
+    },
+    {
+      "char": "郏",
+      "freq": 49684
+    },
+    {
+      "char": "加",
+      "freq": 5566
+    },
+    {
+      "char": "佳",
+      "freq": 25
+    },
+    {
+      "char": "嘉",
+      "freq": 6
+    },
+    {
+      "char": "价",
+      "freq": 1
+    },
+    {
+      "char": "岬",
+      "freq": 1
+    }
+  ],
+  "ji": [
+    {
+      "char": "齐",
+      "freq": 49914
+    },
+    {
+      "char": "计",
+      "freq": 49888
+    },
+    {
+      "char": "纪",
+      "freq": 49879
+    },
+    {
+      "char": "季",
+      "freq": 49867
+    },
+    {
+      "char": "吉",
+      "freq": 49811
+    },
+    {
+      "char": "嵇",
+      "freq": 49807
+    },
+    {
+      "char": "汲",
+      "freq": 49788
+    },
+    {
+      "char": "蓟",
+      "freq": 49738
+    },
+    {
+      "char": "籍",
+      "freq": 49726
+    },
+    {
+      "char": "姬",
+      "freq": 49704
+    },
+    {
+      "char": "冀",
+      "freq": 49685
+    },
+    {
+      "char": "暨",
+      "freq": 49656
+    },
+    {
+      "char": "基",
+      "freq": 3118
+    },
+    {
+      "char": "寄",
+      "freq": 11
+    },
+    {
+      "char": "及",
+      "freq": 10
+    },
+    {
+      "char": "伎",
+      "freq": 1
+    },
+    {
+      "char": "即",
+      "freq": 1
+    }
+  ],
+  "fu": [
+    {
+      "char": "傅",
+      "freq": 49917
+    },
+    {
+      "char": "伏",
+      "freq": 49887
+    },
+    {
+      "char": "富",
+      "freq": 49782
+    },
+    {
+      "char": "宓",
+      "freq": 49770
+    },
+    {
+      "char": "符",
+      "freq": 49750
+    },
+    {
+      "char": "扶",
+      "freq": 49702
+    },
+    {
+      "char": "副",
+      "freq": 8
+    },
+    {
+      "char": "夫",
+      "freq": 3
+    },
+    {
+      "char": "妇",
+      "freq": 2
+    },
+    {
+      "char": "俘",
+      "freq": 1
+    },
+    {
+      "char": "匐",
+      "freq": 1
+    },
+    {
+      "char": "复",
+      "freq": 1
+    },
+    {
+      "char": "孚",
+      "freq": 1
+    }
+  ],
+  "xiu": [
+    {
+      "char": "宿",
+      "freq": 49735
+    },
+    {
+      "char": "休",
+      "freq": 207
+    },
+    {
+      "char": "修",
+      "freq": 5
+    }
+  ],
+  "you": [
+    {
+      "char": "尤",
+      "freq": 49982
+    },
+    {
+      "char": "游",
+      "freq": 49600
+    },
+    {
+      "char": "优",
+      "freq": 49
+    },
+    {
+      "char": "右",
+      "freq": 25
+    },
+    {
+      "char": "佑",
+      "freq": 13
+    },
+    {
+      "char": "又",
+      "freq": 5
+    },
+    {
+      "char": "友",
+      "freq": 5
+    },
+    {
+      "char": "宥",
+      "freq": 1
+    }
+  ],
+  "hui": [
+    {
+      "char": "惠",
+      "freq": 49797
+    },
+    {
+      "char": "回",
+      "freq": 8
+    },
+    {
+      "char": "会",
+      "freq": 6
+    },
+    {
+      "char": "屶",
+      "freq": 4
+    }
+  ],
+  "wei": [
+    {
+      "char": "卫",
+      "freq": 49989
+    },
+    {
+      "char": "魏",
+      "freq": 49971
+    },
+    {
+      "char": "韦",
+      "freq": 49951
+    },
+    {
+      "char": "危",
+      "freq": 49861
+    },
+    {
+      "char": "隗",
+      "freq": 49775
+    },
+    {
+      "char": "蔚",
+      "freq": 49636
+    },
+    {
+      "char": "威",
+      "freq": 608
+    },
+    {
+      "char": "尾",
+      "freq": 31
+    },
+    {
+      "char": "味",
+      "freq": 17
+    },
+    {
+      "char": "位",
+      "freq": 2
+    },
+    {
+      "char": "唯",
+      "freq": 2
+    },
+    {
+      "char": "媁",
+      "freq": 2
+    },
+    {
+      "char": "伪",
+      "freq": 1
+    },
+    {
+      "char": "委",
+      "freq": 1
+    }
+  ],
+  "bo": [
+    {
+      "char": "柏",
+      "freq": 49964
+    },
+    {
+      "char": "卜",
+      "freq": 49909
+    },
+    {
+      "char": "薄",
+      "freq": 49737
+    },
+    {
+      "char": "博",
+      "freq": 7646
+    },
+    {
+      "char": "伯",
+      "freq": 1714
+    },
+    {
+      "char": "勃",
+      "freq": 9
+    }
+  ],
+  "ban": [
+    {
+      "char": "班",
+      "freq": 49766
+    },
+    {
+      "char": "伴",
+      "freq": 23
+    },
+    {
+      "char": "坂",
+      "freq": 21
+    },
+    {
+      "char": "半",
+      "freq": 17
+    }
+  ],
+  "shen": [
+    {
+      "char": "沈",
+      "freq": 49987
+    },
+    {
+      "char": "莘",
+      "freq": 49711
+    },
+    {
+      "char": "申",
+      "freq": 49703
+    },
+    {
+      "char": "慎",
+      "freq": 49661
+    },
+    {
+      "char": "伸",
+      "freq": 3
+    }
+  ],
+  "si": [
+    {
+      "char": "司",
+      "freq": 49742
+    },
+    {
+      "char": "四",
+      "freq": 41
+    },
+    {
+      "char": "似",
+      "freq": 8
+    },
+    {
+      "char": "寺",
+      "freq": 2
+    },
+    {
+      "char": "嗣",
+      "freq": 1
+    },
+    {
+      "char": "嘶",
+      "freq": 1
+    }
+  ],
+  "qie": [
+    {
+      "char": "切",
+      "freq": 2370
+    },
+    {
+      "char": "伽",
+      "freq": 2
+    }
+  ],
+  "dian": [
+    {
+      "char": "典",
+      "freq": 3
+    },
+    {
+      "char": "佃",
+      "freq": 1
+    }
+  ],
+  "zuo": [
+    {
+      "char": "左",
+      "freq": 49814
+    },
+    {
+      "char": "佐",
+      "freq": 834
+    },
+    {
+      "char": "作",
+      "freq": 23
+    }
+  ],
+  "he": [
+    {
+      "char": "何",
+      "freq": 49980
+    },
+    {
+      "char": "贺",
+      "freq": 49931
+    },
+    {
+      "char": "和",
+      "freq": 49904
+    },
+    {
+      "char": "盖",
+      "freq": 49596
+    },
+    {
+      "char": "合",
+      "freq": 12
+    },
+    {
+      "char": "劾",
+      "freq": 2
+    }
+  ],
+  "fo": [
+    {
+      "char": "佛",
+      "freq": 11
+    }
+  ],
+  "pei": [
+    {
+      "char": "裴",
+      "freq": 49804
+    },
+    {
+      "char": "佩",
+      "freq": 5457
+    },
+    {
+      "char": "培",
+      "freq": 9
+    }
+  ],
+  "lao": [
+    {
+      "char": "乐",
+      "freq": 49920
+    },
+    {
+      "char": "劳",
+      "freq": 49706
+    },
+    {
+      "char": "佬",
+      "freq": 2
+    }
+  ],
+  "kan": [
+    {
+      "char": "阚",
+      "freq": 49621
+    },
+    {
+      "char": "坎",
+      "freq": 1493
+    },
+    {
+      "char": "堪",
+      "freq": 7
+    },
+    {
+      "char": "侃",
+      "freq": 1
+    },
+    {
+      "char": "刊",
+      "freq": 1
+    }
+  ],
+  "ce": [
+    {
+      "char": "侧",
+      "freq": 2
+    },
+    {
+      "char": "册",
+      "freq": 2
+    }
+  ],
+  "nong": [
+    {
+      "char": "农",
+      "freq": 49681
+    },
+    {
+      "char": "侬",
+      "freq": 7
+    }
+  ],
+  "hou": [
+    {
+      "char": "侯",
+      "freq": 49771
+    },
+    {
+      "char": "后",
+      "freq": 49603
+    },
+    {
+      "char": "厚",
+      "freq": 27
+    }
+  ],
+  "e": [
+    {
+      "char": "鄂",
+      "freq": 49729
+    },
+    {
+      "char": "厄",
+      "freq": 1353
+    },
+    {
+      "char": "俄",
+      "freq": 1
+    }
+  ],
+  "jun": [
+    {
+      "char": "俊",
+      "freq": 12
+    },
+    {
+      "char": "军",
+      "freq": 7
+    },
+    {
+      "char": "均",
+      "freq": 2
+    }
+  ],
+  "bao": [
+    {
+      "char": "鲍",
+      "freq": 49939
+    },
+    {
+      "char": "包",
+      "freq": 49816
+    },
+    {
+      "char": "暴",
+      "freq": 49757
+    },
+    {
+      "char": "薄",
+      "freq": 49737
+    },
+    {
+      "char": "保",
+      "freq": 733
+    },
+    {
+      "char": "宝",
+      "freq": 20
+    }
+  ],
+  "xin": [
+    {
+      "char": "莘",
+      "freq": 49711
+    },
+    {
+      "char": "辛",
+      "freq": 49622
+    },
+    {
+      "char": "信",
+      "freq": 71
+    }
+  ],
+  "biao": [
+    {
+      "char": "俵",
+      "freq": 1
+    }
+  ],
+  "bi": [
+    {
+      "char": "毕",
+      "freq": 49925
+    },
+    {
+      "char": "贲",
+      "freq": 49822
+    },
+    {
+      "char": "俾",
+      "freq": 4
+    },
+    {
+      "char": "币",
+      "freq": 2
+    }
+  ],
+  "bei": [
+    {
+      "char": "贝",
+      "freq": 49891
+    },
+    {
+      "char": "北",
+      "freq": 10
+    },
+    {
+      "char": "备",
+      "freq": 5
+    },
+    {
+      "char": "倍",
+      "freq": 3
+    }
+  ],
+  "ni": [
+    {
+      "char": "倪",
+      "freq": 49930
+    },
+    {
+      "char": "尼",
+      "freq": 2432
+    },
+    {
+      "char": "妮",
+      "freq": 11
+    },
+    {
+      "char": "匿",
+      "freq": 1
+    }
+  ],
+  "wo": [
+    {
+      "char": "沃",
+      "freq": 49638
+    },
+    {
+      "char": "倭",
+      "freq": 10
+    }
+  ],
+  "che": [
+    {
+      "char": "车",
+      "freq": 49772
+    },
+    {
+      "char": "偖",
+      "freq": 1
+    }
+  ],
+  "jian": [
+    {
+      "char": "简",
+      "freq": 49619
+    },
+    {
+      "char": "坚",
+      "freq": 43
+    },
+    {
+      "char": "剑",
+      "freq": 3
+    },
+    {
+      "char": "健",
+      "freq": 1
+    },
+    {
+      "char": "兼",
+      "freq": 1
+    }
+  ],
+  "bang": [
+    {
+      "char": "彭",
+      "freq": 49954
+    },
+    {
+      "char": "傍",
+      "freq": 5
+    }
+  ],
+  "chu": [
+    {
+      "char": "褚",
+      "freq": 49990
+    },
+    {
+      "char": "储",
+      "freq": 49790
+    },
+    {
+      "char": "初",
+      "freq": 58
+    },
+    {
+      "char": "出",
+      "freq": 2
+    },
+    {
+      "char": "厨",
+      "freq": 1
+    },
+    {
+      "char": "处",
+      "freq": 1
+    }
+  ],
+  "yuan": [
+    {
+      "char": "袁",
+      "freq": 49942
+    },
+    {
+      "char": "元",
+      "freq": 49910
+    },
+    {
+      "char": "原",
+      "freq": 53
+    },
+    {
+      "char": "园",
+      "freq": 39
+    },
+    {
+      "char": "圆",
+      "freq": 14
+    },
+    {
+      "char": "垣",
+      "freq": 1
+    }
+  ],
+  "xiong": [
+    {
+      "char": "熊",
+      "freq": 49880
+    },
+    {
+      "char": "兄",
+      "freq": 11
+    }
+  ],
+  "chong": [
+    {
+      "char": "充",
+      "freq": 49673
+    },
+    {
+      "char": "冲",
+      "freq": 32
+    },
+    {
+      "char": "崇",
+      "freq": 2
+    },
+    {
+      "char": "宠",
+      "freq": 1
+    }
+  ],
+  "guang": [
+    {
+      "char": "广",
+      "freq": 49644
+    },
+    {
+      "char": "光",
+      "freq": 30
+    }
+  ],
+  "ke": [
+    {
+      "char": "柯",
+      "freq": 49837
+    },
+    {
+      "char": "克",
+      "freq": 10824
+    },
+    {
+      "char": "可",
+      "freq": 1
+    }
+  ],
+  "mian": [
+    {
+      "char": "免",
+      "freq": 4
+    },
+    {
+      "char": "勉",
+      "freq": 1
+    }
+  ],
+  "tu": [
+    {
+      "char": "屠",
+      "freq": 49722
+    },
+    {
+      "char": "图",
+      "freq": 2267
+    },
+    {
+      "char": "土",
+      "freq": 10
+    },
+    {
+      "char": "吐",
+      "freq": 3
+    },
+    {
+      "char": "兔",
+      "freq": 1
+    }
+  ],
+  "quan": [
+    {
+      "char": "全",
+      "freq": 49768
+    },
+    {
+      "char": "权",
+      "freq": 49598
+    }
+  ],
+  "ba": [
+    {
+      "char": "巴",
+      "freq": 49778
+    },
+    {
+      "char": "八",
+      "freq": 110
+    }
+  ],
+  "gong": [
+    {
+      "char": "龚",
+      "freq": 49809
+    },
+    {
+      "char": "弓",
+      "freq": 49777
+    },
+    {
+      "char": "宫",
+      "freq": 49761
+    },
+    {
+      "char": "贡",
+      "freq": 49707
+    },
+    {
+      "char": "巩",
+      "freq": 49631
+    },
+    {
+      "char": "红",
+      "freq": 49601
+    },
+    {
+      "char": "公",
+      "freq": 49593
+    },
+    {
+      "char": "功",
+      "freq": 8
+    },
+    {
+      "char": "工",
+      "freq": 3
+    },
+    {
+      "char": "共",
+      "freq": 1
+    }
+  ],
+  "liu": [
+    {
+      "char": "柳",
+      "freq": 49941
+    },
+    {
+      "char": "刘",
+      "freq": 49749
+    },
+    {
+      "char": "六",
+      "freq": 59
+    }
+  ],
+  "lan": [
+    {
+      "char": "蓝",
+      "freq": 49870
+    },
+    {
+      "char": "兰",
+      "freq": 1602
+    },
+    {
+      "char": "岚",
+      "freq": 7
+    }
+  ],
+  "guan": [
+    {
+      "char": "管",
+      "freq": 49835
+    },
+    {
+      "char": "关",
+      "freq": 49607
+    },
+    {
+      "char": "冠",
+      "freq": 3
+    }
+  ],
+  "xing": [
+    {
+      "char": "邢",
+      "freq": 49806
+    },
+    {
+      "char": "幸",
+      "freq": 49743
+    },
+    {
+      "char": "兴",
+      "freq": 37
+    },
+    {
+      "char": "刑",
+      "freq": 3
+    },
+    {
+      "char": "哘",
+      "freq": 1
+    }
+  ],
+  "bing": [
+    {
+      "char": "邴",
+      "freq": 49787
+    },
+    {
+      "char": "兵",
+      "freq": 22
+    },
+    {
+      "char": "冰",
+      "freq": 6
+    }
+  ],
+  "zi": [
+    {
+      "char": "齐",
+      "freq": 49914
+    },
+    {
+      "char": "訾",
+      "freq": 49623
+    },
+    {
+      "char": "兹",
+      "freq": 523
+    },
+    {
+      "char": "姊",
+      "freq": 5
+    },
+    {
+      "char": "子",
+      "freq": 3
+    },
+    {
+      "char": "呰",
+      "freq": 2
+    },
+    {
+      "char": "字",
+      "freq": 1
+    }
+  ],
+  "yang": [
+    {
+      "char": "杨",
+      "freq": 49985
+    },
+    {
+      "char": "羊",
+      "freq": 49799
+    },
+    {
+      "char": "仰",
+      "freq": 49765
+    },
+    {
+      "char": "养",
+      "freq": 49612
+    }
+  ],
+  "nei": [
+    {
+      "char": "那",
+      "freq": 49620
+    },
+    {
+      "char": "内",
+      "freq": 2206
+    }
+  ],
+  "gang": [
+    {
+      "char": "冈",
+      "freq": 281
+    },
+    {
+      "char": "刚",
+      "freq": 10
+    }
+  ],
+  "mao": [
+    {
+      "char": "毛",
+      "freq": 49895
+    },
+    {
+      "char": "茅",
+      "freq": 49882
+    },
+    {
+      "char": "卯",
+      "freq": 9
+    },
+    {
+      "char": "冒",
+      "freq": 1
+    }
+  ],
+  "ming": [
+    {
+      "char": "明",
+      "freq": 49890
+    },
+    {
+      "char": "名",
+      "freq": 36
+    },
+    {
+      "char": "冥",
+      "freq": 1
+    },
+    {
+      "char": "命",
+      "freq": 1
+    }
+  ],
+  "jue": [
+    {
+      "char": "决",
+      "freq": 1
+    }
+  ],
+  "leng": [
+    {
+      "char": "冷",
+      "freq": 49624
+    }
+  ],
+  "zhun": [
+    {
+      "char": "准",
+      "freq": 4
+    }
+  ],
+  "cou": [
+    {
+      "char": "凑",
+      "freq": 4
+    }
+  ],
+  "ning": [
+    {
+      "char": "宁",
+      "freq": 49760
+    },
+    {
+      "char": "凝",
+      "freq": 4
+    }
+  ],
+  "fan": [
+    {
+      "char": "范",
+      "freq": 49955
+    },
+    {
+      "char": "樊",
+      "freq": 49844
+    },
+    {
+      "char": "凡",
+      "freq": 167
+    },
+    {
+      "char": "反",
+      "freq": 9
+    }
+  ],
+  "kai": [
+    {
+      "char": "凯",
+      "freq": 2155
+    }
+  ],
+  "dao": [
+    {
+      "char": "岛",
+      "freq": 81
+    },
+    {
+      "char": "刀",
+      "freq": 1
+    }
+  ],
+  "diao": [
+    {
+      "char": "刁",
+      "freq": 49853
+    }
+  ],
+  "fen": [
+    {
+      "char": "分",
+      "freq": 14
+    }
+  ],
+  "hua": [
+    {
+      "char": "华",
+      "freq": 49973
+    },
+    {
+      "char": "花",
+      "freq": 49946
+    },
+    {
+      "char": "滑",
+      "freq": 49805
+    },
+    {
+      "char": "划",
+      "freq": 3
+    }
+  ],
+  "lie": [
+    {
+      "char": "列",
+      "freq": 616
+    },
+    {
+      "char": "埒",
+      "freq": 1
+    }
+  ],
+  "ze": [
+    {
+      "char": "则",
+      "freq": 10
+    }
+  ],
+  "pan": [
+    {
+      "char": "潘",
+      "freq": 49958
+    },
+    {
+      "char": "判",
+      "freq": 2
+    }
+  ],
+  "bie": [
+    {
+      "char": "别",
+      "freq": 49679
+    }
+  ],
+  "gua": [
+    {
+      "char": "刮",
+      "freq": 1
+    }
+  ],
+  "la": [
+    {
+      "char": "剌",
+      "freq": 2
+    }
+  ],
+  "ge": [
+    {
+      "char": "葛",
+      "freq": 49957
+    },
+    {
+      "char": "戈",
+      "freq": 49660
+    },
+    {
+      "char": "盖",
+      "freq": 49596
+    },
+    {
+      "char": "哥",
+      "freq": 27
+    },
+    {
+      "char": "割",
+      "freq": 8
+    },
+    {
+      "char": "各",
+      "freq": 1
+    }
+  ],
+  "nu": [
+    {
+      "char": "努",
+      "freq": 864
+    },
+    {
+      "char": "奴",
+      "freq": 4
+    }
+  ],
+  "yong": [
+    {
+      "char": "雍",
+      "freq": 49697
+    },
+    {
+      "char": "勇",
+      "freq": 12
+    },
+    {
+      "char": "咏",
+      "freq": 2
+    },
+    {
+      "char": "埇",
+      "freq": 1
+    }
+  ],
+  "xun": [
+    {
+      "char": "孙",
+      "freq": 49998
+    },
+    {
+      "char": "荀",
+      "freq": 49800
+    },
+    {
+      "char": "勋",
+      "freq": 2
+    }
+  ],
+  "gou": [
+    {
+      "char": "勾",
+      "freq": 49627
+    }
+  ],
+  "za": [
+    {
+      "char": "咋",
+      "freq": 2
+    },
+    {
+      "char": "匝",
+      "freq": 1
+    }
+  ],
+  "kuang": [
+    {
+      "char": "匡",
+      "freq": 49648
+    }
+  ],
+  "sheng": [
+    {
+      "char": "盛",
+      "freq": 49855
+    },
+    {
+      "char": "圣",
+      "freq": 474
+    },
+    {
+      "char": "升",
+      "freq": 2
+    },
+    {
+      "char": "声",
+      "freq": 1
+    }
+  ],
+  "xie": [
+    {
+      "char": "谢",
+      "freq": 49967
+    },
+    {
+      "char": "解",
+      "freq": 49827
+    },
+    {
+      "char": "叶",
+      "freq": 49744
+    },
+    {
+      "char": "协",
+      "freq": 3
+    }
+  ],
+  "zu": [
+    {
+      "char": "祖",
+      "freq": 49752
+    },
+    {
+      "char": "卒",
+      "freq": 2
+    }
+  ],
+  "zhuo": [
+    {
+      "char": "卓",
+      "freq": 49724
+    }
+  ],
+  "nan": [
+    {
+      "char": "南",
+      "freq": 307
+    }
+  ],
+  "zhan": [
+    {
+      "char": "湛",
+      "freq": 49898
+    },
+    {
+      "char": "詹",
+      "freq": 49747
+    },
+    {
+      "char": "占",
+      "freq": 104
+    },
+    {
+      "char": "展",
+      "freq": 1
+    }
+  ],
+  "ka": [
+    {
+      "char": "卡",
+      "freq": 14647
+    },
+    {
+      "char": "喀",
+      "freq": 2
+    },
+    {
+      "char": "垰",
+      "freq": 2
+    },
+    {
+      "char": "咯",
+      "freq": 1
+    }
+  ],
+  "lu": [
+    {
+      "char": "鲁",
+      "freq": 49952
+    },
+    {
+      "char": "路",
+      "freq": 49863
+    },
+    {
+      "char": "卢",
+      "freq": 49834
+    },
+    {
+      "char": "陆",
+      "freq": 49803
+    },
+    {
+      "char": "禄",
+      "freq": 49643
+    },
+    {
+      "char": "逯",
+      "freq": 49597
+    }
+  ],
+  "yin": [
+    {
+      "char": "殷",
+      "freq": 49927
+    },
+    {
+      "char": "尹",
+      "freq": 49901
+    },
+    {
+      "char": "印",
+      "freq": 49736
+    },
+    {
+      "char": "阴",
+      "freq": 49718
+    },
+    {
+      "char": "因",
+      "freq": 852
+    },
+    {
+      "char": "寅",
+      "freq": 2
+    },
+    {
+      "char": "吟",
+      "freq": 1
+    }
+  ],
+  "juan": [
+    {
+      "char": "卷",
+      "freq": 2
+    }
+  ],
+  "ting": [
+    {
+      "char": "厅",
+      "freq": 4
+    },
+    {
+      "char": "听",
+      "freq": 1
+    }
+  ],
+  "can": [
+    {
+      "char": "参",
+      "freq": 15
+    },
+    {
+      "char": "喰",
+      "freq": 2
+    }
+  ],
+  "shuang": [
+    {
+      "char": "双",
+      "freq": 49713
+    }
+  ],
+  "fa": [
+    {
+      "char": "发",
+      "freq": 2
+    }
+  ],
+  "shou": [
+    {
+      "char": "寿",
+      "freq": 49690
+    },
+    {
+      "char": "守",
+      "freq": 14
+    },
+    {
+      "char": "受",
+      "freq": 3
+    }
+  ],
+  "xu": [
+    {
+      "char": "许",
+      "freq": 49981
+    },
+    {
+      "char": "徐",
+      "freq": 49851
+    },
+    {
+      "char": "胥",
+      "freq": 49716
+    },
+    {
+      "char": "须",
+      "freq": 49610
+    },
+    {
+      "char": "叙",
+      "freq": 332
+    }
+  ],
+  "die": [
+    {
+      "char": "叠",
+      "freq": 1
+    }
+  ],
+  "kou": [
+    {
+      "char": "寇",
+      "freq": 49645
+    },
+    {
+      "char": "口",
+      "freq": 13
+    },
+    {
+      "char": "叩",
+      "freq": 1
+    }
+  ],
+  "gu": [
+    {
+      "char": "顾",
+      "freq": 49908
+    },
+    {
+      "char": "贾",
+      "freq": 49864
+    },
+    {
+      "char": "谷",
+      "freq": 49773
+    },
+    {
+      "char": "古",
+      "freq": 49663
+    },
+    {
+      "char": "固",
+      "freq": 1
+    },
+    {
+      "char": "姑",
+      "freq": 1
+    }
+  ],
+  "zhao": [
+    {
+      "char": "赵",
+      "freq": 50000
+    },
+    {
+      "char": "召",
+      "freq": 1
+    }
+  ],
+  "tai": [
+    {
+      "char": "邰",
+      "freq": 49731
+    },
+    {
+      "char": "太",
+      "freq": 8
+    },
+    {
+      "char": "台",
+      "freq": 5
+    }
+  ],
+  "tong": [
+    {
+      "char": "童",
+      "freq": 49859
+    },
+    {
+      "char": "通",
+      "freq": 49689
+    },
+    {
+      "char": "同",
+      "freq": 1
+    }
+  ],
+  "lv": [
+    {
+      "char": "吕",
+      "freq": 49979
+    },
+    {
+      "char": "履",
+      "freq": 1
+    }
+  ],
+  "tun": [
+    {
+      "char": "吞",
+      "freq": 4
+    },
+    {
+      "char": "屯",
+      "freq": 2
+    }
+  ],
+  "chui": [
+    {
+      "char": "吹",
+      "freq": 17
+    },
+    {
+      "char": "垂",
+      "freq": 3
+    }
+  ],
+  "gao": [
+    {
+      "char": "高",
+      "freq": 49848
+    },
+    {
+      "char": "郜",
+      "freq": 49740
+    },
+    {
+      "char": "告",
+      "freq": 4
+    }
+  ],
+  "zhou": [
+    {
+      "char": "周",
+      "freq": 49996
+    },
+    {
+      "char": "宙",
+      "freq": 2
+    }
+  ],
+  "hu": [
+    {
+      "char": "许",
+      "freq": 49981
+    },
+    {
+      "char": "和",
+      "freq": 49904
+    },
+    {
+      "char": "胡",
+      "freq": 49843
+    },
+    {
+      "char": "扈",
+      "freq": 49687
+    },
+    {
+      "char": "呼",
+      "freq": 8
+    }
+  ],
+  "xiao": [
+    {
+      "char": "萧",
+      "freq": 49902
+    },
+    {
+      "char": "小",
+      "freq": 154
+    },
+    {
+      "char": "咲",
+      "freq": 8
+    },
+    {
+      "char": "孝",
+      "freq": 2
+    },
+    {
+      "char": "宵",
+      "freq": 1
+    }
+  ],
+  "pin": [
+    {
+      "char": "品",
+      "freq": 10
+    }
+  ],
+  "wa": [
+    {
+      "char": "哇",
+      "freq": 3
+    }
+  ],
+  "ha": [
+    {
+      "char": "哈",
+      "freq": 5619
+    }
+  ],
+  "zhe": [
+    {
+      "char": "哲",
+      "freq": 83
+    }
+  ],
+  "tang": [
+    {
+      "char": "唐",
+      "freq": 49937
+    },
+    {
+      "char": "汤",
+      "freq": 49929
+    },
+    {
+      "char": "堂",
+      "freq": 2
+    },
+    {
+      "char": "塘",
+      "freq": 1
+    }
+  ],
+  "chang": [
+    {
+      "char": "昌",
+      "freq": 49950
+    },
+    {
+      "char": "常",
+      "freq": 49921
+    },
+    {
+      "char": "唱",
+      "freq": 2
+    },
+    {
+      "char": "场",
+      "freq": 2
+    },
+    {
+      "char": "尝",
+      "freq": 1
+    }
+  ],
+  "shan": [
+    {
+      "char": "单",
+      "freq": 49819
+    },
+    {
+      "char": "山",
+      "freq": 49774
+    },
+    {
+      "char": "善",
+      "freq": 37
+    }
+  ],
+  "xuan": [
+    {
+      "char": "宣",
+      "freq": 49823
+    },
+    {
+      "char": "喧",
+      "freq": 1
+    }
+  ],
+  "pen": [
+    {
+      "char": "喷",
+      "freq": 2
+    }
+  ],
+  "ceng": [
+    {
+      "char": "曾",
+      "freq": 49616
+    },
+    {
+      "char": "噌",
+      "freq": 1
+    }
+  ],
+  "zeng": [
+    {
+      "char": "曾",
+      "freq": 49616
+    },
+    {
+      "char": "增",
+      "freq": 17
+    },
+    {
+      "char": "囎",
+      "freq": 1
+    }
+  ],
+  "tuan": [
+    {
+      "char": "团",
+      "freq": 5
+    }
+  ],
+  "guo": [
+    {
+      "char": "郭",
+      "freq": 49857
+    },
+    {
+      "char": "国",
+      "freq": 49647
+    }
+  ],
+  "zai": [
+    {
+      "char": "宰",
+      "freq": 49699
+    },
+    {
+      "char": "在",
+      "freq": 12
+    }
+  ],
+  "gui": [
+    {
+      "char": "桂",
+      "freq": 49693
+    },
+    {
+      "char": "圭",
+      "freq": 144
+    }
+  ],
+  "di": [
+    {
+      "char": "狄",
+      "freq": 49893
+    },
+    {
+      "char": "翟",
+      "freq": 49709
+    },
+    {
+      "char": "地",
+      "freq": 6
+    }
+  ],
+  "fang": [
+    {
+      "char": "方",
+      "freq": 49945
+    },
+    {
+      "char": "房",
+      "freq": 49831
+    },
+    {
+      "char": "坊",
+      "freq": 3
+    }
+  ],
+  "huai": [
+    {
+      "char": "怀",
+      "freq": 49733
+    },
+    {
+      "char": "坏",
+      "freq": 1
+    }
+  ],
+  "kun": [
+    {
+      "char": "坤",
+      "freq": 8
+    },
+    {
+      "char": "崑",
+      "freq": 1
+    }
+  ],
+  "tan": [
+    {
+      "char": "谈",
+      "freq": 49884
+    },
+    {
+      "char": "谭",
+      "freq": 49708
+    },
+    {
+      "char": "坦",
+      "freq": 554
+    }
+  ],
+  "ai": [
+    {
+      "char": "艾",
+      "freq": 49667
+    },
+    {
+      "char": "埃",
+      "freq": 9020
+    }
+  ],
+  "mai": [
+    {
+      "char": "埋",
+      "freq": 1
+    }
+  ],
+  "ku": [
+    {
+      "char": "堀",
+      "freq": 64
+    }
+  ],
+  "que": [
+    {
+      "char": "卻",
+      "freq": 49696
+    },
+    {
+      "char": "阙",
+      "freq": 49642
+    },
+    {
+      "char": "塙",
+      "freq": 6
+    }
+  ],
+  "sai": [
+    {
+      "char": "塞",
+      "freq": 4972
+    }
+  ],
+  "mo": [
+    {
+      "char": "万",
+      "freq": 49839
+    },
+    {
+      "char": "莫",
+      "freq": 49833
+    },
+    {
+      "char": "墨",
+      "freq": 10
+    }
+  ],
+  "zhuang": [
+    {
+      "char": "庄",
+      "freq": 49678
+    },
+    {
+      "char": "壮",
+      "freq": 3
+    },
+    {
+      "char": "妆",
+      "freq": 3
+    }
+  ],
+  "wai": [
+    {
+      "char": "外",
+      "freq": 49
+    }
+  ],
+  "duo": [
+    {
+      "char": "多",
+      "freq": 3406
+    }
+  ],
+  "da": [
+    {
+      "char": "大",
+      "freq": 256
+    }
+  ],
+  "tian": [
+    {
+      "char": "田",
+      "freq": 49845
+    },
+    {
+      "char": "天",
+      "freq": 61
+    }
+  ],
+  "tou": [
+    {
+      "char": "头",
+      "freq": 4
+    }
+  ],
+  "kua": [
+    {
+      "char": "夸",
+      "freq": 461
+    }
+  ],
+  "kui": [
+    {
+      "char": "隗",
+      "freq": 49775
+    },
+    {
+      "char": "夔",
+      "freq": 49634
+    },
+    {
+      "char": "奎",
+      "freq": 272
+    }
+  ],
+  "zou": [
+    {
+      "char": "邹",
+      "freq": 49966
+    },
+    {
+      "char": "奏",
+      "freq": 1
+    }
+  ],
+  "ben": [
+    {
+      "char": "贲",
+      "freq": 49822
+    },
+    {
+      "char": "奔",
+      "freq": 58
+    }
+  ],
+  "jiang": [
+    {
+      "char": "蒋",
+      "freq": 49988
+    },
+    {
+      "char": "姜",
+      "freq": 49969
+    },
+    {
+      "char": "强",
+      "freq": 49865
+    },
+    {
+      "char": "江",
+      "freq": 49860
+    },
+    {
+      "char": "将",
+      "freq": 2
+    },
+    {
+      "char": "奖",
+      "freq": 1
+    }
+  ],
+  "ao": [
+    {
+      "char": "敖",
+      "freq": 49626
+    },
+    {
+      "char": "奥",
+      "freq": 9561
+    }
+  ],
+  "nv": [
+    {
+      "char": "女",
+      "freq": 13
+    }
+  ],
+  "hao": [
+    {
+      "char": "郝",
+      "freq": 49924
+    },
+    {
+      "char": "好",
+      "freq": 8
+    }
+  ],
+  "miao": [
+    {
+      "char": "苗",
+      "freq": 49948
+    },
+    {
+      "char": "缪",
+      "freq": 49829
+    },
+    {
+      "char": "妙",
+      "freq": 3
+    }
+  ],
+  "mei": [
+    {
+      "char": "梅",
+      "freq": 49856
+    },
+    {
+      "char": "糜",
+      "freq": 49786
+    },
+    {
+      "char": "妹",
+      "freq": 1
+    },
+    {
+      "char": "嵋",
+      "freq": 1
+    }
+  ],
+  "yao": [
+    {
+      "char": "乐",
+      "freq": 49920
+    },
+    {
+      "char": "姚",
+      "freq": 49900
+    },
+    {
+      "char": "尧",
+      "freq": 57
+    }
+  ],
+  "lou": [
+    {
+      "char": "娄",
+      "freq": 49862
+    }
+  ],
+  "na": [
+    {
+      "char": "那",
+      "freq": 49620
+    },
+    {
+      "char": "娜",
+      "freq": 21
+    }
+  ],
+  "qu": [
+    {
+      "char": "屈",
+      "freq": 49877
+    },
+    {
+      "char": "曲",
+      "freq": 49795
+    },
+    {
+      "char": "璩",
+      "freq": 49695
+    },
+    {
+      "char": "瞿",
+      "freq": 49675
+    },
+    {
+      "char": "娶",
+      "freq": 1
+    }
+  ],
+  "po": [
+    {
+      "char": "婆",
+      "freq": 1
+    }
+  ],
+  "nen": [
+    {
+      "char": "嫩",
+      "freq": 33
+    }
+  ],
+  "kong": [
+    {
+      "char": "孔",
+      "freq": 49976
+    },
+    {
+      "char": "空",
+      "freq": 49617
+    }
+  ],
+  "cun": [
+    {
+      "char": "存",
+      "freq": 1
+    }
+  ],
+  "sun": [
+    {
+      "char": "孙",
+      "freq": 49998
+    }
+  ],
+  "meng": [
+    {
+      "char": "孟",
+      "freq": 49907
+    },
+    {
+      "char": "蒙",
+      "freq": 49721
+    }
+  ],
+  "xue": [
+    {
+      "char": "薛",
+      "freq": 49933
+    },
+    {
+      "char": "学",
+      "freq": 3
+    }
+  ],
+  "an": [
+    {
+      "char": "安",
+      "freq": 49922
+    },
+    {
+      "char": "广",
+      "freq": 49644
+    },
+    {
+      "char": "岸",
+      "freq": 1
+    }
+  ],
+  "song": [
+    {
+      "char": "宋",
+      "freq": 49883
+    },
+    {
+      "char": "松",
+      "freq": 49785
+    },
+    {
+      "char": "嵩",
+      "freq": 4
+    }
+  ],
+  "rou": [
+    {
+      "char": "宍",
+      "freq": 14
+    }
+  ],
+  "hong": [
+    {
+      "char": "洪",
+      "freq": 49817
+    },
+    {
+      "char": "弘",
+      "freq": 49649
+    },
+    {
+      "char": "红",
+      "freq": 49601
+    },
+    {
+      "char": "宏",
+      "freq": 9
+    }
+  ],
+  "zong": [
+    {
+      "char": "宗",
+      "freq": 49825
+    },
+    {
+      "char": "从",
+      "freq": 49730
+    }
+  ],
+  "rong": [
+    {
+      "char": "荣",
+      "freq": 49802
+    },
+    {
+      "char": "戎",
+      "freq": 49753
+    },
+    {
+      "char": "容",
+      "freq": 49665
+    },
+    {
+      "char": "融",
+      "freq": 49625
+    }
+  ],
+  "kuan": [
+    {
+      "char": "宽",
+      "freq": 39
+    }
+  ],
+  "bin": [
+    {
+      "char": "宾",
+      "freq": 281
+    }
+  ],
+  "su": [
+    {
+      "char": "苏",
+      "freq": 49959
+    },
+    {
+      "char": "宿",
+      "freq": 49735
+    }
+  ],
+  "mi": [
+    {
+      "char": "米",
+      "freq": 49892
+    },
+    {
+      "char": "糜",
+      "freq": 49786
+    },
+    {
+      "char": "宓",
+      "freq": 49770
+    },
+    {
+      "char": "密",
+      "freq": 8
+    }
+  ],
+  "han": [
+    {
+      "char": "韩",
+      "freq": 49986
+    },
+    {
+      "char": "寒",
+      "freq": 7
+    }
+  ],
+  "cha": [
+    {
+      "char": "查",
+      "freq": 49604
+    },
+    {
+      "char": "察",
+      "freq": 330
+    },
+    {
+      "char": "差",
+      "freq": 71
+    }
+  ],
+  "liao": [
+    {
+      "char": "缪",
+      "freq": 49829
+    },
+    {
+      "char": "廖",
+      "freq": 49659
+    },
+    {
+      "char": "寥",
+      "freq": 1
+    },
+    {
+      "char": "寮",
+      "freq": 1
+    }
+  ],
+  "zhai": [
+    {
+      "char": "齐",
+      "freq": 49914
+    },
+    {
+      "char": "翟",
+      "freq": 49709
+    },
+    {
+      "char": "寨",
+      "freq": 1
+    }
+  ],
+  "kei": [
+    {
+      "char": "尅",
+      "freq": 1
+    }
+  ],
+  "zun": [
+    {
+      "char": "尊",
+      "freq": 37
+    }
+  ],
+  "shao": [
+    {
+      "char": "邵",
+      "freq": 49899
+    },
+    {
+      "char": "韶",
+      "freq": 49741
+    },
+    {
+      "char": "少",
+      "freq": 1
+    }
+  ],
+  "chen": [
+    {
+      "char": "陈",
+      "freq": 49991
+    },
+    {
+      "char": "沈",
+      "freq": 49987
+    },
+    {
+      "char": "尘",
+      "freq": 3
+    }
+  ],
+  "chi": [
+    {
+      "char": "池",
+      "freq": 49720
+    },
+    {
+      "char": "尺",
+      "freq": 4
+    }
+  ],
+  "kao": [
+    {
+      "char": "尻",
+      "freq": 7
+    }
+  ],
+  "niao": [
+    {
+      "char": "尿",
+      "freq": 1
+    }
+  ],
+  "cen": [
+    {
+      "char": "岑",
+      "freq": 49934
+    }
+  ],
+  "yue": [
+    {
+      "char": "乐",
+      "freq": 49920
+    },
+    {
+      "char": "越",
+      "freq": 49635
+    },
+    {
+      "char": "岳",
+      "freq": 2
+    }
+  ],
+  "cui": [
+    {
+      "char": "崔",
+      "freq": 49812
+    }
+  ],
+  "deng": [
+    {
+      "char": "邓",
+      "freq": 49821
+    },
+    {
+      "char": "嶝",
+      "freq": 1
+    }
+  ],
+  "chao": [
+    {
+      "char": "晁",
+      "freq": 49628
+    },
+    {
+      "char": "巢",
+      "freq": 49608
+    }
+  ],
+  "zheng": [
+    {
+      "char": "郑",
+      "freq": 49994
+    },
+    {
+      "char": "丁",
+      "freq": 49824
+    }
+  ],
+  "wang": [
+    {
+      "char": "王",
+      "freq": 49993
+    },
+    {
+      "char": "汪",
+      "freq": 49897
+    }
+  ],
+  "cao": [
+    {
+      "char": "曹",
+      "freq": 49975
+    }
+  ],
+  "tao": [
+    {
+      "char": "陶",
+      "freq": 49970
+    }
+  ],
+  "bai": [
+    {
+      "char": "柏",
+      "freq": 49964
+    },
+    {
+      "char": "白",
+      "freq": 49734
+    }
+  ],
+  "shui": [
+    {
+      "char": "水",
+      "freq": 49963
+    }
+  ],
+  "dou": [
+    {
+      "char": "窦",
+      "freq": 49962
+    },
+    {
+      "char": "钭",
+      "freq": 49755
+    },
+    {
+      "char": "都",
+      "freq": 49652
+    }
+  ],
+  "peng": [
+    {
+      "char": "彭",
+      "freq": 49954
+    },
+    {
+      "char": "蓬",
+      "freq": 49769
+    }
+  ],
+  "lang": [
+    {
+      "char": "郎",
+      "freq": 49953
+    }
+  ],
+  "ma": [
+    {
+      "char": "马",
+      "freq": 49949
+    },
+    {
+      "char": "麻",
+      "freq": 49866
+    }
+  ],
+  "fei": [
+    {
+      "char": "费",
+      "freq": 49936
+    }
+  ],
+  "lian": [
+    {
+      "char": "廉",
+      "freq": 49935
+    },
+    {
+      "char": "连",
+      "freq": 49671
+    }
+  ],
+  "lei": [
+    {
+      "char": "雷",
+      "freq": 49932
+    }
+  ],
+  "teng": [
+    {
+      "char": "滕",
+      "freq": 49928
+    }
+  ],
+  "luo": [
+    {
+      "char": "罗",
+      "freq": 49926
+    },
+    {
+      "char": "骆",
+      "freq": 49849
+    }
+  ],
+  "pi": [
+    {
+      "char": "皮",
+      "freq": 49916
+    }
+  ],
+  "bian": [
+    {
+      "char": "卞",
+      "freq": 49915
+    },
+    {
+      "char": "边",
+      "freq": 49688
+    }
+  ],
+  "kang": [
+    {
+      "char": "康",
+      "freq": 49913
+    }
+  ],
+  "huang": [
+    {
+      "char": "黄",
+      "freq": 49905
+    }
+  ],
+  "huo": [
+    {
+      "char": "和",
+      "freq": 49904
+    },
+    {
+      "char": "霍",
+      "freq": 49841
+    }
+  ],
+  "zang": [
+    {
+      "char": "臧",
+      "freq": 49889
+    }
+  ],
+  "pang": [
+    {
+      "char": "庞",
+      "freq": 49881
+    },
+    {
+      "char": "逄",
+      "freq": 49705
+    }
+  ],
+  "du": [
+    {
+      "char": "杜",
+      "freq": 49872
+    },
+    {
+      "char": "堵",
+      "freq": 49701
+    },
+    {
+      "char": "都",
+      "freq": 49652
+    },
+    {
+      "char": "竺",
+      "freq": 49599
+    }
+  ],
+  "ruan": [
+    {
+      "char": "阮",
+      "freq": 49871
+    }
+  ],
+  "min": [
+    {
+      "char": "闵",
+      "freq": 49869
+    }
+  ],
+  "qiang": [
+    {
+      "char": "强",
+      "freq": 49865
+    }
+  ],
+  "cai": [
+    {
+      "char": "蔡",
+      "freq": 49846
+    }
+  ],
+  "zan": [
+    {
+      "char": "昝",
+      "freq": 49836
+    }
+  ],
+  "mou": [
+    {
+      "char": "缪",
+      "freq": 49829
+    }
+  ],
+  "miu": [
+    {
+      "char": "缪",
+      "freq": 49829
+    }
+  ],
+  "gan": [
+    {
+      "char": "干",
+      "freq": 49828
+    },
+    {
+      "char": "甘",
+      "freq": 49756
+    }
+  ],
+  "ying": [
+    {
+      "char": "应",
+      "freq": 49826
+    },
+    {
+      "char": "景",
+      "freq": 49748
+    }
+  ],
+  "hang": [
+    {
+      "char": "杭",
+      "freq": 49818
+    }
+  ],
+  "niu": [
+    {
+      "char": "钮",
+      "freq": 49810
+    },
+    {
+      "char": "牛",
+      "freq": 49691
+    }
+  ],
+  "weng": [
+    {
+      "char": "翁",
+      "freq": 49801
+    }
+  ],
+  "zhen": [
+    {
+      "char": "甄",
+      "freq": 49796
+    }
+  ],
+  "rui": [
+    {
+      "char": "芮",
+      "freq": 49792
+    }
+  ],
+  "duan": [
+    {
+      "char": "段",
+      "freq": 49783
+    }
+  ],
+  "ang": [
+    {
+      "char": "仰",
+      "freq": 49765
+    }
+  ],
+  "luan": [
+    {
+      "char": "栾",
+      "freq": 49758
+    }
+  ],
+  "long": [
+    {
+      "char": "龙",
+      "freq": 49745
+    },
+    {
+      "char": "隆",
+      "freq": 49633
+    }
+  ],
+  "suo": [
+    {
+      "char": "索",
+      "freq": 49728
+    }
+  ],
+  "lai": [
+    {
+      "char": "赖",
+      "freq": 49725
+    }
+  ],
+  "neng": [
+    {
+      "char": "能",
+      "freq": 49715
+    }
+  ],
+  "wen": [
+    {
+      "char": "闻",
+      "freq": 49712
+    },
+    {
+      "char": "温",
+      "freq": 49680
+    },
+    {
+      "char": "文",
+      "freq": 49646
+    }
+  ],
+  "dang": [
+    {
+      "char": "党",
+      "freq": 49710
+    }
+  ],
+  "ran": [
+    {
+      "char": "冉",
+      "freq": 49700
+    }
+  ],
+  "sang": [
+    {
+      "char": "桑",
+      "freq": 49694
+    }
+  ],
+  "chai": [
+    {
+      "char": "柴",
+      "freq": 49676
+    }
+  ],
+  "huan": [
+    {
+      "char": "宦",
+      "freq": 49668
+    },
+    {
+      "char": "桓",
+      "freq": 49594
+    }
+  ],
+  "geng": [
+    {
+      "char": "耿",
+      "freq": 49651
+    }
+  ],
+  "man": [
+    {
+      "char": "满",
+      "freq": 49650
+    }
+  ],
+  "ou": [
+    {
+      "char": "欧",
+      "freq": 49640
+    }
+  ],
+  "she": [
+    {
+      "char": "厍",
+      "freq": 49630
+    }
+  ],
+  "nie": [
+    {
+      "char": "聂",
+      "freq": 49629
+    },
+    {
+      "char": "乜",
+      "freq": 49613
+    }
+  ],
+  "rao": [
+    {
+      "char": "饶",
+      "freq": 49618
+    }
+  ],
+  "sha": [
+    {
+      "char": "沙",
+      "freq": 49614
+    }
+  ],
+  "mie": [
+    {
+      "char": "乜",
+      "freq": 49613
+    }
+  ],
+  "kuai": [
+    {
+      "char": "蒯",
+      "freq": 49606
+    }
+  ],
+  "gai": [
+    {
+      "char": "盖",
+      "freq": 49596
     }
   ]
 }
