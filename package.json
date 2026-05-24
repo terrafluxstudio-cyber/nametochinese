@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "russian:decode": "node scripts/decode_csv.mjs",
     "russian:setup": "node --env-file=.env.local scripts/setup_russian_all.mjs"
   },
   "dependencies": {
@@ -36,6 +37,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
     "node-fetch": "^3.3.2",
+    "pinyin": "^4.0.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
