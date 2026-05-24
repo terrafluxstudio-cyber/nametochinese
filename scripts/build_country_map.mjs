@@ -1,0 +1,38 @@
+import { writeFileSync } from 'fs';
+
+// 初始国家→语言映射，覆盖最常见翻译场景
+// 语言名称必须和 data/transliteration/ 文件名对应
+const countryMap = {
+  俄罗斯: { emoji: '🇷🇺', languages: ['俄語'] },
+  西班牙: { emoji: '🇪🇸', languages: ['西班牙語'] },
+  法国: { emoji: '🇫🇷', languages: ['法語'] },
+  德国: { emoji: '🇩🇪', languages: ['德語'] },
+  意大利: { emoji: '🇮🇹', languages: ['意大利語'] },
+  葡萄牙: { emoji: '🇵🇹', languages: ['葡萄牙語'] },
+  英国: { emoji: '🇬🇧', languages: ['英語'] },
+  美国: { emoji: '🇺🇸', languages: ['英語'] },
+  日本: { emoji: '🇯🇵', languages: ['日語'] },
+  韩国: { emoji: '🇰🇷', languages: ['朝鮮語'] },
+  越南: { emoji: '🇻🇳', languages: ['越南語'] },
+  泰国: { emoji: '🇹🇭', languages: ['泰語'] },
+  菲律宾: { emoji: '🇵🇭', languages: ['英語', '他加祿語'] },
+  丹麦: { emoji: '🇩🇰', languages: ['丹麥語'] },
+  斯里兰卡: { emoji: '🇱🇰', languages: ['英語', '僧伽羅語', '泰米爾語'] },
+  印度: { emoji: '🇮🇳', languages: ['英語', '印地語'] },
+  波兰: { emoji: '🇵🇱', languages: ['波蘭語'] },
+  荷兰: { emoji: '🇳🇱', languages: ['荷蘭語'] },
+  瑞典: { emoji: '🇸🇪', languages: ['瑞典語'] },
+  挪威: { emoji: '🇳🇴', languages: ['挪威語'] },
+  芬兰: { emoji: '🇫🇮', languages: ['芬蘭語'] },
+  捷克: { emoji: '🇨🇿', languages: ['捷克語'] },
+  匈牙利: { emoji: '🇭🇺', languages: ['匈牙利語'] },
+  乌克兰: { emoji: '🇺🇦', languages: ['烏克蘭語'] },
+  土耳其: { emoji: '🇹🇷', languages: ['土耳其語'] },
+  阿拉伯: { emoji: '🌍', languages: ['阿拉伯語'] },
+  伊朗: { emoji: '🇮🇷', languages: ['波斯語'] },
+  葡语非洲: { emoji: '🌍', languages: ['葡萄牙語'] },
+};
+
+writeFileSync('./data/country_languages.json', JSON.stringify(countryMap, null, 2), 'utf8');
+console.log('country_languages.json 已生成');
+console.log('请手动补充更多国家，并确认语言名称与 data/transliteration/ 文件名一致');
