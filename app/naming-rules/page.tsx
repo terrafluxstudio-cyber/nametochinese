@@ -1,4 +1,20 @@
+import type { Metadata } from "next";
 import Link from 'next/link';
+import NavBar from '@/components/NavBar';
+
+export const metadata: Metadata = {
+  title: "各语言人名规则",
+  description:
+    "西班牙语、俄语、阿拉伯语、日语、韩语等16种语言的人名构成规则详解，翻译工作者必备参考。",
+  keywords: [
+    "外国人名规则",
+    "人名翻译规则",
+    "西班牙语人名",
+    "阿拉伯语人名",
+    "俄语人名规则",
+  ],
+  alternates: { canonical: "/naming-rules" },
+};
 
 const sections = [
   {
@@ -300,12 +316,9 @@ const sections = [
 
 export default function NamingRulesPage() {
   return (
-    <main className="min-h-screen px-4 py-16 max-w-3xl mx-auto" style={{ fontFamily: 'Georgia, serif', background: '#F7F5F0' }}>
-      {/* 导航 */}
-      <div className="mb-8 text-sm text-gray-400">
-        <Link href="/" className="hover:text-gray-600">← 返回查询</Link>
-      </div>
-
+    <>
+      <NavBar />
+      <main className="min-h-screen px-4 py-16 max-w-3xl mx-auto" style={{ fontFamily: 'Georgia, serif', background: '#F7F5F0' }}>
       <h1 className="text-3xl font-bold text-center mb-3" style={{ color: '#1A1A1A' }}>
         各语言人名规则
       </h1>
@@ -372,5 +385,6 @@ export default function NamingRulesPage() {
         内容依据语言学规律整理，仅供翻译参考，具体译名以权威辞典为准
       </footer>
     </main>
+    </>
   );
 }

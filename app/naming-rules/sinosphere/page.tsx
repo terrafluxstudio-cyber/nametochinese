@@ -1,4 +1,20 @@
+import type { Metadata } from "next";
 import Link from 'next/link';
+import NavBar from '@/components/NavBar';
+
+export const metadata: Metadata = {
+  title: "台湾·新加坡·马来西亚华人英文名写法",
+  description:
+    "台湾威妥玛拼音、新加坡马来西亚闽南粤语方言拼音详解，识别华人英文姓名并还原中文名的完整指南。",
+  keywords: [
+    "台湾人英文名",
+    "新加坡华人姓名",
+    "马来西亚华人名字",
+    "威妥玛拼音",
+    "Tan陈Lim林",
+  ],
+  alternates: { canonical: "/naming-rules/sinosphere" },
+};
 
 const sections = [
   {
@@ -114,14 +130,9 @@ Datuk / Dato'（拿督）—— 联邦或州级荣誉
 
 export default function SinosphereNamingPage() {
   return (
-    <main className="min-h-screen px-4 py-16 max-w-3xl mx-auto" style={{ fontFamily: 'Georgia, serif', background: '#F7F5F0' }}>
-      {/* 导航 */}
-      <div className="mb-8 text-sm text-gray-400 flex gap-3">
-        <Link href="/" className="hover:text-gray-600">← 返回查询</Link>
-        <span>·</span>
-        <Link href="/naming-rules" className="hover:text-gray-600">各语言人名规则</Link>
-      </div>
-
+    <>
+      <NavBar />
+      <main className="min-h-screen px-4 py-16 max-w-3xl mx-auto" style={{ fontFamily: 'Georgia, serif', background: '#F7F5F0' }}>
       <h1 className="text-3xl font-bold text-center mb-3" style={{ color: '#1A1A1A' }}>
         台湾·新加坡·马来西亚<br />华人英文姓名写法
       </h1>
@@ -225,5 +236,6 @@ export default function SinosphereNamingPage() {
         内容依据语言学及命名惯例整理，仅供翻译参考
       </footer>
     </main>
+    </>
   );
 }
