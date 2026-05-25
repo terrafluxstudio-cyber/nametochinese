@@ -71,6 +71,9 @@ export default function Home() {
         <Link href="/convert" className="text-sm text-gray-400 hover:text-gray-600 underline underline-offset-2">
           外文名音译引擎 →
         </Link>
+        <Link href="/zh-convert" className="text-sm text-gray-400 hover:text-gray-600 underline underline-offset-2">
+          简繁转换 →
+        </Link>
       </div>
 
       {/* 底部 */}
