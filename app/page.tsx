@@ -136,8 +136,14 @@ export default function Home() {
         <section className="relative max-w-5xl mx-auto px-4 pt-16 pb-12 flex flex-col md:flex-row items-center gap-8">
           <div className="flex-1 w-full">
             <h1
-              className="text-4xl font-bold mb-2 tracking-tight"
-              style={{ fontFamily: 'var(--font-serif)', color: '#1A1A1A' }}
+              className="text-5xl mb-2"
+              style={{
+                fontFamily: 'var(--font-serif)',
+                color: '#1A1A1A',
+                fontWeight: 500,
+                letterSpacing: '0.04em',
+                lineHeight: 1.2,
+              }}
             >
               外文译名词典
             </h1>
@@ -149,7 +155,7 @@ export default function Home() {
               <input
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder="输入英文、俄文、韩文、日文或拼音…"
+                placeholder="Adams · Александр · 田中 · zhang wei…"
                 className="w-full text-lg px-5 py-4 pr-12 rounded-2xl outline-none focus:ring-2 focus:ring-[#2C5F8A]/30"
                 style={{
                   background: '#fff',
@@ -183,11 +189,6 @@ export default function Home() {
               </div>
             )}
 
-            {!loading && !query && (
-              <p className="text-xs text-gray-400 mt-3 ml-1">
-                自动识别语言 · 支持英文、俄文、韩文、日文、拼音
-              </p>
-            )}
           </div>
 
           <div className="hidden md:block w-72 shrink-0">
@@ -198,6 +199,16 @@ export default function Home() {
               height={432}
               className="w-full h-auto object-contain"
               priority
+              style={{
+                maskImage:
+                  'linear-gradient(to right, transparent 0%, black 18%, black 80%, transparent 100%), ' +
+                  'linear-gradient(to bottom, transparent 0%, black 12%, black 88%, transparent 100%)',
+                maskComposite: 'intersect',
+                WebkitMaskImage:
+                  'linear-gradient(to right, transparent 0%, black 18%, black 80%, transparent 100%), ' +
+                  'linear-gradient(to bottom, transparent 0%, black 12%, black 88%, transparent 100%)',
+                WebkitMaskComposite: 'source-in',
+              }}
             />
           </div>
         </section>
