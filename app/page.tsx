@@ -59,6 +59,9 @@ export default function Home() {
         <Link href="/ko" className="text-sm text-gray-400 hover:text-gray-600 underline underline-offset-2">
           韩国人名查询 →
         </Link>
+        <Link href="/ja" className="text-sm text-gray-400 hover:text-gray-600 underline underline-offset-2">
+          日本人名查询 →
+        </Link>
         <Link href="/naming-rules" className="text-sm text-gray-400 hover:text-gray-600 underline underline-offset-2">
           各语言人名规则 →
         </Link>
