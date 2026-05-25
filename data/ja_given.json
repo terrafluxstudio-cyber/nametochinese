@@ -1,0 +1,540 @@
+[
+  {
+    "romaji": "ichiro",
+    "candidates": [
+      {
+        "ja": "一郎",
+        "zh": "一郎"
+      },
+      {
+        "ja": "市郎",
+        "zh": "市郎"
+      }
+    ],
+    "gender": "M"
+  },
+  {
+    "romaji": "jiro",
+    "candidates": [
+      {
+        "ja": "二郎",
+        "zh": "二郎"
+      },
+      {
+        "ja": "次郎",
+        "zh": "次郎"
+      }
+    ],
+    "gender": "M"
+  },
+  {
+    "romaji": "keizo",
+    "candidates": [
+      {
+        "ja": "敬三",
+        "zh": "敬三"
+      },
+      {
+        "ja": "惠三",
+        "zh": "惠三"
+      },
+      {
+        "ja": "圭三",
+        "zh": "圭三"
+      }
+    ],
+    "gender": "M"
+  },
+  {
+    "romaji": "kenji",
+    "candidates": [
+      {
+        "ja": "健二",
+        "zh": "健二"
+      },
+      {
+        "ja": "賢二",
+        "zh": "贤二"
+      },
+      {
+        "ja": "謙二",
+        "zh": "谦二"
+      }
+    ],
+    "gender": "M"
+  },
+  {
+    "romaji": "kenichi",
+    "candidates": [
+      {
+        "ja": "健一",
+        "zh": "健一"
+      },
+      {
+        "ja": "賢一",
+        "zh": "贤一"
+      }
+    ],
+    "gender": "M"
+  },
+  {
+    "romaji": "takeshi",
+    "candidates": [
+      {
+        "ja": "武",
+        "zh": "武"
+      },
+      {
+        "ja": "猛",
+        "zh": "猛"
+      },
+      {
+        "ja": "剛",
+        "zh": "刚"
+      }
+    ],
+    "gender": "M"
+  },
+  {
+    "romaji": "hiroshi",
+    "candidates": [
+      {
+        "ja": "浩",
+        "zh": "浩"
+      },
+      {
+        "ja": "博",
+        "zh": "博"
+      },
+      {
+        "ja": "寛",
+        "zh": "宽"
+      }
+    ],
+    "gender": "M"
+  },
+  {
+    "romaji": "masaru",
+    "candidates": [
+      {
+        "ja": "勝",
+        "zh": "胜"
+      },
+      {
+        "ja": "優",
+        "zh": "优"
+      }
+    ],
+    "gender": "M"
+  },
+  {
+    "romaji": "akira",
+    "candidates": [
+      {
+        "ja": "明",
+        "zh": "明"
+      },
+      {
+        "ja": "亮",
+        "zh": "亮"
+      },
+      {
+        "ja": "昭",
+        "zh": "昭"
+      }
+    ],
+    "gender": "M"
+  },
+  {
+    "romaji": "shinjiro",
+    "candidates": [
+      {
+        "ja": "進次郎",
+        "zh": "进次郎"
+      },
+      {
+        "ja": "慎二郎",
+        "zh": "慎二郎"
+      }
+    ],
+    "gender": "M"
+  },
+  {
+    "romaji": "shinzo",
+    "candidates": [
+      {
+        "ja": "晋三",
+        "zh": "晋三"
+      },
+      {
+        "ja": "信三",
+        "zh": "信三"
+      }
+    ],
+    "gender": "M"
+  },
+  {
+    "romaji": "taro",
+    "candidates": [
+      {
+        "ja": "太郎",
+        "zh": "太郎"
+      },
+      {
+        "ja": "多朗",
+        "zh": "多朗"
+      }
+    ],
+    "gender": "M"
+  },
+  {
+    "romaji": "hideo",
+    "candidates": [
+      {
+        "ja": "英夫",
+        "zh": "英夫"
+      },
+      {
+        "ja": "秀雄",
+        "zh": "秀雄"
+      },
+      {
+        "ja": "英雄",
+        "zh": "英雄"
+      }
+    ],
+    "gender": "M"
+  },
+  {
+    "romaji": "shohei",
+    "candidates": [
+      {
+        "ja": "翔平",
+        "zh": "翔平"
+      },
+      {
+        "ja": "昇平",
+        "zh": "昇平"
+      }
+    ],
+    "gender": "M"
+  },
+  {
+    "romaji": "ryota",
+    "candidates": [
+      {
+        "ja": "良太",
+        "zh": "良太"
+      },
+      {
+        "ja": "涼太",
+        "zh": "凉太"
+      }
+    ],
+    "gender": "M"
+  },
+  {
+    "romaji": "yuki",
+    "candidates": [
+      {
+        "ja": "勇樹",
+        "zh": "勇树"
+      },
+      {
+        "ja": "雪",
+        "zh": "雪"
+      },
+      {
+        "ja": "幸",
+        "zh": "幸"
+      }
+    ],
+    "gender": "U"
+  },
+  {
+    "romaji": "kei",
+    "candidates": [
+      {
+        "ja": "圭",
+        "zh": "圭"
+      },
+      {
+        "ja": "慶",
+        "zh": "庆"
+      },
+      {
+        "ja": "恵",
+        "zh": "惠"
+      }
+    ],
+    "gender": "U"
+  },
+  {
+    "romaji": "daiki",
+    "candidates": [
+      {
+        "ja": "大輝",
+        "zh": "大辉"
+      },
+      {
+        "ja": "大樹",
+        "zh": "大树"
+      }
+    ],
+    "gender": "M"
+  },
+  {
+    "romaji": "sota",
+    "candidates": [
+      {
+        "ja": "蒼太",
+        "zh": "苍太"
+      },
+      {
+        "ja": "颯太",
+        "zh": "飒太"
+      }
+    ],
+    "gender": "M"
+  },
+  {
+    "romaji": "yuto",
+    "candidates": [
+      {
+        "ja": "勇人",
+        "zh": "勇人"
+      },
+      {
+        "ja": "優斗",
+        "zh": "优斗"
+      }
+    ],
+    "gender": "M"
+  },
+  {
+    "romaji": "yoko",
+    "candidates": [
+      {
+        "ja": "洋子",
+        "zh": "洋子"
+      },
+      {
+        "ja": "陽子",
+        "zh": "阳子"
+      },
+      {
+        "ja": "曜子",
+        "zh": "曜子"
+      }
+    ],
+    "gender": "F"
+  },
+  {
+    "romaji": "keiko",
+    "candidates": [
+      {
+        "ja": "恵子",
+        "zh": "惠子"
+      },
+      {
+        "ja": "敬子",
+        "zh": "敬子"
+      },
+      {
+        "ja": "佳子",
+        "zh": "佳子"
+      }
+    ],
+    "gender": "F"
+  },
+  {
+    "romaji": "naomi",
+    "candidates": [
+      {
+        "ja": "直美",
+        "zh": "直美"
+      },
+      {
+        "ja": "奈緒美",
+        "zh": "奈绪美"
+      }
+    ],
+    "gender": "F"
+  },
+  {
+    "romaji": "haruka",
+    "candidates": [
+      {
+        "ja": "遥",
+        "zh": "遥"
+      },
+      {
+        "ja": "晴香",
+        "zh": "晴香"
+      },
+      {
+        "ja": "春花",
+        "zh": "春花"
+      }
+    ],
+    "gender": "F"
+  },
+  {
+    "romaji": "sakura",
+    "candidates": [
+      {
+        "ja": "桜",
+        "zh": "樱"
+      },
+      {
+        "ja": "咲良",
+        "zh": "咲良"
+      }
+    ],
+    "gender": "F"
+  },
+  {
+    "romaji": "akiko",
+    "candidates": [
+      {
+        "ja": "明子",
+        "zh": "明子"
+      },
+      {
+        "ja": "秋子",
+        "zh": "秋子"
+      },
+      {
+        "ja": "昭子",
+        "zh": "昭子"
+      }
+    ],
+    "gender": "F"
+  },
+  {
+    "romaji": "noriko",
+    "candidates": [
+      {
+        "ja": "典子",
+        "zh": "典子"
+      },
+      {
+        "ja": "紀子",
+        "zh": "纪子"
+      },
+      {
+        "ja": "則子",
+        "zh": "则子"
+      }
+    ],
+    "gender": "F"
+  },
+  {
+    "romaji": "hanako",
+    "candidates": [
+      {
+        "ja": "花子",
+        "zh": "花子"
+      }
+    ],
+    "gender": "F"
+  },
+  {
+    "romaji": "misaki",
+    "candidates": [
+      {
+        "ja": "美咲",
+        "zh": "美咲"
+      },
+      {
+        "ja": "岬",
+        "zh": "岬"
+      }
+    ],
+    "gender": "F"
+  },
+  {
+    "romaji": "ayaka",
+    "candidates": [
+      {
+        "ja": "彩花",
+        "zh": "彩花"
+      },
+      {
+        "ja": "綾香",
+        "zh": "绫香"
+      }
+    ],
+    "gender": "F"
+  },
+  {
+    "romaji": "yuna",
+    "candidates": [
+      {
+        "ja": "結菜",
+        "zh": "结菜"
+      },
+      {
+        "ja": "優奈",
+        "zh": "优奈"
+      }
+    ],
+    "gender": "F"
+  },
+  {
+    "romaji": "rina",
+    "candidates": [
+      {
+        "ja": "里奈",
+        "zh": "里奈"
+      },
+      {
+        "ja": "莉奈",
+        "zh": "莉奈"
+      }
+    ],
+    "gender": "F"
+  },
+  {
+    "romaji": "aoi",
+    "candidates": [
+      {
+        "ja": "葵",
+        "zh": "葵"
+      },
+      {
+        "ja": "蒼",
+        "zh": "苍"
+      }
+    ],
+    "gender": "F"
+  },
+  {
+    "romaji": "mio",
+    "candidates": [
+      {
+        "ja": "澪",
+        "zh": "澪"
+      },
+      {
+        "ja": "美緒",
+        "zh": "美绪"
+      }
+    ],
+    "gender": "F"
+  },
+  {
+    "romaji": "mai",
+    "candidates": [
+      {
+        "ja": "舞",
+        "zh": "舞"
+      },
+      {
+        "ja": "麻衣",
+        "zh": "麻衣"
+      }
+    ],
+    "gender": "F"
+  }
+]
