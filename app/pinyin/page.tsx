@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import Link from 'next/link';
+import NavBar from '@/components/NavBar';
 
 type CharFreq = { char: string; freq: number };
 type Result = {
@@ -36,16 +36,12 @@ export default function PinyinPage() {
   }
 
   return (
-    <main
+    <>
+      <NavBar />
+      <main
       className="min-h-screen px-4 py-16 max-w-2xl mx-auto"
       style={{ fontFamily: 'Georgia, serif', background: '#F7F5F0' }}
     >
-      <div className="mb-8 text-sm text-gray-400">
-        <Link href="/" className="hover:text-gray-600">
-          ← 返回查询
-        </Link>
-      </div>
-
       <h1 className="text-3xl font-bold text-center mb-2" style={{ color: '#1A1A1A' }}>
         拼音反查中文姓名
       </h1>
@@ -164,5 +160,6 @@ export default function PinyinPage() {
         </div>
       )}
     </main>
+    </>
   );
 }

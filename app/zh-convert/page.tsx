@@ -1,6 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
+import NavBar from '@/components/NavBar';
 import * as OpenCC from 'opencc-js';
 
 type ConvertMode = 'tw' | 'hk' | 'simp';
@@ -53,15 +53,12 @@ export default function ZhConvertPage() {
   const outputCount = output.length;
 
   return (
-    <main
+    <>
+      <NavBar />
+      <main
       className="min-h-screen px-4 py-16 max-w-3xl mx-auto"
       style={{ fontFamily: 'Georgia, serif', background: '#F7F5F0' }}
     >
-      {/* 导航 */}
-      <div className="mb-8 text-sm text-gray-400">
-        <Link href="/" className="hover:text-gray-600">← 返回查询</Link>
-      </div>
-
       <h1 className="text-3xl font-bold text-center mb-2" style={{ color: '#1A1A1A' }}>
         简繁中文转换
       </h1>
@@ -167,8 +164,9 @@ export default function ZhConvertPage() {
       </div>
 
       <footer className="mt-12 text-center text-xs text-gray-300">
-        © {new Date().getFullYear()} nametochinese.com
+        © {new Date().getFullYear()} 外文译名词典 · nametochinese.com
       </footer>
     </main>
+    </>
   );
 }

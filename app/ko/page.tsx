@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import Link from 'next/link';
+import NavBar from '@/components/NavBar';
 
 type KoName = {
   korean: string;
@@ -36,12 +36,9 @@ export default function KoPage() {
   }
 
   return (
-    <main className="min-h-screen px-4 py-16 max-w-2xl mx-auto" style={{ fontFamily: 'Georgia, serif' }}>
-      <div className="mb-8 text-sm text-gray-400 flex gap-4">
-        <Link href="/" className="hover:text-gray-600">← 英文名查询</Link>
-        <Link href="/ru" className="hover:text-gray-600">俄语名查询</Link>
-      </div>
-
+    <>
+      <NavBar />
+      <main className="min-h-screen px-4 py-16 max-w-2xl mx-auto" style={{ fontFamily: 'Georgia, serif' }}>
       <h1 className="text-3xl font-bold text-center mb-2" style={{ color: '#1A1A1A' }}>
         韩国人名查询
       </h1>
@@ -105,5 +102,6 @@ export default function KoPage() {
         数据来源：韩国统计厅热门名字（1940–2021），仅含有汉字名的条目
       </p>
     </main>
+    </>
   );
 }

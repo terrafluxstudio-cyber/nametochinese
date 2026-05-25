@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
+import NavBar from '@/components/NavBar';
 
 type Segment = { input: string; output: string; color: number };
 type Result = { result: string; segments: Segment[]; language: string; hasRules: boolean };
@@ -69,16 +69,12 @@ export default function ConvertPage() {
   const currentLangs = countries[selectedCountry]?.languages ?? [];
 
   return (
-    <main
+    <>
+      <NavBar />
+      <main
       className="min-h-screen px-4 py-16 max-w-3xl mx-auto"
       style={{ fontFamily: 'Georgia, serif' }}
     >
-      <div className="mb-8 text-sm text-gray-400">
-        <Link href="/" className="hover:text-gray-600">
-          ← 英文名查询
-        </Link>
-      </div>
-
       <h1 className="text-3xl font-bold text-center mb-2" style={{ color: '#1A1A1A' }}>
         外文名音译引擎
       </h1>
@@ -197,5 +193,6 @@ export default function ConvertPage() {
         <p className="text-center text-gray-400">未能转换，该语言规则可能未收录</p>
       )}
     </main>
+    </>
   );
 }

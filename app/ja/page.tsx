@@ -1,6 +1,6 @@
 'use client';
 import { useState, useEffect, useMemo } from 'react';
-import Link from 'next/link';
+import NavBar from '@/components/NavBar';
 import * as OpenCC from 'opencc-js';
 
 type Tab = 'japanese' | 'romaji';
@@ -77,16 +77,12 @@ export default function JaPage() {
   }
 
   return (
-    <main
+    <>
+      <NavBar />
+      <main
       className="min-h-screen px-4 py-16 max-w-2xl mx-auto"
       style={{ fontFamily: 'Georgia, serif', background: '#F7F5F0' }}
     >
-      <div className="mb-8 text-sm text-gray-400">
-        <Link href="/" className="hover:text-gray-600">
-          ← 返回查询
-        </Link>
-      </div>
-
       <h1 className="text-3xl font-bold text-center mb-2" style={{ color: '#1A1A1A' }}>
         日本人名翻译
       </h1>
@@ -290,8 +286,9 @@ export default function JaPage() {
       )}
 
       <footer className="mt-16 text-center text-xs text-gray-300">
-        © {new Date().getFullYear()} nametochinese.com
+        © {new Date().getFullYear()} 外文译名词典 · nametochinese.com
       </footer>
     </main>
+    </>
   );
 }

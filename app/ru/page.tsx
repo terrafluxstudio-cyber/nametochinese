@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import Link from 'next/link';
+import NavBar from '@/components/NavBar';
 
 type RuName = {
   russian: string;
@@ -38,11 +38,9 @@ export default function RuPage() {
   }
 
   return (
-    <main className="min-h-screen px-4 py-16 max-w-2xl mx-auto" style={{ fontFamily: 'Georgia, serif' }}>
-      <div className="mb-8 text-sm text-gray-400">
-        <Link href="/" className="hover:text-gray-600">← 英文名查询</Link>
-      </div>
-
+    <>
+      <NavBar />
+      <main className="min-h-screen px-4 py-16 max-w-2xl mx-auto" style={{ fontFamily: 'Georgia, serif' }}>
       <h1 className="text-3xl font-bold text-center mb-2" style={{ color: '#1A1A1A' }}>
         俄语人名查询
       </h1>
@@ -109,5 +107,6 @@ export default function RuPage() {
         <p className="text-center text-gray-400 mt-8">未找到结果</p>
       )}
     </main>
+    </>
   );
 }
