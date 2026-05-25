@@ -9,7 +9,7 @@ const NAV_ITEMS = [
     label: '查译名',
     href: '/',
     children: [
-      { label: '英文／多语言人名', href: '/', desc: '67万词条主库' },
+      { label: '英文／多语言人名', href: '/#search', desc: '67万词条主库' },
       { label: '俄语人名', href: '/ru', desc: '含父称、昵称' },
       { label: '韩国人名', href: '/ko', desc: '含汉字名对照' },
       { label: '日本人名', href: '/ja', desc: '汉字·片假名·罗马字' },
