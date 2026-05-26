@@ -54,7 +54,7 @@ export default function NavBar() {
           />
           <span
             className="text-base font-semibold tracking-tight"
-            style={{ fontFamily: 'var(--font-xuan)', color: '#1A1A1A' }}
+            style={{ fontFamily: "'XuanZongTi', var(--font-serif)", color: '#1A1A1A' }}
           >
             外文译名词典
           </span>
