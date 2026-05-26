@@ -138,10 +138,10 @@ export default function Home() {
             <h1
               className="text-5xl mb-2"
               style={{
-                fontFamily: 'var(--font-serif)',
+                fontFamily: 'var(--font-xuan)',
                 color: '#1A1A1A',
-                fontWeight: 500,
-                letterSpacing: '0.04em',
+                fontWeight: 400,
+                letterSpacing: '0.06em',
                 lineHeight: 1.2,
               }}
             >
