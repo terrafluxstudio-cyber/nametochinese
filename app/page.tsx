@@ -138,7 +138,7 @@ export default function Home() {
             <h1
               className="text-5xl mb-2"
               style={{
-                fontFamily: 'var(--font-xuan)',
+                fontFamily: "'XuanZongTi', var(--font-serif)",
                 color: '#1A1A1A',
                 fontWeight: 400,
                 letterSpacing: '0.06em',
