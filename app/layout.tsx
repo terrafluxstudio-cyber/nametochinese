@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Noto_Serif_SC, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 
@@ -12,6 +13,12 @@ const notoSerifSC = Noto_Serif_SC({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const xuanZongTi = localFont({
+  src: "../public/fonts/XuanZongTi.ttf",
+  variable: "--font-xuan",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -55,7 +62,7 @@ export default function RootLayout({
   return (
     <html
       lang="zh-CN"
-      className={`${notoSerifSC.variable} ${geistMono.variable} h-full`}
+      className={`${notoSerifSC.variable} ${geistMono.variable} ${xuanZongTi.variable} h-full`}
     >
       <body className="min-h-full flex flex-col bg-[#F7F5F0]">{children}</body>
       <GoogleAnalytics gaId="G-SX777JZ4D3" />
