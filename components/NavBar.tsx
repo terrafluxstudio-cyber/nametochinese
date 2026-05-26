@@ -48,9 +48,9 @@ export default function NavBar() {
           <Image
             src="/logo-icon.png"
             alt="外文译名词典"
-            width={32}
-            height={32}
-            className="rounded"
+            width={40}
+            height={40}
+            className="rounded-lg"
           />
           <span
             className="text-base font-semibold tracking-tight"
