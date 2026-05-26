@@ -145,7 +145,7 @@ export default function Home() {
                 lineHeight: 1.2,
               }}
             >
-              外文译名词典
+              <span style={{ fontSize: '1.15em' }}>外</span>文译名词典
             </h1>
             <p className="text-gray-500 text-sm mb-8">
               收录 67 万人名、17 万地名，专为翻译工作者设计
