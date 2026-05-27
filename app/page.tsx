@@ -201,12 +201,12 @@ export default function Home() {
               priority
               style={{
                 maskImage:
-                  'linear-gradient(to right, transparent 0%, black 18%, black 80%, transparent 100%), ' +
-                  'linear-gradient(to bottom, transparent 0%, black 12%, black 88%, transparent 100%)',
+                  'linear-gradient(to right, transparent 0%, black 22%, black 100%), ' +
+                  'linear-gradient(to top, transparent 0%, black 18%, black 100%)',
                 maskComposite: 'intersect',
                 WebkitMaskImage:
-                  'linear-gradient(to right, transparent 0%, black 18%, black 80%, transparent 100%), ' +
-                  'linear-gradient(to bottom, transparent 0%, black 12%, black 88%, transparent 100%)',
+                  'linear-gradient(to right, transparent 0%, black 22%, black 100%), ' +
+                  'linear-gradient(to top, transparent 0%, black 18%, black 100%)',
                 WebkitMaskComposite: 'source-in',
               }}
             />

@@ -50,18 +50,25 @@
 
 **已完成：**
 - [x] 数据清洗 → names.db（SQLite，含索引）
-- [x] 域名购买：nametochinese.com
-- [x] 技术架构确定：Next.js 15 + Turso + Vercel
-- [x] Vercel部署上线：https://nametochinese.vercel.app
-- [x] DNS已添加到Vercel（待Cloudflare配置生效）
-- [x] API测试通过：/api/search?q=Adams → 亚当斯
+- [x] 域名购买 + DNS配置：nametochinese.com → 76.76.21.21
+- [x] 技术架构：Next.js 16 + Turso + Vercel
+- [x] 上线：https://nametochinese.com
+- [x] Rate limiting：Upstash Redis，60次/分钟/IP
+- [x] 功能页：/ru /ko /ja /convert /pinyin /zh-convert /naming-rules /naming-rules/sinosphere
+- [x] SEO：各页面 metadata、sitemap、robots
+- [x] Google Analytics：G-SX777JZ4D3
+- [x] UI重构：顶部导航、hero区、工具卡片
+- [x] 玄宗体标题字体（8KB subset woff2）
+- [x] 新logo（印章书法风格）+ favicon
 
-**进行中：**
-- [ ] TASK_05 Rate limiting（Upstash）
+**UI待完成（明天用 npm run dev 本地调试）：**
+- [ ] 标题"外"字 1.15em 是否到位（需视觉确认）
+- [ ] Hero图上边缘mask裁掉书脊——只保留左侧+底部渐隐
+- [ ] 子页面内容太空：/ru /ko /ja 等默认展示热门词条
 
-**待做：**
-- [ ] DNS生效确认（A记录 76.76.21.21）
-- [ ] UI深化（色调、字体、移动端）
+**待做（功能）：**
+- [ ] 子页面默认内容填充
+- [ ] 移动端适配检查
 - [ ] 接入八字起名站
 
 ---
@@ -79,15 +86,19 @@
 
 ## 六、Cursor任务文件
 
-存放在 `tasks/` 目录：
+存放在 `tasks/` 目录（TASK_01~17 均已完成）：
 
 | 文件 | 状态 | 说明 |
 |------|------|------|
-| TASK_01_init.md | ✅ 完成 | 项目初始化 |
-| TASK_02_db.md | ✅ 完成 | Turso + API |
-| TASK_03_ui.md | ✅ 完成 | 首页UI |
-| TASK_04_deploy.md | ✅ 完成 | Vercel部署 |
-| TASK_05_rate_limit.md | 🔵 待跑 | Upstash限速 |
+| TASK_01~05 | ✅ | 初始化、DB、UI、部署、限速 |
+| TASK_06~11 | ✅ | 俄/韩/音译/日语/命名规则/华人英文名 |
+| TASK_13 | ✅ | 简繁转换 /zh-convert |
+| TASK_14 | ✅ | 日本人名 /ja |
+| TASK_15 | ✅ | SEO全站metadata |
+| TASK_16 | ✅ | UI重构（navbar+hero+工具卡片） |
+| TASK_17 | ✅ | 首页三处UI修复 |
+
+**开发流程：** 视觉改动先 `npm run dev` 本地调，满意再推一次。
 
 ---
 
