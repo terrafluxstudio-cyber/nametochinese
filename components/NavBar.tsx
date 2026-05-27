@@ -43,18 +43,17 @@ export default function NavBar() {
       className="sticky top-0 z-50 w-full border-b border-gray-100"
       style={{ background: '#fff', boxShadow: '0 1px 8px rgba(0,0,0,0.06)' }}
     >
-      <div className="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 shrink-0">
+      <div className="max-w-5xl mx-auto px-4 h-[72px] flex items-center justify-between">
+        <Link href="/" className="flex items-center gap-0 shrink-0">
           <Image
             src="/logo-icon.png"
             alt="外文译名词典"
-            width={56}
-            height={56}
-            className="rounded-lg"
+            width={64}
+            height={64}
+            style={{ width: '64px', height: '64px', borderRadius: '8px' }}
           />
           <span
-            className="text-base font-semibold tracking-tight"
-            style={{ fontFamily: 'var(--font-serif)', color: '#1A1A1A' }}
+            style={{ fontFamily: 'var(--font-serif)', color: '#1A1A1A', fontWeight: 600, fontSize: '1rem', letterSpacing: '-0.01em' }}
           >
             外文译名词典
           </span>
