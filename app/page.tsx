@@ -133,7 +133,7 @@ export default function Home() {
       <NavBar />
       <main className="min-h-screen bg-[#F7F5F0]">
 
-        <section id="search" className="relative max-w-5xl mx-auto px-4 pt-16 pb-12 flex flex-col md:flex-row items-center gap-8">
+        <section id="search" className="relative max-w-5xl mx-auto px-4 pt-8 pb-12 flex flex-col md:flex-row items-center gap-8">
           <div className="flex-1 w-full">
             <h1
               className="text-5xl mb-2"
