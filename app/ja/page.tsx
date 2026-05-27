@@ -1,5 +1,6 @@
 'use client';
-import { useState, useEffect, useMemo } from 'react';
+import { Suspense, useState, useEffect, useMemo } from 'react';
+import { useSearchParams } from 'next/navigation';
 import NavBar from '@/components/NavBar';
 import * as OpenCC from 'opencc-js';
 
@@ -30,15 +31,40 @@ const KATAKANA_FALLBACK: Record<string, string> = {
   オバマ: '奥巴马',
 };
 
-export default function JaPage() {
+function JaPageContent() {
   const [tab, setTab] = useState<Tab>('japanese');
   const [input, setInput] = useState('');
   const [output, setOutput] = useState('');
   const [romajiInput, setRomajiInput] = useState('');
   const [romajiResult, setRomajiResult] = useState<SearchResult | null>(null);
   const [loading, setLoading] = useState(false);
+  const searchParams = useSearchParams();
 
   const jpToCn = useMemo(() => OpenCC.Converter({ from: 'jp', to: 'cn' }), []);
+
+  async function searchRomaji(q: string) {
+    if (!q.trim()) {
+      setRomajiResult(null);
+      return;
+    }
+    setLoading(true);
+    const res = await fetch(`/api/search-ja?q=${encodeURIComponent(q)}`);
+    const data = await res.json();
+    setRomajiResult(data);
+    setLoading(false);
+  }
+
+  useEffect(() => {
+    const urlQ = searchParams.get('q');
+    if (!urlQ) return;
+    if (/^[a-zA-Z\s.-]+$/.test(urlQ.trim())) {
+      setTab('romaji');
+      setRomajiInput(urlQ);
+      searchRomaji(urlQ);
+    } else {
+      setInput(urlQ);
+    }
+  }, []);
 
   useEffect(() => {
     if (!input.trim()) {
@@ -63,18 +89,6 @@ export default function JaPage() {
       setOutput('');
     }
   }, [input, jpToCn]);
-
-  async function searchRomaji(q: string) {
-    if (!q.trim()) {
-      setRomajiResult(null);
-      return;
-    }
-    setLoading(true);
-    const res = await fetch(`/api/search-ja?q=${encodeURIComponent(q)}`);
-    const data = await res.json();
-    setRomajiResult(data);
-    setLoading(false);
-  }
 
   return (
     <>
@@ -290,5 +304,13 @@ export default function JaPage() {
       </footer>
     </main>
     </>
+  );
+}
+
+export default function JaPage() {
+  return (
+    <Suspense fallback={<p className="text-center text-gray-400 py-16">加载中…</p>}>
+      <JaPageContent />
+    </Suspense>
   );
 }

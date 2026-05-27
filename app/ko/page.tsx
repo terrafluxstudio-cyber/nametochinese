@@ -1,5 +1,6 @@
 'use client';
-import { useState } from 'react';
+import { Suspense, useState, useEffect } from 'react';
+import { useSearchParams } from 'next/navigation';
 import NavBar from '@/components/NavBar';
 
 type KoName = {
@@ -9,11 +10,20 @@ type KoName = {
   gender: string;
 };
 
-export default function KoPage() {
+function KoPageContent() {
   const [q, setQ] = useState('');
   const [gender, setGender] = useState('');
   const [results, setResults] = useState<KoName[]>([]);
   const [loading, setLoading] = useState(false);
+  const searchParams = useSearchParams();
+
+  useEffect(() => {
+    const urlQ = searchParams.get('q');
+    if (urlQ) {
+      setQ(urlQ);
+      search(urlQ, '');
+    }
+  }, []);
 
   async function search(query: string, g: string) {
     if (query.length < 1) { setResults([]); return; }
@@ -103,5 +113,13 @@ export default function KoPage() {
       </p>
     </main>
     </>
+  );
+}
+
+export default function KoPage() {
+  return (
+    <Suspense fallback={<p className="text-center text-gray-400 py-16">加载中…</p>}>
+      <KoPageContent />
+    </Suspense>
   );
 }

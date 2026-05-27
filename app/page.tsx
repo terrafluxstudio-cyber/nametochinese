@@ -1,19 +1,18 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import NavBar from '@/components/NavBar';
-import { ResultCard } from '@/components/ResultCard';
-import type { SearchResult } from '@/components/SearchBox';
 
-function detectLanguage(text: string): 'ru' | 'ko' | 'ja' | 'pinyin' | 'en' {
-  if (/[а-яёА-ЯЁ]/.test(text)) return 'ru';
-  if (/[가-힣]/.test(text)) return 'ko';
-  if (/[ぁ-んァ-ヿ一-鿿]/.test(text)) return 'ja';
-  if (/^[a-z\s]+$/i.test(text) && text.includes(' ') && text.length < 20) return 'pinyin';
-  return 'en';
-}
+const LANG_TABS = [
+  { key: 'en', label: '英→中', placeholder: 'Adams · Johnson · Williams…', path: '/en' },
+  { key: 'ru', label: '俄→中', placeholder: 'Александр · Иванов…', path: '/ru' },
+  { key: 'ko', label: '韩→中', placeholder: '김민준 · 이지은…', path: '/ko' },
+  { key: 'ja', label: '日→中', placeholder: '田中 · 鈴木 · Tanaka…', path: '/ja' },
+  { key: 'pinyin', label: '拼音→汉字', placeholder: 'zhang wei · li ming…', path: '/pinyin' },
+] as const;
 
 const TOOLS = [
   {
@@ -68,65 +67,16 @@ const TOOLS = [
 
 export default function Home() {
   const [query, setQuery] = useState('');
-  const [results, setResults] = useState<SearchResult[]>([]);
-  const [loading, setLoading] = useState(false);
-  const [detectedLang, setDetectedLang] = useState('');
-  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const [activeLang, setActiveLang] = useState<'en' | 'ru' | 'ko' | 'ja' | 'pinyin'>('en');
+  const router = useRouter();
 
-  useEffect(() => {
-    if (!query.trim() || query.trim().length < 2) {
-      setResults([]);
-      setDetectedLang('');
-      return;
-    }
-
-    const lang = detectLanguage(query.trim());
-    const langLabels: Record<string, string> = {
-      ru: '识别为俄语',
-      ko: '识别为韩语',
-      ja: '识别为日语',
-      pinyin: '识别为拼音',
-      en: '英文/多语言查询',
-    };
-    setDetectedLang(langLabels[lang]);
-
-    if (timerRef.current) clearTimeout(timerRef.current);
-    timerRef.current = setTimeout(async () => {
-      setLoading(true);
-      try {
-        let url = '';
-        if (lang === 'ru') url = `/api/search-ru?q=${encodeURIComponent(query)}`;
-        else if (lang === 'ko') url = `/api/search-ko?q=${encodeURIComponent(query)}`;
-        else if (lang === 'ja') url = `/api/search-ja?q=${encodeURIComponent(query)}`;
-        else if (lang === 'pinyin') url = `/api/pinyin-lookup?q=${encodeURIComponent(query)}`;
-        else url = `/api/search?q=${encodeURIComponent(query)}&type=all`;
-
-        const res = await fetch(url);
-        const data = await res.json();
-
-        if (lang === 'pinyin' && data.topResults) {
-          setResults(data.topResults.map((r: { name: string }) => ({
-            english: query,
-            chinese: r.name,
-            nationality: '中文姓名',
-            type: 'person',
-          })));
-        } else if (lang === 'ja' && data.combinations) {
-          setResults(data.combinations.map((c: { ja: string; zh: string }) => ({
-            english: c.ja,
-            chinese: c.zh,
-            nationality: '日本',
-            type: 'person',
-          })));
-        } else {
-          setResults(Array.isArray(data) ? data : data.results ?? []);
-        }
-      } catch {
-        setResults([]);
-      }
-      setLoading(false);
-    }, 300);
-  }, [query]);
+  function handleSearch(e: React.FormEvent) {
+    e.preventDefault();
+    const q = query.trim();
+    if (!q) return;
+    const tab = LANG_TABS.find((t) => t.key === activeLang)!;
+    router.push(`${tab.path}?q=${encodeURIComponent(q)}`);
+  }
 
   return (
     <>
@@ -151,43 +101,54 @@ export default function Home() {
               收录 67 万人名、17 万地名，专为翻译工作者设计
             </p>
 
-            <div className="relative">
-              <input
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                placeholder="Adams · Александр · 田中 · zhang wei…"
-                className="w-full text-lg px-5 py-4 pr-12 rounded-2xl outline-none focus:ring-2 focus:ring-[#2C5F8A]/30"
-                style={{
-                  background: '#fff',
-                  boxShadow: '0 2px 16px rgba(0,0,0,0.09)',
-                  fontFamily: 'var(--font-geist-mono)',
-                }}
-                autoFocus
-              />
-              {query && (
-                <button
-                  onClick={() => setQuery('')}
-                  className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-300 hover:text-gray-500 text-lg"
-                >
-                  ×
-                </button>
-              )}
-            </div>
-
-            {detectedLang && (
-              <p className="text-xs text-[#2C5F8A] mt-2 ml-1">{detectedLang}</p>
-            )}
-
-            {(loading || results.length > 0) && (
-              <div className="mt-4 space-y-2">
-                {loading && (
-                  <p className="text-center text-gray-400 text-sm py-4">搜索中…</p>
+            <form onSubmit={handleSearch} className="w-full">
+              <div className="relative">
+                <input
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                  placeholder={LANG_TABS.find((t) => t.key === activeLang)?.placeholder}
+                  className="w-full text-lg px-5 py-4 pr-12 rounded-2xl outline-none focus:ring-2 focus:ring-[#2C5F8A]/30"
+                  style={{
+                    background: '#fff',
+                    boxShadow: '0 2px 16px rgba(0,0,0,0.09)',
+                    fontFamily: 'var(--font-geist-mono)',
+                  }}
+                  autoFocus
+                />
+                {query && (
+                  <button
+                    type="button"
+                    onClick={() => setQuery('')}
+                    className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-300 hover:text-gray-500 text-lg"
+                  >
+                    ×
+                  </button>
                 )}
-                {!loading && results.slice(0, 8).map((r, i) => (
-                  <ResultCard key={i} result={r} />
+              </div>
+
+              <div className="flex gap-2 mt-3 flex-wrap">
+                {LANG_TABS.map((tab) => (
+                  <button
+                    key={tab.key}
+                    type="button"
+                    onClick={() => {
+                      setActiveLang(tab.key);
+                      setQuery('');
+                    }}
+                    className="px-3 py-1.5 rounded-lg text-sm transition-all"
+                    style={{
+                      background: activeLang === tab.key ? '#2C5F8A' : '#fff',
+                      color: activeLang === tab.key ? '#fff' : '#555',
+                      boxShadow: '0 1px 4px rgba(0,0,0,0.08)',
+                      fontFamily: 'var(--font-geist-mono)',
+                      fontWeight: activeLang === tab.key ? 600 : 400,
+                    }}
+                  >
+                    {tab.label}
+                  </button>
                 ))}
               </div>
-            )}
+            </form>
 
           </div>
 

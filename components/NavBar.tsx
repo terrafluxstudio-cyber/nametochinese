@@ -9,7 +9,7 @@ const NAV_ITEMS = [
     label: '查译名',
     href: '/',
     children: [
-      { label: '英文／多语言人名', href: '/#search', desc: '67万词条主库' },
+      { label: '英文／多语言人名', href: '/en', desc: '67万词条主库' },
       { label: '俄语人名', href: '/ru', desc: '含父称、昵称' },
       { label: '韩国人名', href: '/ko', desc: '含汉字名对照' },
       { label: '日本人名', href: '/ja', desc: '汉字·片假名·罗马字' },
@@ -53,7 +53,7 @@ export default function NavBar() {
             style={{ width: '64px', height: '64px', borderRadius: '8px' }}
           />
           <span
-            style={{ fontFamily: 'var(--font-serif)', color: '#1A1A1A', fontWeight: 600, fontSize: '1rem', letterSpacing: '-0.01em' }}
+            style={{ fontFamily: 'var(--font-serif)', color: '#1A1A1A', fontWeight: 600, fontSize: '1rem', letterSpacing: '-0.01em', marginLeft: '-6px' }}
           >
             外文译名词典
           </span>
