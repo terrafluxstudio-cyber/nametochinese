@@ -1,5 +1,6 @@
 'use client';
-import { useState } from 'react';
+import { Suspense, useState, useEffect } from 'react';
+import { useSearchParams } from 'next/navigation';
 import NavBar from '@/components/NavBar';
 
 type CharFreq = { char: string; freq: number };
@@ -12,11 +13,20 @@ type Result = {
   topResults: { name: string; surname: string; given: string; score: number }[];
 };
 
-export default function PinyinPage() {
+function PinyinPageContent() {
   const [q, setQ] = useState('');
   const [result, setResult] = useState<Result | null>(null);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+  const searchParams = useSearchParams();
+
+  useEffect(() => {
+    const urlQ = searchParams.get('q');
+    if (urlQ) {
+      setQ(urlQ);
+      lookup(urlQ);
+    }
+  }, []);
 
   async function lookup(query: string) {
     if (!query.trim()) {
@@ -161,5 +171,13 @@ export default function PinyinPage() {
       )}
     </main>
     </>
+  );
+}
+
+export default function PinyinPage() {
+  return (
+    <Suspense fallback={<p className="text-center text-gray-400 py-16">加载中…</p>}>
+      <PinyinPageContent />
+    </Suspense>
   );
 }
