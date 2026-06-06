@@ -44,3 +44,7 @@ next-env.d.ts
 *.db
 *.sqlite
 *.sqlite3
+
+# dev scaffolding & source data (purged from history 2026-06-07, kept local only)
+/tasks/
+/Logo/
