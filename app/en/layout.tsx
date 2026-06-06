@@ -11,6 +11,13 @@ export const metadata: Metadata = {
     '多语言人名查询',
   ],
   alternates: { canonical: '/en' },
+  openGraph: {
+    title: '英文／多语言人名翻译查询 | 外文译名词典',
+    description: '查询英文及多语言人名的中文翻译，收录67万人名、17万地名，专为翻译工作者设计。',
+    url: 'https://nametochinese.com/en',
+    type: 'website',
+  },
+  twitter: { card: 'summary', title: '英文人名翻译查询 · 外文译名词典', description: '67万人名词条，英文及多语言人名中文翻译，专为翻译工作者设计。' },
 };
 
 export default function EnLayout({ children }: { children: React.ReactNode }) {

@@ -1,0 +1,8619 @@
+[
+ {
+  "russian": "Авдей",
+  "chinese": "阿夫杰",
+  "kind": "formal",
+  "root": "Авдей",
+  "gender": "f"
+ },
+ {
+  "russian": "Авдеевна",
+  "chinese": "阿夫杰耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Авдей",
+  "gender": "f"
+ },
+ {
+  "russian": "Авдотьюшка",
+  "chinese": "阿夫多季尤什卡",
+  "kind": "diminutive",
+  "root": "Авдей",
+  "gender": "f"
+ },
+ {
+  "russian": "Авдотья",
+  "chinese": "阿夫多季娅",
+  "kind": "formal",
+  "root": "Авдотья",
+  "gender": "f"
+ },
+ {
+  "russian": "Евдония",
+  "chinese": "叶夫多妮娅",
+  "kind": "diminutive",
+  "root": "Авдотья",
+  "gender": "f"
+ },
+ {
+  "russian": "Дуня",
+  "chinese": "杜尼亚",
+  "kind": "diminutive",
+  "root": "Авдотья",
+  "gender": "f"
+ },
+ {
+  "russian": "Дуняша",
+  "chinese": "杜尼亚莎",
+  "kind": "diminutive",
+  "root": "Авдотья",
+  "gender": "f"
+ },
+ {
+  "russian": "Дунечка",
+  "chinese": "杜涅奇卡",
+  "kind": "diminutive",
+  "root": "Авдотья",
+  "gender": "f"
+ },
+ {
+  "russian": "Агания",
+  "chinese": "阿加妮娅",
+  "kind": "formal",
+  "root": "Агания",
+  "gender": "f"
+ },
+ {
+  "russian": "Агнечка",
+  "chinese": "阿格涅奇卡",
+  "kind": "diminutive",
+  "root": "Агания",
+  "gender": "f"
+ },
+ {
+  "russian": "Агнюша",
+  "chinese": "阿格纽莎",
+  "kind": "diminutive",
+  "root": "Агания",
+  "gender": "f"
+ },
+ {
+  "russian": "Аграфена",
+  "chinese": "阿格拉费娜",
+  "kind": "formal",
+  "root": "Аграфена",
+  "gender": "f"
+ },
+ {
+  "russian": "Агриппина",
+  "chinese": "阿格丽普皮娜",
+  "kind": "diminutive",
+  "root": "Аграфена",
+  "gender": "f"
+ },
+ {
+  "russian": "Груня",
+  "chinese": "格鲁尼亚",
+  "kind": "diminutive",
+  "root": "Аграфена",
+  "gender": "f"
+ },
+ {
+  "russian": "Груша",
+  "chinese": "格鲁莎",
+  "kind": "diminutive",
+  "root": "Аграфена",
+  "gender": "f"
+ },
+ {
+  "russian": "Грунечка",
+  "chinese": "格鲁涅奇卡",
+  "kind": "diminutive",
+  "root": "Аграфена",
+  "gender": "f"
+ },
+ {
+  "russian": "Аксиния",
+  "chinese": "阿克西妮娅",
+  "kind": "formal",
+  "root": "Аксиния",
+  "gender": "f"
+ },
+ {
+  "russian": "Ксенья",
+  "chinese": "克先娅",
+  "kind": "diminutive",
+  "root": "Аксиния",
+  "gender": "f"
+ },
+ {
+  "russian": "Аксюша",
+  "chinese": "阿克秀莎",
+  "kind": "diminutive",
+  "root": "Аксиния",
+  "gender": "f"
+ },
+ {
+  "russian": "Александра",
+  "chinese": "亚历山德拉",
+  "kind": "formal",
+  "root": "Александра",
+  "gender": "f"
+ },
+ {
+  "russian": "Саша",
+  "chinese": "萨莎",
+  "kind": "diminutive",
+  "root": "Александра",
+  "gender": "f"
+ },
+ {
+  "russian": "Шура",
+  "chinese": "舒拉",
+  "kind": "diminutive",
+  "root": "Александра",
+  "gender": "f"
+ },
+ {
+  "russian": "Сашенька",
+  "chinese": "萨申卡",
+  "kind": "diminutive",
+  "root": "Александра",
+  "gender": "f"
+ },
+ {
+  "russian": "Шурочка",
+  "chinese": "舒罗奇卡",
+  "kind": "diminutive",
+  "root": "Александра",
+  "gender": "f"
+ },
+ {
+  "russian": "Алла",
+  "chinese": "阿尔拉",
+  "kind": "formal",
+  "root": "Алла",
+  "gender": "f"
+ },
+ {
+  "russian": "Аллочка",
+  "chinese": "阿尔洛奇卡",
+  "kind": "diminutive",
+  "root": "Алла",
+  "gender": "f"
+ },
+ {
+  "russian": "Анастасия",
+  "chinese": "阿娜斯塔西娅",
+  "kind": "formal",
+  "root": "Анастасия",
+  "gender": "f"
+ },
+ {
+  "russian": "Анастасья",
+  "chinese": "阿娜斯塔西娅",
+  "kind": "diminutive",
+  "root": "Анастасия",
+  "gender": "f"
+ },
+ {
+  "russian": "Настя",
+  "chinese": "纳斯佳",
+  "kind": "diminutive",
+  "root": "Анастасия",
+  "gender": "f"
+ },
+ {
+  "russian": "Тася",
+  "chinese": "塔夏",
+  "kind": "diminutive",
+  "root": "Анастасия",
+  "gender": "f"
+ },
+ {
+  "russian": "Настенька",
+  "chinese": "纳斯坚卡",
+  "kind": "diminutive",
+  "root": "Анастасия",
+  "gender": "f"
+ },
+ {
+  "russian": "Настюша",
+  "chinese": "纳斯秋莎",
+  "kind": "diminutive",
+  "root": "Анастасия",
+  "gender": "f"
+ },
+ {
+  "russian": "Тасенька",
+  "chinese": "塔先卡",
+  "kind": "diminutive",
+  "root": "Анастасия",
+  "gender": "f"
+ },
+ {
+  "russian": "Ангелина",
+  "chinese": "安格莉娜",
+  "kind": "formal",
+  "root": "Ангелина",
+  "gender": "f"
+ },
+ {
+  "russian": "Лина",
+  "chinese": "莉娜",
+  "kind": "diminutive",
+  "root": "Ангелина",
+  "gender": "f"
+ },
+ {
+  "russian": "Линочка",
+  "chinese": "利诺奇卡",
+  "kind": "diminutive",
+  "root": "Ангелина",
+  "gender": "f"
+ },
+ {
+  "russian": "Анисия",
+  "chinese": "阿妮西娅",
+  "kind": "formal",
+  "root": "Анисия",
+  "gender": "f"
+ },
+ {
+  "russian": "Анисочка",
+  "chinese": "阿妮索奇卡",
+  "kind": "diminutive",
+  "root": "Анисия",
+  "gender": "f"
+ },
+ {
+  "russian": "Анна",
+  "chinese": "安娜",
+  "kind": "formal",
+  "root": "Анна",
+  "gender": "f"
+ },
+ {
+  "russian": "Анюта",
+  "chinese": "阿纽塔",
+  "kind": "diminutive",
+  "root": "Анна",
+  "gender": "f"
+ },
+ {
+  "russian": "Аня",
+  "chinese": "阿尼亚",
+  "kind": "diminutive",
+  "root": "Анна",
+  "gender": "f"
+ },
+ {
+  "russian": "Нюра",
+  "chinese": "纽拉",
+  "kind": "diminutive",
+  "root": "Анна",
+  "gender": "f"
+ },
+ {
+  "russian": "Нюрочка",
+  "chinese": "纽罗奇卡",
+  "kind": "diminutive",
+  "root": "Анна",
+  "gender": "f"
+ },
+ {
+  "russian": "Ася",
+  "chinese": "阿夏",
+  "kind": "diminutive",
+  "root": "Анна",
+  "gender": "f"
+ },
+ {
+  "russian": "Анушка",
+  "chinese": "阿努什卡",
+  "kind": "diminutive",
+  "root": "Анна",
+  "gender": "f"
+ },
+ {
+  "russian": "Нюся",
+  "chinese": "纽夏",
+  "kind": "diminutive",
+  "root": "Анна",
+  "gender": "f"
+ },
+ {
+  "russian": "Асенька",
+  "chinese": "阿先卡",
+  "kind": "diminutive",
+  "root": "Анна",
+  "gender": "f"
+ },
+ {
+  "russian": "Антонина",
+  "chinese": "安娜",
+  "kind": "formal",
+  "root": "Антонина",
+  "gender": "f"
+ },
+ {
+  "russian": "Тоня",
+  "chinese": "托尼亚",
+  "kind": "diminutive",
+  "root": "Антонина",
+  "gender": "f"
+ },
+ {
+  "russian": "Тося",
+  "chinese": "托夏",
+  "kind": "diminutive",
+  "root": "Антонина",
+  "gender": "f"
+ },
+ {
+  "russian": "Тонечка",
+  "chinese": "托涅奇卡",
+  "kind": "diminutive",
+  "root": "Антонина",
+  "gender": "f"
+ },
+ {
+  "russian": "Арина",
+  "chinese": "阿丽娜",
+  "kind": "formal",
+  "root": "Арина",
+  "gender": "f"
+ },
+ {
+  "russian": "Ариночка",
+  "chinese": "阿丽诺奇卡",
+  "kind": "diminutive",
+  "root": "Арина",
+  "gender": "f"
+ },
+ {
+  "russian": "Аринушка",
+  "chinese": "阿丽努什卡",
+  "kind": "diminutive",
+  "root": "Арина",
+  "gender": "f"
+ },
+ {
+  "russian": "Валентина",
+  "chinese": "瓦连京娜",
+  "kind": "formal",
+  "root": "Валентина",
+  "gender": "f"
+ },
+ {
+  "russian": "Валя",
+  "chinese": "瓦利亚",
+  "kind": "diminutive",
+  "root": "Валентина",
+  "gender": "f"
+ },
+ {
+  "russian": "Валечка",
+  "chinese": "瓦列奇卡",
+  "kind": "diminutive",
+  "root": "Валентина",
+  "gender": "f"
+ },
+ {
+  "russian": "Валенька",
+  "chinese": "瓦连卡",
+  "kind": "diminutive",
+  "root": "Валентина",
+  "gender": "f"
+ },
+ {
+  "russian": "Валерия",
+  "chinese": "瓦列丽娅",
+  "kind": "formal",
+  "root": "Валерия",
+  "gender": "f"
+ },
+ {
+  "russian": "Ванёк",
+  "chinese": "瓦尼奥克",
+  "kind": "diminutive",
+  "root": "Валерия",
+  "gender": "f"
+ },
+ {
+  "russian": "Ванечка",
+  "chinese": "瓦涅奇卡",
+  "kind": "diminutive",
+  "root": "Валерия",
+  "gender": "f"
+ },
+ {
+  "russian": "Ванюша",
+  "chinese": "瓦纽莎",
+  "kind": "diminutive",
+  "root": "Валерия",
+  "gender": "f"
+ },
+ {
+  "russian": "Ваня",
+  "chinese": "瓦尼亚",
+  "kind": "diminutive",
+  "root": "Валерия",
+  "gender": "f"
+ },
+ {
+  "russian": "Варвара",
+  "chinese": "瓦尔瓦拉",
+  "kind": "formal",
+  "root": "Варвара",
+  "gender": "f"
+ },
+ {
+  "russian": "Варя",
+  "chinese": "瓦里亚",
+  "kind": "diminutive",
+  "root": "Варвара",
+  "gender": "f"
+ },
+ {
+  "russian": "Варенька",
+  "chinese": "瓦连卡",
+  "kind": "diminutive",
+  "root": "Варвара",
+  "gender": "f"
+ },
+ {
+  "russian": "Василиса",
+  "chinese": "瓦西莉萨",
+  "kind": "formal",
+  "root": "Василиса",
+  "gender": "f"
+ },
+ {
+  "russian": "Васа",
+  "chinese": "瓦萨",
+  "kind": "diminutive",
+  "root": "Василиса",
+  "gender": "f"
+ },
+ {
+  "russian": "Вера",
+  "chinese": "薇拉",
+  "kind": "formal",
+  "root": "Вера",
+  "gender": "f"
+ },
+ {
+  "russian": "Верочка",
+  "chinese": "韦罗奇卡",
+  "kind": "diminutive",
+  "root": "Вера",
+  "gender": "f"
+ },
+ {
+  "russian": "Веруся",
+  "chinese": "韦鲁夏",
+  "kind": "diminutive",
+  "root": "Вера",
+  "gender": "f"
+ },
+ {
+  "russian": "Верунька",
+  "chinese": "韦伦卡",
+  "kind": "diminutive",
+  "root": "Вера",
+  "gender": "f"
+ },
+ {
+  "russian": "Веронька",
+  "chinese": "韦龙卡",
+  "kind": "diminutive",
+  "root": "Вера",
+  "gender": "f"
+ },
+ {
+  "russian": "Виктория",
+  "chinese": "维多利亚",
+  "kind": "formal",
+  "root": "Виктория",
+  "gender": "f"
+ },
+ {
+  "russian": "Викторушка",
+  "chinese": "维多鲁什卡",
+  "kind": "diminutive",
+  "root": "Виктория",
+  "gender": "f"
+ },
+ {
+  "russian": "Галина",
+  "chinese": "加莉娜",
+  "kind": "formal",
+  "root": "Галина",
+  "gender": "f"
+ },
+ {
+  "russian": "Галя",
+  "chinese": "加利亚",
+  "kind": "diminutive",
+  "root": "Галина",
+  "gender": "f"
+ },
+ {
+  "russian": "Галюся",
+  "chinese": "加柳夏",
+  "kind": "diminutive",
+  "root": "Галина",
+  "gender": "f"
+ },
+ {
+  "russian": "Галиночка",
+  "chinese": "加莉诺奇卡",
+  "kind": "diminutive",
+  "root": "Галина",
+  "gender": "f"
+ },
+ {
+  "russian": "Галочка",
+  "chinese": "加洛奇卡",
+  "kind": "diminutive",
+  "root": "Галина",
+  "gender": "f"
+ },
+ {
+  "russian": "Дарья",
+  "chinese": "达丽娅",
+  "kind": "formal",
+  "root": "Дарья",
+  "gender": "f"
+ },
+ {
+  "russian": "Даря",
+  "chinese": "达里亚",
+  "kind": "diminutive",
+  "root": "Дарья",
+  "gender": "f"
+ },
+ {
+  "russian": "Даша",
+  "chinese": "达莎",
+  "kind": "diminutive",
+  "root": "Дарья",
+  "gender": "f"
+ },
+ {
+  "russian": "Дашенька",
+  "chinese": "达申卡",
+  "kind": "diminutive",
+  "root": "Дарья",
+  "gender": "f"
+ },
+ {
+  "russian": "Дина",
+  "chinese": "季娜",
+  "kind": "formal",
+  "root": "Дина",
+  "gender": "f"
+ },
+ {
+  "russian": "Ина",
+  "chinese": "伊娜",
+  "kind": "diminutive",
+  "root": "Дина",
+  "gender": "f"
+ },
+ {
+  "russian": "Домка",
+  "chinese": "多姆卡",
+  "kind": "formal",
+  "root": "Домка",
+  "gender": "f"
+ },
+ {
+  "russian": "Домушка",
+  "chinese": "多穆什卡",
+  "kind": "diminutive",
+  "root": "Домка",
+  "gender": "f"
+ },
+ {
+  "russian": "Дора",
+  "chinese": "多拉",
+  "kind": "formal",
+  "root": "Дора",
+  "gender": "f"
+ },
+ {
+  "russian": "Дорочка",
+  "chinese": "多萝奇卡",
+  "kind": "diminutive",
+  "root": "Дора",
+  "gender": "f"
+ },
+ {
+  "russian": "Дорофея",
+  "chinese": "多萝费娅",
+  "kind": "formal",
+  "root": "Дорофея",
+  "gender": "f"
+ },
+ {
+  "russian": "Дотик",
+  "chinese": "多季克",
+  "kind": "diminutive",
+  "root": "Дорофея",
+  "gender": "f"
+ },
+ {
+  "russian": "Дуся",
+  "chinese": "杜夏",
+  "kind": "diminutive",
+  "root": "Дорофея",
+  "gender": "f"
+ },
+ {
+  "russian": "Ева",
+  "chinese": "叶娃",
+  "kind": "formal",
+  "root": "Ева",
+  "gender": "f"
+ },
+ {
+  "russian": "Евка",
+  "chinese": "叶夫卡",
+  "kind": "diminutive",
+  "root": "Ева",
+  "gender": "f"
+ },
+ {
+  "russian": "Евгения",
+  "chinese": "叶夫根尼娅",
+  "kind": "formal",
+  "root": "Евгения",
+  "gender": "f"
+ },
+ {
+  "russian": "Женя",
+  "chinese": "热尼亚",
+  "kind": "diminutive",
+  "root": "Евгения",
+  "gender": "f"
+ },
+ {
+  "russian": "Женичка",
+  "chinese": "热尼奇卡",
+  "kind": "diminutive",
+  "root": "Евгения",
+  "gender": "f"
+ },
+ {
+  "russian": "Евдония",
+  "chinese": "叶夫多妮娅",
+  "kind": "formal",
+  "root": "Евдония",
+  "gender": "f"
+ },
+ {
+  "russian": "Евфросиния",
+  "chinese": "叶夫弗萝西妮娅",
+  "kind": "formal",
+  "root": "Евфросиния",
+  "gender": "f"
+ },
+ {
+  "russian": "Фрося",
+  "chinese": "弗萝夏",
+  "kind": "diminutive",
+  "root": "Евфросиния",
+  "gender": "f"
+ },
+ {
+  "russian": "Фросенька",
+  "chinese": "弗萝先卡",
+  "kind": "diminutive",
+  "root": "Евфросиния",
+  "gender": "f"
+ },
+ {
+  "russian": "Екатерина",
+  "chinese": "叶卡捷琳娜",
+  "kind": "formal",
+  "root": "Екатерина",
+  "gender": "f"
+ },
+ {
+  "russian": "Катерина",
+  "chinese": "卡捷琳娜",
+  "kind": "diminutive",
+  "root": "Екатерина",
+  "gender": "f"
+ },
+ {
+  "russian": "Катя",
+  "chinese": "卡佳",
+  "kind": "diminutive",
+  "root": "Екатерина",
+  "gender": "f"
+ },
+ {
+  "russian": "Катюшка",
+  "chinese": "卡秋什卡",
+  "kind": "diminutive",
+  "root": "Екатерина",
+  "gender": "f"
+ },
+ {
+  "russian": "Катенька",
+  "chinese": "卡坚卡",
+  "kind": "diminutive",
+  "root": "Екатерина",
+  "gender": "f"
+ },
+ {
+  "russian": "Катериночка",
+  "chinese": "卡捷丽诺奇卡",
+  "kind": "diminutive",
+  "root": "Екатерина",
+  "gender": "f"
+ },
+ {
+  "russian": "Елена",
+  "chinese": "叶列娜",
+  "kind": "formal",
+  "root": "Елена",
+  "gender": "f"
+ },
+ {
+  "russian": "Лена",
+  "chinese": "列娜",
+  "kind": "diminutive",
+  "root": "Елена",
+  "gender": "f"
+ },
+ {
+  "russian": "Еля",
+  "chinese": "叶利亚",
+  "kind": "diminutive",
+  "root": "Елена",
+  "gender": "f"
+ },
+ {
+  "russian": "Лёля",
+  "chinese": "廖利亚",
+  "kind": "diminutive",
+  "root": "Елена",
+  "gender": "f"
+ },
+ {
+  "russian": "Лёлочка",
+  "chinese": "廖洛奇卡",
+  "kind": "diminutive",
+  "root": "Елена",
+  "gender": "f"
+ },
+ {
+  "russian": "Леночка",
+  "chinese": "列诺奇卡",
+  "kind": "diminutive",
+  "root": "Елена",
+  "gender": "f"
+ },
+ {
+  "russian": "Лёся",
+  "chinese": "廖夏",
+  "kind": "diminutive",
+  "root": "Елена",
+  "gender": "f"
+ },
+ {
+  "russian": "Елизавета",
+  "chinese": "伊丽莎白",
+  "kind": "formal",
+  "root": "Елизавета",
+  "gender": "f"
+ },
+ {
+  "russian": "Лиза",
+  "chinese": "莉扎",
+  "kind": "diminutive",
+  "root": "Елизавета",
+  "gender": "f"
+ },
+ {
+  "russian": "Лизочка",
+  "chinese": "莉佐奇卡",
+  "kind": "diminutive",
+  "root": "Елизавета",
+  "gender": "f"
+ },
+ {
+  "russian": "Лизанька",
+  "chinese": "莉赞卡",
+  "kind": "diminutive",
+  "root": "Елизавета",
+  "gender": "f"
+ },
+ {
+  "russian": "Зинаида",
+  "chinese": "季娜伊达",
+  "kind": "formal",
+  "root": "Зинаида",
+  "gender": "f"
+ },
+ {
+  "russian": "Зина",
+  "chinese": "济娜",
+  "kind": "diminutive",
+  "root": "Зинаида",
+  "gender": "f"
+ },
+ {
+  "russian": "Зинок",
+  "chinese": "济诺克",
+  "kind": "diminutive",
+  "root": "Зинаида",
+  "gender": "f"
+ },
+ {
+  "russian": "Зиночка",
+  "chinese": "济诺奇卡",
+  "kind": "diminutive",
+  "root": "Зинаида",
+  "gender": "f"
+ },
+ {
+  "russian": "Зоя",
+  "chinese": "卓娅",
+  "kind": "formal",
+  "root": "Зоя",
+  "gender": "f"
+ },
+ {
+  "russian": "Зоянька",
+  "chinese": "佐扬卡",
+  "kind": "diminutive",
+  "root": "Зоя",
+  "gender": "f"
+ },
+ {
+  "russian": "Зочека",
+  "chinese": "佐切卡",
+  "kind": "diminutive",
+  "root": "Зоя",
+  "gender": "f"
+ },
+ {
+  "russian": "Зоюшка",
+  "chinese": "佐尤什卡",
+  "kind": "diminutive",
+  "root": "Зоя",
+  "gender": "f"
+ },
+ {
+  "russian": "Ирина",
+  "chinese": "伊丽娜",
+  "kind": "formal",
+  "root": "Ирина",
+  "gender": "f"
+ },
+ {
+  "russian": "Ира",
+  "chinese": "伊拉",
+  "kind": "diminutive",
+  "root": "Ирина",
+  "gender": "f"
+ },
+ {
+  "russian": "Ирочка",
+  "chinese": "伊萝奇卡",
+  "kind": "diminutive",
+  "root": "Ирина",
+  "gender": "f"
+ },
+ {
+  "russian": "Капитолина",
+  "chinese": "卡皮托莉娜",
+  "kind": "formal",
+  "root": "Капитолина",
+  "gender": "f"
+ },
+ {
+  "russian": "Капочка",
+  "chinese": "卡波奇卡",
+  "kind": "diminutive",
+  "root": "Капитолина",
+  "gender": "f"
+ },
+ {
+  "russian": "Клавдия",
+  "chinese": "克拉夫季娅",
+  "kind": "formal",
+  "root": "Клавдия",
+  "gender": "f"
+ },
+ {
+  "russian": "Клава",
+  "chinese": "克拉娃",
+  "kind": "diminutive",
+  "root": "Клавдия",
+  "gender": "f"
+ },
+ {
+  "russian": "Клавочка",
+  "chinese": "克拉沃奇卡",
+  "kind": "diminutive",
+  "root": "Клавдия",
+  "gender": "f"
+ },
+ {
+  "russian": "Клеопатра",
+  "chinese": "克列奥帕特拉",
+  "kind": "formal",
+  "root": "Клеопатра",
+  "gender": "f"
+ },
+ {
+  "russian": "Клео",
+  "chinese": "克列奥",
+  "kind": "diminutive",
+  "root": "Клеопатра",
+  "gender": "f"
+ },
+ {
+  "russian": "Ксенья",
+  "chinese": "克谢妮娅",
+  "kind": "formal",
+  "root": "Ксенья",
+  "gender": "f"
+ },
+ {
+  "russian": "Аксиния",
+  "chinese": "阿克西妮娅",
+  "kind": "diminutive",
+  "root": "Ксенья",
+  "gender": "f"
+ },
+ {
+  "russian": "Ксюша",
+  "chinese": "克秀莎",
+  "kind": "diminutive",
+  "root": "Ксенья",
+  "gender": "f"
+ },
+ {
+  "russian": "Ксена",
+  "chinese": "克谢娜",
+  "kind": "diminutive",
+  "root": "Ксенья",
+  "gender": "f"
+ },
+ {
+  "russian": "Ксенюшка",
+  "chinese": "克谢纽什卡",
+  "kind": "diminutive",
+  "root": "Ксенья",
+  "gender": "f"
+ },
+ {
+  "russian": "Ксеночка",
+  "chinese": "克谢诺奇卡",
+  "kind": "diminutive",
+  "root": "Ксенья",
+  "gender": "f"
+ },
+ {
+  "russian": "Лариса",
+  "chinese": "拉丽萨",
+  "kind": "formal",
+  "root": "Лариса",
+  "gender": "f"
+ },
+ {
+  "russian": "Лара",
+  "chinese": "拉拉",
+  "kind": "diminutive",
+  "root": "Лариса",
+  "gender": "f"
+ },
+ {
+  "russian": "Ларочка",
+  "chinese": "拉萝奇卡",
+  "kind": "diminutive",
+  "root": "Лариса",
+  "gender": "f"
+ },
+ {
+  "russian": "Леокадия",
+  "chinese": "列奥卡季娅",
+  "kind": "formal",
+  "root": "Леокадия",
+  "gender": "f"
+ },
+ {
+  "russian": "Кадя",
+  "chinese": "卡佳",
+  "kind": "diminutive",
+  "root": "Леокадия",
+  "gender": "f"
+ },
+ {
+  "russian": "Лидия",
+  "chinese": "莉季娅",
+  "kind": "formal",
+  "root": "Лидия",
+  "gender": "f"
+ },
+ {
+  "russian": "Лида",
+  "chinese": "莉达",
+  "kind": "diminutive",
+  "root": "Лидия",
+  "gender": "f"
+ },
+ {
+  "russian": "Лидочка",
+  "chinese": "莉多奇卡",
+  "kind": "diminutive",
+  "root": "Лидия",
+  "gender": "f"
+ },
+ {
+  "russian": "Лидок",
+  "chinese": "莉多克",
+  "kind": "diminutive",
+  "root": "Лидия",
+  "gender": "f"
+ },
+ {
+  "russian": "Линочка",
+  "chinese": "莉诺奇卡",
+  "kind": "diminutive",
+  "root": "Лидия",
+  "gender": "f"
+ },
+ {
+  "russian": "Липа",
+  "chinese": "莉帕",
+  "kind": "diminutive",
+  "root": "Лидия",
+  "gender": "f"
+ },
+ {
+  "russian": "Липочка",
+  "chinese": "莉波奇卡",
+  "kind": "diminutive",
+  "root": "Лидия",
+  "gender": "f"
+ },
+ {
+  "russian": "Любовь",
+  "chinese": "柳博芙",
+  "kind": "formal",
+  "root": "Любовь",
+  "gender": "f"
+ },
+ {
+  "russian": "Люба",
+  "chinese": "柳芭",
+  "kind": "diminutive",
+  "root": "Любовь",
+  "gender": "f"
+ },
+ {
+  "russian": "Любочка",
+  "chinese": "柳博奇卡",
+  "kind": "diminutive",
+  "root": "Любовь",
+  "gender": "f"
+ },
+ {
+  "russian": "Любонька",
+  "chinese": "柳邦卡",
+  "kind": "diminutive",
+  "root": "Любовь",
+  "gender": "f"
+ },
+ {
+  "russian": "Любаша",
+  "chinese": "柳芭莎",
+  "kind": "diminutive",
+  "root": "Любовь",
+  "gender": "f"
+ },
+ {
+  "russian": "Людмила",
+  "chinese": "柳德米拉",
+  "kind": "formal",
+  "root": "Людмила",
+  "gender": "f"
+ },
+ {
+  "russian": "Люда",
+  "chinese": "柳达",
+  "kind": "diminutive",
+  "root": "Людмила",
+  "gender": "f"
+ },
+ {
+  "russian": "Люся",
+  "chinese": "柳夏",
+  "kind": "diminutive",
+  "root": "Людмила",
+  "gender": "f"
+ },
+ {
+  "russian": "Людочка",
+  "chinese": "柳多奇卡",
+  "kind": "diminutive",
+  "root": "Людмила",
+  "gender": "f"
+ },
+ {
+  "russian": "Люсенька",
+  "chinese": "柳先卡",
+  "kind": "diminutive",
+  "root": "Людмила",
+  "gender": "f"
+ },
+ {
+  "russian": "Мавра",
+  "chinese": "玛芙拉",
+  "kind": "formal",
+  "root": "Мавра",
+  "gender": "f"
+ },
+ {
+  "russian": "Мавруша",
+  "chinese": "玛芙鲁莎",
+  "kind": "diminutive",
+  "root": "Мавра",
+  "gender": "f"
+ },
+ {
+  "russian": "Майя",
+  "chinese": "迈娅",
+  "kind": "formal",
+  "root": "Майя",
+  "gender": "f"
+ },
+ {
+  "russian": "Маюня",
+  "chinese": "迈尤尼亚",
+  "kind": "diminutive",
+  "root": "Майя",
+  "gender": "f"
+ },
+ {
+  "russian": "Маланья",
+  "chinese": "玛兰娅",
+  "kind": "formal",
+  "root": "Маланья",
+  "gender": "f"
+ },
+ {
+  "russian": "Маланочка",
+  "chinese": "玛兰诺奇卡",
+  "kind": "diminutive",
+  "root": "Маланья",
+  "gender": "f"
+ },
+ {
+  "russian": "Маланьюшка",
+  "chinese": "玛兰尤什卡",
+  "kind": "diminutive",
+  "root": "Маланья",
+  "gender": "f"
+ },
+ {
+  "russian": "Маргарита",
+  "chinese": "玛尔加丽塔",
+  "kind": "formal",
+  "root": "Маргарита",
+  "gender": "f"
+ },
+ {
+  "russian": "Рита",
+  "chinese": "丽塔",
+  "kind": "diminutive",
+  "root": "Маргарита",
+  "gender": "f"
+ },
+ {
+  "russian": "Маргариточка",
+  "chinese": "玛尔加丽托奇卡",
+  "kind": "diminutive",
+  "root": "Маргарита",
+  "gender": "f"
+ },
+ {
+  "russian": "Риточка",
+  "chinese": "丽托奇卡",
+  "kind": "diminutive",
+  "root": "Маргарита",
+  "gender": "f"
+ },
+ {
+  "russian": "Мариам",
+  "chinese": "玛丽阿姆",
+  "kind": "formal",
+  "root": "Мариам",
+  "gender": "f"
+ },
+ {
+  "russian": "Рима",
+  "chinese": "丽玛",
+  "kind": "diminutive",
+  "root": "Мариам",
+  "gender": "f"
+ },
+ {
+  "russian": "Римочка",
+  "chinese": "丽莫奇卡",
+  "kind": "diminutive",
+  "root": "Мариам",
+  "gender": "f"
+ },
+ {
+  "russian": "Мария",
+  "chinese": "玛丽亚",
+  "kind": "formal",
+  "root": "Мария",
+  "gender": "f"
+ },
+ {
+  "russian": "Маня",
+  "chinese": "玛尼亚",
+  "kind": "diminutive",
+  "root": "Мария",
+  "gender": "f"
+ },
+ {
+  "russian": "Маша",
+  "chinese": "玛莎",
+  "kind": "diminutive",
+  "root": "Мария",
+  "gender": "f"
+ },
+ {
+  "russian": "Маруся",
+  "chinese": "玛鲁夏",
+  "kind": "diminutive",
+  "root": "Мария",
+  "gender": "f"
+ },
+ {
+  "russian": "Машенька",
+  "chinese": "玛申卡",
+  "kind": "diminutive",
+  "root": "Мария",
+  "gender": "f"
+ },
+ {
+  "russian": "Марусенька",
+  "chinese": "玛鲁申卡",
+  "kind": "diminutive",
+  "root": "Мария",
+  "gender": "f"
+ },
+ {
+  "russian": "Манечка",
+  "chinese": "玛涅奇卡",
+  "kind": "diminutive",
+  "root": "Мария",
+  "gender": "f"
+ },
+ {
+  "russian": "Марфа",
+  "chinese": "玛尔法",
+  "kind": "formal",
+  "root": "Марфа",
+  "gender": "f"
+ },
+ {
+  "russian": "Марфуша",
+  "chinese": "玛尔富莎",
+  "kind": "diminutive",
+  "root": "Марфа",
+  "gender": "f"
+ },
+ {
+  "russian": "Марфушечка",
+  "chinese": "玛尔富舍奇卡",
+  "kind": "diminutive",
+  "root": "Марфа",
+  "gender": "f"
+ },
+ {
+  "russian": "Матрёна",
+  "chinese": "玛特廖娜",
+  "kind": "formal",
+  "root": "Матрёна",
+  "gender": "f"
+ },
+ {
+  "russian": "Муся",
+  "chinese": "穆夏",
+  "kind": "diminutive",
+  "root": "Матрёна",
+  "gender": "f"
+ },
+ {
+  "russian": "Милица",
+  "chinese": "米莉察",
+  "kind": "formal",
+  "root": "Милица",
+  "gender": "f"
+ },
+ {
+  "russian": "Миля",
+  "chinese": "米利亚",
+  "kind": "diminutive",
+  "root": "Милица",
+  "gender": "f"
+ },
+ {
+  "russian": "Милюша",
+  "chinese": "米柳莎",
+  "kind": "diminutive",
+  "root": "Милица",
+  "gender": "f"
+ },
+ {
+  "russian": "Митенька",
+  "chinese": "米坚卡",
+  "kind": "diminutive",
+  "root": "Милица",
+  "gender": "f"
+ },
+ {
+  "russian": "Надежда",
+  "chinese": "娜杰日达",
+  "kind": "formal",
+  "root": "Надежда",
+  "gender": "f"
+ },
+ {
+  "russian": "Надя",
+  "chinese": "娜佳",
+  "kind": "diminutive",
+  "root": "Надежда",
+  "gender": "f"
+ },
+ {
+  "russian": "Натюша",
+  "chinese": "娜秋莎",
+  "kind": "diminutive",
+  "root": "Надежда",
+  "gender": "f"
+ },
+ {
+  "russian": "Надюся",
+  "chinese": "娜久夏",
+  "kind": "diminutive",
+  "root": "Надежда",
+  "gender": "f"
+ },
+ {
+  "russian": "Наденька",
+  "chinese": "娜坚卡",
+  "kind": "diminutive",
+  "root": "Надежда",
+  "gender": "f"
+ },
+ {
+  "russian": "Надюшенька",
+  "chinese": "娜久申卡",
+  "kind": "diminutive",
+  "root": "Надежда",
+  "gender": "f"
+ },
+ {
+  "russian": "Наталия",
+  "chinese": "娜塔莉娅",
+  "kind": "formal",
+  "root": "Наталия",
+  "gender": "f"
+ },
+ {
+  "russian": "Наташа",
+  "chinese": "娜塔莎",
+  "kind": "diminutive",
+  "root": "Наталия",
+  "gender": "f"
+ },
+ {
+  "russian": "Наталочка",
+  "chinese": "娜塔洛奇卡",
+  "kind": "diminutive",
+  "root": "Наталия",
+  "gender": "f"
+ },
+ {
+  "russian": "Наташенька",
+  "chinese": "娜塔申卡",
+  "kind": "diminutive",
+  "root": "Наталия",
+  "gender": "f"
+ },
+ {
+  "russian": "Нина",
+  "chinese": "妮娜",
+  "kind": "formal",
+  "root": "Нина",
+  "gender": "f"
+ },
+ {
+  "russian": "Ниночка",
+  "chinese": "妮诺奇卡",
+  "kind": "diminutive",
+  "root": "Нина",
+  "gender": "f"
+ },
+ {
+  "russian": "Нинок",
+  "chinese": "妮诺克",
+  "kind": "diminutive",
+  "root": "Нина",
+  "gender": "f"
+ },
+ {
+  "russian": "Нюрочка",
+  "chinese": "纽萝奇卡",
+  "kind": "diminutive",
+  "root": "Нина",
+  "gender": "f"
+ },
+ {
+  "russian": "Олимпиада",
+  "chinese": "奥莉姆皮阿达",
+  "kind": "formal",
+  "root": "Олимпиада",
+  "gender": "f"
+ },
+ {
+  "russian": "Ольга",
+  "chinese": "奥尔加",
+  "kind": "formal",
+  "root": "Ольга",
+  "gender": "f"
+ },
+ {
+  "russian": "Оля",
+  "chinese": "奥利亚",
+  "kind": "diminutive",
+  "root": "Ольга",
+  "gender": "f"
+ },
+ {
+  "russian": "Оленька",
+  "chinese": "奥连卡",
+  "kind": "diminutive",
+  "root": "Ольга",
+  "gender": "f"
+ },
+ {
+  "russian": "Олечка",
+  "chinese": "奥列奇卡",
+  "kind": "diminutive",
+  "root": "Ольга",
+  "gender": "f"
+ },
+ {
+  "russian": "Павла",
+  "chinese": "怕芙拉",
+  "kind": "formal",
+  "root": "Павла",
+  "gender": "f"
+ },
+ {
+  "russian": "Паша",
+  "chinese": "怕莎",
+  "kind": "diminutive",
+  "root": "Павла",
+  "gender": "f"
+ },
+ {
+  "russian": "Пашенька",
+  "chinese": "怕申卡",
+  "kind": "diminutive",
+  "root": "Павла",
+  "gender": "f"
+ },
+ {
+  "russian": "Пелагея",
+  "chinese": "佩拉格娅",
+  "kind": "formal",
+  "root": "Пелагея",
+  "gender": "f"
+ },
+ {
+  "russian": "Палаша",
+  "chinese": "怕拉莎",
+  "kind": "diminutive",
+  "root": "Пелагея",
+  "gender": "f"
+ },
+ {
+  "russian": "Поля",
+  "chinese": "波利亚",
+  "kind": "diminutive",
+  "root": "Пелагея",
+  "gender": "f"
+ },
+ {
+  "russian": "Пелаша",
+  "chinese": "佩拉莎",
+  "kind": "diminutive",
+  "root": "Пелагея",
+  "gender": "f"
+ },
+ {
+  "russian": "Пелагеюшка",
+  "chinese": "佩拉格尤什卡",
+  "kind": "diminutive",
+  "root": "Пелагея",
+  "gender": "f"
+ },
+ {
+  "russian": "Прасковья",
+  "chinese": "普拉斯科芙娅",
+  "kind": "formal",
+  "root": "Прасковья",
+  "gender": "f"
+ },
+ {
+  "russian": "Пашенька",
+  "chinese": "帕申卡",
+  "kind": "diminutive",
+  "root": "Прасковья",
+  "gender": "f"
+ },
+ {
+  "russian": "Пульхерия",
+  "chinese": "普莉赫丽娅",
+  "kind": "formal",
+  "root": "Пульхерия",
+  "gender": "f"
+ },
+ {
+  "russian": "Пульхерьюшка",
+  "chinese": "普莉赫丽尤什卡",
+  "kind": "diminutive",
+  "root": "Пульхерия",
+  "gender": "f"
+ },
+ {
+  "russian": "Раиса",
+  "chinese": "拉伊萨",
+  "kind": "formal",
+  "root": "Раиса",
+  "gender": "f"
+ },
+ {
+  "russian": "Рая",
+  "chinese": "拉娅",
+  "kind": "diminutive",
+  "root": "Раиса",
+  "gender": "f"
+ },
+ {
+  "russian": "Раечка",
+  "chinese": "拉耶奇卡",
+  "kind": "diminutive",
+  "root": "Раиса",
+  "gender": "f"
+ },
+ {
+  "russian": "Сарра",
+  "chinese": "萨尔拉",
+  "kind": "formal",
+  "root": "Сарра",
+  "gender": "f"
+ },
+ {
+  "russian": "Саррочка",
+  "chinese": "萨尔罗奇卡",
+  "kind": "diminutive",
+  "root": "Сарра",
+  "gender": "f"
+ },
+ {
+  "russian": "Светлана",
+  "chinese": "斯韦特拉娜",
+  "kind": "formal",
+  "root": "Светлана",
+  "gender": "f"
+ },
+ {
+  "russian": "Света",
+  "chinese": "斯韦塔",
+  "kind": "diminutive",
+  "root": "Светлана",
+  "gender": "f"
+ },
+ {
+  "russian": "Светочка",
+  "chinese": "斯韦托奇卡",
+  "kind": "diminutive",
+  "root": "Светлана",
+  "gender": "f"
+ },
+ {
+  "russian": "Светланочна",
+  "chinese": "斯韦特拉诺奇娜",
+  "kind": "diminutive",
+  "root": "Светлана",
+  "gender": "f"
+ },
+ {
+  "russian": "Серафима",
+  "chinese": "谢拉菲玛",
+  "kind": "formal",
+  "root": "Серафима",
+  "gender": "f"
+ },
+ {
+  "russian": "Сима",
+  "chinese": "西玛",
+  "kind": "diminutive",
+  "root": "Серафима",
+  "gender": "f"
+ },
+ {
+  "russian": "Фима",
+  "chinese": "菲玛",
+  "kind": "diminutive",
+  "root": "Серафима",
+  "gender": "f"
+ },
+ {
+  "russian": "Симочка",
+  "chinese": "西莫奇卡",
+  "kind": "diminutive",
+  "root": "Серафима",
+  "gender": "f"
+ },
+ {
+  "russian": "Фимочка",
+  "chinese": "菲莫奇卡",
+  "kind": "diminutive",
+  "root": "Серафима",
+  "gender": "f"
+ },
+ {
+  "russian": "Софья",
+  "chinese": "索夫娅",
+  "kind": "formal",
+  "root": "Софья",
+  "gender": "f"
+ },
+ {
+  "russian": "Соня",
+  "chinese": "索尼亚",
+  "kind": "diminutive",
+  "root": "Софья",
+  "gender": "f"
+ },
+ {
+  "russian": "Сонечка",
+  "chinese": "索涅奇卡",
+  "kind": "diminutive",
+  "root": "Софья",
+  "gender": "f"
+ },
+ {
+  "russian": "Сонюша",
+  "chinese": "索纽莎",
+  "kind": "diminutive",
+  "root": "Софья",
+  "gender": "f"
+ },
+ {
+  "russian": "Степанида",
+  "chinese": "斯捷帕妮达",
+  "kind": "formal",
+  "root": "Степанида",
+  "gender": "f"
+ },
+ {
+  "russian": "Стёша",
+  "chinese": "斯乔莎",
+  "kind": "diminutive",
+  "root": "Степанида",
+  "gender": "f"
+ },
+ {
+  "russian": "Степанидушка",
+  "chinese": "斯捷帕妮杜什卡",
+  "kind": "diminutive",
+  "root": "Степанида",
+  "gender": "f"
+ },
+ {
+  "russian": "Степанидочка",
+  "chinese": "斯捷帕妮多奇卡",
+  "kind": "diminutive",
+  "root": "Степанида",
+  "gender": "f"
+ },
+ {
+  "russian": "Сусанна",
+  "chinese": "苏桑娜",
+  "kind": "formal",
+  "root": "Сусанна",
+  "gender": "f"
+ },
+ {
+  "russian": "Сусанночка",
+  "chinese": "苏桑诺奇卡",
+  "kind": "diminutive",
+  "root": "Сусанна",
+  "gender": "f"
+ },
+ {
+  "russian": "Таисия",
+  "chinese": "塔伊西娅",
+  "kind": "formal",
+  "root": "Таисия",
+  "gender": "f"
+ },
+ {
+  "russian": "Тамара",
+  "chinese": "塔玛拉",
+  "kind": "formal",
+  "root": "Тамара",
+  "gender": "f"
+ },
+ {
+  "russian": "Тамарочка",
+  "chinese": "塔玛罗奇卡",
+  "kind": "diminutive",
+  "root": "Тамара",
+  "gender": "f"
+ },
+ {
+  "russian": "Татьяна",
+  "chinese": "塔季娅娜",
+  "kind": "formal",
+  "root": "Татьяна",
+  "gender": "f"
+ },
+ {
+  "russian": "Таня",
+  "chinese": "塔尼亚",
+  "kind": "diminutive",
+  "root": "Татьяна",
+  "gender": "f"
+ },
+ {
+  "russian": "Танюша",
+  "chinese": "塔纽莎",
+  "kind": "diminutive",
+  "root": "Татьяна",
+  "gender": "f"
+ },
+ {
+  "russian": "Танечка",
+  "chinese": "塔涅奇卡",
+  "kind": "diminutive",
+  "root": "Татьяна",
+  "gender": "f"
+ },
+ {
+  "russian": "Тёма",
+  "chinese": "乔玛",
+  "kind": "diminutive",
+  "root": "Татьяна",
+  "gender": "f"
+ },
+ {
+  "russian": "Татьяночка",
+  "chinese": "塔季娅诺奇卡",
+  "kind": "diminutive",
+  "root": "Татьяна",
+  "gender": "f"
+ },
+ {
+  "russian": "Танёк",
+  "chinese": "塔尼奥克",
+  "kind": "diminutive",
+  "root": "Татьяна",
+  "gender": "f"
+ },
+ {
+  "russian": "Тёмочка",
+  "chinese": "乔莫奇卡",
+  "kind": "diminutive",
+  "root": "Татьяна",
+  "gender": "f"
+ },
+ {
+  "russian": "Улитта",
+  "chinese": "乌莉特塔",
+  "kind": "formal",
+  "root": "Улитта",
+  "gender": "f"
+ },
+ {
+  "russian": "Улиттушка",
+  "chinese": "乌莉特图什卡",
+  "kind": "diminutive",
+  "root": "Улитта",
+  "gender": "f"
+ },
+ {
+  "russian": "Ульяна",
+  "chinese": "乌里扬娜",
+  "kind": "formal",
+  "root": "Ульяна",
+  "gender": "f"
+ },
+ {
+  "russian": "Уля",
+  "chinese": "乌利亚",
+  "kind": "diminutive",
+  "root": "Ульяна",
+  "gender": "f"
+ },
+ {
+  "russian": "Улечка",
+  "chinese": "乌列奇卡",
+  "kind": "diminutive",
+  "root": "Ульяна",
+  "gender": "f"
+ },
+ {
+  "russian": "Ульяночка",
+  "chinese": "乌里扬诺奇卡",
+  "kind": "diminutive",
+  "root": "Ульяна",
+  "gender": "f"
+ },
+ {
+  "russian": "Устинья",
+  "chinese": "乌斯季妮娅",
+  "kind": "formal",
+  "root": "Устинья",
+  "gender": "f"
+ },
+ {
+  "russian": "Устина",
+  "chinese": "乌斯季娜",
+  "kind": "diminutive",
+  "root": "Устинья",
+  "gender": "f"
+ },
+ {
+  "russian": "Тина",
+  "chinese": "季娜",
+  "kind": "diminutive",
+  "root": "Устинья",
+  "gender": "f"
+ },
+ {
+  "russian": "Устиньюшка",
+  "chinese": "乌斯季妮尤什卡",
+  "kind": "diminutive",
+  "root": "Устинья",
+  "gender": "f"
+ },
+ {
+  "russian": "Тиночка",
+  "chinese": "季诺奇卡",
+  "kind": "diminutive",
+  "root": "Устинья",
+  "gender": "f"
+ },
+ {
+  "russian": "Фаина",
+  "chinese": "法伊娜",
+  "kind": "formal",
+  "root": "Фаина",
+  "gender": "f"
+ },
+ {
+  "russian": "Фаня",
+  "chinese": "法尼亚",
+  "kind": "diminutive",
+  "root": "Фаина",
+  "gender": "f"
+ },
+ {
+  "russian": "Фанечка",
+  "chinese": "法涅奇卡",
+  "kind": "diminutive",
+  "root": "Фаина",
+  "gender": "f"
+ },
+ {
+  "russian": "Федосья",
+  "chinese": "费多西娅",
+  "kind": "formal",
+  "root": "Федосья",
+  "gender": "f"
+ },
+ {
+  "russian": "Феня",
+  "chinese": "费尼亚",
+  "kind": "diminutive",
+  "root": "Федосья",
+  "gender": "f"
+ },
+ {
+  "russian": "Феша",
+  "chinese": "费莎",
+  "kind": "diminutive",
+  "root": "Федосья",
+  "gender": "f"
+ },
+ {
+  "russian": "Федосеюшка",
+  "chinese": "费多谢尤什卡",
+  "kind": "diminutive",
+  "root": "Федосья",
+  "gender": "f"
+ },
+ {
+  "russian": "Федосинька",
+  "chinese": "费多辛卡",
+  "kind": "diminutive",
+  "root": "Федосья",
+  "gender": "f"
+ },
+ {
+  "russian": "Фёкла",
+  "chinese": "菲奥克拉",
+  "kind": "formal",
+  "root": "Фёкла",
+  "gender": "f"
+ },
+ {
+  "russian": "Феклуша",
+  "chinese": "费克卢莎",
+  "kind": "diminutive",
+  "root": "Фёкла",
+  "gender": "f"
+ },
+ {
+  "russian": "Феодора",
+  "chinese": "费奥多拉",
+  "kind": "formal",
+  "root": "Феодора",
+  "gender": "f"
+ },
+ {
+  "russian": "Юлия",
+  "chinese": "尤莉娅",
+  "kind": "formal",
+  "root": "Юлия",
+  "gender": "f"
+ },
+ {
+  "russian": "Юля",
+  "chinese": "尤利亚",
+  "kind": "diminutive",
+  "root": "Юлия",
+  "gender": "f"
+ },
+ {
+  "russian": "Юленька",
+  "chinese": "尤连卡",
+  "kind": "diminutive",
+  "root": "Юлия",
+  "gender": "f"
+ },
+ {
+  "russian": "Юра",
+  "chinese": "尤拉",
+  "kind": "diminutive",
+  "root": "Юлия",
+  "gender": "f"
+ },
+ {
+  "russian": "Абрам",
+  "chinese": "阿布拉姆",
+  "kind": "formal",
+  "root": "Абрам",
+  "gender": "m"
+ },
+ {
+  "russian": "Абрамович",
+  "chinese": "阿布拉莫维奇",
+  "kind": "patronymic_m",
+  "root": "Абрам",
+  "gender": "m"
+ },
+ {
+  "russian": "Абраша",
+  "chinese": "阿布拉沙",
+  "kind": "diminutive",
+  "root": "Абрам",
+  "gender": "m"
+ },
+ {
+  "russian": "Абрашенька",
+  "chinese": "阿布拉申卡",
+  "kind": "diminutive",
+  "root": "Абрам",
+  "gender": "m"
+ },
+ {
+  "russian": "Абрамововна",
+  "chinese": "阿布拉莫沃夫娜",
+  "kind": "patronymic_f",
+  "root": "Абрам",
+  "gender": "m"
+ },
+ {
+  "russian": "Август",
+  "chinese": "奥古斯特",
+  "kind": "formal",
+  "root": "Август",
+  "gender": "m"
+ },
+ {
+  "russian": "Августович",
+  "chinese": "奥古斯特维奇",
+  "kind": "patronymic_m",
+  "root": "Август",
+  "gender": "m"
+ },
+ {
+  "russian": "Ава",
+  "chinese": "阿瓦",
+  "kind": "diminutive",
+  "root": "Август",
+  "gender": "m"
+ },
+ {
+  "russian": "Августововна",
+  "chinese": "奥古斯特沃夫娜",
+  "kind": "patronymic_f",
+  "root": "Август",
+  "gender": "m"
+ },
+ {
+  "russian": "Авдей",
+  "chinese": "阿夫杰伊",
+  "kind": "formal",
+  "root": "Авдей",
+  "gender": "m"
+ },
+ {
+  "russian": "Авдеевич",
+  "chinese": "阿夫杰耶维奇",
+  "kind": "patronymic_m",
+  "root": "Авдей",
+  "gender": "m"
+ },
+ {
+  "russian": "Авдеюшка",
+  "chinese": "阿夫杰尤什卡",
+  "kind": "diminutive",
+  "root": "Авдей",
+  "gender": "m"
+ },
+ {
+  "russian": "Авксентий",
+  "chinese": "阿夫克先季",
+  "kind": "formal",
+  "root": "Авксентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Авксентиевич",
+  "chinese": "阿夫克先季耶维奇",
+  "kind": "patronymic_m",
+  "root": "Авксентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Авксентьевич",
+  "chinese": "阿夫克先季耶维奇",
+  "kind": "patronymic_m",
+  "root": "Авксентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Авксентьюшка",
+  "chinese": "阿夫克先季尤什卡",
+  "kind": "diminutive",
+  "root": "Авксентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Авксюта",
+  "chinese": "阿夫克休塔",
+  "kind": "diminutive",
+  "root": "Авксентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Авксюша",
+  "chinese": "阿夫克休沙",
+  "kind": "diminutive",
+  "root": "Авксентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Авксентиевна",
+  "chinese": "阿夫克先季耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Авксентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Авксентьевна",
+  "chinese": "阿夫克先季耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Авксентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Агафон",
+  "chinese": "阿加丰",
+  "kind": "formal",
+  "root": "Агафон",
+  "gender": "m"
+ },
+ {
+  "russian": "Агафонович",
+  "chinese": "阿加丰诺维奇",
+  "kind": "patronymic_m",
+  "root": "Агафон",
+  "gender": "m"
+ },
+ {
+  "russian": "Афоня",
+  "chinese": "阿丰尼亚",
+  "kind": "diminutive",
+  "root": "Агафон",
+  "gender": "m"
+ },
+ {
+  "russian": "Агафоновна",
+  "chinese": "阿加丰诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Агафон",
+  "gender": "m"
+ },
+ {
+  "russian": "Агриппа",
+  "chinese": "阿格里普帕",
+  "kind": "formal",
+  "root": "Агриппа",
+  "gender": "m"
+ },
+ {
+  "russian": "Агриппич",
+  "chinese": "阿格里普皮奇",
+  "kind": "patronymic_m",
+  "root": "Агриппа",
+  "gender": "m"
+ },
+ {
+  "russian": "Агриппична",
+  "chinese": "阿格里普皮奇娜",
+  "kind": "patronymic_f",
+  "root": "Агриппа",
+  "gender": "m"
+ },
+ {
+  "russian": "Агрипушка",
+  "chinese": "阿格里普什卡",
+  "kind": "patronymic_f",
+  "root": "Агриппа",
+  "gender": "m"
+ },
+ {
+  "russian": "Аким",
+  "chinese": "阿基姆",
+  "kind": "formal",
+  "root": "Аким",
+  "gender": "m"
+ },
+ {
+  "russian": "Акимович",
+  "chinese": "阿基莫维奇",
+  "kind": "patronymic_m",
+  "root": "Аким",
+  "gender": "m"
+ },
+ {
+  "russian": "Акимчик",
+  "chinese": "阿基姆奇克",
+  "kind": "diminutive",
+  "root": "Аким",
+  "gender": "m"
+ },
+ {
+  "russian": "Акимовна",
+  "chinese": "阿基莫夫娜",
+  "kind": "patronymic_f",
+  "root": "Аким",
+  "gender": "m"
+ },
+ {
+  "russian": "Александр",
+  "chinese": "亚历山大",
+  "kind": "formal",
+  "root": "Александр",
+  "gender": "m"
+ },
+ {
+  "russian": "Александрович",
+  "chinese": "阿列克桑德罗维奇",
+  "kind": "patronymic_m",
+  "root": "Александр",
+  "gender": "m"
+ },
+ {
+  "russian": "Саша",
+  "chinese": "萨沙",
+  "kind": "diminutive",
+  "root": "Александр",
+  "gender": "m"
+ },
+ {
+  "russian": "Саня",
+  "chinese": "萨尼亚",
+  "kind": "diminutive",
+  "root": "Александр",
+  "gender": "m"
+ },
+ {
+  "russian": "Шурик",
+  "chinese": "舒里克",
+  "kind": "diminutive",
+  "root": "Александр",
+  "gender": "m"
+ },
+ {
+  "russian": "Алексаша",
+  "chinese": "阿列克萨沙",
+  "kind": "diminutive",
+  "root": "Александр",
+  "gender": "m"
+ },
+ {
+  "russian": "Александровна",
+  "chinese": "阿列克桑德罗夫娜",
+  "kind": "patronymic_f",
+  "root": "Александр",
+  "gender": "m"
+ },
+ {
+  "russian": "Алексей",
+  "chinese": "阿列克谢",
+  "kind": "formal",
+  "root": "Алексей",
+  "gender": "m"
+ },
+ {
+  "russian": "Алексеевич",
+  "chinese": "阿列克谢耶维奇",
+  "kind": "patronymic_m",
+  "root": "Алексей",
+  "gender": "m"
+ },
+ {
+  "russian": "Алёша",
+  "chinese": "阿廖沙",
+  "kind": "diminutive",
+  "root": "Алексей",
+  "gender": "m"
+ },
+ {
+  "russian": "Лёша",
+  "chinese": "廖沙",
+  "kind": "diminutive",
+  "root": "Алексей",
+  "gender": "m"
+ },
+ {
+  "russian": "Алёшенька",
+  "chinese": "阿廖申卡",
+  "kind": "diminutive",
+  "root": "Алексей",
+  "gender": "m"
+ },
+ {
+  "russian": "Алик",
+  "chinese": "阿里克",
+  "kind": "diminutive",
+  "root": "Алексей",
+  "gender": "m"
+ },
+ {
+  "russian": "Лёшенька",
+  "chinese": "廖申卡",
+  "kind": "diminutive",
+  "root": "Алексей",
+  "gender": "m"
+ },
+ {
+  "russian": "Дёня",
+  "chinese": "焦尼亚",
+  "kind": "diminutive",
+  "root": "Алексей",
+  "gender": "m"
+ },
+ {
+  "russian": "Алексеевна",
+  "chinese": "阿列克谢耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Алексей",
+  "gender": "m"
+ },
+ {
+  "russian": "Ананий",
+  "chinese": "阿纳尼",
+  "kind": "formal",
+  "root": "Ананий",
+  "gender": "m"
+ },
+ {
+  "russian": "Ананиевич",
+  "chinese": "阿纳尼耶维奇",
+  "kind": "patronymic_m",
+  "root": "Ананий",
+  "gender": "m"
+ },
+ {
+  "russian": "Ананьевич",
+  "chinese": "阿纳尼耶维奇",
+  "kind": "patronymic_m",
+  "root": "Ананий",
+  "gender": "m"
+ },
+ {
+  "russian": "Ананя",
+  "chinese": "阿纳尼亚",
+  "kind": "diminutive",
+  "root": "Ананий",
+  "gender": "m"
+ },
+ {
+  "russian": "Анаша",
+  "chinese": "阿纳沙",
+  "kind": "diminutive",
+  "root": "Ананий",
+  "gender": "m"
+ },
+ {
+  "russian": "Анаха",
+  "chinese": "阿纳哈",
+  "kind": "diminutive",
+  "root": "Ананий",
+  "gender": "m"
+ },
+ {
+  "russian": "Ананиевна",
+  "chinese": "阿纳尼耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Ананий",
+  "gender": "m"
+ },
+ {
+  "russian": "Ананьевна",
+  "chinese": "阿纳尼耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Ананий",
+  "gender": "m"
+ },
+ {
+  "russian": "Анастасий",
+  "chinese": "阿纳斯塔西",
+  "kind": "formal",
+  "root": "Анастасий",
+  "gender": "m"
+ },
+ {
+  "russian": "Анастасиевич",
+  "chinese": "阿纳斯塔西耶维奇",
+  "kind": "patronymic_m",
+  "root": "Анастасий",
+  "gender": "m"
+ },
+ {
+  "russian": "Анастасьевич",
+  "chinese": "阿纳斯塔西耶维奇",
+  "kind": "patronymic_m",
+  "root": "Анастасий",
+  "gender": "m"
+ },
+ {
+  "russian": "Анастасюшка",
+  "chinese": "阿纳斯塔休什卡",
+  "kind": "diminutive",
+  "root": "Анастасий",
+  "gender": "m"
+ },
+ {
+  "russian": "Анастасиевна",
+  "chinese": "阿纳斯塔西耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Анастасий",
+  "gender": "m"
+ },
+ {
+  "russian": "Анастасьевна",
+  "chinese": "阿纳斯塔西耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Анастасий",
+  "gender": "m"
+ },
+ {
+  "russian": "Анатолий",
+  "chinese": "阿纳托利",
+  "kind": "formal",
+  "root": "Анатолий",
+  "gender": "m"
+ },
+ {
+  "russian": "Анатолиевич",
+  "chinese": "阿纳托利耶维奇",
+  "kind": "patronymic_m",
+  "root": "Анатолий",
+  "gender": "m"
+ },
+ {
+  "russian": "Анатольевич",
+  "chinese": "阿纳托利耶维奇",
+  "kind": "patronymic_m",
+  "root": "Анатолий",
+  "gender": "m"
+ },
+ {
+  "russian": "Толя",
+  "chinese": "托利亚",
+  "kind": "diminutive",
+  "root": "Анатолий",
+  "gender": "m"
+ },
+ {
+  "russian": "Толичка",
+  "chinese": "托利奇卡",
+  "kind": "diminutive",
+  "root": "Анатолий",
+  "gender": "m"
+ },
+ {
+  "russian": "Анатолиевна",
+  "chinese": "阿纳托利耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Анатолий",
+  "gender": "m"
+ },
+ {
+  "russian": "Анатольевна",
+  "chinese": "阿纳托利耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Анатолий",
+  "gender": "m"
+ },
+ {
+  "russian": "Андрей",
+  "chinese": "安德烈",
+  "kind": "formal",
+  "root": "Андрей",
+  "gender": "m"
+ },
+ {
+  "russian": "Андреевич",
+  "chinese": "安德烈耶维奇",
+  "kind": "patronymic_m",
+  "root": "Андрей",
+  "gender": "m"
+ },
+ {
+  "russian": "Андрюша",
+  "chinese": "安德留沙",
+  "kind": "diminutive",
+  "root": "Андрей",
+  "gender": "m"
+ },
+ {
+  "russian": "Андрик",
+  "chinese": "安德里克",
+  "kind": "diminutive",
+  "root": "Андрей",
+  "gender": "m"
+ },
+ {
+  "russian": "Андрюшечка",
+  "chinese": "安德留舍奇卡",
+  "kind": "diminutive",
+  "root": "Андрей",
+  "gender": "m"
+ },
+ {
+  "russian": "Андреевна",
+  "chinese": "安德烈耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Андрей",
+  "gender": "m"
+ },
+ {
+  "russian": "Андриан",
+  "chinese": "安德里安",
+  "kind": "formal",
+  "root": "Андриан",
+  "gender": "m"
+ },
+ {
+  "russian": "Андрианович",
+  "chinese": "安德里安诺维奇",
+  "kind": "patronymic_m",
+  "root": "Андриан",
+  "gender": "m"
+ },
+ {
+  "russian": "Андрианка",
+  "chinese": "安德里安卡",
+  "kind": "diminutive",
+  "root": "Андриан",
+  "gender": "m"
+ },
+ {
+  "russian": "Андриановна",
+  "chinese": "安德里安诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Андриан",
+  "gender": "m"
+ },
+ {
+  "russian": "Анисим",
+  "chinese": "阿尼西姆",
+  "kind": "formal",
+  "root": "Анисим",
+  "gender": "m"
+ },
+ {
+  "russian": "Анисимович",
+  "chinese": "阿尼西姆莫维奇",
+  "kind": "patronymic_m",
+  "root": "Анисим",
+  "gender": "m"
+ },
+ {
+  "russian": "Анисимушка",
+  "chinese": "阿尼西穆什卡",
+  "kind": "diminutive",
+  "root": "Анисим",
+  "gender": "m"
+ },
+ {
+  "russian": "Анисимовна",
+  "chinese": "阿尼西姆莫夫娜",
+  "kind": "patronymic_f",
+  "root": "Анисим",
+  "gender": "m"
+ },
+ {
+  "russian": "Антип",
+  "chinese": "安季普",
+  "kind": "formal",
+  "root": "Антип",
+  "gender": "m"
+ },
+ {
+  "russian": "Антипович",
+  "chinese": "安季波维奇",
+  "kind": "patronymic_m",
+  "root": "Антип",
+  "gender": "m"
+ },
+ {
+  "russian": "Антипушка",
+  "chinese": "安季普什卡",
+  "kind": "diminutive",
+  "root": "Антип",
+  "gender": "m"
+ },
+ {
+  "russian": "Антиповна",
+  "chinese": "安季波夫娜",
+  "kind": "patronymic_f",
+  "root": "Антип",
+  "gender": "m"
+ },
+ {
+  "russian": "Антон",
+  "chinese": "安东",
+  "kind": "formal",
+  "root": "Антон",
+  "gender": "m"
+ },
+ {
+  "russian": "Антонович",
+  "chinese": "安东诺维奇",
+  "kind": "patronymic_m",
+  "root": "Антон",
+  "gender": "m"
+ },
+ {
+  "russian": "Антоша",
+  "chinese": "安托沙",
+  "kind": "diminutive",
+  "root": "Антон",
+  "gender": "m"
+ },
+ {
+  "russian": "Антоновна",
+  "chinese": "安东诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Антон",
+  "gender": "m"
+ },
+ {
+  "russian": "Ануфрий",
+  "chinese": "阿努夫里",
+  "kind": "formal",
+  "root": "Ануфрий",
+  "gender": "m"
+ },
+ {
+  "russian": "Онуфрий",
+  "chinese": "奥努夫里",
+  "kind": "diminutive",
+  "root": "Ануфрий",
+  "gender": "m"
+ },
+ {
+  "russian": "Ануфриевич",
+  "chinese": "阿努夫里耶维奇",
+  "kind": "patronymic_m",
+  "root": "Ануфрий",
+  "gender": "m"
+ },
+ {
+  "russian": "Ануфриевна",
+  "chinese": "阿努夫里耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Ануфрий",
+  "gender": "m"
+ },
+ {
+  "russian": "Аркадий",
+  "chinese": "阿尔卡季",
+  "kind": "formal",
+  "root": "Аркадий",
+  "gender": "m"
+ },
+ {
+  "russian": "Аркадиевич",
+  "chinese": "阿尔卡季耶维奇",
+  "kind": "patronymic_m",
+  "root": "Аркадий",
+  "gender": "m"
+ },
+ {
+  "russian": "Аркадьевич",
+  "chinese": "阿尔卡季耶维奇",
+  "kind": "patronymic_m",
+  "root": "Аркадий",
+  "gender": "m"
+ },
+ {
+  "russian": "Аркаша",
+  "chinese": "阿尔卡沙",
+  "kind": "diminutive",
+  "root": "Аркадий",
+  "gender": "m"
+ },
+ {
+  "russian": "Арсений",
+  "chinese": "阿尔谢尼",
+  "kind": "formal",
+  "root": "Арсений",
+  "gender": "m"
+ },
+ {
+  "russian": "Арсениевич",
+  "chinese": "阿尔谢尼耶维奇",
+  "kind": "patronymic_m",
+  "root": "Арсений",
+  "gender": "m"
+ },
+ {
+  "russian": "Арсеньевич",
+  "chinese": "阿尔谢尼耶维奇",
+  "kind": "patronymic_m",
+  "root": "Арсений",
+  "gender": "m"
+ },
+ {
+  "russian": "Арсеньчик",
+  "chinese": "阿尔先奇克",
+  "kind": "diminutive",
+  "root": "Арсений",
+  "gender": "m"
+ },
+ {
+  "russian": "Артемий",
+  "chinese": "阿尔捷米",
+  "kind": "formal",
+  "root": "Артемий",
+  "gender": "m"
+ },
+ {
+  "russian": "Артём",
+  "chinese": "阿尔乔姆",
+  "kind": "diminutive",
+  "root": "Артемий",
+  "gender": "m"
+ },
+ {
+  "russian": "Артемиевич",
+  "chinese": "阿尔捷米耶维奇",
+  "kind": "patronymic_m",
+  "root": "Артемий",
+  "gender": "m"
+ },
+ {
+  "russian": "Артемьевич",
+  "chinese": "阿尔捷米耶维奇",
+  "kind": "patronymic_m",
+  "root": "Артемий",
+  "gender": "m"
+ },
+ {
+  "russian": "Артёмович",
+  "chinese": "阿尔乔莫维奇",
+  "kind": "patronymic_m",
+  "root": "Артемий",
+  "gender": "m"
+ },
+ {
+  "russian": "Тёма",
+  "chinese": "乔马",
+  "kind": "diminutive",
+  "root": "Артемий",
+  "gender": "m"
+ },
+ {
+  "russian": "Артёша",
+  "chinese": "阿尔乔沙",
+  "kind": "diminutive",
+  "root": "Артемий",
+  "gender": "m"
+ },
+ {
+  "russian": "Артёмовна",
+  "chinese": "阿尔乔莫夫娜",
+  "kind": "patronymic_f",
+  "root": "Артемий",
+  "gender": "m"
+ },
+ {
+  "russian": "Архип",
+  "chinese": "阿尔希普",
+  "kind": "formal",
+  "root": "Архип",
+  "gender": "m"
+ },
+ {
+  "russian": "Архипович",
+  "chinese": "阿尔希波维奇",
+  "kind": "patronymic_m",
+  "root": "Архип",
+  "gender": "m"
+ },
+ {
+  "russian": "Аря",
+  "chinese": "阿里亚",
+  "kind": "diminutive",
+  "root": "Архип",
+  "gender": "m"
+ },
+ {
+  "russian": "Архиповна",
+  "chinese": "阿尔希波夫娜",
+  "kind": "patronymic_f",
+  "root": "Архип",
+  "gender": "m"
+ },
+ {
+  "russian": "Афанасий",
+  "chinese": "阿法纳西",
+  "kind": "formal",
+  "root": "Афанасий",
+  "gender": "m"
+ },
+ {
+  "russian": "Афанасиевич",
+  "chinese": "阿法纳西耶维奇",
+  "kind": "patronymic_m",
+  "root": "Афанасий",
+  "gender": "m"
+ },
+ {
+  "russian": "Афанасьевич",
+  "chinese": "阿法纳西耶维奇",
+  "kind": "patronymic_m",
+  "root": "Афанасий",
+  "gender": "m"
+ },
+ {
+  "russian": "Афоня",
+  "chinese": "阿福尼亚",
+  "kind": "diminutive",
+  "root": "Афанасий",
+  "gender": "m"
+ },
+ {
+  "russian": "Фоня",
+  "chinese": "福尼亚",
+  "kind": "diminutive",
+  "root": "Афанасий",
+  "gender": "m"
+ },
+ {
+  "russian": "Афанасиевна",
+  "chinese": "阿法纳西耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Афанасий",
+  "gender": "m"
+ },
+ {
+  "russian": "Богдан",
+  "chinese": "波格丹",
+  "kind": "formal",
+  "root": "Богдан",
+  "gender": "m"
+ },
+ {
+  "russian": "Богданович",
+  "chinese": "波格丹诺维奇",
+  "kind": "patronymic_m",
+  "root": "Богдан",
+  "gender": "m"
+ },
+ {
+  "russian": "Богданушка",
+  "chinese": "波格丹努什卡",
+  "kind": "diminutive",
+  "root": "Богдан",
+  "gender": "m"
+ },
+ {
+  "russian": "Богдановна",
+  "chinese": "波格丹诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Богдан",
+  "gender": "m"
+ },
+ {
+  "russian": "Борис",
+  "chinese": "鲍里斯",
+  "kind": "formal",
+  "root": "Борис",
+  "gender": "m"
+ },
+ {
+  "russian": "Борисович",
+  "chinese": "鲍里索维奇",
+  "kind": "patronymic_m",
+  "root": "Борис",
+  "gender": "m"
+ },
+ {
+  "russian": "Боря",
+  "chinese": "鲍里亚",
+  "kind": "diminutive",
+  "root": "Борис",
+  "gender": "m"
+ },
+ {
+  "russian": "Боренька",
+  "chinese": "鲍连卡",
+  "kind": "diminutive",
+  "root": "Борис",
+  "gender": "m"
+ },
+ {
+  "russian": "Борисовна",
+  "chinese": "鲍里索夫娜",
+  "kind": "patronymic_f",
+  "root": "Борис",
+  "gender": "m"
+ },
+ {
+  "russian": "Вавила",
+  "chinese": "瓦维拉",
+  "kind": "formal",
+  "root": "Вавила",
+  "gender": "m"
+ },
+ {
+  "russian": "Вавилич",
+  "chinese": "瓦维利奇",
+  "kind": "patronymic_m",
+  "root": "Вавила",
+  "gender": "m"
+ },
+ {
+  "russian": "Вавилович",
+  "chinese": "瓦维洛维奇",
+  "kind": "patronymic_m",
+  "root": "Вавила",
+  "gender": "m"
+ },
+ {
+  "russian": "Вавилушка",
+  "chinese": "瓦维卢什卡",
+  "kind": "diminutive",
+  "root": "Вавила",
+  "gender": "m"
+ },
+ {
+  "russian": "Вадим",
+  "chinese": "瓦季姆",
+  "kind": "formal",
+  "root": "Вадим",
+  "gender": "m"
+ },
+ {
+  "russian": "Вадимович",
+  "chinese": "瓦季姆莫维奇",
+  "kind": "patronymic_m",
+  "root": "Вадим",
+  "gender": "m"
+ },
+ {
+  "russian": "Вадимушка",
+  "chinese": "瓦季姆穆什卡",
+  "kind": "diminutive",
+  "root": "Вадим",
+  "gender": "m"
+ },
+ {
+  "russian": "Вадимовна",
+  "chinese": "瓦季姆莫夫娜",
+  "kind": "patronymic_f",
+  "root": "Вадим",
+  "gender": "m"
+ },
+ {
+  "russian": "Валентин",
+  "chinese": "瓦连京",
+  "kind": "formal",
+  "root": "Валентин",
+  "gender": "m"
+ },
+ {
+  "russian": "Валентинович",
+  "chinese": "瓦连京诺维奇",
+  "kind": "patronymic_m",
+  "root": "Валентин",
+  "gender": "m"
+ },
+ {
+  "russian": "Валентиновна",
+  "chinese": "瓦连经诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Валентин",
+  "gender": "m"
+ },
+ {
+  "russian": "Валериан",
+  "chinese": "瓦列里安",
+  "kind": "formal",
+  "root": "Валериан",
+  "gender": "m"
+ },
+ {
+  "russian": "Валерий",
+  "chinese": "瓦列里",
+  "kind": "diminutive",
+  "root": "Валериан",
+  "gender": "m"
+ },
+ {
+  "russian": "Валерианович",
+  "chinese": "瓦列里安诺维奇",
+  "kind": "patronymic_m",
+  "root": "Валериан",
+  "gender": "m"
+ },
+ {
+  "russian": "Валериевич",
+  "chinese": "瓦列里耶维奇",
+  "kind": "patronymic_m",
+  "root": "Валериан",
+  "gender": "m"
+ },
+ {
+  "russian": "Валерьевич",
+  "chinese": "瓦列里耶维奇",
+  "kind": "patronymic_m",
+  "root": "Валериан",
+  "gender": "m"
+ },
+ {
+  "russian": "Валерьевна",
+  "chinese": "瓦列里耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Валериан",
+  "gender": "m"
+ },
+ {
+  "russian": "Варлаам",
+  "chinese": "瓦尔拉阿姆",
+  "kind": "formal",
+  "root": "Варлаам",
+  "gender": "m"
+ },
+ {
+  "russian": "Варлаамович",
+  "chinese": "瓦尔拉阿姆莫维奇",
+  "kind": "patronymic_m",
+  "root": "Варлаам",
+  "gender": "m"
+ },
+ {
+  "russian": "Варлаамка",
+  "chinese": "瓦尔拉阿姆卡",
+  "kind": "diminutive",
+  "root": "Варлаам",
+  "gender": "m"
+ },
+ {
+  "russian": "Варлаша",
+  "chinese": "瓦尔拉沙",
+  "kind": "diminutive",
+  "root": "Варлаам",
+  "gender": "m"
+ },
+ {
+  "russian": "Варлаамовна",
+  "chinese": "瓦尔拉阿姆莫夫娜",
+  "kind": "patronymic_f",
+  "root": "Варлаам",
+  "gender": "m"
+ },
+ {
+  "russian": "Василий",
+  "chinese": "瓦西里",
+  "kind": "formal",
+  "root": "Василий",
+  "gender": "m"
+ },
+ {
+  "russian": "Васильевич",
+  "chinese": "瓦西里耶维奇",
+  "kind": "patronymic_m",
+  "root": "Василий",
+  "gender": "m"
+ },
+ {
+  "russian": "Вася",
+  "chinese": "瓦夏",
+  "kind": "diminutive",
+  "root": "Василий",
+  "gender": "m"
+ },
+ {
+  "russian": "Вась",
+  "chinese": "瓦西",
+  "kind": "diminutive",
+  "root": "Василий",
+  "gender": "m"
+ },
+ {
+  "russian": "Васенька",
+  "chinese": "瓦先卡",
+  "kind": "diminutive",
+  "root": "Василий",
+  "gender": "m"
+ },
+ {
+  "russian": "Васютка",
+  "chinese": "瓦休特卡",
+  "kind": "diminutive",
+  "root": "Василий",
+  "gender": "m"
+ },
+ {
+  "russian": "Васюк",
+  "chinese": "瓦休克",
+  "kind": "diminutive",
+  "root": "Василий",
+  "gender": "m"
+ },
+ {
+  "russian": "Васильевна",
+  "chinese": "瓦西里耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Василий",
+  "gender": "m"
+ },
+ {
+  "russian": "Венедикт",
+  "chinese": "韦涅季克特",
+  "kind": "formal",
+  "root": "Венедикт",
+  "gender": "m"
+ },
+ {
+  "russian": "Венедиктович",
+  "chinese": "韦涅季克特托维奇",
+  "kind": "patronymic_m",
+  "root": "Венедикт",
+  "gender": "m"
+ },
+ {
+  "russian": "Веня",
+  "chinese": "韦尼亚",
+  "kind": "diminutive",
+  "root": "Венедикт",
+  "gender": "m"
+ },
+ {
+  "russian": "Венедиктовна",
+  "chinese": "韦涅季克特托夫娜",
+  "kind": "patronymic_f",
+  "root": "Венедикт",
+  "gender": "m"
+ },
+ {
+  "russian": "Вениамин",
+  "chinese": "韦尼阿明",
+  "kind": "formal",
+  "root": "Вениамин",
+  "gender": "m"
+ },
+ {
+  "russian": "Веньямин",
+  "chinese": "韦尼亚明",
+  "kind": "diminutive",
+  "root": "Вениамин",
+  "gender": "m"
+ },
+ {
+  "russian": "Вениаминович",
+  "chinese": "韦尼阿明诺维奇",
+  "kind": "patronymic_m",
+  "root": "Вениамин",
+  "gender": "m"
+ },
+ {
+  "russian": "Веньяминович",
+  "chinese": "韦尼亚明诺维奇",
+  "kind": "patronymic_m",
+  "root": "Вениамин",
+  "gender": "m"
+ },
+ {
+  "russian": "Венюся",
+  "chinese": "韦纽夏",
+  "kind": "diminutive",
+  "root": "Вениамин",
+  "gender": "m"
+ },
+ {
+  "russian": "Вениаминовна",
+  "chinese": "韦尼阿明诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Вениамин",
+  "gender": "m"
+ },
+ {
+  "russian": "Веньяминовна",
+  "chinese": "韦尼阿明诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Вениамин",
+  "gender": "m"
+ },
+ {
+  "russian": "Викентий",
+  "chinese": "维肯季",
+  "kind": "formal",
+  "root": "Викентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Викентиевич",
+  "chinese": "维肯季耶维奇",
+  "kind": "patronymic_m",
+  "root": "Викентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Викентьевич",
+  "chinese": "维肯季耶维奇",
+  "kind": "patronymic_m",
+  "root": "Викентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Вика",
+  "chinese": "维卡",
+  "kind": "diminutive",
+  "root": "Викентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Викаша",
+  "chinese": "维卡沙",
+  "kind": "diminutive",
+  "root": "Викентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Виктор",
+  "chinese": "维克托",
+  "kind": "formal",
+  "root": "Виктор",
+  "gender": "m"
+ },
+ {
+  "russian": "Викторович",
+  "chinese": "维克托罗维奇",
+  "kind": "patronymic_m",
+  "root": "Виктор",
+  "gender": "m"
+ },
+ {
+  "russian": "Витя",
+  "chinese": "维佳",
+  "kind": "diminutive",
+  "root": "Виктор",
+  "gender": "m"
+ },
+ {
+  "russian": "Витенька",
+  "chinese": "维坚卡",
+  "kind": "diminutive",
+  "root": "Виктор",
+  "gender": "m"
+ },
+ {
+  "russian": "Викторовна",
+  "chinese": "维克托罗夫娜",
+  "kind": "patronymic_f",
+  "root": "Виктор",
+  "gender": "m"
+ },
+ {
+  "russian": "Виссарион",
+  "chinese": "维萨里昂",
+  "kind": "formal",
+  "root": "Виссарион",
+  "gender": "m"
+ },
+ {
+  "russian": "Виссарионович",
+  "chinese": "维萨里昂诺维奇",
+  "kind": "patronymic_m",
+  "root": "Виссарион",
+  "gender": "m"
+ },
+ {
+  "russian": "Виссарионушка",
+  "chinese": "维萨里昂努什卡",
+  "kind": "diminutive",
+  "root": "Виссарион",
+  "gender": "m"
+ },
+ {
+  "russian": "Виссарионовна",
+  "chinese": "维萨里昂诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Виссарион",
+  "gender": "m"
+ },
+ {
+  "russian": "Виталий",
+  "chinese": "维塔利",
+  "kind": "formal",
+  "root": "Виталий",
+  "gender": "m"
+ },
+ {
+  "russian": "Виталиевич",
+  "chinese": "维塔利耶维奇",
+  "kind": "patronymic_m",
+  "root": "Виталий",
+  "gender": "m"
+ },
+ {
+  "russian": "Витальевич",
+  "chinese": "维塔利耶维奇",
+  "kind": "patronymic_m",
+  "root": "Виталий",
+  "gender": "m"
+ },
+ {
+  "russian": "Виташа",
+  "chinese": "维塔沙",
+  "kind": "diminutive",
+  "root": "Виталий",
+  "gender": "m"
+ },
+ {
+  "russian": "Виталиевна",
+  "chinese": "维塔利耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Виталий",
+  "gender": "m"
+ },
+ {
+  "russian": "Витальевна",
+  "chinese": "维塔利耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Виталий",
+  "gender": "m"
+ },
+ {
+  "russian": "Владилен",
+  "chinese": "弗拉季连",
+  "kind": "formal",
+  "root": "Владилен",
+  "gender": "m"
+ },
+ {
+  "russian": "Владиленович",
+  "chinese": "弗拉季连诺维奇",
+  "kind": "patronymic_m",
+  "root": "Владилен",
+  "gender": "m"
+ },
+ {
+  "russian": "Владя",
+  "chinese": "弗拉佳",
+  "kind": "diminutive",
+  "root": "Владилен",
+  "gender": "m"
+ },
+ {
+  "russian": "Вадя",
+  "chinese": "瓦佳",
+  "kind": "diminutive",
+  "root": "Владилен",
+  "gender": "m"
+ },
+ {
+  "russian": "Владиленовна",
+  "chinese": "弗拉季连诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Владилен",
+  "gender": "m"
+ },
+ {
+  "russian": "Владимир",
+  "chinese": "弗拉基米尔",
+  "kind": "formal",
+  "root": "Владимир",
+  "gender": "m"
+ },
+ {
+  "russian": "Владимирович",
+  "chinese": "弗拉基米罗维奇",
+  "kind": "patronymic_m",
+  "root": "Владимир",
+  "gender": "m"
+ },
+ {
+  "russian": "Володя",
+  "chinese": "沃洛佳",
+  "kind": "diminutive",
+  "root": "Владимир",
+  "gender": "m"
+ },
+ {
+  "russian": "Вова",
+  "chinese": "沃瓦",
+  "kind": "diminutive",
+  "root": "Владимир",
+  "gender": "m"
+ },
+ {
+  "russian": "Володеька",
+  "chinese": "沃洛杰伊卡",
+  "kind": "diminutive",
+  "root": "Владимир",
+  "gender": "m"
+ },
+ {
+  "russian": "Вовочка",
+  "chinese": "沃沃奇卡",
+  "kind": "diminutive",
+  "root": "Владимир",
+  "gender": "m"
+ },
+ {
+  "russian": "Владимировна",
+  "chinese": "弗拉基米罗夫娜",
+  "kind": "patronymic_f",
+  "root": "Владимир",
+  "gender": "m"
+ },
+ {
+  "russian": "Владислав",
+  "chinese": "弗拉季斯拉夫",
+  "kind": "formal",
+  "root": "Владислав",
+  "gender": "m"
+ },
+ {
+  "russian": "Владиславович",
+  "chinese": "弗拉季斯拉夫沃维奇",
+  "kind": "patronymic_m",
+  "root": "Владислав",
+  "gender": "m"
+ },
+ {
+  "russian": "Владиславич",
+  "chinese": "弗拉季斯拉维奇",
+  "kind": "patronymic_m",
+  "root": "Владислав",
+  "gender": "m"
+ },
+ {
+  "russian": "Слава",
+  "chinese": "斯拉瓦",
+  "kind": "diminutive",
+  "root": "Владислав",
+  "gender": "m"
+ },
+ {
+  "russian": "Владик",
+  "chinese": "弗拉季克",
+  "kind": "diminutive",
+  "root": "Владислав",
+  "gender": "m"
+ },
+ {
+  "russian": "Владиславовна",
+  "chinese": "弗拉季斯拉沃夫娜",
+  "kind": "patronymic_f",
+  "root": "Владислав",
+  "gender": "m"
+ },
+ {
+  "russian": "Владиславна",
+  "chinese": "弗拉季斯拉夫娜",
+  "kind": "patronymic_f",
+  "root": "Владислав",
+  "gender": "m"
+ },
+ {
+  "russian": "Влас",
+  "chinese": "弗拉斯",
+  "kind": "formal",
+  "root": "Влас",
+  "gender": "m"
+ },
+ {
+  "russian": "Власович",
+  "chinese": "弗拉索维奇",
+  "kind": "patronymic_m",
+  "root": "Влас",
+  "gender": "m"
+ },
+ {
+  "russian": "Влася",
+  "chinese": "弗拉夏",
+  "kind": "diminutive",
+  "root": "Влас",
+  "gender": "m"
+ },
+ {
+  "russian": "Власовна",
+  "chinese": "弗拉索夫娜",
+  "kind": "patronymic_f",
+  "root": "Влас",
+  "gender": "m"
+ },
+ {
+  "russian": "Власий",
+  "chinese": "弗拉西",
+  "kind": "formal",
+  "root": "Власий",
+  "gender": "m"
+ },
+ {
+  "russian": "Власиевич",
+  "chinese": "弗拉西耶维奇",
+  "kind": "patronymic_m",
+  "root": "Власий",
+  "gender": "m"
+ },
+ {
+  "russian": "Власьевич",
+  "chinese": "弗拉西耶维奇",
+  "kind": "patronymic_m",
+  "root": "Власий",
+  "gender": "m"
+ },
+ {
+  "russian": "Власеька",
+  "chinese": "弗拉西卡",
+  "kind": "diminutive",
+  "root": "Власий",
+  "gender": "m"
+ },
+ {
+  "russian": "Власиевна",
+  "chinese": "弗拉西耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Власий",
+  "gender": "m"
+ },
+ {
+  "russian": "Власьевна",
+  "chinese": "弗拉西耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Власий",
+  "gender": "m"
+ },
+ {
+  "russian": "Всеволод",
+  "chinese": "弗谢沃洛德",
+  "kind": "formal",
+  "root": "Всеволод",
+  "gender": "m"
+ },
+ {
+  "russian": "Всеволодович",
+  "chinese": "弗谢沃洛多维奇",
+  "kind": "patronymic_m",
+  "root": "Всеволод",
+  "gender": "m"
+ },
+ {
+  "russian": "Сева",
+  "chinese": "谢瓦",
+  "kind": "diminutive",
+  "root": "Всеволод",
+  "gender": "m"
+ },
+ {
+  "russian": "Всеволодовна",
+  "chinese": "弗谢沃洛多夫娜",
+  "kind": "patronymic_f",
+  "root": "Всеволод",
+  "gender": "m"
+ },
+ {
+  "russian": "Вячеслав",
+  "chinese": "维亚切斯拉夫",
+  "kind": "formal",
+  "root": "Вячеслав",
+  "gender": "m"
+ },
+ {
+  "russian": "Вячеславович",
+  "chinese": "维亚切斯拉沃维奇",
+  "kind": "patronymic_m",
+  "root": "Вячеслав",
+  "gender": "m"
+ },
+ {
+  "russian": "Вячеславич",
+  "chinese": "维亚切斯拉维奇",
+  "kind": "patronymic_m",
+  "root": "Вячеслав",
+  "gender": "m"
+ },
+ {
+  "russian": "Вячек",
+  "chinese": "维亚切克",
+  "kind": "diminutive",
+  "root": "Вячеслав",
+  "gender": "m"
+ },
+ {
+  "russian": "Гавриил",
+  "chinese": "加夫里伊尔",
+  "kind": "formal",
+  "root": "Гавриил",
+  "gender": "m"
+ },
+ {
+  "russian": "Гаврил",
+  "chinese": "加夫里尔",
+  "kind": "diminutive",
+  "root": "Гавриил",
+  "gender": "m"
+ },
+ {
+  "russian": "Гавриилович",
+  "chinese": "加夫里伊洛维奇",
+  "kind": "patronymic_m",
+  "root": "Гавриил",
+  "gender": "m"
+ },
+ {
+  "russian": "Гаврилович",
+  "chinese": "加夫里洛维奇",
+  "kind": "patronymic_m",
+  "root": "Гавриил",
+  "gender": "m"
+ },
+ {
+  "russian": "Гаврюша",
+  "chinese": "加夫留沙",
+  "kind": "diminutive",
+  "root": "Гавриил",
+  "gender": "m"
+ },
+ {
+  "russian": "Гаврюшечка",
+  "chinese": "加夫留舍奇卡",
+  "kind": "diminutive",
+  "root": "Гавриил",
+  "gender": "m"
+ },
+ {
+  "russian": "Геннадий",
+  "chinese": "根纳季",
+  "kind": "formal",
+  "root": "Геннадий",
+  "gender": "m"
+ },
+ {
+  "russian": "Геннадиевич",
+  "chinese": "根纳季耶维奇",
+  "kind": "patronymic_m",
+  "root": "Геннадий",
+  "gender": "m"
+ },
+ {
+  "russian": "Геннадьевич",
+  "chinese": "根纳季耶维奇",
+  "kind": "patronymic_m",
+  "root": "Геннадий",
+  "gender": "m"
+ },
+ {
+  "russian": "Геня",
+  "chinese": "格尼亚",
+  "kind": "diminutive",
+  "root": "Геннадий",
+  "gender": "m"
+ },
+ {
+  "russian": "Георгий",
+  "chinese": "格奥尔吉",
+  "kind": "formal",
+  "root": "Георгий",
+  "gender": "m"
+ },
+ {
+  "russian": "Георгиевич",
+  "chinese": "格奥尔吉耶维奇",
+  "kind": "patronymic_m",
+  "root": "Георгий",
+  "gender": "m"
+ },
+ {
+  "russian": "Юрий",
+  "chinese": "尤里",
+  "kind": "diminutive",
+  "root": "Георгий",
+  "gender": "m"
+ },
+ {
+  "russian": "Жорж",
+  "chinese": "若尔日",
+  "kind": "diminutive",
+  "root": "Георгий",
+  "gender": "m"
+ },
+ {
+  "russian": "Юрик",
+  "chinese": "尤里克",
+  "kind": "diminutive",
+  "root": "Георгий",
+  "gender": "m"
+ },
+ {
+  "russian": "Юрочка",
+  "chinese": "尤罗奇卡",
+  "kind": "diminutive",
+  "root": "Георгий",
+  "gender": "m"
+ },
+ {
+  "russian": "Жоржик",
+  "chinese": "若尔日克",
+  "kind": "diminutive",
+  "root": "Георгий",
+  "gender": "m"
+ },
+ {
+  "russian": "Георгиевна",
+  "chinese": "格奥尔吉耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Георгий",
+  "gender": "m"
+ },
+ {
+  "russian": "Герасим",
+  "chinese": "格拉西姆",
+  "kind": "formal",
+  "root": "Герасим",
+  "gender": "m"
+ },
+ {
+  "russian": "Герасимович",
+  "chinese": "格拉西莫维奇",
+  "kind": "patronymic_m",
+  "root": "Герасим",
+  "gender": "m"
+ },
+ {
+  "russian": "Герася",
+  "chinese": "格拉夏",
+  "kind": "diminutive",
+  "root": "Герасим",
+  "gender": "m"
+ },
+ {
+  "russian": "Геранька",
+  "chinese": "格兰卡",
+  "kind": "diminutive",
+  "root": "Герасим",
+  "gender": "m"
+ },
+ {
+  "russian": "Герасимовна",
+  "chinese": "格拉西莫夫娜",
+  "kind": "patronymic_f",
+  "root": "Герасим",
+  "gender": "m"
+ },
+ {
+  "russian": "Герман",
+  "chinese": "格尔曼",
+  "kind": "formal",
+  "root": "Герман",
+  "gender": "m"
+ },
+ {
+  "russian": "Герамович",
+  "chinese": "格拉莫维奇",
+  "kind": "patronymic_m",
+  "root": "Герман",
+  "gender": "m"
+ },
+ {
+  "russian": "Герма",
+  "chinese": "格尔马",
+  "kind": "diminutive",
+  "root": "Герман",
+  "gender": "m"
+ },
+ {
+  "russian": "Гера",
+  "chinese": "格拉",
+  "kind": "diminutive",
+  "root": "Герман",
+  "gender": "m"
+ },
+ {
+  "russian": "Герамовна",
+  "chinese": "格拉莫夫娜",
+  "kind": "patronymic_f",
+  "root": "Герман",
+  "gender": "m"
+ },
+ {
+  "russian": "Глеб",
+  "chinese": "格列布",
+  "kind": "formal",
+  "root": "Глеб",
+  "gender": "m"
+ },
+ {
+  "russian": "Глебович",
+  "chinese": "格列博维奇",
+  "kind": "patronymic_m",
+  "root": "Глеб",
+  "gender": "m"
+ },
+ {
+  "russian": "Глебушка",
+  "chinese": "格列布什卡",
+  "kind": "diminutive",
+  "root": "Глеб",
+  "gender": "m"
+ },
+ {
+  "russian": "Глебовна",
+  "chinese": "格列博夫娜",
+  "kind": "patronymic_f",
+  "root": "Глеб",
+  "gender": "m"
+ },
+ {
+  "russian": "Гордей",
+  "chinese": "戈尔杰伊",
+  "kind": "formal",
+  "root": "Гордей",
+  "gender": "m"
+ },
+ {
+  "russian": "Гордеевич",
+  "chinese": "戈尔杰耶维奇",
+  "kind": "patronymic_m",
+  "root": "Гордей",
+  "gender": "m"
+ },
+ {
+  "russian": "Гордейка",
+  "chinese": "戈尔杰伊卡",
+  "kind": "diminutive",
+  "root": "Гордей",
+  "gender": "m"
+ },
+ {
+  "russian": "Гордеевна",
+  "chinese": "戈尔杰耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Гордей",
+  "gender": "m"
+ },
+ {
+  "russian": "Григорий",
+  "chinese": "格里戈里",
+  "kind": "formal",
+  "root": "Григорий",
+  "gender": "m"
+ },
+ {
+  "russian": "Грикорьевич",
+  "chinese": "格里戈里耶维奇",
+  "kind": "patronymic_m",
+  "root": "Григорий",
+  "gender": "m"
+ },
+ {
+  "russian": "Гриша",
+  "chinese": "格里沙",
+  "kind": "diminutive",
+  "root": "Григорий",
+  "gender": "m"
+ },
+ {
+  "russian": "Гришенька",
+  "chinese": "格里申卡",
+  "kind": "diminutive",
+  "root": "Григорий",
+  "gender": "m"
+ },
+ {
+  "russian": "Гришутка",
+  "chinese": "格里舒特卡",
+  "kind": "diminutive",
+  "root": "Григорий",
+  "gender": "m"
+ },
+ {
+  "russian": "Груша",
+  "chinese": "格鲁沙",
+  "kind": "diminutive",
+  "root": "Григорий",
+  "gender": "m"
+ },
+ {
+  "russian": "Григорьевна",
+  "chinese": "格里戈里耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Григорий",
+  "gender": "m"
+ },
+ {
+  "russian": "Гурий",
+  "chinese": "古里",
+  "kind": "formal",
+  "root": "Гурий",
+  "gender": "m"
+ },
+ {
+  "russian": "Гуриевич",
+  "chinese": "古里耶维奇",
+  "kind": "patronymic_m",
+  "root": "Гурий",
+  "gender": "m"
+ },
+ {
+  "russian": "Гурьевич",
+  "chinese": "古里耶维奇",
+  "kind": "patronymic_m",
+  "root": "Гурий",
+  "gender": "m"
+ },
+ {
+  "russian": "Гурьюшка",
+  "chinese": "古里尤什卡",
+  "kind": "diminutive",
+  "root": "Гурий",
+  "gender": "m"
+ },
+ {
+  "russian": "Гуря",
+  "chinese": "古里亚",
+  "kind": "diminutive",
+  "root": "Гурий",
+  "gender": "m"
+ },
+ {
+  "russian": "Гуриевна",
+  "chinese": "古里耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Гурий",
+  "gender": "m"
+ },
+ {
+  "russian": "Давид",
+  "chinese": "达维德",
+  "kind": "formal",
+  "root": "Давид",
+  "gender": "m"
+ },
+ {
+  "russian": "Давидович",
+  "chinese": "达维多维奇",
+  "kind": "patronymic_m",
+  "root": "Давид",
+  "gender": "m"
+ },
+ {
+  "russian": "Давидушка",
+  "chinese": "达维杜什卡",
+  "kind": "diminutive",
+  "root": "Давид",
+  "gender": "m"
+ },
+ {
+  "russian": "Давидовна",
+  "chinese": "达维多夫娜",
+  "kind": "patronymic_f",
+  "root": "Давид",
+  "gender": "m"
+ },
+ {
+  "russian": "Давыд",
+  "chinese": "达维德",
+  "kind": "formal",
+  "root": "Давыд",
+  "gender": "m"
+ },
+ {
+  "russian": "Давыдович",
+  "chinese": "达维多维奇",
+  "kind": "patronymic_m",
+  "root": "Давыд",
+  "gender": "m"
+ },
+ {
+  "russian": "Давыдка",
+  "chinese": "达维德卡",
+  "kind": "diminutive",
+  "root": "Давыд",
+  "gender": "m"
+ },
+ {
+  "russian": "Давыдок",
+  "chinese": "达维多克",
+  "kind": "diminutive",
+  "root": "Давыд",
+  "gender": "m"
+ },
+ {
+  "russian": "Давыдовна",
+  "chinese": "达维多夫娜",
+  "kind": "patronymic_f",
+  "root": "Давыд",
+  "gender": "m"
+ },
+ {
+  "russian": "Даниил",
+  "chinese": "丹尼尔",
+  "kind": "formal",
+  "root": "Даниил",
+  "gender": "m"
+ },
+ {
+  "russian": "Даниилович",
+  "chinese": "丹尼尔洛维奇",
+  "kind": "patronymic_m",
+  "root": "Даниил",
+  "gender": "m"
+ },
+ {
+  "russian": "Даня",
+  "chinese": "达尼亚",
+  "kind": "diminutive",
+  "root": "Даниил",
+  "gender": "m"
+ },
+ {
+  "russian": "данилушка",
+  "chinese": "丹尼卢什卡",
+  "kind": "diminutive",
+  "root": "Даниил",
+  "gender": "m"
+ },
+ {
+  "russian": "Данииловна",
+  "chinese": "丹尼尔洛夫娜",
+  "kind": "patronymic_f",
+  "root": "Даниил",
+  "gender": "m"
+ },
+ {
+  "russian": "Данил",
+  "chinese": "达尼尔",
+  "kind": "formal",
+  "root": "Данил",
+  "gender": "m"
+ },
+ {
+  "russian": "Данилович",
+  "chinese": "达尼尔洛维奇",
+  "kind": "patronymic_m",
+  "root": "Данил",
+  "gender": "m"
+ },
+ {
+  "russian": "Данилка",
+  "chinese": "达尼尔卡",
+  "kind": "diminutive",
+  "root": "Данил",
+  "gender": "m"
+ },
+ {
+  "russian": "Даниловна",
+  "chinese": "达尼尔洛夫娜",
+  "kind": "patronymic_f",
+  "root": "Данил",
+  "gender": "m"
+ },
+ {
+  "russian": "Денис",
+  "chinese": "杰尼斯",
+  "kind": "formal",
+  "root": "Денис",
+  "gender": "m"
+ },
+ {
+  "russian": "Денисович",
+  "chinese": "杰尼索维奇",
+  "kind": "patronymic_m",
+  "root": "Денис",
+  "gender": "m"
+ },
+ {
+  "russian": "Деня",
+  "chinese": "杰尼亚",
+  "kind": "diminutive",
+  "root": "Денис",
+  "gender": "m"
+ },
+ {
+  "russian": "дим",
+  "chinese": "季姆",
+  "kind": "diminutive",
+  "root": "Денис",
+  "gender": "m"
+ },
+ {
+  "russian": "Денисовна",
+  "chinese": "杰尼索夫娜",
+  "kind": "patronymic_f",
+  "root": "Денис",
+  "gender": "m"
+ },
+ {
+  "russian": "Димитрий",
+  "chinese": "季米特里",
+  "kind": "formal",
+  "root": "Димитрий",
+  "gender": "m"
+ },
+ {
+  "russian": "Дмитрий",
+  "chinese": "德米特里",
+  "kind": "diminutive",
+  "root": "Димитрий",
+  "gender": "m"
+ },
+ {
+  "russian": "Димитриевич",
+  "chinese": "季米特里耶维奇",
+  "kind": "patronymic_m",
+  "root": "Димитрий",
+  "gender": "m"
+ },
+ {
+  "russian": "Дмитриевич",
+  "chinese": "德米特里耶维奇",
+  "kind": "patronymic_m",
+  "root": "Димитрий",
+  "gender": "m"
+ },
+ {
+  "russian": "Дима",
+  "chinese": "季马",
+  "kind": "diminutive",
+  "root": "Димитрий",
+  "gender": "m"
+ },
+ {
+  "russian": "Митя",
+  "chinese": "米佳",
+  "kind": "diminutive",
+  "root": "Димитрий",
+  "gender": "m"
+ },
+ {
+  "russian": "Митюша",
+  "chinese": "米秋沙",
+  "kind": "diminutive",
+  "root": "Димитрий",
+  "gender": "m"
+ },
+ {
+  "russian": "Димитриевна",
+  "chinese": "季米特里耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Димитрий",
+  "gender": "m"
+ },
+ {
+  "russian": "Дмитриевна",
+  "chinese": "德米特里耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Димитрий",
+  "gender": "m"
+ },
+ {
+  "russian": "Дорофей",
+  "chinese": "多罗费",
+  "kind": "formal",
+  "root": "Дорофей",
+  "gender": "m"
+ },
+ {
+  "russian": "Дорофеевич",
+  "chinese": "多罗费耶维奇",
+  "kind": "patronymic_m",
+  "root": "Дорофей",
+  "gender": "m"
+ },
+ {
+  "russian": "Дорофеюшка",
+  "chinese": "多罗费尤什卡",
+  "kind": "diminutive",
+  "root": "Дорофей",
+  "gender": "m"
+ },
+ {
+  "russian": "Дорофеевна",
+  "chinese": "多罗费耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Дорофей",
+  "gender": "m"
+ },
+ {
+  "russian": "Евгений",
+  "chinese": "叶夫格尼",
+  "kind": "formal",
+  "root": "Евгений",
+  "gender": "m"
+ },
+ {
+  "russian": "Евгениевич",
+  "chinese": "叶夫格尼耶维奇",
+  "kind": "patronymic_m",
+  "root": "Евгений",
+  "gender": "m"
+ },
+ {
+  "russian": "Евгеньевич",
+  "chinese": "叶夫格尼耶维奇",
+  "kind": "patronymic_m",
+  "root": "Евгений",
+  "gender": "m"
+ },
+ {
+  "russian": "Евгениевна",
+  "chinese": "叶夫格尼耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Евгений",
+  "gender": "m"
+ },
+ {
+  "russian": "Евгеньевна",
+  "chinese": "叶夫格尼耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Евгений",
+  "gender": "m"
+ },
+ {
+  "russian": "Евграф",
+  "chinese": "叶夫格拉夫",
+  "kind": "formal",
+  "root": "Евграф",
+  "gender": "m"
+ },
+ {
+  "russian": "Евграфович",
+  "chinese": "叶夫格拉福维奇",
+  "kind": "patronymic_m",
+  "root": "Евграф",
+  "gender": "m"
+ },
+ {
+  "russian": "Евграфка",
+  "chinese": "叶夫格拉夫卡",
+  "kind": "diminutive",
+  "root": "Евграф",
+  "gender": "m"
+ },
+ {
+  "russian": "Евграша",
+  "chinese": "叶夫格拉沙",
+  "kind": "diminutive",
+  "root": "Евграф",
+  "gender": "m"
+ },
+ {
+  "russian": "Евграфовна",
+  "chinese": "叶夫格拉福夫娜",
+  "kind": "patronymic_f",
+  "root": "Евграф",
+  "gender": "m"
+ },
+ {
+  "russian": "Евдоким",
+  "chinese": "叶夫多基姆",
+  "kind": "formal",
+  "root": "Евдоким",
+  "gender": "m"
+ },
+ {
+  "russian": "Евдокимович",
+  "chinese": "叶夫多基莫维奇",
+  "kind": "patronymic_m",
+  "root": "Евдоким",
+  "gender": "m"
+ },
+ {
+  "russian": "Кима",
+  "chinese": "基马",
+  "kind": "diminutive",
+  "root": "Евдоким",
+  "gender": "m"
+ },
+ {
+  "russian": "Кимочка",
+  "chinese": "基莫奇卡",
+  "kind": "diminutive",
+  "root": "Евдоким",
+  "gender": "m"
+ },
+ {
+  "russian": "Евдокимовна",
+  "chinese": "叶夫多基莫夫娜",
+  "kind": "patronymic_f",
+  "root": "Евдоким",
+  "gender": "m"
+ },
+ {
+  "russian": "Евсей",
+  "chinese": "叶夫谢",
+  "kind": "formal",
+  "root": "Евсей",
+  "gender": "m"
+ },
+ {
+  "russian": "Евсеевич",
+  "chinese": "叶夫谢耶维奇",
+  "kind": "patronymic_m",
+  "root": "Евсей",
+  "gender": "m"
+ },
+ {
+  "russian": "Евсеевна",
+  "chinese": "叶夫谢耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Евсей",
+  "gender": "m"
+ },
+ {
+  "russian": "Егор",
+  "chinese": "叶戈尔",
+  "kind": "formal",
+  "root": "Егор",
+  "gender": "m"
+ },
+ {
+  "russian": "Егорович",
+  "chinese": "叶戈罗维奇",
+  "kind": "patronymic_m",
+  "root": "Егор",
+  "gender": "m"
+ },
+ {
+  "russian": "Егорушка",
+  "chinese": "叶戈鲁什卡",
+  "kind": "diminutive",
+  "root": "Егор",
+  "gender": "m"
+ },
+ {
+  "russian": "Емельян",
+  "chinese": "叶梅利扬",
+  "kind": "formal",
+  "root": "Емельян",
+  "gender": "m"
+ },
+ {
+  "russian": "Емельянович",
+  "chinese": "叶梅利亚诺维奇",
+  "kind": "patronymic_m",
+  "root": "Емельян",
+  "gender": "m"
+ },
+ {
+  "russian": "Емельяша",
+  "chinese": "叶梅利亚沙",
+  "kind": "diminutive",
+  "root": "Емельян",
+  "gender": "m"
+ },
+ {
+  "russian": "Емеля",
+  "chinese": "叶梅利亚",
+  "kind": "diminutive",
+  "root": "Емельян",
+  "gender": "m"
+ },
+ {
+  "russian": "Емельяновна",
+  "chinese": "叶梅利亚诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Емельян",
+  "gender": "m"
+ },
+ {
+  "russian": "Епифан",
+  "chinese": "叶皮凡",
+  "kind": "formal",
+  "root": "Епифан",
+  "gender": "m"
+ },
+ {
+  "russian": "Епифанович",
+  "chinese": "叶皮法诺维奇",
+  "kind": "patronymic_m",
+  "root": "Епифан",
+  "gender": "m"
+ },
+ {
+  "russian": "Епифанушка",
+  "chinese": "叶皮法努什卡",
+  "kind": "diminutive",
+  "root": "Епифан",
+  "gender": "m"
+ },
+ {
+  "russian": "Епифановна",
+  "chinese": "叶皮法诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Епифан",
+  "gender": "m"
+ },
+ {
+  "russian": "Еремей",
+  "chinese": "叶列梅",
+  "kind": "formal",
+  "root": "Еремей",
+  "gender": "m"
+ },
+ {
+  "russian": "Еремеевич",
+  "chinese": "叶列梅耶维奇",
+  "kind": "patronymic_m",
+  "root": "Еремей",
+  "gender": "m"
+ },
+ {
+  "russian": "Ерёма",
+  "chinese": "叶廖马",
+  "kind": "diminutive",
+  "root": "Еремей",
+  "gender": "m"
+ },
+ {
+  "russian": "Еремеюшка",
+  "chinese": "叶列梅尤什卡",
+  "kind": "diminutive",
+  "root": "Еремей",
+  "gender": "m"
+ },
+ {
+  "russian": "Еремеевна",
+  "chinese": "叶列梅耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Еремей",
+  "gender": "m"
+ },
+ {
+  "russian": "Ермак",
+  "chinese": "叶尔马克",
+  "kind": "formal",
+  "root": "Ермак",
+  "gender": "m"
+ },
+ {
+  "russian": "Ермакович",
+  "chinese": "叶尔马科维奇",
+  "kind": "patronymic_m",
+  "root": "Ермак",
+  "gender": "m"
+ },
+ {
+  "russian": "Ермаковна",
+  "chinese": "叶尔马科夫娜",
+  "kind": "patronymic_f",
+  "root": "Ермак",
+  "gender": "m"
+ },
+ {
+  "russian": "Ермолай",
+  "chinese": "叶尔莫莱",
+  "kind": "formal",
+  "root": "Ермолай",
+  "gender": "m"
+ },
+ {
+  "russian": "Ермолаевич",
+  "chinese": "叶尔莫拉耶维奇",
+  "kind": "patronymic_m",
+  "root": "Ермолай",
+  "gender": "m"
+ },
+ {
+  "russian": "Ермолаюшка",
+  "chinese": "叶尔莫拉尤什卡",
+  "kind": "diminutive",
+  "root": "Ермолай",
+  "gender": "m"
+ },
+ {
+  "russian": "Ермолаевна",
+  "chinese": "叶尔莫拉耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Ермолай",
+  "gender": "m"
+ },
+ {
+  "russian": "Ерофей",
+  "chinese": "叶罗费",
+  "kind": "formal",
+  "root": "Ерофей",
+  "gender": "m"
+ },
+ {
+  "russian": "Ерофеевич",
+  "chinese": "叶罗费耶维奇",
+  "kind": "patronymic_m",
+  "root": "Ерофей",
+  "gender": "m"
+ },
+ {
+  "russian": "Ерофеюшка",
+  "chinese": "叶罗费尤什卡",
+  "kind": "diminutive",
+  "root": "Ерофей",
+  "gender": "m"
+ },
+ {
+  "russian": "Еся",
+  "chinese": "叶夏",
+  "kind": "diminutive",
+  "root": "Ерофей",
+  "gender": "m"
+ },
+ {
+  "russian": "Ерофеевна",
+  "chinese": "叶罗费耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Ерофей",
+  "gender": "m"
+ },
+ {
+  "russian": "Ефим",
+  "chinese": "叶菲姆",
+  "kind": "formal",
+  "root": "Ефим",
+  "gender": "m"
+ },
+ {
+  "russian": "Ефимович",
+  "chinese": "叶菲莫维奇",
+  "kind": "patronymic_m",
+  "root": "Ефим",
+  "gender": "m"
+ },
+ {
+  "russian": "Ефимушка",
+  "chinese": "叶菲穆什卡",
+  "kind": "diminutive",
+  "root": "Ефим",
+  "gender": "m"
+ },
+ {
+  "russian": "Ефимочка",
+  "chinese": "叶菲莫奇卡",
+  "kind": "diminutive",
+  "root": "Ефим",
+  "gender": "m"
+ },
+ {
+  "russian": "Ефимовна",
+  "chinese": "叶菲莫夫娜",
+  "kind": "patronymic_f",
+  "root": "Ефим",
+  "gender": "m"
+ },
+ {
+  "russian": "Ефрем",
+  "chinese": "叶夫列姆",
+  "kind": "formal",
+  "root": "Ефрем",
+  "gender": "m"
+ },
+ {
+  "russian": "Ефремович",
+  "chinese": "叶夫列莫维奇",
+  "kind": "patronymic_m",
+  "root": "Ефрем",
+  "gender": "m"
+ },
+ {
+  "russian": "Ефремушка",
+  "chinese": "叶夫列穆什卡",
+  "kind": "diminutive",
+  "root": "Ефрем",
+  "gender": "m"
+ },
+ {
+  "russian": "Ефремовна",
+  "chinese": "叶夫列莫夫娜",
+  "kind": "patronymic_f",
+  "root": "Ефрем",
+  "gender": "m"
+ },
+ {
+  "russian": "Захар",
+  "chinese": "扎哈尔",
+  "kind": "formal",
+  "root": "Захар",
+  "gender": "m"
+ },
+ {
+  "russian": "Захарович",
+  "chinese": "扎哈罗维奇",
+  "kind": "patronymic_m",
+  "root": "Захар",
+  "gender": "m"
+ },
+ {
+  "russian": "Захарка",
+  "chinese": "扎哈尔卡",
+  "kind": "diminutive",
+  "root": "Захар",
+  "gender": "m"
+ },
+ {
+  "russian": "Захаровна",
+  "chinese": "扎哈罗夫娜",
+  "kind": "patronymic_f",
+  "root": "Захар",
+  "gender": "m"
+ },
+ {
+  "russian": "Зиновий",
+  "chinese": "济诺维",
+  "kind": "formal",
+  "root": "Зиновий",
+  "gender": "m"
+ },
+ {
+  "russian": "Зиновиевич",
+  "chinese": "济诺维耶维奇",
+  "kind": "patronymic_m",
+  "root": "Зиновий",
+  "gender": "m"
+ },
+ {
+  "russian": "Зиновьевич",
+  "chinese": "济诺维耶维奇",
+  "kind": "patronymic_m",
+  "root": "Зиновий",
+  "gender": "m"
+ },
+ {
+  "russian": "Зинаха",
+  "chinese": "济纳哈",
+  "kind": "diminutive",
+  "root": "Зиновий",
+  "gender": "m"
+ },
+ {
+  "russian": "Зинуля",
+  "chinese": "济努利亚",
+  "kind": "diminutive",
+  "root": "Зиновий",
+  "gender": "m"
+ },
+ {
+  "russian": "Зинуся",
+  "chinese": "济努夏",
+  "kind": "diminutive",
+  "root": "Зиновий",
+  "gender": "m"
+ },
+ {
+  "russian": "Зиновиевна",
+  "chinese": "济诺维耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Зиновий",
+  "gender": "m"
+ },
+ {
+  "russian": "Зиновьевна",
+  "chinese": "济诺维耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Зиновий",
+  "gender": "m"
+ },
+ {
+  "russian": "Иван",
+  "chinese": "伊万",
+  "kind": "formal",
+  "root": "Иван",
+  "gender": "m"
+ },
+ {
+  "russian": "Иванович",
+  "chinese": "伊万诺维奇",
+  "kind": "patronymic_m",
+  "root": "Иван",
+  "gender": "m"
+ },
+ {
+  "russian": "Ваня",
+  "chinese": "万尼亚",
+  "kind": "diminutive",
+  "root": "Иван",
+  "gender": "m"
+ },
+ {
+  "russian": "Ивашка",
+  "chinese": "伊瓦什卡",
+  "kind": "diminutive",
+  "root": "Иван",
+  "gender": "m"
+ },
+ {
+  "russian": "Ванюша",
+  "chinese": "万纽什卡",
+  "kind": "diminutive",
+  "root": "Иван",
+  "gender": "m"
+ },
+ {
+  "russian": "Ванечка",
+  "chinese": "万涅奇卡",
+  "kind": "diminutive",
+  "root": "Иван",
+  "gender": "m"
+ },
+ {
+  "russian": "Иванушка",
+  "chinese": "亿万努什卡",
+  "kind": "diminutive",
+  "root": "Иван",
+  "gender": "m"
+ },
+ {
+  "russian": "Ванёк",
+  "chinese": "万尼奥克",
+  "kind": "diminutive",
+  "root": "Иван",
+  "gender": "m"
+ },
+ {
+  "russian": "Ивановна",
+  "chinese": "伊万诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Иван",
+  "gender": "m"
+ },
+ {
+  "russian": "Игнатий",
+  "chinese": "伊格纳季",
+  "kind": "formal",
+  "root": "Игнатий",
+  "gender": "m"
+ },
+ {
+  "russian": "Игнатиевич",
+  "chinese": "伊格纳季耶维奇",
+  "kind": "patronymic_m",
+  "root": "Игнатий",
+  "gender": "m"
+ },
+ {
+  "russian": "Игнатьевич",
+  "chinese": "伊格纳季耶维奇",
+  "kind": "patronymic_m",
+  "root": "Игнатий",
+  "gender": "m"
+ },
+ {
+  "russian": "Игнаша",
+  "chinese": "伊格纳沙",
+  "kind": "diminutive",
+  "root": "Игнатий",
+  "gender": "m"
+ },
+ {
+  "russian": "Игнат",
+  "chinese": "伊格纳特",
+  "kind": "diminutive",
+  "root": "Игнатий",
+  "gender": "m"
+ },
+ {
+  "russian": "Игнашечка",
+  "chinese": "伊格纳舍奇卡",
+  "kind": "diminutive",
+  "root": "Игнатий",
+  "gender": "m"
+ },
+ {
+  "russian": "Игнатиевна",
+  "chinese": "伊格纳季耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Игнатий",
+  "gender": "m"
+ },
+ {
+  "russian": "Игнатьевна",
+  "chinese": "伊格纳季耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Игнатий",
+  "gender": "m"
+ },
+ {
+  "russian": "Игорь",
+  "chinese": "伊戈尔",
+  "kind": "formal",
+  "root": "Игорь",
+  "gender": "m"
+ },
+ {
+  "russian": "Игоревич",
+  "chinese": "伊戈尔耶维奇",
+  "kind": "patronymic_m",
+  "root": "Игорь",
+  "gender": "m"
+ },
+ {
+  "russian": "Игорёк",
+  "chinese": "伊戈廖克或伊戈尔约克",
+  "kind": "diminutive",
+  "root": "Игорь",
+  "gender": "m"
+ },
+ {
+  "russian": "Игоревна",
+  "chinese": "伊戈尔耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Игорь",
+  "gender": "m"
+ },
+ {
+  "russian": "Иларион",
+  "chinese": "伊拉里翁",
+  "kind": "formal",
+  "root": "Иларион",
+  "gender": "m"
+ },
+ {
+  "russian": "ларион",
+  "chinese": "拉里翁",
+  "kind": "diminutive",
+  "root": "Иларион",
+  "gender": "m"
+ },
+ {
+  "russian": "Иларионович",
+  "chinese": "伊拉里翁诺维奇",
+  "kind": "patronymic_m",
+  "root": "Иларион",
+  "gender": "m"
+ },
+ {
+  "russian": "Иларионовна",
+  "chinese": "伊拉里翁诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Иларион",
+  "gender": "m"
+ },
+ {
+  "russian": "Илья",
+  "chinese": "伊里亚",
+  "kind": "formal",
+  "root": "Илья",
+  "gender": "m"
+ },
+ {
+  "russian": "Ильич",
+  "chinese": "伊里伊奇",
+  "kind": "patronymic_m",
+  "root": "Илья",
+  "gender": "m"
+ },
+ {
+  "russian": "Илюша",
+  "chinese": "伊柳沙",
+  "kind": "diminutive",
+  "root": "Илья",
+  "gender": "m"
+ },
+ {
+  "russian": "Илюшечка",
+  "chinese": "伊柳舍奇卡",
+  "kind": "diminutive",
+  "root": "Илья",
+  "gender": "m"
+ },
+ {
+  "russian": "Ина",
+  "chinese": "伊纳",
+  "kind": "diminutive",
+  "root": "Илья",
+  "gender": "m"
+ },
+ {
+  "russian": "Ильинична",
+  "chinese": "伊里伊尼奇娜",
+  "kind": "patronymic_f",
+  "root": "Илья",
+  "gender": "m"
+ },
+ {
+  "russian": "Иннокентий",
+  "chinese": "因诺肯季",
+  "kind": "formal",
+  "root": "Иннокентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Иннокентиевич",
+  "chinese": "因诺肯季耶维奇",
+  "kind": "patronymic_m",
+  "root": "Иннокентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Иннокентьевич",
+  "chinese": "因诺肯季耶维奇",
+  "kind": "patronymic_m",
+  "root": "Иннокентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Инюша",
+  "chinese": "伊纽沙",
+  "kind": "diminutive",
+  "root": "Иннокентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Иннокентиевна",
+  "chinese": "因诺肯季耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Иннокентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Иннокентьевна",
+  "chinese": "因诺肯季耶芙娜",
+  "kind": "patronymic_f",
+  "root": "Иннокентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Иосия",
+  "chinese": "约瑟夫",
+  "kind": "formal",
+  "root": "Иосия",
+  "gender": "m"
+ },
+ {
+  "russian": "Иосифович",
+  "chinese": "约瑟福维奇",
+  "kind": "patronymic_m",
+  "root": "Иосия",
+  "gender": "m"
+ },
+ {
+  "russian": "Ёся",
+  "chinese": "约夏",
+  "kind": "diminutive",
+  "root": "Иосия",
+  "gender": "m"
+ },
+ {
+  "russian": "Иосифовна",
+  "chinese": "约瑟福夫娜",
+  "kind": "patronymic_f",
+  "root": "Иосия",
+  "gender": "m"
+ },
+ {
+  "russian": "Ипполит",
+  "chinese": "伊普波利特",
+  "kind": "formal",
+  "root": "Ипполит",
+  "gender": "m"
+ },
+ {
+  "russian": "Ипполитович",
+  "chinese": "伊普波利托维奇",
+  "kind": "patronymic_m",
+  "root": "Ипполит",
+  "gender": "m"
+ },
+ {
+  "russian": "Ипполитушка",
+  "chinese": "伊普波利图什卡",
+  "kind": "diminutive",
+  "root": "Ипполит",
+  "gender": "m"
+ },
+ {
+  "russian": "Ипполитовна",
+  "chinese": "伊普波利托夫娜",
+  "kind": "patronymic_f",
+  "root": "Ипполит",
+  "gender": "m"
+ },
+ {
+  "russian": "Исаак",
+  "chinese": "伊萨阿克",
+  "kind": "formal",
+  "root": "Исаак",
+  "gender": "m"
+ },
+ {
+  "russian": "Исаакович",
+  "chinese": "伊萨阿科维奇",
+  "kind": "patronymic_m",
+  "root": "Исаак",
+  "gender": "m"
+ },
+ {
+  "russian": "Исааковна",
+  "chinese": "伊萨阿科夫娜",
+  "kind": "patronymic_f",
+  "root": "Исаак",
+  "gender": "m"
+ },
+ {
+  "russian": "Исай",
+  "chinese": "伊赛",
+  "kind": "formal",
+  "root": "Исай",
+  "gender": "m"
+ },
+ {
+  "russian": "Исаевич",
+  "chinese": "伊赛耶维奇",
+  "kind": "patronymic_m",
+  "root": "Исай",
+  "gender": "m"
+ },
+ {
+  "russian": "Исаевна",
+  "chinese": "伊赛耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Исай",
+  "gender": "m"
+ },
+ {
+  "russian": "Исидор",
+  "chinese": "伊西多尔",
+  "kind": "formal",
+  "root": "Исидор",
+  "gender": "m"
+ },
+ {
+  "russian": "Исидорович",
+  "chinese": "伊西多尔罗维奇",
+  "kind": "patronymic_m",
+  "root": "Исидор",
+  "gender": "m"
+ },
+ {
+  "russian": "Сида",
+  "chinese": "西达",
+  "kind": "diminutive",
+  "root": "Исидор",
+  "gender": "m"
+ },
+ {
+  "russian": "Исидоровна",
+  "chinese": "伊西多尔罗夫娜",
+  "kind": "patronymic_f",
+  "root": "Исидор",
+  "gender": "m"
+ },
+ {
+  "russian": "Иуда",
+  "chinese": "伊乌达",
+  "kind": "formal",
+  "root": "Иуда",
+  "gender": "m"
+ },
+ {
+  "russian": "Иудович",
+  "chinese": "伊乌多维奇",
+  "kind": "patronymic_m",
+  "root": "Иуда",
+  "gender": "m"
+ },
+ {
+  "russian": "Иудушка",
+  "chinese": "伊乌杜什卡",
+  "kind": "diminutive",
+  "root": "Иуда",
+  "gender": "m"
+ },
+ {
+  "russian": "Иудовна",
+  "chinese": "伊乌多夫娜",
+  "kind": "patronymic_f",
+  "root": "Иуда",
+  "gender": "m"
+ },
+ {
+  "russian": "Казимир",
+  "chinese": "卡济米尔",
+  "kind": "formal",
+  "root": "Казимир",
+  "gender": "m"
+ },
+ {
+  "russian": "Казимирович",
+  "chinese": "卡济米尔罗维奇",
+  "kind": "patronymic_m",
+  "root": "Казимир",
+  "gender": "m"
+ },
+ {
+  "russian": "Казик",
+  "chinese": "卡济克",
+  "kind": "diminutive",
+  "root": "Казимир",
+  "gender": "m"
+ },
+ {
+  "russian": "Казимировна",
+  "chinese": "卡济米尔罗夫娜",
+  "kind": "patronymic_f",
+  "root": "Казимир",
+  "gender": "m"
+ },
+ {
+  "russian": "Капитон",
+  "chinese": "卡皮通",
+  "kind": "formal",
+  "root": "Капитон",
+  "gender": "m"
+ },
+ {
+  "russian": "Капитонович",
+  "chinese": "卡皮通诺维奇",
+  "kind": "patronymic_m",
+  "root": "Капитон",
+  "gender": "m"
+ },
+ {
+  "russian": "Капитоша",
+  "chinese": "卡皮托沙",
+  "kind": "diminutive",
+  "root": "Капитон",
+  "gender": "m"
+ },
+ {
+  "russian": "Капитоновна",
+  "chinese": "卡皮通诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Капитон",
+  "gender": "m"
+ },
+ {
+  "russian": "Карл",
+  "chinese": "卡尔",
+  "kind": "formal",
+  "root": "Карл",
+  "gender": "m"
+ },
+ {
+  "russian": "Карлович",
+  "chinese": "卡尔洛维奇",
+  "kind": "patronymic_m",
+  "root": "Карл",
+  "gender": "m"
+ },
+ {
+  "russian": "Карлушка",
+  "chinese": "卡尔卢什卡",
+  "kind": "diminutive",
+  "root": "Карл",
+  "gender": "m"
+ },
+ {
+  "russian": "Карлуша",
+  "chinese": "卡尔卢沙",
+  "kind": "diminutive",
+  "root": "Карл",
+  "gender": "m"
+ },
+ {
+  "russian": "Карловна",
+  "chinese": "卡尔洛夫娜",
+  "kind": "patronymic_f",
+  "root": "Карл",
+  "gender": "m"
+ },
+ {
+  "russian": "Карп",
+  "chinese": "卡尔普",
+  "kind": "formal",
+  "root": "Карп",
+  "gender": "m"
+ },
+ {
+  "russian": "Карпович",
+  "chinese": "卡尔波维奇",
+  "kind": "patronymic_m",
+  "root": "Карп",
+  "gender": "m"
+ },
+ {
+  "russian": "Карпуша",
+  "chinese": "卡尔普沙",
+  "kind": "diminutive",
+  "root": "Карп",
+  "gender": "m"
+ },
+ {
+  "russian": "Карповна",
+  "chinese": "卡尔波夫娜",
+  "kind": "patronymic_f",
+  "root": "Карп",
+  "gender": "m"
+ },
+ {
+  "russian": "Касьян",
+  "chinese": "卡西扬",
+  "kind": "formal",
+  "root": "Касьян",
+  "gender": "m"
+ },
+ {
+  "russian": "Касьянович",
+  "chinese": "卡西扬诺维奇",
+  "kind": "patronymic_m",
+  "root": "Касьян",
+  "gender": "m"
+ },
+ {
+  "russian": "Касьянка",
+  "chinese": "卡西扬卡",
+  "kind": "diminutive",
+  "root": "Касьян",
+  "gender": "m"
+ },
+ {
+  "russian": "Кася",
+  "chinese": "卡夏",
+  "kind": "diminutive",
+  "root": "Касьян",
+  "gender": "m"
+ },
+ {
+  "russian": "Касьяновна",
+  "chinese": "卡西扬诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Касьян",
+  "gender": "m"
+ },
+ {
+  "russian": "Ким",
+  "chinese": "基姆",
+  "kind": "formal",
+  "root": "Ким",
+  "gender": "m"
+ },
+ {
+  "russian": "Кимович",
+  "chinese": "基莫维奇",
+  "kind": "patronymic_m",
+  "root": "Ким",
+  "gender": "m"
+ },
+ {
+  "russian": "Кимовна",
+  "chinese": "基莫夫娜",
+  "kind": "patronymic_f",
+  "root": "Ким",
+  "gender": "m"
+ },
+ {
+  "russian": "Кирилл",
+  "chinese": "基里尔",
+  "kind": "formal",
+  "root": "Кирилл",
+  "gender": "m"
+ },
+ {
+  "russian": "Кириллович",
+  "chinese": "基里尔洛维奇",
+  "kind": "patronymic_m",
+  "root": "Кирилл",
+  "gender": "m"
+ },
+ {
+  "russian": "Кира",
+  "chinese": "基拉",
+  "kind": "diminutive",
+  "root": "Кирилл",
+  "gender": "m"
+ },
+ {
+  "russian": "Кирилка",
+  "chinese": "基里尔卡",
+  "kind": "diminutive",
+  "root": "Кирилл",
+  "gender": "m"
+ },
+ {
+  "russian": "Кирилловна",
+  "chinese": "基里尔洛夫娜",
+  "kind": "patronymic_f",
+  "root": "Кирилл",
+  "gender": "m"
+ },
+ {
+  "russian": "Клавдий",
+  "chinese": "克拉夫季",
+  "kind": "formal",
+  "root": "Клавдий",
+  "gender": "m"
+ },
+ {
+  "russian": "Клавдиевич",
+  "chinese": "克拉夫季耶维奇",
+  "kind": "patronymic_m",
+  "root": "Клавдий",
+  "gender": "m"
+ },
+ {
+  "russian": "Клавдя",
+  "chinese": "克拉夫佳",
+  "kind": "diminutive",
+  "root": "Клавдий",
+  "gender": "m"
+ },
+ {
+  "russian": "Клавдюша",
+  "chinese": "克拉夫季久沙",
+  "kind": "diminutive",
+  "root": "Клавдий",
+  "gender": "m"
+ },
+ {
+  "russian": "Клава",
+  "chinese": "克拉瓦",
+  "kind": "diminutive",
+  "root": "Клавдий",
+  "gender": "m"
+ },
+ {
+  "russian": "Клавдиевна",
+  "chinese": "克拉夫季耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Клавдий",
+  "gender": "m"
+ },
+ {
+  "russian": "Климент",
+  "chinese": "克利门特",
+  "kind": "formal",
+  "root": "Климент",
+  "gender": "m"
+ },
+ {
+  "russian": "Климентович",
+  "chinese": "克利门托维奇",
+  "kind": "patronymic_m",
+  "root": "Климент",
+  "gender": "m"
+ },
+ {
+  "russian": "Климуша",
+  "chinese": "克利穆沙",
+  "kind": "diminutive",
+  "root": "Климент",
+  "gender": "m"
+ },
+ {
+  "russian": "Коленька",
+  "chinese": "科连卡",
+  "kind": "diminutive",
+  "root": "Климент",
+  "gender": "m"
+ },
+ {
+  "russian": "Коля",
+  "chinese": "科利亚",
+  "kind": "diminutive",
+  "root": "Климент",
+  "gender": "m"
+ },
+ {
+  "russian": "Климентовна",
+  "chinese": "克利门托夫娜",
+  "kind": "patronymic_f",
+  "root": "Климент",
+  "gender": "m"
+ },
+ {
+  "russian": "Кондрат",
+  "chinese": "孔德拉特",
+  "kind": "formal",
+  "root": "Кондрат",
+  "gender": "m"
+ },
+ {
+  "russian": "Кондратович",
+  "chinese": "孔德拉托维奇",
+  "kind": "patronymic_m",
+  "root": "Кондрат",
+  "gender": "m"
+ },
+ {
+  "russian": "Кондраша",
+  "chinese": "孔德拉沙",
+  "kind": "diminutive",
+  "root": "Кондрат",
+  "gender": "m"
+ },
+ {
+  "russian": "Кондратовна",
+  "chinese": "孔德拉托夫娜",
+  "kind": "patronymic_f",
+  "root": "Кондрат",
+  "gender": "m"
+ },
+ {
+  "russian": "Конон",
+  "chinese": "科农",
+  "kind": "formal",
+  "root": "Конон",
+  "gender": "m"
+ },
+ {
+  "russian": "Кононович",
+  "chinese": "科农诺维奇",
+  "kind": "patronymic_m",
+  "root": "Конон",
+  "gender": "m"
+ },
+ {
+  "russian": "Кона",
+  "chinese": "科纳",
+  "kind": "diminutive",
+  "root": "Конон",
+  "gender": "m"
+ },
+ {
+  "russian": "Коняша",
+  "chinese": "科尼亚沙",
+  "kind": "diminutive",
+  "root": "Конон",
+  "gender": "m"
+ },
+ {
+  "russian": "Кононовна",
+  "chinese": "科农诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Конон",
+  "gender": "m"
+ },
+ {
+  "russian": "Константин",
+  "chinese": "康斯坦丁",
+  "kind": "formal",
+  "root": "Константин",
+  "gender": "m"
+ },
+ {
+  "russian": "Константинович",
+  "chinese": "康斯坦丁诺维奇",
+  "kind": "patronymic_m",
+  "root": "Константин",
+  "gender": "m"
+ },
+ {
+  "russian": "Костя",
+  "chinese": "科斯佳",
+  "kind": "diminutive",
+  "root": "Константин",
+  "gender": "m"
+ },
+ {
+  "russian": "Костенька",
+  "chinese": "科斯坚卡",
+  "kind": "diminutive",
+  "root": "Константин",
+  "gender": "m"
+ },
+ {
+  "russian": "Константиновна",
+  "chinese": "康斯坦丁诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Константин",
+  "gender": "m"
+ },
+ {
+  "russian": "Корней",
+  "chinese": "科尔涅",
+  "kind": "formal",
+  "root": "Корней",
+  "gender": "m"
+ },
+ {
+  "russian": "Корнеевич",
+  "chinese": "科尔涅耶维奇",
+  "kind": "patronymic_m",
+  "root": "Корней",
+  "gender": "m"
+ },
+ {
+  "russian": "Корнеюшка",
+  "chinese": "科尔涅尤什卡",
+  "kind": "diminutive",
+  "root": "Корней",
+  "gender": "m"
+ },
+ {
+  "russian": "Корнеевнар",
+  "chinese": "科尔涅耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Корней",
+  "gender": "m"
+ },
+ {
+  "russian": "Кузьма",
+  "chinese": "库济马",
+  "kind": "formal",
+  "root": "Кузьма",
+  "gender": "m"
+ },
+ {
+  "russian": "Кузьмич",
+  "chinese": "库济米奇",
+  "kind": "patronymic_m",
+  "root": "Кузьма",
+  "gender": "m"
+ },
+ {
+  "russian": "Кузя",
+  "chinese": "库贾",
+  "kind": "diminutive",
+  "root": "Кузьма",
+  "gender": "m"
+ },
+ {
+  "russian": "Кузьминична",
+  "chinese": "库济米尼奇娜",
+  "kind": "patronymic_f",
+  "root": "Кузьма",
+  "gender": "m"
+ },
+ {
+  "russian": "Куприян",
+  "chinese": "库普里扬",
+  "kind": "formal",
+  "root": "Куприян",
+  "gender": "m"
+ },
+ {
+  "russian": "Куприянович",
+  "chinese": "库普里扬诺维奇",
+  "kind": "patronymic_m",
+  "root": "Куприян",
+  "gender": "m"
+ },
+ {
+  "russian": "Куприяша",
+  "chinese": "库普里亚沙",
+  "kind": "diminutive",
+  "root": "Куприян",
+  "gender": "m"
+ },
+ {
+  "russian": "Куприяновна",
+  "chinese": "库普里扬诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Куприян",
+  "gender": "m"
+ },
+ {
+  "russian": "лавр",
+  "chinese": "拉夫尔",
+  "kind": "formal",
+  "root": "лавр",
+  "gender": "m"
+ },
+ {
+  "russian": "лаврович",
+  "chinese": "拉夫罗维奇",
+  "kind": "patronymic_m",
+  "root": "лавр",
+  "gender": "m"
+ },
+ {
+  "russian": "лара",
+  "chinese": "拉拉",
+  "kind": "diminutive",
+  "root": "лавр",
+  "gender": "m"
+ },
+ {
+  "russian": "лаврюся",
+  "chinese": "拉夫留夏",
+  "kind": "diminutive",
+  "root": "лавр",
+  "gender": "m"
+ },
+ {
+  "russian": "лавровна",
+  "chinese": "拉夫罗夫娜",
+  "kind": "patronymic_f",
+  "root": "лавр",
+  "gender": "m"
+ },
+ {
+  "russian": "лаврентий",
+  "chinese": "拉夫连季",
+  "kind": "formal",
+  "root": "лаврентий",
+  "gender": "m"
+ },
+ {
+  "russian": "лаврентиевич",
+  "chinese": "拉夫连季耶维奇",
+  "kind": "patronymic_m",
+  "root": "лаврентий",
+  "gender": "m"
+ },
+ {
+  "russian": "лаврентьевич",
+  "chinese": "拉夫连季耶维奇",
+  "kind": "patronymic_m",
+  "root": "лаврентий",
+  "gender": "m"
+ },
+ {
+  "russian": "лаврик",
+  "chinese": "拉夫里克",
+  "kind": "diminutive",
+  "root": "лаврентий",
+  "gender": "m"
+ },
+ {
+  "russian": "лавруша",
+  "chinese": "拉夫鲁沙",
+  "kind": "diminutive",
+  "root": "лаврентий",
+  "gender": "m"
+ },
+ {
+  "russian": "лаврентиевна",
+  "chinese": "拉夫连季耶夫娜",
+  "kind": "patronymic_f",
+  "root": "лаврентий",
+  "gender": "m"
+ },
+ {
+  "russian": "лаврентьевна",
+  "chinese": "拉夫连季耶夫娜",
+  "kind": "patronymic_f",
+  "root": "лаврентий",
+  "gender": "m"
+ },
+ {
+  "russian": "лазарь",
+  "chinese": "拉扎里",
+  "kind": "formal",
+  "root": "лазарь",
+  "gender": "m"
+ },
+ {
+  "russian": "лазаревич",
+  "chinese": "拉扎里耶维奇",
+  "kind": "patronymic_m",
+  "root": "лазарь",
+  "gender": "m"
+ },
+ {
+  "russian": "лазарик",
+  "chinese": "拉扎里克",
+  "kind": "diminutive",
+  "root": "лазарь",
+  "gender": "m"
+ },
+ {
+  "russian": "лазаревна",
+  "chinese": "拉扎里耶夫娜",
+  "kind": "patronymic_f",
+  "root": "лазарь",
+  "gender": "m"
+ },
+ {
+  "russian": "ларион",
+  "chinese": "拉里翁",
+  "kind": "formal",
+  "root": "ларион",
+  "gender": "m"
+ },
+ {
+  "russian": "ларионович",
+  "chinese": "拉里翁诺维奇",
+  "kind": "patronymic_m",
+  "root": "ларион",
+  "gender": "m"
+ },
+ {
+  "russian": "ларионушка",
+  "chinese": "拉里翁努什卡",
+  "kind": "diminutive",
+  "root": "ларион",
+  "gender": "m"
+ },
+ {
+  "russian": "ларионовна",
+  "chinese": "拉里翁诺夫娜",
+  "kind": "patronymic_f",
+  "root": "ларион",
+  "gender": "m"
+ },
+ {
+  "russian": "Лев",
+  "chinese": "列夫",
+  "kind": "formal",
+  "root": "Лев",
+  "gender": "m"
+ },
+ {
+  "russian": "Львович",
+  "chinese": "利沃维奇",
+  "kind": "patronymic_m",
+  "root": "Лев",
+  "gender": "m"
+ },
+ {
+  "russian": "Лёня",
+  "chinese": "廖尼亚",
+  "kind": "diminutive",
+  "root": "Лев",
+  "gender": "m"
+ },
+ {
+  "russian": "Лёва",
+  "chinese": "廖瓦",
+  "kind": "diminutive",
+  "root": "Лев",
+  "gender": "m"
+ },
+ {
+  "russian": "Лёлечка",
+  "chinese": "廖涅奇卡",
+  "kind": "diminutive",
+  "root": "Лев",
+  "gender": "m"
+ },
+ {
+  "russian": "Лёна",
+  "chinese": "廖纳",
+  "kind": "diminutive",
+  "root": "Лев",
+  "gender": "m"
+ },
+ {
+  "russian": "Львовна",
+  "chinese": "利沃夫娜",
+  "kind": "patronymic_f",
+  "root": "Лев",
+  "gender": "m"
+ },
+ {
+  "russian": "Леон",
+  "chinese": "列昂",
+  "kind": "formal",
+  "root": "Леон",
+  "gender": "m"
+ },
+ {
+  "russian": "Леонович",
+  "chinese": "列昂诺维奇",
+  "kind": "patronymic_m",
+  "root": "Леон",
+  "gender": "m"
+ },
+ {
+  "russian": "Леоновна",
+  "chinese": "列昂诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Леон",
+  "gender": "m"
+ },
+ {
+  "russian": "Леонид",
+  "chinese": "列奥尼德",
+  "kind": "formal",
+  "root": "Леонид",
+  "gender": "m"
+ },
+ {
+  "russian": "Леонидович",
+  "chinese": "列奥尼多维奇",
+  "kind": "patronymic_m",
+  "root": "Леонид",
+  "gender": "m"
+ },
+ {
+  "russian": "Леонидовна",
+  "chinese": "列奥尼多夫娜",
+  "kind": "patronymic_f",
+  "root": "Леонид",
+  "gender": "m"
+ },
+ {
+  "russian": "Леонтий",
+  "chinese": "列翁季",
+  "kind": "formal",
+  "root": "Леонтий",
+  "gender": "m"
+ },
+ {
+  "russian": "Леонтиевич",
+  "chinese": "列翁季耶维奇",
+  "kind": "patronymic_m",
+  "root": "Леонтий",
+  "gender": "m"
+ },
+ {
+  "russian": "Лёша",
+  "chinese": "廖莎",
+  "kind": "diminutive",
+  "root": "Леонтий",
+  "gender": "m"
+ },
+ {
+  "russian": "Леонтиевна",
+  "chinese": "列翁季耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Леонтий",
+  "gender": "m"
+ },
+ {
+  "russian": "Лука",
+  "chinese": "卢卡",
+  "kind": "formal",
+  "root": "Лука",
+  "gender": "m"
+ },
+ {
+  "russian": "Лукич",
+  "chinese": "卢基奇",
+  "kind": "patronymic_m",
+  "root": "Лука",
+  "gender": "m"
+ },
+ {
+  "russian": "Лукаша",
+  "chinese": "卢卡沙",
+  "kind": "diminutive",
+  "root": "Лука",
+  "gender": "m"
+ },
+ {
+  "russian": "Лукинична",
+  "chinese": "卢基尼奇娜",
+  "kind": "patronymic_f",
+  "root": "Лука",
+  "gender": "m"
+ },
+ {
+  "russian": "Лукьян",
+  "chinese": "卢基扬",
+  "kind": "formal",
+  "root": "Лукьян",
+  "gender": "m"
+ },
+ {
+  "russian": "Лукьянович",
+  "chinese": "卢基扬诺维奇",
+  "kind": "patronymic_m",
+  "root": "Лукьян",
+  "gender": "m"
+ },
+ {
+  "russian": "Луконя",
+  "chinese": "卢科尼亚",
+  "kind": "diminutive",
+  "root": "Лукьян",
+  "gender": "m"
+ },
+ {
+  "russian": "Лукьяновна",
+  "chinese": "卢基杨诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Лукьян",
+  "gender": "m"
+ },
+ {
+  "russian": "Мавр",
+  "chinese": "马夫尔",
+  "kind": "formal",
+  "root": "Мавр",
+  "gender": "m"
+ },
+ {
+  "russian": "Маврович",
+  "chinese": "马夫尔罗维奇",
+  "kind": "patronymic_m",
+  "root": "Мавр",
+  "gender": "m"
+ },
+ {
+  "russian": "Маврик",
+  "chinese": "马夫里克",
+  "kind": "diminutive",
+  "root": "Мавр",
+  "gender": "m"
+ },
+ {
+  "russian": "Мавруша",
+  "chinese": "马夫鲁沙",
+  "kind": "diminutive",
+  "root": "Мавр",
+  "gender": "m"
+ },
+ {
+  "russian": "Мавровна",
+  "chinese": "马夫尔罗夫娜",
+  "kind": "patronymic_f",
+  "root": "Мавр",
+  "gender": "m"
+ },
+ {
+  "russian": "Макар",
+  "chinese": "马卡尔",
+  "kind": "formal",
+  "root": "Макар",
+  "gender": "m"
+ },
+ {
+  "russian": "Макарович",
+  "chinese": "马卡尔罗维奇",
+  "kind": "patronymic_m",
+  "root": "Макар",
+  "gender": "m"
+ },
+ {
+  "russian": "Макарушка",
+  "chinese": "马卡鲁什克",
+  "kind": "diminutive",
+  "root": "Макар",
+  "gender": "m"
+ },
+ {
+  "russian": "Макаровна",
+  "chinese": "马卡尔罗夫娜",
+  "kind": "patronymic_f",
+  "root": "Макар",
+  "gender": "m"
+ },
+ {
+  "russian": "Максим",
+  "chinese": "马克西姆",
+  "kind": "formal",
+  "root": "Максим",
+  "gender": "m"
+ },
+ {
+  "russian": "Максимович",
+  "chinese": "马克西莫维奇",
+  "kind": "patronymic_m",
+  "root": "Максим",
+  "gender": "m"
+ },
+ {
+  "russian": "Максимушка",
+  "chinese": "马克西穆什卡",
+  "kind": "diminutive",
+  "root": "Максим",
+  "gender": "m"
+ },
+ {
+  "russian": "Максимовна",
+  "chinese": "马克西莫夫娜",
+  "kind": "patronymic_f",
+  "root": "Максим",
+  "gender": "m"
+ },
+ {
+  "russian": "Марк",
+  "chinese": "马尔克",
+  "kind": "formal",
+  "root": "Марк",
+  "gender": "m"
+ },
+ {
+  "russian": "Маркович",
+  "chinese": "马尔科维奇",
+  "kind": "patronymic_m",
+  "root": "Марк",
+  "gender": "m"
+ },
+ {
+  "russian": "Мася",
+  "chinese": "马夏",
+  "kind": "diminutive",
+  "root": "Марк",
+  "gender": "m"
+ },
+ {
+  "russian": "Маркуся",
+  "chinese": "马尔库夏",
+  "kind": "diminutive",
+  "root": "Марк",
+  "gender": "m"
+ },
+ {
+  "russian": "Марковна",
+  "chinese": "马尔科夫娜",
+  "kind": "patronymic_f",
+  "root": "Марк",
+  "gender": "m"
+ },
+ {
+  "russian": "Мартын",
+  "chinese": "马尔滕",
+  "kind": "formal",
+  "root": "Мартын",
+  "gender": "m"
+ },
+ {
+  "russian": "Мартынович",
+  "chinese": "马尔滕诺维奇",
+  "kind": "patronymic_m",
+  "root": "Мартын",
+  "gender": "m"
+ },
+ {
+  "russian": "Мартюша",
+  "chinese": "马尔秋莎",
+  "kind": "diminutive",
+  "root": "Мартын",
+  "gender": "m"
+ },
+ {
+  "russian": "Мартыновна",
+  "chinese": "马尔滕诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Мартын",
+  "gender": "m"
+ },
+ {
+  "russian": "Матвей",
+  "chinese": "马特韦",
+  "kind": "formal",
+  "root": "Матвей",
+  "gender": "m"
+ },
+ {
+  "russian": "Матвеевич",
+  "chinese": "马特韦耶维奇",
+  "kind": "patronymic_m",
+  "root": "Матвей",
+  "gender": "m"
+ },
+ {
+  "russian": "Матюша",
+  "chinese": "马秋莎",
+  "kind": "diminutive",
+  "root": "Матвей",
+  "gender": "m"
+ },
+ {
+  "russian": "Матвеевна",
+  "chinese": "马特韦耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Матвей",
+  "gender": "m"
+ },
+ {
+  "russian": "Мирон",
+  "chinese": "米龙",
+  "kind": "formal",
+  "root": "Мирон",
+  "gender": "m"
+ },
+ {
+  "russian": "Миронович",
+  "chinese": "米龙诺维奇",
+  "kind": "patronymic_m",
+  "root": "Мирон",
+  "gender": "m"
+ },
+ {
+  "russian": "Миронушка",
+  "chinese": "米龙努什卡",
+  "kind": "diminutive",
+  "root": "Мирон",
+  "gender": "m"
+ },
+ {
+  "russian": "Мироновна",
+  "chinese": "米龙诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Мирон",
+  "gender": "m"
+ },
+ {
+  "russian": "Митрофан",
+  "chinese": "米特罗凡",
+  "kind": "formal",
+  "root": "Митрофан",
+  "gender": "m"
+ },
+ {
+  "russian": "Митрофанович",
+  "chinese": "米特罗凡诺维奇",
+  "kind": "patronymic_m",
+  "root": "Митрофан",
+  "gender": "m"
+ },
+ {
+  "russian": "Митроша",
+  "chinese": "米特罗沙",
+  "kind": "diminutive",
+  "root": "Митрофан",
+  "gender": "m"
+ },
+ {
+  "russian": "Митрофановна",
+  "chinese": "米特罗凡诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Митрофан",
+  "gender": "m"
+ },
+ {
+  "russian": "Михаил",
+  "chinese": "米哈伊尔",
+  "kind": "formal",
+  "root": "Михаил",
+  "gender": "m"
+ },
+ {
+  "russian": "Михаилович",
+  "chinese": "米哈伊洛维奇",
+  "kind": "patronymic_m",
+  "root": "Михаил",
+  "gender": "m"
+ },
+ {
+  "russian": "Миша",
+  "chinese": "米沙",
+  "kind": "diminutive",
+  "root": "Михаил",
+  "gender": "m"
+ },
+ {
+  "russian": "Михайла",
+  "chinese": "米哈伊拉",
+  "kind": "diminutive",
+  "root": "Михаил",
+  "gender": "m"
+ },
+ {
+  "russian": "Михайло",
+  "chinese": "米哈伊洛",
+  "kind": "diminutive",
+  "root": "Михаил",
+  "gender": "m"
+ },
+ {
+  "russian": "Мик",
+  "chinese": "米克",
+  "kind": "diminutive",
+  "root": "Михаил",
+  "gender": "m"
+ },
+ {
+  "russian": "Мишенька",
+  "chinese": "米申卡",
+  "kind": "diminutive",
+  "root": "Михаил",
+  "gender": "m"
+ },
+ {
+  "russian": "Михаиловна",
+  "chinese": "米哈伊洛夫娜",
+  "kind": "patronymic_f",
+  "root": "Михаил",
+  "gender": "m"
+ },
+ {
+  "russian": "Михей",
+  "chinese": "米赫伊",
+  "kind": "formal",
+  "root": "Михей",
+  "gender": "m"
+ },
+ {
+  "russian": "Михеевич",
+  "chinese": "米赫耶维奇",
+  "kind": "patronymic_m",
+  "root": "Михей",
+  "gender": "m"
+ },
+ {
+  "russian": "Михеюшка",
+  "chinese": "米赫尤什卡",
+  "kind": "diminutive",
+  "root": "Михей",
+  "gender": "m"
+ },
+ {
+  "russian": "Михеевна",
+  "chinese": "米赫耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Михей",
+  "gender": "m"
+ },
+ {
+  "russian": "Модест",
+  "chinese": "莫杰斯特",
+  "kind": "formal",
+  "root": "Модест",
+  "gender": "m"
+ },
+ {
+  "russian": "Модестович",
+  "chinese": "莫杰斯托维奇",
+  "kind": "patronymic_m",
+  "root": "Модест",
+  "gender": "m"
+ },
+ {
+  "russian": "Модестушка",
+  "chinese": "莫杰斯图什卡",
+  "kind": "diminutive",
+  "root": "Модест",
+  "gender": "m"
+ },
+ {
+  "russian": "Модестовна",
+  "chinese": "莫杰斯托夫娜",
+  "kind": "patronymic_f",
+  "root": "Модест",
+  "gender": "m"
+ },
+ {
+  "russian": "Моисей",
+  "chinese": "莫伊谢",
+  "kind": "formal",
+  "root": "Моисей",
+  "gender": "m"
+ },
+ {
+  "russian": "Моисеевич",
+  "chinese": "莫伊谢耶维奇",
+  "kind": "patronymic_m",
+  "root": "Моисей",
+  "gender": "m"
+ },
+ {
+  "russian": "Мося",
+  "chinese": "莫夏",
+  "kind": "diminutive",
+  "root": "Моисей",
+  "gender": "m"
+ },
+ {
+  "russian": "Моисеевна",
+  "chinese": "莫伊谢耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Моисей",
+  "gender": "m"
+ },
+ {
+  "russian": "Мстислав",
+  "chinese": "姆斯季斯拉夫",
+  "kind": "formal",
+  "root": "Мстислав",
+  "gender": "m"
+ },
+ {
+  "russian": "Мстиславович",
+  "chinese": "姆斯季斯拉沃维奇",
+  "kind": "patronymic_m",
+  "root": "Мстислав",
+  "gender": "m"
+ },
+ {
+  "russian": "Мстиславич",
+  "chinese": "姆斯季斯拉维奇",
+  "kind": "patronymic_m",
+  "root": "Мстислав",
+  "gender": "m"
+ },
+ {
+  "russian": "Мстиславовна",
+  "chinese": "姆斯季斯拉沃夫娜",
+  "kind": "patronymic_f",
+  "root": "Мстислав",
+  "gender": "m"
+ },
+ {
+  "russian": "Мстиславна",
+  "chinese": "姆斯季斯拉夫娜",
+  "kind": "patronymic_f",
+  "root": "Мстислав",
+  "gender": "m"
+ },
+ {
+  "russian": "Назар",
+  "chinese": "纳扎尔",
+  "kind": "formal",
+  "root": "Назар",
+  "gender": "m"
+ },
+ {
+  "russian": "Назарович",
+  "chinese": "纳扎罗维奇",
+  "kind": "patronymic_m",
+  "root": "Назар",
+  "gender": "m"
+ },
+ {
+  "russian": "Назарушка",
+  "chinese": "纳扎鲁什卡",
+  "kind": "diminutive",
+  "root": "Назар",
+  "gender": "m"
+ },
+ {
+  "russian": "Настюша",
+  "chinese": "纳斯秋沙",
+  "kind": "diminutive",
+  "root": "Назар",
+  "gender": "m"
+ },
+ {
+  "russian": "Назаровна",
+  "chinese": "纳扎罗夫娜",
+  "kind": "patronymic_f",
+  "root": "Назар",
+  "gender": "m"
+ },
+ {
+  "russian": "Наум",
+  "chinese": "纳乌姆",
+  "kind": "formal",
+  "root": "Наум",
+  "gender": "m"
+ },
+ {
+  "russian": "Наумович",
+  "chinese": "纳乌莫维奇",
+  "kind": "patronymic_m",
+  "root": "Наум",
+  "gender": "m"
+ },
+ {
+  "russian": "Наумушка",
+  "chinese": "纳乌穆什卡",
+  "kind": "diminutive",
+  "root": "Наум",
+  "gender": "m"
+ },
+ {
+  "russian": "Наумовна",
+  "chinese": "纳乌莫夫娜",
+  "kind": "patronymic_f",
+  "root": "Наум",
+  "gender": "m"
+ },
+ {
+  "russian": "Нестор",
+  "chinese": "涅斯托尔",
+  "kind": "formal",
+  "root": "Нестор",
+  "gender": "m"
+ },
+ {
+  "russian": "Несторович",
+  "chinese": "涅斯托罗维奇",
+  "kind": "patronymic_m",
+  "root": "Нестор",
+  "gender": "m"
+ },
+ {
+  "russian": "Терёша",
+  "chinese": "捷廖沙",
+  "kind": "diminutive",
+  "root": "Нестор",
+  "gender": "m"
+ },
+ {
+  "russian": "Несторовна",
+  "chinese": "涅斯托罗夫娜",
+  "kind": "patronymic_f",
+  "root": "Нестор",
+  "gender": "m"
+ },
+ {
+  "russian": "Никанор",
+  "chinese": "尼卡诺尔",
+  "kind": "formal",
+  "root": "Никанор",
+  "gender": "m"
+ },
+ {
+  "russian": "Никанорович",
+  "chinese": "尼卡诺尔罗维奇",
+  "kind": "patronymic_m",
+  "root": "Никанор",
+  "gender": "m"
+ },
+ {
+  "russian": "Никанорушка",
+  "chinese": "尼卡诺尔鲁什卡",
+  "kind": "diminutive",
+  "root": "Никанор",
+  "gender": "m"
+ },
+ {
+  "russian": "Никаноровна",
+  "chinese": "尼卡诺尔罗夫娜",
+  "kind": "patronymic_f",
+  "root": "Никанор",
+  "gender": "m"
+ },
+ {
+  "russian": "Никита",
+  "chinese": "尼基塔",
+  "kind": "formal",
+  "root": "Никита",
+  "gender": "m"
+ },
+ {
+  "russian": "Никитич",
+  "chinese": "尼基季奇",
+  "kind": "patronymic_m",
+  "root": "Никита",
+  "gender": "m"
+ },
+ {
+  "russian": "Никиша",
+  "chinese": "尼基沙",
+  "kind": "diminutive",
+  "root": "Никита",
+  "gender": "m"
+ },
+ {
+  "russian": "Никитушка",
+  "chinese": "尼基图什卡",
+  "kind": "diminutive",
+  "root": "Никита",
+  "gender": "m"
+ },
+ {
+  "russian": "Никитична",
+  "chinese": "尼基季奇娜",
+  "kind": "patronymic_f",
+  "root": "Никита",
+  "gender": "m"
+ },
+ {
+  "russian": "Никифор",
+  "chinese": "尼基福尔",
+  "kind": "formal",
+  "root": "Никифор",
+  "gender": "m"
+ },
+ {
+  "russian": "Никифорович",
+  "chinese": "尼基福尔罗维奇",
+  "kind": "patronymic_m",
+  "root": "Никифор",
+  "gender": "m"
+ },
+ {
+  "russian": "Никифоровна",
+  "chinese": "尼基福尔罗夫娜",
+  "kind": "patronymic_f",
+  "root": "Никифор",
+  "gender": "m"
+ },
+ {
+  "russian": "Никодим",
+  "chinese": "尼科季姆",
+  "kind": "formal",
+  "root": "Никодим",
+  "gender": "m"
+ },
+ {
+  "russian": "Никодимович",
+  "chinese": "尼科季莫维奇",
+  "kind": "patronymic_m",
+  "root": "Никодим",
+  "gender": "m"
+ },
+ {
+  "russian": "Дим",
+  "chinese": "季姆",
+  "kind": "diminutive",
+  "root": "Никодим",
+  "gender": "m"
+ },
+ {
+  "russian": "Никодимовна",
+  "chinese": "尼科季莫夫娜",
+  "kind": "patronymic_f",
+  "root": "Никодим",
+  "gender": "m"
+ },
+ {
+  "russian": "Николай",
+  "chinese": "尼科莱",
+  "kind": "formal",
+  "root": "Николай",
+  "gender": "m"
+ },
+ {
+  "russian": "Николаевич",
+  "chinese": "尼科莱耶维奇",
+  "kind": "patronymic_m",
+  "root": "Николай",
+  "gender": "m"
+ },
+ {
+  "russian": "Николаша",
+  "chinese": "尼科拉沙",
+  "kind": "diminutive",
+  "root": "Николай",
+  "gender": "m"
+ },
+ {
+  "russian": "Николаевна",
+  "chinese": "尼科拉耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Николай",
+  "gender": "m"
+ },
+ {
+  "russian": "Никон",
+  "chinese": "尼孔",
+  "kind": "formal",
+  "root": "Никон",
+  "gender": "m"
+ },
+ {
+  "russian": "Никонович",
+  "chinese": "尼科诺维奇",
+  "kind": "patronymic_m",
+  "root": "Никон",
+  "gender": "m"
+ },
+ {
+  "russian": "Никонушка",
+  "chinese": "尼科努什卡",
+  "kind": "diminutive",
+  "root": "Никон",
+  "gender": "m"
+ },
+ {
+  "russian": "Никоновна",
+  "chinese": "尼科诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Никон",
+  "gender": "m"
+ },
+ {
+  "russian": "Нил",
+  "chinese": "尼尔",
+  "kind": "formal",
+  "root": "Нил",
+  "gender": "m"
+ },
+ {
+  "russian": "Нилович",
+  "chinese": "尼尔洛维奇",
+  "kind": "patronymic_m",
+  "root": "Нил",
+  "gender": "m"
+ },
+ {
+  "russian": "Нилушка",
+  "chinese": "尼尔卢什卡",
+  "kind": "diminutive",
+  "root": "Нил",
+  "gender": "m"
+ },
+ {
+  "russian": "Ниловна",
+  "chinese": "尼尔洛夫娜",
+  "kind": "patronymic_f",
+  "root": "Нил",
+  "gender": "m"
+ },
+ {
+  "russian": "Олег",
+  "chinese": "奥列格",
+  "kind": "formal",
+  "root": "Олег",
+  "gender": "m"
+ },
+ {
+  "russian": "Олегович",
+  "chinese": "奥列戈维奇",
+  "kind": "patronymic_m",
+  "root": "Олег",
+  "gender": "m"
+ },
+ {
+  "russian": "Олегушка",
+  "chinese": "奥列古什卡",
+  "kind": "diminutive",
+  "root": "Олег",
+  "gender": "m"
+ },
+ {
+  "russian": "Олеговна",
+  "chinese": "奥列戈夫娜",
+  "kind": "patronymic_f",
+  "root": "Олег",
+  "gender": "m"
+ },
+ {
+  "russian": "Онуфрий",
+  "chinese": "奥努弗里",
+  "kind": "formal",
+  "root": "Онуфрий",
+  "gender": "m"
+ },
+ {
+  "russian": "Ануфрий",
+  "chinese": "者阿努弗里",
+  "kind": "diminutive",
+  "root": "Онуфрий",
+  "gender": "m"
+ },
+ {
+  "russian": "Онуфриевич",
+  "chinese": "奥努弗里耶维奇",
+  "kind": "patronymic_m",
+  "root": "Онуфрий",
+  "gender": "m"
+ },
+ {
+  "russian": "Онуша",
+  "chinese": "奥努沙",
+  "kind": "diminutive",
+  "root": "Онуфрий",
+  "gender": "m"
+ },
+ {
+  "russian": "Онуфриевна",
+  "chinese": "奥努弗里耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Онуфрий",
+  "gender": "m"
+ },
+ {
+  "russian": "Орест",
+  "chinese": "奥列斯特",
+  "kind": "formal",
+  "root": "Орест",
+  "gender": "m"
+ },
+ {
+  "russian": "Орестович",
+  "chinese": "奥列斯托维奇",
+  "kind": "patronymic_m",
+  "root": "Орест",
+  "gender": "m"
+ },
+ {
+  "russian": "Оря",
+  "chinese": "奥里亚",
+  "kind": "diminutive",
+  "root": "Орест",
+  "gender": "m"
+ },
+ {
+  "russian": "Орестовна",
+  "chinese": "奥列斯托夫娜",
+  "kind": "patronymic_f",
+  "root": "Орест",
+  "gender": "m"
+ },
+ {
+  "russian": "Осип",
+  "chinese": "奥西普",
+  "kind": "formal",
+  "root": "Осип",
+  "gender": "m"
+ },
+ {
+  "russian": "Осипович",
+  "chinese": "奥西波维奇",
+  "kind": "patronymic_m",
+  "root": "Осип",
+  "gender": "m"
+ },
+ {
+  "russian": "Ося",
+  "chinese": "奥夏",
+  "kind": "diminutive",
+  "root": "Осип",
+  "gender": "m"
+ },
+ {
+  "russian": "Осиповна",
+  "chinese": "奥西波夫娜",
+  "kind": "patronymic_f",
+  "root": "Осип",
+  "gender": "m"
+ },
+ {
+  "russian": "Павел",
+  "chinese": "帕维尔",
+  "kind": "formal",
+  "root": "Павел",
+  "gender": "m"
+ },
+ {
+  "russian": "Павлович",
+  "chinese": "帕夫洛维奇",
+  "kind": "patronymic_m",
+  "root": "Павел",
+  "gender": "m"
+ },
+ {
+  "russian": "Паша",
+  "chinese": "帕沙",
+  "kind": "diminutive",
+  "root": "Павел",
+  "gender": "m"
+ },
+ {
+  "russian": "Павлик",
+  "chinese": "帕夫利克",
+  "kind": "diminutive",
+  "root": "Павел",
+  "gender": "m"
+ },
+ {
+  "russian": "Павлуша",
+  "chinese": "帕夫卢沙",
+  "kind": "diminutive",
+  "root": "Павел",
+  "gender": "m"
+ },
+ {
+  "russian": "Павловна",
+  "chinese": "帕夫洛夫娜",
+  "kind": "patronymic_f",
+  "root": "Павел",
+  "gender": "m"
+ },
+ {
+  "russian": "Панкратий",
+  "chinese": "潘克拉季",
+  "kind": "formal",
+  "root": "Панкратий",
+  "gender": "m"
+ },
+ {
+  "russian": "Панкратиевич",
+  "chinese": "潘克拉季耶维奇",
+  "kind": "patronymic_m",
+  "root": "Панкратий",
+  "gender": "m"
+ },
+ {
+  "russian": "Панкратьевич",
+  "chinese": "潘克拉季耶维奇",
+  "kind": "patronymic_m",
+  "root": "Панкратий",
+  "gender": "m"
+ },
+ {
+  "russian": "Панкрат",
+  "chinese": "潘克拉特",
+  "kind": "diminutive",
+  "root": "Панкратий",
+  "gender": "m"
+ },
+ {
+  "russian": "Панкратиевна",
+  "chinese": "潘克拉季耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Панкратий",
+  "gender": "m"
+ },
+ {
+  "russian": "Панкратьевна",
+  "chinese": "潘克拉季耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Панкратий",
+  "gender": "m"
+ },
+ {
+  "russian": "Пантелеймон",
+  "chinese": "潘捷列伊蒙",
+  "kind": "formal",
+  "root": "Пантелеймон",
+  "gender": "m"
+ },
+ {
+  "russian": "Пантелеймонович",
+  "chinese": "潘捷列伊蒙诺维奇",
+  "kind": "patronymic_m",
+  "root": "Пантелеймон",
+  "gender": "m"
+ },
+ {
+  "russian": "Паня",
+  "chinese": "帕尼亚",
+  "kind": "diminutive",
+  "root": "Пантелеймон",
+  "gender": "m"
+ },
+ {
+  "russian": "Пантюша",
+  "chinese": "潘秋沙",
+  "kind": "diminutive",
+  "root": "Пантелеймон",
+  "gender": "m"
+ },
+ {
+  "russian": "Пантелеймоновна",
+  "chinese": "潘捷列伊蒙诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Пантелеймон",
+  "gender": "m"
+ },
+ {
+  "russian": "Пахомий",
+  "chinese": "帕霍米",
+  "kind": "formal",
+  "root": "Пахомий",
+  "gender": "m"
+ },
+ {
+  "russian": "Пахомиевич",
+  "chinese": "帕霍米耶维奇",
+  "kind": "patronymic_m",
+  "root": "Пахомий",
+  "gender": "m"
+ },
+ {
+  "russian": "Пахомьевич",
+  "chinese": "帕霍米耶维奇",
+  "kind": "patronymic_m",
+  "root": "Пахомий",
+  "gender": "m"
+ },
+ {
+  "russian": "Пахомушка",
+  "chinese": "帕霍穆什卡",
+  "kind": "diminutive",
+  "root": "Пахомий",
+  "gender": "m"
+ },
+ {
+  "russian": "Пахомиевна",
+  "chinese": "帕霍米耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Пахомий",
+  "gender": "m"
+ },
+ {
+  "russian": "Пахрмьевна",
+  "chinese": "帕霍米耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Пахомий",
+  "gender": "m"
+ },
+ {
+  "russian": "Пётр",
+  "chinese": "彼得",
+  "kind": "formal",
+  "root": "Пётр",
+  "gender": "m"
+ },
+ {
+  "russian": "Петрович",
+  "chinese": "彼得罗维奇",
+  "kind": "patronymic_m",
+  "root": "Пётр",
+  "gender": "m"
+ },
+ {
+  "russian": "Петя",
+  "chinese": "佩佳",
+  "kind": "diminutive",
+  "root": "Пётр",
+  "gender": "m"
+ },
+ {
+  "russian": "Петруша",
+  "chinese": "佩特鲁沙",
+  "kind": "diminutive",
+  "root": "Пётр",
+  "gender": "m"
+ },
+ {
+  "russian": "Петенька",
+  "chinese": "佩坚卡",
+  "kind": "diminutive",
+  "root": "Пётр",
+  "gender": "m"
+ },
+ {
+  "russian": "Петровна",
+  "chinese": "彼得罗夫娜",
+  "kind": "patronymic_f",
+  "root": "Пётр",
+  "gender": "m"
+ },
+ {
+  "russian": "Пимен",
+  "chinese": "皮缅",
+  "kind": "formal",
+  "root": "Пимен",
+  "gender": "m"
+ },
+ {
+  "russian": "Пименович",
+  "chinese": "皮缅诺维奇",
+  "kind": "patronymic_m",
+  "root": "Пимен",
+  "gender": "m"
+ },
+ {
+  "russian": "Пимушка",
+  "chinese": "皮穆什卡",
+  "kind": "diminutive",
+  "root": "Пимен",
+  "gender": "m"
+ },
+ {
+  "russian": "Пименовна",
+  "chinese": "皮缅诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Пимен",
+  "gender": "m"
+ },
+ {
+  "russian": "Платон",
+  "chinese": "普拉东",
+  "kind": "formal",
+  "root": "Платон",
+  "gender": "m"
+ },
+ {
+  "russian": "Платонович",
+  "chinese": "普拉东诺维奇",
+  "kind": "patronymic_m",
+  "root": "Платон",
+  "gender": "m"
+ },
+ {
+  "russian": "Платоша",
+  "chinese": "普拉托沙",
+  "kind": "diminutive",
+  "root": "Платон",
+  "gender": "m"
+ },
+ {
+  "russian": "Платоновна",
+  "chinese": "普拉东诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Платон",
+  "gender": "m"
+ },
+ {
+  "russian": "Поликарп",
+  "chinese": "波利卡尔普",
+  "kind": "formal",
+  "root": "Поликарп",
+  "gender": "m"
+ },
+ {
+  "russian": "Поликарпович",
+  "chinese": "波利卡尔波维奇",
+  "kind": "patronymic_m",
+  "root": "Поликарп",
+  "gender": "m"
+ },
+ {
+  "russian": "Поликарпушка",
+  "chinese": "波利卡尔普什卡",
+  "kind": "diminutive",
+  "root": "Поликарп",
+  "gender": "m"
+ },
+ {
+  "russian": "Поликарповна",
+  "chinese": "波利卡尔波夫娜",
+  "kind": "patronymic_f",
+  "root": "Поликарп",
+  "gender": "m"
+ },
+ {
+  "russian": "Порфирий",
+  "chinese": "波尔菲里",
+  "kind": "formal",
+  "root": "Порфирий",
+  "gender": "m"
+ },
+ {
+  "russian": "Порфириевич",
+  "chinese": "波尔菲里耶维奇",
+  "kind": "patronymic_m",
+  "root": "Порфирий",
+  "gender": "m"
+ },
+ {
+  "russian": "Порфирьевич",
+  "chinese": "波尔菲里耶维奇",
+  "kind": "patronymic_m",
+  "root": "Порфирий",
+  "gender": "m"
+ },
+ {
+  "russian": "Порфиша",
+  "chinese": "波利卡尔普什卡",
+  "kind": "diminutive",
+  "root": "Порфирий",
+  "gender": "m"
+ },
+ {
+  "russian": "Потап",
+  "chinese": "波塔普",
+  "kind": "formal",
+  "root": "Потап",
+  "gender": "m"
+ },
+ {
+  "russian": "Потапович",
+  "chinese": "波塔波维奇",
+  "kind": "patronymic_m",
+  "root": "Потап",
+  "gender": "m"
+ },
+ {
+  "russian": "Потапушка",
+  "chinese": "波塔普什卡",
+  "kind": "diminutive",
+  "root": "Потап",
+  "gender": "m"
+ },
+ {
+  "russian": "Потаповна",
+  "chinese": "波塔波夫娜",
+  "kind": "patronymic_f",
+  "root": "Потап",
+  "gender": "m"
+ },
+ {
+  "russian": "Прокопий",
+  "chinese": "普罗科皮",
+  "kind": "formal",
+  "root": "Прокопий",
+  "gender": "m"
+ },
+ {
+  "russian": "Прокопиевич",
+  "chinese": "普罗科皮耶维奇",
+  "kind": "patronymic_m",
+  "root": "Прокопий",
+  "gender": "m"
+ },
+ {
+  "russian": "Прокопьевич",
+  "chinese": "普罗科皮耶维奇",
+  "kind": "patronymic_m",
+  "root": "Прокопий",
+  "gender": "m"
+ },
+ {
+  "russian": "Проша",
+  "chinese": "波塔普什卡",
+  "kind": "diminutive",
+  "root": "Прокопий",
+  "gender": "m"
+ },
+ {
+  "russian": "Протасий",
+  "chinese": "普罗塔西",
+  "kind": "formal",
+  "root": "Протасий",
+  "gender": "m"
+ },
+ {
+  "russian": "Протасиевич",
+  "chinese": "普罗塔西耶维奇",
+  "kind": "patronymic_m",
+  "root": "Протасий",
+  "gender": "m"
+ },
+ {
+  "russian": "Протасьевич",
+  "chinese": "普罗塔西耶维奇",
+  "kind": "patronymic_m",
+  "root": "Протасий",
+  "gender": "m"
+ },
+ {
+  "russian": "Проша",
+  "chinese": "普罗沙",
+  "kind": "diminutive",
+  "root": "Протасий",
+  "gender": "m"
+ },
+ {
+  "russian": "Прохор",
+  "chinese": "普罗霍尔",
+  "kind": "formal",
+  "root": "Прохор",
+  "gender": "m"
+ },
+ {
+  "russian": "Прохорович",
+  "chinese": "普罗霍罗维奇",
+  "kind": "patronymic_m",
+  "root": "Прохор",
+  "gender": "m"
+ },
+ {
+  "russian": "Проня",
+  "chinese": "普罗尼亚",
+  "kind": "diminutive",
+  "root": "Прохор",
+  "gender": "m"
+ },
+ {
+  "russian": "Прохоровна",
+  "chinese": "普罗霍罗夫娜",
+  "kind": "patronymic_f",
+  "root": "Прохор",
+  "gender": "m"
+ },
+ {
+  "russian": "Роман",
+  "chinese": "罗曼",
+  "kind": "formal",
+  "root": "Роман",
+  "gender": "m"
+ },
+ {
+  "russian": "Романович",
+  "chinese": "罗曼诺维奇",
+  "kind": "patronymic_m",
+  "root": "Роман",
+  "gender": "m"
+ },
+ {
+  "russian": "Рома",
+  "chinese": "罗马",
+  "kind": "diminutive",
+  "root": "Роман",
+  "gender": "m"
+ },
+ {
+  "russian": "Ромашко",
+  "chinese": "罗马什科",
+  "kind": "diminutive",
+  "root": "Роман",
+  "gender": "m"
+ },
+ {
+  "russian": "Романовна",
+  "chinese": "罗曼诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Роман",
+  "gender": "m"
+ },
+ {
+  "russian": "Ростислав",
+  "chinese": "罗斯季斯拉夫",
+  "kind": "formal",
+  "root": "Ростислав",
+  "gender": "m"
+ },
+ {
+  "russian": "Ростиславович",
+  "chinese": "罗斯季斯拉沃维奇",
+  "kind": "patronymic_m",
+  "root": "Ростислав",
+  "gender": "m"
+ },
+ {
+  "russian": "Ростиславич",
+  "chinese": "罗斯季斯拉维奇",
+  "kind": "patronymic_m",
+  "root": "Ростислав",
+  "gender": "m"
+ },
+ {
+  "russian": "Ростя",
+  "chinese": "罗斯佳",
+  "kind": "diminutive",
+  "root": "Ростислав",
+  "gender": "m"
+ },
+ {
+  "russian": "Ростиславовна",
+  "chinese": "罗斯季斯拉沃夫娜",
+  "kind": "patronymic_f",
+  "root": "Ростислав",
+  "gender": "m"
+ },
+ {
+  "russian": "Ростиславна",
+  "chinese": "罗斯季斯拉夫娜",
+  "kind": "patronymic_f",
+  "root": "Ростислав",
+  "gender": "m"
+ },
+ {
+  "russian": "Савва",
+  "chinese": "萨夫瓦",
+  "kind": "formal",
+  "root": "Савва",
+  "gender": "m"
+ },
+ {
+  "russian": "Саввич",
+  "chinese": "萨夫维奇",
+  "kind": "patronymic_m",
+  "root": "Савва",
+  "gender": "m"
+ },
+ {
+  "russian": "Савушка",
+  "chinese": "萨武什卡",
+  "kind": "diminutive",
+  "root": "Савва",
+  "gender": "m"
+ },
+ {
+  "russian": "Саввична",
+  "chinese": "萨夫维奇娜",
+  "kind": "patronymic_f",
+  "root": "Савва",
+  "gender": "m"
+ },
+ {
+  "russian": "Савватий",
+  "chinese": "萨夫瓦季",
+  "kind": "formal",
+  "root": "Савватий",
+  "gender": "m"
+ },
+ {
+  "russian": "Савватиевич",
+  "chinese": "萨夫瓦季耶维奇",
+  "kind": "patronymic_m",
+  "root": "Савватий",
+  "gender": "m"
+ },
+ {
+  "russian": "Савватьевич",
+  "chinese": "萨夫瓦季耶维奇",
+  "kind": "patronymic_m",
+  "root": "Савватий",
+  "gender": "m"
+ },
+ {
+  "russian": "Сава",
+  "chinese": "萨武什卡",
+  "kind": "diminutive",
+  "root": "Савватий",
+  "gender": "m"
+ },
+ {
+  "russian": "Савватиевна",
+  "chinese": "萨夫瓦季耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Савватий",
+  "gender": "m"
+ },
+ {
+  "russian": "Савватьевна",
+  "chinese": "萨夫瓦季耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Савватий",
+  "gender": "m"
+ },
+ {
+  "russian": "Савелий",
+  "chinese": "萨韦利",
+  "kind": "formal",
+  "root": "Савелий",
+  "gender": "m"
+ },
+ {
+  "russian": "Савелиевич",
+  "chinese": "萨韦利耶维奇",
+  "kind": "patronymic_m",
+  "root": "Савелий",
+  "gender": "m"
+ },
+ {
+  "russian": "Савельевич",
+  "chinese": "萨韦利耶维奇",
+  "kind": "patronymic_m",
+  "root": "Савелий",
+  "gender": "m"
+ },
+ {
+  "russian": "Савельюшка",
+  "chinese": "萨韦利尤什卡",
+  "kind": "diminutive",
+  "root": "Савелий",
+  "gender": "m"
+ },
+ {
+  "russian": "Савелиевна",
+  "chinese": "萨韦利耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Савелий",
+  "gender": "m"
+ },
+ {
+  "russian": "Савельевна",
+  "chinese": "萨韦利耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Савелий",
+  "gender": "m"
+ },
+ {
+  "russian": "Самсон",
+  "chinese": "萨姆松",
+  "kind": "formal",
+  "root": "Самсон",
+  "gender": "m"
+ },
+ {
+  "russian": "Самсонович",
+  "chinese": "萨姆松诺维奇",
+  "kind": "patronymic_m",
+  "root": "Самсон",
+  "gender": "m"
+ },
+ {
+  "russian": "Самсонушка",
+  "chinese": "萨姆松努什卡",
+  "kind": "diminutive",
+  "root": "Самсон",
+  "gender": "m"
+ },
+ {
+  "russian": "Самсоновна",
+  "chinese": "萨姆松诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Самсон",
+  "gender": "m"
+ },
+ {
+  "russian": "Самуил",
+  "chinese": "萨穆伊尔",
+  "kind": "formal",
+  "root": "Самуил",
+  "gender": "m"
+ },
+ {
+  "russian": "Самуилович",
+  "chinese": "萨穆伊尔洛维奇",
+  "kind": "patronymic_m",
+  "root": "Самуил",
+  "gender": "m"
+ },
+ {
+  "russian": "Самуиловна",
+  "chinese": "萨穆伊尔洛夫娜",
+  "kind": "patronymic_f",
+  "root": "Самуил",
+  "gender": "m"
+ },
+ {
+  "russian": "Святослав",
+  "chinese": "斯维亚托斯拉夫",
+  "kind": "formal",
+  "root": "Святослав",
+  "gender": "m"
+ },
+ {
+  "russian": "Святославович",
+  "chinese": "斯维亚托斯拉沃维奇",
+  "kind": "patronymic_m",
+  "root": "Святослав",
+  "gender": "m"
+ },
+ {
+  "russian": "Святославич",
+  "chinese": "斯维亚托斯拉维奇",
+  "kind": "patronymic_m",
+  "root": "Святослав",
+  "gender": "m"
+ },
+ {
+  "russian": "Севастьян",
+  "chinese": "谢瓦斯季扬",
+  "kind": "formal",
+  "root": "Севастьян",
+  "gender": "m"
+ },
+ {
+  "russian": "Севастьянович",
+  "chinese": "谢瓦斯季扬诺维奇",
+  "kind": "patronymic_m",
+  "root": "Севастьян",
+  "gender": "m"
+ },
+ {
+  "russian": "Севастьянушка",
+  "chinese": "谢瓦斯季扬努什卡",
+  "kind": "diminutive",
+  "root": "Севастьян",
+  "gender": "m"
+ },
+ {
+  "russian": "Севастьяновна",
+  "chinese": "谢瓦斯季扬诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Севастьян",
+  "gender": "m"
+ },
+ {
+  "russian": "Селиван",
+  "chinese": "谢利万",
+  "kind": "formal",
+  "root": "Селиван",
+  "gender": "m"
+ },
+ {
+  "russian": "Селиванович",
+  "chinese": "谢利万诺维奇",
+  "kind": "patronymic_m",
+  "root": "Селиван",
+  "gender": "m"
+ },
+ {
+  "russian": "Селиванушка",
+  "chinese": "谢利万努什卡",
+  "kind": "diminutive",
+  "root": "Селиван",
+  "gender": "m"
+ },
+ {
+  "russian": "Селивановна",
+  "chinese": "谢瓦斯季扬诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Селиван",
+  "gender": "m"
+ },
+ {
+  "russian": "Семён",
+  "chinese": "谢苗",
+  "kind": "formal",
+  "root": "Семён",
+  "gender": "m"
+ },
+ {
+  "russian": "Семёнович",
+  "chinese": "谢苗诺维奇",
+  "kind": "patronymic_m",
+  "root": "Семён",
+  "gender": "m"
+ },
+ {
+  "russian": "Сеня",
+  "chinese": "谢尼亚",
+  "kind": "diminutive",
+  "root": "Семён",
+  "gender": "m"
+ },
+ {
+  "russian": "Сенюша",
+  "chinese": "谢纽沙",
+  "kind": "diminutive",
+  "root": "Семён",
+  "gender": "m"
+ },
+ {
+  "russian": "Семёновна",
+  "chinese": "谢苗诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Семён",
+  "gender": "m"
+ },
+ {
+  "russian": "Серафим",
+  "chinese": "谢拉菲姆",
+  "kind": "formal",
+  "root": "Серафим",
+  "gender": "m"
+ },
+ {
+  "russian": "Серафимович",
+  "chinese": "谢拉菲莫维奇",
+  "kind": "patronymic_m",
+  "root": "Серафим",
+  "gender": "m"
+ },
+ {
+  "russian": "Серафимушка",
+  "chinese": "谢拉菲穆什卡",
+  "kind": "diminutive",
+  "root": "Серафим",
+  "gender": "m"
+ },
+ {
+  "russian": "Серафимовна",
+  "chinese": "谢拉菲莫夫娜",
+  "kind": "patronymic_f",
+  "root": "Серафим",
+  "gender": "m"
+ },
+ {
+  "russian": "Сергей",
+  "chinese": "谢尔盖",
+  "kind": "formal",
+  "root": "Сергей",
+  "gender": "m"
+ },
+ {
+  "russian": "Сергеевич",
+  "chinese": "谢尔盖耶维奇",
+  "kind": "patronymic_m",
+  "root": "Сергей",
+  "gender": "m"
+ },
+ {
+  "russian": "Серёжа",
+  "chinese": "谢廖扎",
+  "kind": "diminutive",
+  "root": "Сергей",
+  "gender": "m"
+ },
+ {
+  "russian": "Серёженька",
+  "chinese": "谢廖任卡",
+  "kind": "diminutive",
+  "root": "Сергей",
+  "gender": "m"
+ },
+ {
+  "russian": "Сергеевна",
+  "chinese": "谢尔盖耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Сергей",
+  "gender": "m"
+ },
+ {
+  "russian": "Сидор",
+  "chinese": "西多尔",
+  "kind": "formal",
+  "root": "Сидор",
+  "gender": "m"
+ },
+ {
+  "russian": "Сидорович",
+  "chinese": "西多罗维奇",
+  "kind": "patronymic_m",
+  "root": "Сидор",
+  "gender": "m"
+ },
+ {
+  "russian": "Сидорушка",
+  "chinese": "西多鲁什卡",
+  "kind": "diminutive",
+  "root": "Сидор",
+  "gender": "m"
+ },
+ {
+  "russian": "Сидоровна",
+  "chinese": "西多罗夫娜",
+  "kind": "patronymic_f",
+  "root": "Сидор",
+  "gender": "m"
+ },
+ {
+  "russian": "Сильвестр",
+  "chinese": "西利韦斯特尔",
+  "kind": "formal",
+  "root": "Сильвестр",
+  "gender": "m"
+ },
+ {
+  "russian": "Сильвестрович",
+  "chinese": "西利韦斯特罗维奇",
+  "kind": "patronymic_m",
+  "root": "Сильвестр",
+  "gender": "m"
+ },
+ {
+  "russian": "Сива",
+  "chinese": "西瓦",
+  "kind": "diminutive",
+  "root": "Сильвестр",
+  "gender": "m"
+ },
+ {
+  "russian": "Сильвестровна",
+  "chinese": "西利韦斯特罗夫娜",
+  "kind": "patronymic_f",
+  "root": "Сильвестр",
+  "gender": "m"
+ },
+ {
+  "russian": "Симон",
+  "chinese": "西蒙",
+  "kind": "formal",
+  "root": "Симон",
+  "gender": "m"
+ },
+ {
+  "russian": "Симонович",
+  "chinese": "西蒙诺维奇",
+  "kind": "patronymic_m",
+  "root": "Симон",
+  "gender": "m"
+ },
+ {
+  "russian": "Сима",
+  "chinese": "西马",
+  "kind": "diminutive",
+  "root": "Симон",
+  "gender": "m"
+ },
+ {
+  "russian": "Симоновна",
+  "chinese": "西蒙诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Симон",
+  "gender": "m"
+ },
+ {
+  "russian": "Сисой",
+  "chinese": "西索伊",
+  "kind": "formal",
+  "root": "Сисой",
+  "gender": "m"
+ },
+ {
+  "russian": "Сисоевич",
+  "chinese": "西索耶维奇",
+  "kind": "patronymic_m",
+  "root": "Сисой",
+  "gender": "m"
+ },
+ {
+  "russian": "Сисоюшка",
+  "chinese": "西索尤什卡",
+  "kind": "diminutive",
+  "root": "Сисой",
+  "gender": "m"
+ },
+ {
+  "russian": "Сисоевна",
+  "chinese": "西索耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Сисой",
+  "gender": "m"
+ },
+ {
+  "russian": "Соломон",
+  "chinese": "所罗门",
+  "kind": "formal",
+  "root": "Соломон",
+  "gender": "m"
+ },
+ {
+  "russian": "Соломонович",
+  "chinese": "所罗门诺维奇",
+  "kind": "patronymic_m",
+  "root": "Соломон",
+  "gender": "m"
+ },
+ {
+  "russian": "Соломоншик",
+  "chinese": "所罗门希克",
+  "kind": "diminutive",
+  "root": "Соломон",
+  "gender": "m"
+ },
+ {
+  "russian": "Соломонушка",
+  "chinese": "所罗门努什卡",
+  "kind": "diminutive",
+  "root": "Соломон",
+  "gender": "m"
+ },
+ {
+  "russian": "Соломоновна",
+  "chinese": "所罗门诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Соломон",
+  "gender": "m"
+ },
+ {
+  "russian": "Станислав",
+  "chinese": "斯塔尼斯拉夫",
+  "kind": "formal",
+  "root": "Станислав",
+  "gender": "m"
+ },
+ {
+  "russian": "Станиславович",
+  "chinese": "斯塔尼斯拉沃维奇",
+  "kind": "patronymic_m",
+  "root": "Станислав",
+  "gender": "m"
+ },
+ {
+  "russian": "Станиславич",
+  "chinese": "斯塔尼斯拉维奇",
+  "kind": "patronymic_m",
+  "root": "Станислав",
+  "gender": "m"
+ },
+ {
+  "russian": "Степан",
+  "chinese": "斯捷潘",
+  "kind": "formal",
+  "root": "Степан",
+  "gender": "m"
+ },
+ {
+  "russian": "Степанович",
+  "chinese": "斯捷潘诺维奇",
+  "kind": "patronymic_m",
+  "root": "Степан",
+  "gender": "m"
+ },
+ {
+  "russian": "Стёпа",
+  "chinese": "斯乔帕",
+  "kind": "diminutive",
+  "root": "Степан",
+  "gender": "m"
+ },
+ {
+  "russian": "Стёпочка",
+  "chinese": "斯乔波奇卡",
+  "kind": "diminutive",
+  "root": "Степан",
+  "gender": "m"
+ },
+ {
+  "russian": "Степановна",
+  "chinese": "斯捷潘诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Степан",
+  "gender": "m"
+ },
+ {
+  "russian": "Тарас",
+  "chinese": "塔拉斯",
+  "kind": "formal",
+  "root": "Тарас",
+  "gender": "m"
+ },
+ {
+  "russian": "Тарасович",
+  "chinese": "塔拉索维奇",
+  "kind": "patronymic_m",
+  "root": "Тарас",
+  "gender": "m"
+ },
+ {
+  "russian": "Тарасик",
+  "chinese": "塔拉西克",
+  "kind": "diminutive",
+  "root": "Тарас",
+  "gender": "m"
+ },
+ {
+  "russian": "Тарасовна",
+  "chinese": "塔拉索夫娜",
+  "kind": "patronymic_f",
+  "root": "Тарас",
+  "gender": "m"
+ },
+ {
+  "russian": "Терентий",
+  "chinese": "捷连季",
+  "kind": "formal",
+  "root": "Терентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Терентиевич",
+  "chinese": "捷连季耶维奇",
+  "kind": "patronymic_m",
+  "root": "Терентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Терентьевич",
+  "chinese": "捷连季耶维奇",
+  "kind": "patronymic_m",
+  "root": "Терентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Терёшка",
+  "chinese": "捷廖什卡",
+  "kind": "diminutive",
+  "root": "Терентий",
+  "gender": "m"
+ },
+ {
+  "russian": "Тимофей",
+  "chinese": "季莫费",
+  "kind": "formal",
+  "root": "Тимофей",
+  "gender": "m"
+ },
+ {
+  "russian": "Тимофеевич",
+  "chinese": "季莫费耶维奇",
+  "kind": "patronymic_m",
+  "root": "Тимофей",
+  "gender": "m"
+ },
+ {
+  "russian": "Тима",
+  "chinese": "季马",
+  "kind": "diminutive",
+  "root": "Тимофей",
+  "gender": "m"
+ },
+ {
+  "russian": "Тимоша",
+  "chinese": "季莫沙",
+  "kind": "diminutive",
+  "root": "Тимофей",
+  "gender": "m"
+ },
+ {
+  "russian": "Тимофейка",
+  "chinese": "季莫费卡",
+  "kind": "diminutive",
+  "root": "Тимофей",
+  "gender": "m"
+ },
+ {
+  "russian": "Тимош",
+  "chinese": "季莫什",
+  "kind": "diminutive",
+  "root": "Тимофей",
+  "gender": "m"
+ },
+ {
+  "russian": "Тимок",
+  "chinese": "季莫克",
+  "kind": "diminutive",
+  "root": "Тимофей",
+  "gender": "m"
+ },
+ {
+  "russian": "Тимофеевна",
+  "chinese": "季莫费耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Тимофей",
+  "gender": "m"
+ },
+ {
+  "russian": "Тимур",
+  "chinese": "季穆尔",
+  "kind": "formal",
+  "root": "Тимур",
+  "gender": "m"
+ },
+ {
+  "russian": "Тимурович",
+  "chinese": "季穆尔罗维奇",
+  "kind": "patronymic_m",
+  "root": "Тимур",
+  "gender": "m"
+ },
+ {
+  "russian": "Тина",
+  "chinese": "季纳",
+  "kind": "diminutive",
+  "root": "Тимур",
+  "gender": "m"
+ },
+ {
+  "russian": "Тимуровна",
+  "chinese": "季穆尔罗夫娜",
+  "kind": "patronymic_f",
+  "root": "Тимур",
+  "gender": "m"
+ },
+ {
+  "russian": "Тит",
+  "chinese": "季特",
+  "kind": "formal",
+  "root": "Тит",
+  "gender": "m"
+ },
+ {
+  "russian": "Титович",
+  "chinese": "季托维奇",
+  "kind": "patronymic_m",
+  "root": "Тит",
+  "gender": "m"
+ },
+ {
+  "russian": "Титушка",
+  "chinese": "季图什卡",
+  "kind": "diminutive",
+  "root": "Тит",
+  "gender": "m"
+ },
+ {
+  "russian": "Титовна",
+  "chinese": "季托夫娜",
+  "kind": "patronymic_f",
+  "root": "Тит",
+  "gender": "m"
+ },
+ {
+  "russian": "Тихон",
+  "chinese": "吉洪",
+  "kind": "formal",
+  "root": "Тихон",
+  "gender": "m"
+ },
+ {
+  "russian": "Тихонович",
+  "chinese": "吉洪诺维奇",
+  "kind": "patronymic_m",
+  "root": "Тихон",
+  "gender": "m"
+ },
+ {
+  "russian": "Тиша",
+  "chinese": "吉沙",
+  "kind": "diminutive",
+  "root": "Тихон",
+  "gender": "m"
+ },
+ {
+  "russian": "Тишенька",
+  "chinese": "吉申卡",
+  "kind": "diminutive",
+  "root": "Тихон",
+  "gender": "m"
+ },
+ {
+  "russian": "Тихоновна",
+  "chinese": "吉洪诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Тихон",
+  "gender": "m"
+ },
+ {
+  "russian": "Трифон",
+  "chinese": "特里丰",
+  "kind": "formal",
+  "root": "Трифон",
+  "gender": "m"
+ },
+ {
+  "russian": "Трифонович",
+  "chinese": "特里丰诺维奇",
+  "kind": "patronymic_m",
+  "root": "Трифон",
+  "gender": "m"
+ },
+ {
+  "russian": "Триша",
+  "chinese": "特里沙",
+  "kind": "diminutive",
+  "root": "Трифон",
+  "gender": "m"
+ },
+ {
+  "russian": "Трифоновна",
+  "chinese": "特里丰诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Трифон",
+  "gender": "m"
+ },
+ {
+  "russian": "Трофим",
+  "chinese": "特罗菲姆",
+  "kind": "formal",
+  "root": "Трофим",
+  "gender": "m"
+ },
+ {
+  "russian": "Трофимович",
+  "chinese": "特罗菲莫维奇",
+  "kind": "patronymic_m",
+  "root": "Трофим",
+  "gender": "m"
+ },
+ {
+  "russian": "Троша",
+  "chinese": "特罗沙",
+  "kind": "diminutive",
+  "root": "Трофим",
+  "gender": "m"
+ },
+ {
+  "russian": "Трофимовна",
+  "chinese": "特罗菲莫夫娜",
+  "kind": "patronymic_f",
+  "root": "Трофим",
+  "gender": "m"
+ },
+ {
+  "russian": "Ульян",
+  "chinese": "乌里扬",
+  "kind": "formal",
+  "root": "Ульян",
+  "gender": "m"
+ },
+ {
+  "russian": "Ульянович",
+  "chinese": "乌里扬诺维奇",
+  "kind": "patronymic_m",
+  "root": "Ульян",
+  "gender": "m"
+ },
+ {
+  "russian": "Ульянушка",
+  "chinese": "乌里扬努什卡",
+  "kind": "diminutive",
+  "root": "Ульян",
+  "gender": "m"
+ },
+ {
+  "russian": "Ульяновна",
+  "chinese": "乌里扬诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Ульян",
+  "gender": "m"
+ },
+ {
+  "russian": "Устин",
+  "chinese": "乌斯京",
+  "kind": "formal",
+  "root": "Устин",
+  "gender": "m"
+ },
+ {
+  "russian": "Устинович",
+  "chinese": "乌斯京诺维奇",
+  "kind": "patronymic_m",
+  "root": "Устин",
+  "gender": "m"
+ },
+ {
+  "russian": "Устиновна",
+  "chinese": "乌斯京诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Устин",
+  "gender": "m"
+ },
+ {
+  "russian": "Фадей",
+  "chinese": "法杰伊",
+  "kind": "formal",
+  "root": "Фадей",
+  "gender": "m"
+ },
+ {
+  "russian": "Фадеевич",
+  "chinese": "法杰伊耶维奇",
+  "kind": "patronymic_m",
+  "root": "Фадей",
+  "gender": "m"
+ },
+ {
+  "russian": "Фадеюшка",
+  "chinese": "法杰尤什卡",
+  "kind": "diminutive",
+  "root": "Фадей",
+  "gender": "m"
+ },
+ {
+  "russian": "Фадеевна",
+  "chinese": "法杰伊耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Фадей",
+  "gender": "m"
+ },
+ {
+  "russian": "Фёдор",
+  "chinese": "菲奥多尔",
+  "kind": "formal",
+  "root": "Фёдор",
+  "gender": "m"
+ },
+ {
+  "russian": "Феодор",
+  "chinese": "费多尔",
+  "kind": "diminutive",
+  "root": "Фёдор",
+  "gender": "m"
+ },
+ {
+  "russian": "Фёдорович",
+  "chinese": "菲奥多罗维奇",
+  "kind": "patronymic_m",
+  "root": "Фёдор",
+  "gender": "m"
+ },
+ {
+  "russian": "Фёдоровна",
+  "chinese": "菲奥多罗夫娜",
+  "kind": "patronymic_f",
+  "root": "Фёдор",
+  "gender": "m"
+ },
+ {
+  "russian": "Феликс",
+  "chinese": "费利克斯",
+  "kind": "formal",
+  "root": "Феликс",
+  "gender": "m"
+ },
+ {
+  "russian": "Феликсович",
+  "chinese": "费利克索维奇",
+  "kind": "patronymic_m",
+  "root": "Феликс",
+  "gender": "m"
+ },
+ {
+  "russian": "Феля",
+  "chinese": "费利亚",
+  "kind": "diminutive",
+  "root": "Феликс",
+  "gender": "m"
+ },
+ {
+  "russian": "Феликсовна",
+  "chinese": "费利克索夫娜",
+  "kind": "patronymic_f",
+  "root": "Феликс",
+  "gender": "m"
+ },
+ {
+  "russian": "Феодор",
+  "chinese": "费多尔",
+  "kind": "formal",
+  "root": "Феодор",
+  "gender": "m"
+ },
+ {
+  "russian": "Феодорович",
+  "chinese": "费多罗维奇",
+  "kind": "patronymic_m",
+  "root": "Феодор",
+  "gender": "m"
+ },
+ {
+  "russian": "Федюша",
+  "chinese": "费久沙",
+  "kind": "diminutive",
+  "root": "Феодор",
+  "gender": "m"
+ },
+ {
+  "russian": "Феденька",
+  "chinese": "费坚卡",
+  "kind": "diminutive",
+  "root": "Феодор",
+  "gender": "m"
+ },
+ {
+  "russian": "Феодоровна",
+  "chinese": "费多罗夫娜",
+  "kind": "patronymic_f",
+  "root": "Феодор",
+  "gender": "m"
+ },
+ {
+  "russian": "Феодосий",
+  "chinese": "费奥多西",
+  "kind": "formal",
+  "root": "Феодосий",
+  "gender": "m"
+ },
+ {
+  "russian": "Феодосиевич",
+  "chinese": "费奥多西耶维奇",
+  "kind": "patronymic_m",
+  "root": "Феодосий",
+  "gender": "m"
+ },
+ {
+  "russian": "Федось",
+  "chinese": "费多西",
+  "kind": "diminutive",
+  "root": "Феодосий",
+  "gender": "m"
+ },
+ {
+  "russian": "Феодосиевна",
+  "chinese": "费奥多西耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Феодосий",
+  "gender": "m"
+ },
+ {
+  "russian": "Феодот",
+  "chinese": "费奥多特",
+  "kind": "formal",
+  "root": "Феодот",
+  "gender": "m"
+ },
+ {
+  "russian": "Феодотович",
+  "chinese": "费奥多托维奇",
+  "kind": "patronymic_m",
+  "root": "Феодот",
+  "gender": "m"
+ },
+ {
+  "russian": "Феодотовна",
+  "chinese": "费奥多托夫娜",
+  "kind": "patronymic_f",
+  "root": "Феодот",
+  "gender": "m"
+ },
+ {
+  "russian": "Феофан",
+  "chinese": "费奥凡",
+  "kind": "formal",
+  "root": "Феофан",
+  "gender": "m"
+ },
+ {
+  "russian": "Феофанович",
+  "chinese": "费奥凡诺维奇",
+  "kind": "patronymic_m",
+  "root": "Феофан",
+  "gender": "m"
+ },
+ {
+  "russian": "Феофанушка",
+  "chinese": "费奥凡努什卡",
+  "kind": "diminutive",
+  "root": "Феофан",
+  "gender": "m"
+ },
+ {
+  "russian": "Феофановна",
+  "chinese": "费奥凡诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Феофан",
+  "gender": "m"
+ },
+ {
+  "russian": "Филипп",
+  "chinese": "菲利普",
+  "kind": "formal",
+  "root": "Филипп",
+  "gender": "m"
+ },
+ {
+  "russian": "Филиппович",
+  "chinese": "菲利普波维奇",
+  "kind": "patronymic_m",
+  "root": "Филипп",
+  "gender": "m"
+ },
+ {
+  "russian": "Филя",
+  "chinese": "菲利亚",
+  "kind": "diminutive",
+  "root": "Филипп",
+  "gender": "m"
+ },
+ {
+  "russian": "Филипушка",
+  "chinese": "菲利普什卡",
+  "kind": "diminutive",
+  "root": "Филипп",
+  "gender": "m"
+ },
+ {
+  "russian": "Фима",
+  "chinese": "菲马",
+  "kind": "diminutive",
+  "root": "Филипп",
+  "gender": "m"
+ },
+ {
+  "russian": "Филипповна",
+  "chinese": "菲利普波夫娜",
+  "kind": "patronymic_f",
+  "root": "Филипп",
+  "gender": "m"
+ },
+ {
+  "russian": "Флор",
+  "chinese": "弗洛尔",
+  "kind": "formal",
+  "root": "Флор",
+  "gender": "m"
+ },
+ {
+  "russian": "Флорович",
+  "chinese": "弗洛尔罗维奇",
+  "kind": "patronymic_m",
+  "root": "Флор",
+  "gender": "m"
+ },
+ {
+  "russian": "Флорушка",
+  "chinese": "弗洛鲁什卡",
+  "kind": "diminutive",
+  "root": "Флор",
+  "gender": "m"
+ },
+ {
+  "russian": "Флоровна",
+  "chinese": "弗洛尔罗夫娜",
+  "kind": "patronymic_f",
+  "root": "Флор",
+  "gender": "m"
+ },
+ {
+  "russian": "Фома",
+  "chinese": "福马",
+  "kind": "formal",
+  "root": "Фома",
+  "gender": "m"
+ },
+ {
+  "russian": "Фомич",
+  "chinese": "福米奇",
+  "kind": "patronymic_m",
+  "root": "Фома",
+  "gender": "m"
+ },
+ {
+  "russian": "Фомушка",
+  "chinese": "福穆什卡",
+  "kind": "diminutive",
+  "root": "Фома",
+  "gender": "m"
+ },
+ {
+  "russian": "Фросенька",
+  "chinese": "弗罗先卡",
+  "kind": "diminutive",
+  "root": "Фома",
+  "gender": "m"
+ },
+ {
+  "russian": "Фрося",
+  "chinese": "弗罗夏",
+  "kind": "diminutive",
+  "root": "Фома",
+  "gender": "m"
+ },
+ {
+  "russian": "Фоминична",
+  "chinese": "福米尼奇娜",
+  "kind": "patronymic_f",
+  "root": "Фома",
+  "gender": "m"
+ },
+ {
+  "russian": "Харитон",
+  "chinese": "哈里东",
+  "kind": "formal",
+  "root": "Харитон",
+  "gender": "m"
+ },
+ {
+  "russian": "Харитонович",
+  "chinese": "哈里东诺维奇",
+  "kind": "patronymic_m",
+  "root": "Харитон",
+  "gender": "m"
+ },
+ {
+  "russian": "Харитонушка",
+  "chinese": "哈里东努什卡",
+  "kind": "diminutive",
+  "root": "Харитон",
+  "gender": "m"
+ },
+ {
+  "russian": "Харитоновна",
+  "chinese": "哈里东诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Харитон",
+  "gender": "m"
+ },
+ {
+  "russian": "Христофор",
+  "chinese": "赫里斯托福尔",
+  "kind": "formal",
+  "root": "Христофор",
+  "gender": "m"
+ },
+ {
+  "russian": "Христофорович",
+  "chinese": "赫里斯托福尔罗维奇",
+  "kind": "patronymic_m",
+  "root": "Христофор",
+  "gender": "m"
+ },
+ {
+  "russian": "Христофорушка",
+  "chinese": "赫里斯托福尔鲁什卡",
+  "kind": "diminutive",
+  "root": "Христофор",
+  "gender": "m"
+ },
+ {
+  "russian": "Христофоровна",
+  "chinese": "赫里斯托福尔罗夫娜",
+  "kind": "patronymic_f",
+  "root": "Христофор",
+  "gender": "m"
+ },
+ {
+  "russian": "Эдуард",
+  "chinese": "爱德华",
+  "kind": "formal",
+  "root": "Эдуард",
+  "gender": "m"
+ },
+ {
+  "russian": "Эдуардович",
+  "chinese": "爱德华多维奇或者埃杜阿尔多维奇",
+  "kind": "patronymic_m",
+  "root": "Эдуард",
+  "gender": "m"
+ },
+ {
+  "russian": "Этик",
+  "chinese": "埃季克",
+  "kind": "diminutive",
+  "root": "Эдуард",
+  "gender": "m"
+ },
+ {
+  "russian": "Эдуардовна",
+  "chinese": "爱德华多夫娜或者埃杜阿尔多夫娜",
+  "kind": "patronymic_f",
+  "root": "Эдуард",
+  "gender": "m"
+ },
+ {
+  "russian": "Эрнест",
+  "chinese": "埃内斯特",
+  "kind": "formal",
+  "root": "Эрнест",
+  "gender": "m"
+ },
+ {
+  "russian": "Эрнестович",
+  "chinese": "埃内斯托维奇",
+  "kind": "patronymic_m",
+  "root": "Эрнест",
+  "gender": "m"
+ },
+ {
+  "russian": "Эра",
+  "chinese": "埃拉",
+  "kind": "diminutive",
+  "root": "Эрнест",
+  "gender": "m"
+ },
+ {
+  "russian": "Эрнестовна",
+  "chinese": "埃内斯托夫娜",
+  "kind": "patronymic_f",
+  "root": "Эрнест",
+  "gender": "m"
+ },
+ {
+  "russian": "Юлиан",
+  "chinese": "尤利安",
+  "kind": "formal",
+  "root": "Юлиан",
+  "gender": "m"
+ },
+ {
+  "russian": "Юлианович",
+  "chinese": "尤利安诺维奇",
+  "kind": "patronymic_m",
+  "root": "Юлиан",
+  "gender": "m"
+ },
+ {
+  "russian": "Юлиановна",
+  "chinese": "尤利安诺夫娜",
+  "kind": "patronymic_f",
+  "root": "Юлиан",
+  "gender": "m"
+ },
+ {
+  "russian": "Юлий",
+  "chinese": "尤利",
+  "kind": "formal",
+  "root": "Юлий",
+  "gender": "m"
+ },
+ {
+  "russian": "Юлиевич",
+  "chinese": "尤利耶维奇",
+  "kind": "patronymic_m",
+  "root": "Юлий",
+  "gender": "m"
+ },
+ {
+  "russian": "Юльевич",
+  "chinese": "尤利耶维奇",
+  "kind": "patronymic_m",
+  "root": "Юлий",
+  "gender": "m"
+ },
+ {
+  "russian": "Юлик",
+  "chinese": "尤利克",
+  "kind": "diminutive",
+  "root": "Юлий",
+  "gender": "m"
+ },
+ {
+  "russian": "Юлиевна",
+  "chinese": "尤利耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Юлий",
+  "gender": "m"
+ },
+ {
+  "russian": "Юльевна",
+  "chinese": "尤利耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Юлий",
+  "gender": "m"
+ },
+ {
+  "russian": "Юрий",
+  "chinese": "尤里",
+  "kind": "formal",
+  "root": "Юрий",
+  "gender": "m"
+ },
+ {
+  "russian": "Георгий",
+  "chinese": "格奥尔吉",
+  "kind": "diminutive",
+  "root": "Юрий",
+  "gender": "m"
+ },
+ {
+  "russian": "Юрьевич",
+  "chinese": "尤里耶维奇",
+  "kind": "patronymic_m",
+  "root": "Юрий",
+  "gender": "m"
+ },
+ {
+  "russian": "Юрьевна",
+  "chinese": "尤里耶夫娜",
+  "kind": "patronymic_f",
+  "root": "Юрий",
+  "gender": "m"
+ },
+ {
+  "russian": "Яков",
+  "chinese": "雅科夫",
+  "kind": "formal",
+  "root": "Яков",
+  "gender": "m"
+ },
+ {
+  "russian": "Яковлевич",
+  "chinese": "亚科夫列维奇",
+  "kind": "patronymic_m",
+  "root": "Яков",
+  "gender": "m"
+ },
+ {
+  "russian": "Яша",
+  "chinese": "亚沙",
+  "kind": "diminutive",
+  "root": "Яков",
+  "gender": "m"
+ },
+ {
+  "russian": "Яшенька",
+  "chinese": "亚申卡",
+  "kind": "diminutive",
+  "root": "Яков",
+  "gender": "m"
+ },
+ {
+  "russian": "Яковлевна",
+  "chinese": "亚科夫列夫娜",
+  "kind": "patronymic_f",
+  "root": "Яков",
+  "gender": "m"
+ },
+ {
+  "russian": "Ярослав",
+  "chinese": "雅罗斯拉夫",
+  "kind": "formal",
+  "root": "Ярослав",
+  "gender": "m"
+ },
+ {
+  "russian": "Ярославович",
+  "chinese": "亚罗斯拉沃维奇",
+  "kind": "patronymic_m",
+  "root": "Ярослав",
+  "gender": "m"
+ },
+ {
+  "russian": "Ярославич",
+  "chinese": "亚罗斯拉维奇",
+  "kind": "patronymic_m",
+  "root": "Ярослав",
+  "gender": "m"
+ }
+]

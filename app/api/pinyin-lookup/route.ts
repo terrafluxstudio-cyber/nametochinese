@@ -17,11 +17,22 @@ export async function GET(req: NextRequest) {
   if (!raw) return NextResponse.json({ error: 'missing q' }, { status: 400 });
 
   const parts = raw.split(/[\s\-]+/).filter(Boolean);
-  if (parts.length < 2) {
-    return NextResponse.json(
-      { error: '请输入姓和名，用空格分隔，如：zhang wei' },
-      { status: 400 }
-    );
+
+  // 单拼音模式：直接列出该拼音对应的名字字 + 姓（如搜 lei → 磊/雷/蕾）
+  if (parts.length === 1) {
+    const py = parts[0];
+    const given = (givenMap[py] ?? []).slice(0, 30);
+    const surname = (surnameMap[py] ?? []).slice(0, 12);
+    if (!given.length && !surname.length) {
+      return NextResponse.json({ error: `未收录拼音「${py}」，请检查拼写` }, { status: 200 });
+    }
+    return NextResponse.json({
+      mode: 'single',
+      input: raw,
+      pinyin: py,
+      givenCandidates: given,
+      surnameCandidates: surname,
+    });
   }
 
   const surnamePy = parts[0];

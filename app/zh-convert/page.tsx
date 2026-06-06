@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import NavBar from '@/components/NavBar';
+import SiteFooter from '@/components/SiteFooter';
 import * as OpenCC from 'opencc-js';
 
 type ConvertMode = 'tw' | 'hk' | 'simp';
@@ -163,10 +164,8 @@ export default function ZhConvertPage() {
         </p>
       </div>
 
-      <footer className="mt-12 text-center text-xs text-gray-300">
-        © {new Date().getFullYear()} 外文译名词典 · nametochinese.com
-      </footer>
     </main>
+    <SiteFooter />
     </>
   );
 }

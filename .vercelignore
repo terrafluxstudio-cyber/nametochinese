@@ -1,0 +1,7 @@
+tasks/
+Logo/
+scripts/
+ui-screenshot-*.png
+build-exit.txt
+build-output.txt
+TASK_*.txt

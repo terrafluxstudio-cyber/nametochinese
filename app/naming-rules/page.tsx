@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from 'next/link';
 import NavBar from '@/components/NavBar';
+import SiteFooter from '@/components/SiteFooter';
+import { ARTICLE_SLUGS } from './content';
 
 export const metadata: Metadata = {
   title: "各语言人名规则",
@@ -14,6 +16,13 @@ export const metadata: Metadata = {
     "俄语人名规则",
   ],
   alternates: { canonical: "/naming-rules" },
+  openGraph: {
+    title: '各语言人名规则详解 | 外文译名词典',
+    description: '33种语言的人名构成规则：姓名顺序、父称惯例、性别变化、宗教习俗等，翻译工作者必备参考。',
+    url: 'https://nametochinese.com/naming-rules',
+    type: 'website',
+  },
+  twitter: { card: 'summary', title: '各语言人名规则 · 外文译名词典', description: '33种语言人名规则详解，翻译工作者必备参考。' },
 };
 
 const sections = [
@@ -312,6 +321,149 @@ const sections = [
       },
     ],
   },
+  {
+    id: 'dutch',
+    lang: '荷兰语',
+    region: '荷兰、比利时佛兰德斯',
+    rules: [
+      { title: '小字（Tussenvoegsel）', content: 'van、de、van den、van der 等夹在名和姓之间的前缀称为"小字"，是姓氏的固定组成部分，不可省略。音译时 van=范、de=德、van der=范德。' },
+      { title: '大小写规则', content: '前有名字时小字小写（Vincent van Gogh），单独作姓使用时大写（Van Gogh）。中文译名不受影响，统一音译即可。' },
+      { title: '关键发音', content: 'g 读喉音 /x/（不是英语 g）；ui 读 /œy/（克鲁伊夫）；ij/ei 读 /ɛi/（"艾"）；oe 读 /u/（"乌"）。' },
+      { title: '注意事项', content: '梵高中文通行译名"梵高"已固定，直接使用。荷兰与比利时佛兰德斯语区规则相同。' },
+    ],
+  },
+  {
+    id: 'turkish',
+    lang: '土耳其语',
+    region: '土耳其',
+    rules: [
+      { title: '现代姓氏制度', content: '1934年《姓氏法》前土耳其人没有世袭姓氏。法令颁布后家庭自行选择姓氏，多为吉祥词（Yılmaz=不屈、Demir=铁、Kaya=岩石）。' },
+      { title: 'İ 与 I 的区别', content: '有点的 İ/i 发 /i/（"伊"），无点的 I/ı 发 /ɯ/。如 İstanbul 首字母是有点的 İ。这是土耳其语最易出错的字母区分。' },
+      { title: 'ğ、ç、ş 发音', content: 'ğ（软g）不发音，使前一元音延长；ç 读 /tʃ/（"切"）；ş 读 /ʃ/（"什"）；c 读 /dʒ/（"贾"）。' },
+      { title: '注意事项', content: '阿拉伯语来源的土耳其名（如 Mehmet=穆罕默德的土语形式）按土耳其语发音音译，不按阿拉伯语处理。' },
+    ],
+  },
+  {
+    id: 'persian',
+    lang: '波斯语',
+    region: '伊朗、阿富汗、塔吉克斯坦',
+    rules: [
+      { title: '姓氏后缀', content: '-zadeh（后裔）、-pour/-pur（儿子）、-nejad（血统）是常见波斯语姓氏后缀，保留音译，不翻译字面意思。' },
+      { title: 'kh 与 gh 发音', content: 'kh（خ）读喉擦音 /x/，近"赫/哈/霍"；gh（غ）是其浊音对应。如 Khomeini = 霍梅尼。不是 k+h 的组合。' },
+      { title: '三地差异', content: '伊朗（波斯语）/阿富汗（达利语）语音相近但拼写习惯不同；塔吉克斯坦因苏联影响，许多姓氏有 -ov/-ova 结尾，按俄语规则处理。' },
+      { title: '注意事项', content: '同一个名字英文拼写差异极大（Hossein/Husayn/Hussein），以新华社通行译法为准，全篇保持一致。' },
+    ],
+  },
+  {
+    id: 'swedish',
+    lang: '瑞典语',
+    region: '瑞典及北欧（挪威、丹麦）',
+    rules: [
+      { title: '-son 后缀来源', content: '瑞典姓氏约60%以 -son 结尾（Eriksson、Johansson），来自19世纪父名制世袭化时"冻结"的父名，现在只是姓氏，与当代父亲名字无关。' },
+      { title: '特殊字母发音', content: 'å 读 /oː/（"奥"）；ä 读 /ɛː/（"艾"）；ö 读 /øː/（近"厄"）。挪威对应 ø，丹麦对应 ø 和 æ，发音相同。' },
+      { title: '挪威/丹麦差异', content: '挪威和丹麦姓氏以 -sen 结尾（而非瑞典的 -son）。丹麦语有"软d"（/ð/）发音特点。三国人名结构和音译规则高度相近。' },
+      { title: '注意事项', content: '遇到来自瑞典的非北欧裔人名（如兹拉坦·伊布拉希莫维奇的波斯尼亚语姓氏），按其本身语言来源处理，不套用瑞典语规则。' },
+    ],
+  },
+  {
+    id: 'hindi',
+    lang: '印地语',
+    region: '印度（北部及中部）',
+    rules: [
+      { title: '北印度基本结构', content: '北印度名 + 种姓/家族姓，如 Narendra Modi（名）+（Modi=种姓姓氏）。姓氏往往揭示种姓背景，但许多现代人选择淡化或更换种姓姓氏。' },
+      { title: 'Singh 与 Kaur', content: 'Singh（狮子）是锡克教男性宗教称号，Kaur（公主）是女性对应，由1699年上师哥宾德·辛格规定。两者也是印度教刹帝利族传统种姓姓氏，看到 Singh 不能仅此判断其是否为锡克教徒。' },
+      { title: '南印度的不同逻辑', content: '南印度（泰米尔、泰卢固等语区）无世袭姓氏，以父名首字母+个人名为结构。如 V. Anand = Viswanathan Anand，V 是父亲名首字母，Anand 才是本人常用名。' },
+      { title: '注意事项', content: '-ji（如 Gandhiji）是尊称后缀，翻译时通常省略。印度人名宗教来源特征明显，可通过词根初步判断：梵语词根=印度教，阿拉伯语来源=伊斯兰教，+Singh/Kaur=锡克教。' },
+    ],
+  },
+  {
+    id: 'italian',
+    lang: '意大利语',
+    region: '意大利',
+    rules: [
+      { title: '基本结构', content: '名 + 姓，西方顺序。女性姓氏无性别变化——与俄语、波兰语不同，女性用与男性完全相同的姓氏形式。' },
+      { title: 'da/di/de 类前缀', content: '达·芬奇的"da Vinci"意为"来自文奇镇"，是地理标注，不是世袭姓氏。文艺复兴前的人名中这类前缀不应视为可单独引用的姓。现代姓氏中含 de/di 的通常整体处理。' },
+      { title: 'c 和 g 的软硬音', content: 'c 在 e/i 前读 /tʃ/（"切/奇"），在 a/o/u 前读 /k/；g 在 e/i 前读 /dʒ/（"杰/吉"），在 a/o/u 前读 /g/。Giovanni = 乔瓦尼（gi = /dʒ/）。' },
+      { title: 'gn 和 gli', content: 'gn 读 /ɲ/（近"尼"），如 Bologna = 博洛尼亚；gli 读 /ʎ/（近"利"），如 Famiglia = 法米利亚。不要按字母逐个读。' },
+    ],
+  },
+  {
+    id: 'polish',
+    lang: '波兰语',
+    region: '波兰',
+    rules: [
+      { title: '姓氏性别变化', content: '男性姓氏以 -ski/-cki 结尾，女性对应 -ska/-cka，如 Kowalski（男）/ Kowalska（女）是同一家族的父女。中文译名末尾不同（"斯基"/"斯卡"）。' },
+      { title: 'ł 的发音', content: 'ł（带斜杠的L）读 /w/，与英语"w"几乎相同，不是普通 l。如 Wałęsa = 瓦文萨（ł读"w"）。这是波兰语最常见的发音陷阱。' },
+      { title: 'cz、sz、szcz', content: 'cz = /tʃ/（"奇"，类似英语 ch）；sz = /ʃ/（"什"，类似英语 sh）；szcz = /ʃtʃ/（"什奇"）；rz = /ʒ/（"日"）。不能按字母逐个读。' },
+      { title: '注意事项', content: '遇到波兰女性姓名，-ska/-cka/-dzka 结尾是男性 -ski/-cki/-dzki 的女性形式；ą/ę 是鼻化元音，不同于普通 a/e。' },
+    ],
+  },
+  {
+    id: 'indonesian',
+    lang: '印度尼西亚语',
+    region: '印度尼西亚',
+    rules: [
+      { title: '单名传统', content: '爪哇族（印尼最大民族）传统只有一个名字，无世袭姓氏，如苏卡诺（Sukarno）、苏哈托（Suharto）。名字不传给子女，不可拆分为名和姓。' },
+      { title: '"佐科威"的来源', content: '印尼现任总统官方名 Joko Widodo，"佐科威"（Jokowi）是 Joko-Wi(dodo) 的组合缩写昵称，现已成为通行中文译名。Widodo 不是姓氏。' },
+      { title: '巴塔克族有姓氏', content: '并非所有印尼人都无姓氏。北苏门答腊的巴塔克族有 marga（氏族姓氏），如 Sihombing、Simanjuntak，是父系传承的正式姓氏。' },
+      { title: '注意事项', content: '印尼语 c 读 /tʃ/（"奇"），j 读 /dʒ/（"贾"），不按英语读音处理。遇到单名人物，不要试图拆分成名和姓。' },
+    ],
+  },
+  {
+    id: 'greek',
+    lang: '希腊语',
+    region: '希腊、塞浦路斯',
+    rules: [
+      { title: '-opoulos 后缀', content: 'Papadopoulos = papas（神父）+ poulos（小儿子），意为"神父之子的后裔"。-opoulos（男性）/ -opoulou（女性）是父名制的遗留，在伯罗奔尼撒半岛特别常见。' },
+      { title: '姓氏性别变化', content: '男性姓氏通常以 -os/-is/-as 结尾，女性转为阴性形式（去掉 -s 或变为 -ou/-a）。如 Papadopoulos（男）/ Papadopoulou（女）。' },
+      { title: '命名传统', content: '希腊东正教传统：第一个男孩随爷爷名，第一个女孩随奶奶名，依此类推。名字在隔代循环，同家族重名极多。' },
+      { title: '注意事项', content: '古典历史人物（亚里士多德、苏格拉底）使用通行汉语译名，不按现代希腊发音重新音译。θ 译"希/斯"，φ 译"夫/弗"，χ 译"赫/哈"。' },
+    ],
+  },
+  {
+    id: 'hebrew',
+    lang: '希伯来语',
+    region: '以色列',
+    rules: [
+      { title: 'Ben-/Bar-前缀', content: 'Ben（希伯来语）和 Bar（亚拉姆语）均意为"儿子"。Ben-Gurion = "古里安之子"。这类姓氏带连字号，整体处理，中文译名保留连字号：本-古里安。' },
+      { title: '建国改名运动', content: '以色列建国前后许多领袖把欧洲名字改为希伯来名：本-古里安（原名格林）、梅厄（原名马博维奇）、沙龙（原名沙内尔曼）。两个名字指同一人，需能互相识别。' },
+      { title: 'ח 的发音', content: 'ח（het）读喉擦音 /x/，类似德语 Bach，中文近"赫/哈"。如 Chaim = 哈伊姆。不要读成英语的 h。' },
+      { title: '注意事项', content: '阿拉伯裔以色列人（约占人口20%）使用阿拉伯语命名规则，不按希伯来语处理。同一希伯来名有多种英文拼写，以新华社规范为准。' },
+    ],
+  },
+  {
+    id: 'taiwan',
+    lang: '台湾',
+    region: '台湾地区',
+    rules: [
+      { title: '威妥玛拼音', content: '台湾姓名英文写法用威妥玛拼音（Wade-Giles），非汉语拼音。蔡=Tsai、谢=Hsieh、蒋=Chiang、张=Chang、许=Hsu。看到 Ts-/Hs-/Ch- 开头基本可判为台湾写法。' },
+      { title: '一拼多字', content: 'Hsu 同时对应"许"和"徐"，Chiang 对应"蒋/江"，Chang 对应"张/章/常"。威妥玛只记读音，不能唯一确定汉字，需以本人中文文件为准。' },
+      { title: '连字号双字名', content: '名字两字用连字号连接、后字小写：Ing-wen（英文）、Ying-jeou（英九）。连字号两侧合为一个完整的名，不可拆分。' },
+      { title: '自取英文名', content: '大量台湾人另取西方英文名（Kevin Chen、Jessica Wang），与中文名无对应关系，翻译时保留英文名，承载中文信息的是姓氏拼写。' },
+    ],
+  },
+  {
+    id: 'singapore',
+    lang: '新加坡',
+    region: '新加坡',
+    rules: [
+      { title: '方言拼音', content: '新加坡华人姓名按祖籍方言（闽南、粤、潮州）发音拼写，非普通话。Tan=陈、Lim=林、Ong=王、Goh=吴，不能用汉语拼音反推。' },
+      { title: '一拼多字', content: 'Ng 可能是黄/吴/伍（粤/潮鼻音），Teo 可能是张/赵。同字也有多写法（吴=Goh 或 Ng）。高频姓 Tan/Lim/Ong 对应稳定，可优先采信。' },
+      { title: '英文名前置', content: '多数有西方英文名置于最前：Peter Tan Wei Ming（英文名+姓 Tan+名 Wei Ming）。紧跟英文名的是姓。纯拼音格式（Tan Ah Kow）则姓在前。' },
+      { title: '族群区分', content: 'bin/binti 是马来族，s/o /d/o 是印度族，华族无这些标志。看到即判断非华裔，不用方言拼音规则。' },
+    ],
+  },
+  {
+    id: 'malaysia',
+    lang: '马来西亚',
+    region: '马来西亚',
+    rules: [
+      { title: '方言拼音', content: '与新加坡一脉相承，按闽南、粤、客家方言拼写。Tan=陈、Lim=林、Wong=王/黄、Chong=张/钟（客）。高频姓对应稳定。' },
+      { title: '荣誉衔头', content: 'Tun（敦）>Tan Sri（丹斯里）>Datuk Seri（拿督斯里）>Datuk（拿督），冠于姓名前。Tan Sri Lim Guan Eng=丹斯里林冠英，Tan Sri 是衔头不是姓。' },
+      { title: '客家拼音', content: '客家籍比例高，拼写有别：张=Chong、叶=Yap、刘=Liew。沙巴、霹雳客家多，是判断线索。' },
+      { title: '中文名好查', content: '华文教育与社团保留完好，华文报纸、商会、公司注册普遍用正式中文名，准确中文名往往可考，优于拼音反推。' },
+    ],
+  },
 ];
 
 export default function NamingRulesPage() {
@@ -322,12 +474,12 @@ export default function NamingRulesPage() {
       <h1 className="text-3xl font-bold text-center mb-3" style={{ color: '#1A1A1A' }}>
         各语言人名规则
       </h1>
-      <p className="text-center text-gray-500 text-sm mb-12">
-        供翻译工作者参考，涵盖姓名结构、称呼习惯与常见注意事项
+      <p className="text-center text-gray-400 text-sm mb-6">
+        各国取名方式大不相同——了解背后的规律，才能译得准确
       </p>
 
       {/* 快速跳转 */}
-      <div className="flex flex-wrap gap-2 mb-12 justify-center">
+      <div className="flex flex-wrap gap-2 mb-10 justify-center">
         {sections.map(s => (
           <a
             key={s.id}
@@ -344,11 +496,20 @@ export default function NamingRulesPage() {
       <div className="space-y-12">
         {sections.map(section => (
           <section key={section.id} id={section.id} className="scroll-mt-8">
-            <div className="flex items-baseline gap-3 mb-4">
+            <div className="flex items-baseline gap-3 mb-4 flex-wrap">
               <h2 className="text-xl font-bold" style={{ color: '#1A1A1A' }}>
                 {section.lang}
               </h2>
               <span className="text-sm text-gray-400">{section.region}</span>
+              {ARTICLE_SLUGS.includes(section.id) && (
+                <Link
+                  href={`/naming-rules/${section.id}`}
+                  className="text-sm font-medium ml-auto"
+                  style={{ color: '#2C5F8A' }}
+                >
+                  完整详解 →
+                </Link>
+              )}
             </div>
 
             <div className="space-y-4">
@@ -371,20 +532,36 @@ export default function NamingRulesPage() {
         ))}
       </div>
 
-      <div className="mt-12 text-center">
+      {/* 横向导流：相关工具 */}
+      <div className="mt-8 flex flex-wrap justify-center gap-3">
         <Link
-          href="/naming-rules/sinosphere"
-          className="inline-block px-6 py-3 rounded-xl text-sm"
-          style={{ background: '#fff', color: '#2C5F8A', boxShadow: '0 1px 6px rgba(0,0,0,0.08)' }}
+          href="/search"
+          className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm"
+          style={{ background: '#F0F5FA', color: '#2C5F8A' }}
         >
-          台湾·新加坡·马来西亚华人英文名写法 →
+          查既定译名（辞典）→
+        </Link>
+        <Link
+          href="/convert"
+          className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm"
+          style={{ background: '#F0F5FA', color: '#2C5F8A' }}
+        >
+          外文名音译引擎 →
+        </Link>
+        <Link
+          href="/gov-titles"
+          className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm"
+          style={{ background: '#F0F5FA', color: '#2C5F8A' }}
+        >
+          机构与官员职位翻译 →
         </Link>
       </div>
 
-      <footer className="mt-16 pt-8 border-t border-gray-200 text-center text-xs text-gray-300">
+      <p className="mt-10 pt-8 border-t border-gray-200 text-center text-xs text-gray-300">
         内容依据语言学规律整理，仅供翻译参考，具体译名以权威辞典为准
-      </footer>
+      </p>
     </main>
+    <SiteFooter />
     </>
   );
 }

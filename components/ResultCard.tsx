@@ -33,9 +33,15 @@ function getNationality(code: string) {
   return NATIONALITY_MAP[code] ?? code;
 }
 
+// 取括号/中文标点前的译名，过滤辞典原始注释文字
+function getDisplayChinese(chinese: string): string {
+  return chinese.split(/[（(，,。；;、]/)[0].trim() || chinese;
+}
+
 export function ResultCard({ result }: Props) {
   const typeLabel = result.type === "person" ? "人名" : "地名";
   const typeColor = result.type === "person" ? "bg-blue-50 text-blue-700" : "bg-green-50 text-green-700";
+  const displayChinese = getDisplayChinese(result.chinese);
 
   return (
     <div className="flex items-center justify-between py-4 px-5 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
@@ -48,7 +54,7 @@ export function ResultCard({ result }: Props) {
         )}
       </div>
       <div className="flex items-center gap-3">
-        <span className="text-2xl text-[#1A1A1A] font-medium">{result.chinese}</span>
+        <span className="text-2xl text-[#1A1A1A] font-medium">{displayChinese}</span>
         <Badge variant="secondary" className={`text-xs ${typeColor}`}>
           {typeLabel}
         </Badge>

@@ -12,6 +12,13 @@ export const metadata: Metadata = {
     "大谷翔平翻译",
   ],
   alternates: { canonical: "/ja" },
+  openGraph: {
+    title: '日本人名翻译查询 | 外文译名词典',
+    description: '日文汉字名、片假名转中文，罗马字查日文汉字及中文译名。大谷翔平、村上春树等人名快速查询。',
+    url: 'https://nametochinese.com/ja',
+    type: 'website',
+  },
+  twitter: { card: 'summary', title: '日本人名翻译 · 外文译名词典', description: '日文汉字·片假名·罗马字人名中文翻译，专为翻译工作者设计。' },
 };
 
 export default function JaLayout({ children }: { children: React.ReactNode }) {

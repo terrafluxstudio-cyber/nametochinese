@@ -68,10 +68,8 @@ export async function GET(req: NextRequest) {
     }
   }
 
-  return NextResponse.json({
-    input: q,
-    surnameMatches,
-    givenMatches,
-    combinations: combinations.slice(0, 10),
-  });
+  return NextResponse.json(
+    { input: q, surnameMatches, givenMatches, combinations: combinations.slice(0, 10) },
+    { headers: { 'Cache-Control': 'public, s-maxage=86400, stale-while-revalidate=604800' } }
+  );
 }

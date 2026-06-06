@@ -2,6 +2,9 @@
 import { Suspense, useState, useEffect, useMemo } from 'react';
 import { useSearchParams } from 'next/navigation';
 import NavBar from '@/components/NavBar';
+import SearchTabs from '@/components/SearchTabs';
+import SearchInput from '@/components/SearchInput';
+import SiteFooter from '@/components/SiteFooter';
 import * as OpenCC from 'opencc-js';
 
 type Tab = 'japanese' | 'romaji';
@@ -21,6 +24,7 @@ type SearchResult = {
   givenMatches: { romaji: string; candidates: { ja: string; zh: string }[]; gender: string }[];
   combinations: Combination[];
 };
+type Person = { japanese: string; chinese: string; romaji: string; gender: string };
 
 /** 片假名→中文（当 日語.json 未就绪时的兜底） */
 const KATAKANA_FALLBACK: Record<string, string> = {
@@ -37,17 +41,34 @@ function JaPageContent() {
   const [output, setOutput] = useState('');
   const [romajiInput, setRomajiInput] = useState('');
   const [romajiResult, setRomajiResult] = useState<SearchResult | null>(null);
+  const [persons, setPersons] = useState<Person[]>([]);
   const [loading, setLoading] = useState(false);
   const searchParams = useSearchParams();
 
   const jpToCn = useMemo(() => OpenCC.Converter({ from: 'jp', to: 'cn' }), []);
 
+  async function searchPersons(q: string) {
+    if (!q.trim()) {
+      setPersons([]);
+      return;
+    }
+    try {
+      const res = await fetch(`/api/search-ja-person?q=${encodeURIComponent(q)}`);
+      const data = await res.json();
+      setPersons(Array.isArray(data) ? data : []);
+    } catch {
+      setPersons([]);
+    }
+  }
+
   async function searchRomaji(q: string) {
     if (!q.trim()) {
       setRomajiResult(null);
+      setPersons([]);
       return;
     }
     setLoading(true);
+    searchPersons(q);
     const res = await fetch(`/api/search-ja?q=${encodeURIComponent(q)}`);
     const data = await res.json();
     setRomajiResult(data);
@@ -65,6 +86,22 @@ function JaPageContent() {
       setInput(urlQ);
     }
   }, []);
+
+  useEffect(() => {
+    if (!input.trim()) {
+      setOutput('');
+      setPersons([]);
+      return;
+    }
+
+    // 汉字名查名人库（片假名不查）
+    if (hasKanji(input) && !hasKatakana(input)) {
+      const t = setTimeout(() => searchPersons(input.trim()), 200);
+      return () => clearTimeout(t);
+    } else {
+      setPersons([]);
+    }
+  }, [input]);
 
   useEffect(() => {
     if (!input.trim()) {
@@ -90,6 +127,38 @@ function JaPageContent() {
     }
   }, [input, jpToCn]);
 
+  const personBlock = persons.length > 0 && (
+    <div className="mt-6">
+      <p className="text-xs text-gray-400 mb-2 font-medium uppercase tracking-wide">
+        人物记录（维基百科）
+      </p>
+      <div className="space-y-2">
+        {persons.map((p, i) => (
+          <div
+            key={i}
+            className="flex items-center gap-3 px-5 py-3 rounded-xl"
+            style={{ background: '#fff', boxShadow: '0 1px 6px rgba(0,0,0,0.07)' }}
+          >
+            <div className="min-w-[90px]">
+              <p className="text-xs text-gray-400 mb-0.5">日文</p>
+              <p className="text-lg font-medium" style={{ color: '#374151' }}>{p.japanese}</p>
+            </div>
+            <div className="text-gray-300">→</div>
+            <div className="min-w-[90px]">
+              <p className="text-xs text-gray-400 mb-0.5">中文</p>
+              <p className="text-lg font-bold" style={{ color: '#2C5F8A' }}>{p.chinese}</p>
+            </div>
+            {p.romaji && (
+              <p className="ml-auto text-xs text-gray-400" style={{ fontFamily: 'monospace' }}>
+                {p.romaji}
+              </p>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+
   return (
     <>
       <NavBar />
@@ -103,6 +172,8 @@ function JaPageContent() {
       <p className="text-center text-gray-500 text-sm mb-8">
         汉字·片假名→中文 / 罗马字→汉字+中文
       </p>
+
+      <SearchTabs current="ja" />
 
       <div className="flex gap-2 justify-center mb-8">
         {[
@@ -126,14 +197,15 @@ function JaPageContent() {
 
       {tab === 'japanese' && (
         <div>
-          <input
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            placeholder="输入日文人名，如：田中角栄 / アレクサンダー"
-            className="w-full text-xl px-6 py-4 rounded-2xl outline-none focus:ring-2 focus:ring-blue-200 mb-4"
-            style={{ background: '#fff', boxShadow: '0 2px 12px rgba(0,0,0,0.08)' }}
-            autoFocus={tab === 'japanese'}
-          />
+          <div className="mb-4">
+            <SearchInput
+              value={input}
+              onChange={(v) => setInput(v)}
+              onSubmit={(v) => setInput(v)}
+              placeholder="输入日文人名，如：田中角栄 / アレクサンダー"
+              autoFocus={tab === 'japanese'}
+            />
+          </div>
 
           {output && (
             <div
@@ -161,6 +233,36 @@ function JaPageContent() {
             </p>
           )}
 
+          {/* 片假名说明：只做音译，不查人名库 */}
+          {output && hasKatakana(input) && persons.length === 0 && (
+            <p className="text-xs text-gray-400 text-center mt-2">
+              片假名已按日语译音规则转换。如需查人名记录，请改用汉字或罗马字输入。
+            </p>
+          )}
+
+          {/* 空查询时展示常见日本名 */}
+          {!input && (
+            <div className="mb-4">
+              <p className="text-xs text-gray-400 mb-2">常见日本名试试：</p>
+              <div className="flex flex-wrap gap-2">
+                {['田中角栄','大谷翔平','村上春樹','宮崎駿','黒澤明',
+                  'アレクサンダー','イワン','ナターシャ','マリア'].map(name => (
+                  <button
+                    key={name}
+                    type="button"
+                    onClick={() => setInput(name)}
+                    className="px-3 py-1 rounded-full text-sm border transition-colors hover:border-gray-400"
+                    style={{ background: '#fff', color: '#374151', borderColor: '#D1D5DB' }}
+                  >
+                    {name}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {personBlock}
+
           <div
             className="mt-6 rounded-xl px-5 py-4 text-xs text-gray-400 leading-relaxed"
             style={{ background: '#fff', boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}
@@ -178,34 +280,46 @@ function JaPageContent() {
 
       {tab === 'romaji' && (
         <div>
-          <div className="flex gap-2 mb-4">
-            <input
+          <div className="mb-4">
+            <SearchInput
               value={romajiInput}
-              onChange={(e) => setRomajiInput(e.target.value)}
-              onKeyDown={(e) => e.key === 'Enter' && searchRomaji(romajiInput)}
-              placeholder="如：Tanaka Keizo / Ohtani Shohei"
-              className="flex-1 text-xl px-6 py-4 rounded-2xl outline-none focus:ring-2 focus:ring-blue-200"
-              style={{
-                background: '#fff',
-                boxShadow: '0 2px 12px rgba(0,0,0,0.08)',
-                fontFamily: 'monospace',
-              }}
+              onChange={(v) => setRomajiInput(v)}
+              onSubmit={(v) => searchRomaji(v)}
+              placeholder="如：Shohei Ohtani / Haruki Murakami"
+              mono
               autoFocus={tab === 'romaji'}
             />
-            <button
-              onClick={() => searchRomaji(romajiInput)}
-              className="px-6 py-4 rounded-2xl text-white text-sm font-medium"
-              style={{ background: '#2C5F8A' }}
-            >
-              查
-            </button>
           </div>
 
-          <p className="text-xs text-gray-400 text-center mb-6">
+          <p className="text-xs text-gray-400 text-center mb-4">
             姓在前或名在前均可，用空格分隔
           </p>
 
+          {/* 空查询时展示常见罗马字名 */}
+          {!romajiInput && (
+            <div className="mb-6">
+              <p className="text-xs text-gray-400 mb-2">试试：</p>
+              <div className="flex flex-wrap gap-2">
+                {['Shohei Ohtani','Haruki Murakami','Hayao Miyazaki',
+                  'Ichiro Suzuki','Naomi Osaka','Yoko Ono',
+                  'Tanaka','Sato','Suzuki'].map(name => (
+                  <button
+                    key={name}
+                    type="button"
+                    onClick={() => { setRomajiInput(name); searchRomaji(name); }}
+                    className="px-3 py-1 rounded-full text-sm border transition-colors hover:border-gray-400 font-mono"
+                    style={{ background: '#fff', color: '#374151', borderColor: '#D1D5DB' }}
+                  >
+                    {name}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
           {loading && <p className="text-center text-gray-400">查询中…</p>}
+
+          {personBlock}
 
           {romajiResult && !loading && (
             <div className="space-y-4">
@@ -299,10 +413,8 @@ function JaPageContent() {
         </div>
       )}
 
-      <footer className="mt-16 text-center text-xs text-gray-300">
-        © {new Date().getFullYear()} 外文译名词典 · nametochinese.com
-      </footer>
     </main>
+    <SiteFooter />
     </>
   );
 }

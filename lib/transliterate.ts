@@ -1,10 +1,15 @@
 import fs from 'fs';
 import path from 'path';
+import { Converter } from 'opencc-js';
+
+// 译音表数据源是繁体 wiki，输出统一转简体
+const toSimplified = Converter({ from: 't', to: 'cn' });
 
 export type Segment = {
   input: string;
   output: string;
   color: number;
+  missing?: boolean; // 该音在该语言表中无对应汉字
 };
 
 export type TranslitResult = {
@@ -12,6 +17,7 @@ export type TranslitResult = {
   segments: Segment[];
   language: string;
   hasRules: boolean;
+  hasMissing?: boolean;
 };
 
 type LangTable = {
@@ -139,6 +145,7 @@ export function loadRules(langFile: string): LangTable | null {
 function cleanChinese(cell: string): string {
   if (!cell) return '';
   const stripped = cell
+    .replace(/-\{|\}-/g, '') // MediaWiki 中文变体标记 -{于}- → 于
     .replace(/\|/g, '')
     .replace(/\{\{[^}]+\}\}/g, '')
     .replace(/rowspan="[^"]*"/gi, '')
@@ -175,7 +182,18 @@ function expandConsonantHeader(header: string): string[] {
   return parts.length > 0 ? parts : [header.toLowerCase()];
 }
 
+// 德语列头被抓取丢了分隔符（'mmm''dddtd''kckc*'），expandConsonantHeader 会拆错列。
+// 手工给标准《德语译音表》列序（对齐 values：[0]=元音空列, 之后各辅音）。
+const DE_CONSONANTS = [
+  '', 'b', 'p', 'd', 't', 'g', 'k', 'w', 'f', 'z',
+  's', 'sch', 'tsch', 'ch', 'h', 'm', 'n', 'l', 'r', 'j',
+];
+
 function getConsonantsForTable(table: LangTable['tables'][0], langFile: string): string[] {
+  if (langFile === '德語') {
+    const maxCols = Math.max(0, ...table.rows.map(r => r.values.length));
+    return DE_CONSONANTS.slice(0, maxCols);
+  }
   const headers = table.headers.slice(1);
   if (headers.some(h => !isPlaceholderHeader(h) && h !== '輔音')) {
     const out: string[] = [];
@@ -389,6 +407,13 @@ export function buildLookupMap(
     const keyVariants = parseVowelVariants(row.key);
     const hasCyrillicKey = /[а-яё]/i.test(row.key);
 
+    // 辅音基准行（firstCell 恰为'元音'）：映射裸辅音 b→布、l→尔…（原逻辑整行丢弃 → 词尾/双辅音吐?）
+    // 注意精确匹配：'i ie ih y(元音後)' 等行含"元音"子串，不能误判
+    if ((row.values[0] ?? '').trim() === '元音') {
+      buildFromVowelRow(map, [''], consonants, row.values.slice(1));
+      continue;
+    }
+
     if (hasCyrillicKey && keyVariants.length > 0) {
       buildFromVowelRow(map, keyVariants, consonants, row.values);
       continue;
@@ -502,6 +527,14 @@ function normalizeForLookup(input: string, langFile: string): string {
     if (/[а-яё]/i.test(trimmed)) return trimmed.toLowerCase();
     return latinToCyrillic(trimmed);
   }
+  if (langFile === '德語') {
+    // 德语双写辅音=单音、ck=k、ß=s：收一个再查（Müller→müler→米勒、Becker→beker→贝克尔）
+    return trimmed
+      .toLowerCase()
+      .replace(/ß/g, 's')
+      .replace(/ck/g, 'k')
+      .replace(/([bcdfgklmnprstz])\1/g, '$1');
+  }
   return trimmed.toLowerCase();
 }
 
@@ -561,16 +594,23 @@ export function transliterate(
 
     if (!matched) {
       const ch = preserveCaseSlice(input, i, 1);
+      // 该音该表无对应汉字：标记缺口，不假装拼出了结果
       segments.push({
         input: ch,
-        output: ch.toUpperCase(),
+        output: '？',
         color: colorIdx % 8,
+        missing: true,
       });
       colorIdx++;
       i++;
     }
   }
 
-  const result = segments.map(s => s.output).join('');
-  return { result, segments, language: rules.language, hasRules: true };
+  // 数据源为繁体，输出统一转简体（仅转汉字，问号/原文字母不受影响）
+  const out = segments.map(s =>
+    s.missing ? s : { ...s, output: toSimplified(s.output) }
+  );
+  const result = out.map(s => s.output).join('');
+  const hasMissing = out.some(s => s.missing);
+  return { result, segments: out, language: rules.language, hasRules: true, hasMissing };
 }

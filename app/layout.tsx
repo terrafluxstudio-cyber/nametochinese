@@ -1,7 +1,14 @@
 import type { Metadata } from "next";
 import { Noto_Serif_SC, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
+import Script from "next/script";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import CookieConsent from "@/components/CookieConsent";
+import PwaInstall from "@/components/PwaInstall";
 import "./globals.css";
+
+// AdSense Publisher ID。设置环境变量 NEXT_PUBLIC_ADSENSE_ID=ca-pub-xxxxxxxx 后自动注入广告脚本。
+const ADSENSE_ID = process.env.NEXT_PUBLIC_ADSENSE_ID;
 
 const notoSerifSC = Noto_Serif_SC({
   variable: "--font-serif",
@@ -12,6 +19,17 @@ const notoSerifSC = Noto_Serif_SC({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+// 毛笔字标题（玄宗体 subset）。display:block + 自动 preload：字体就绪前不显示，
+// 避免先刷 fallback 再换的闪烁(FOUT)。仅首页 H1 使用。
+const xuanZong = localFont({
+  src: "../public/fonts/XuanZongTi-subset.woff2",
+  variable: "--font-xuanzong",
+  display: "block",
+  weight: "400",
+  preload: true,
+  adjustFontFallback: false,
 });
 
 
@@ -74,10 +92,32 @@ export default function RootLayout({
   return (
     <html
       lang="zh-CN"
-      className={`${notoSerifSC.variable} ${geistMono.variable} h-full`}
+      className={`${notoSerifSC.variable} ${geistMono.variable} ${xuanZong.variable} h-full`}
     >
-      <body className="min-h-full flex flex-col bg-[#F7F5F0]">{children}</body>
+      <body className="min-h-full flex flex-col bg-[#F7F5F0]">
+        {/* Google Consent Mode v2：默认拒绝分析/广告 Cookie，待用户在横幅同意后再 update 为 granted。
+            原生内联脚本，随 SSR HTML 同步执行，早于 afterInteractive 的 GA / AdSense。 */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});`,
+          }}
+        />
+        {children}
+        <CookieConsent />
+        <PwaInstall />
+      </body>
       <GoogleAnalytics gaId="G-SX777JZ4D3" />
+      {ADSENSE_ID && (
+        <Script
+          id="adsense"
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_ID}`}
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+      )}
     </html>
   );
 }

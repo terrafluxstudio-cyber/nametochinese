@@ -1,11 +1,17 @@
 'use client';
 import { Suspense, useState, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
+import Link from 'next/link';
 import NavBar from '@/components/NavBar';
+import SiteFooter from '@/components/SiteFooter';
+import SearchInput from '@/components/SearchInput';
 
 type CharFreq = { char: string; freq: number };
 type Result = {
+  mode?: 'single';
   input: string;
+  pinyin?: string;
+  givenCandidates?: CharFreq[];
   surnamePinyin: string;
   givenPinyin: string;
   surnameCandidates: CharFreq[];
@@ -58,38 +64,82 @@ function PinyinPageContent() {
       <p className="text-center text-gray-500 text-sm mb-2">
         输入中国人名的拼音，自动列出最可能的中文姓名
       </p>
-      <p className="text-center text-gray-400 text-xs mb-10">
-        姓和名之间用空格分隔，如：zhang wei &nbsp;·&nbsp; wang fang &nbsp;·&nbsp; li jing
-        ling
+      <p className="text-center text-gray-400 text-xs mb-3">
+        全名用空格分隔（zhang wei）；单个拼音（lei）直接列出对应常用字
+      </p>
+      <p className="text-center text-xs mb-10">
+        反向工具：已知中文名查拼音用{' '}
+        <Link href="/name-to-pinyin" className="underline" style={{ color: '#2C5F8A' }}>
+          姓名转拼音
+        </Link>
       </p>
 
-      <div className="flex gap-2 mb-8">
-        <input
-          value={q}
-          onChange={(e) => setQ(e.target.value)}
-          onKeyDown={(e) => e.key === 'Enter' && lookup(q)}
-          placeholder="zhang wei"
-          className="flex-1 text-xl px-6 py-4 rounded-2xl outline-none focus:ring-2 focus:ring-blue-200"
-          style={{
-            background: '#fff',
-            boxShadow: '0 2px 12px rgba(0,0,0,0.08)',
-            fontFamily: 'monospace',
-          }}
-          autoFocus
-        />
-        <button
-          onClick={() => lookup(q)}
-          className="px-6 py-4 rounded-2xl text-white text-sm font-medium"
-          style={{ background: '#2C5F8A' }}
-        >
-          查
-        </button>
-      </div>
+      <SearchInput
+        value={q}
+        onChange={setQ}
+        onSubmit={lookup}
+        placeholder="zhang wei"
+        autoFocus
+        mono
+        className="mb-8"
+      />
 
       {error && <p className="text-center text-red-400 text-sm mb-4">{error}</p>}
       {loading && <p className="text-center text-gray-400">分析中…</p>}
 
-      {result && !loading && (
+      {/* 单拼音模式：直接列出该拼音对应的字 */}
+      {result && result.mode === 'single' && !loading && (
+        <div className="space-y-6">
+          <div>
+            <p className="text-xs text-gray-400 mb-3 font-medium tracking-wide uppercase">
+              &quot;{result.pinyin}&quot; 常用作名的字（按频率排序）
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {(result.givenCandidates ?? []).map((c, i) => (
+                <span key={i} className="px-3.5 py-2 rounded-xl text-lg font-medium"
+                  style={{
+                    background: '#fff',
+                    color: i === 0 ? '#2C5F8A' : '#1A1A1A',
+                    boxShadow: '0 1px 4px rgba(0,0,0,0.06)',
+                    fontWeight: i < 3 ? 600 : 400,
+                  }}>
+                  {c.char}
+                </span>
+              ))}
+              {!(result.givenCandidates ?? []).length && (
+                <span className="text-gray-400 text-sm">无常用作名的字</span>
+              )}
+            </div>
+          </div>
+
+          {(result.surnameCandidates ?? []).length > 0 && (
+            <div>
+              <p className="text-xs text-gray-400 mb-2 font-medium tracking-wide uppercase">
+                &quot;{result.pinyin}&quot; 对应的姓
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {result.surnameCandidates.map((c, i) => (
+                  <span key={i} className="px-3 py-1 rounded-full text-sm"
+                    style={{
+                      background: '#fff',
+                      color: i === 0 ? '#2C5F8A' : '#374151',
+                      boxShadow: '0 1px 3px rgba(0,0,0,0.06)',
+                      fontWeight: i === 0 ? 600 : 400,
+                    }}>
+                    {c.char}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          <p className="text-xs text-gray-300 text-center pt-2">
+            想拼出完整姓名？输入「姓 名」，如 zhang wei
+          </p>
+        </div>
+      )}
+
+      {result && result.mode !== 'single' && !loading && (
         <div className="space-y-6">
           <div>
             <p className="text-xs text-gray-400 mb-3 font-medium tracking-wide uppercase">
@@ -170,6 +220,7 @@ function PinyinPageContent() {
         </div>
       )}
     </main>
+    <SiteFooter />
     </>
   );
 }

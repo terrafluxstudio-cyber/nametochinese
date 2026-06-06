@@ -60,9 +60,9 @@ async function scrape() {
       ...(maleIdx > 0 ? [{ text: blob.slice(maleIdx), gender: 'M' }] : []),
     ];
     names = [];
-    for (const { text, g } of parts.map((p) => ({ text: p.text, g: p.gender }))) {
+    for (const { text, gender: g } of parts.map((p) => ({ text: p.text, gender: p.gender }))) {
       gender = g;
-      const chunks = text.split(/(?=\d{1,3}\.\s)/).filter((c) => /^\d{1,3}\.\s/.test(c.trim()));
+      const chunks = text.split(/(?=\d{1,3}\.\s*)/).filter((c) => /^\d{1,3}\./.test(c.trim()));
       for (const chunk of chunks) {
         const body = chunk.trim().replace(/^\d{1,3}\.\s*/, '');
         const nameRx = /^([А-Яа-яЁё][А-Яа-яЁё\/\-=（）\s]*?)\(([^)]+)\)/;

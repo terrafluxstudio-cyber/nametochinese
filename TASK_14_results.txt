@@ -1,0 +1,412 @@
+=== TASK_14 Results ===
+=== 1. Scrape script ===
+维基抓取失败，仅使用 coreData: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+写入 91 个姓氏
+写入 35 个名（given names）
+Scrape exit: 0
+
+=== 2. Data reports ===
+ja_surnames.json line count:
+     456 data/ja_surnames.json
+
+First 3 tanaka entries in ja_surnames.json:
+[
+  {
+    "romaji": "tanaka",
+    "ja": "田中",
+    "zh": "田中"
+  }
+]
+
+keizo sample from ja_given.json:
+[
+  {
+    "romaji": "keizo",
+    "candidates": [
+      {
+        "ja": "敬三",
+        "zh": "敬三"
+      },
+      {
+        "ja": "惠三",
+        "zh": "惠三"
+      },
+      {
+        "ja": "圭三",
+        "zh": "圭三"
+      }
+    ],
+    "gender": "M"
+  }
+]
+
+=== 3. npm run build ===
+npm warn Unknown env config "devdir". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+
+> nametochinese@0.1.0 build
+> next build
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/nanewmac/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Users/nanewmac/Desktop/nametochinese/package-lock.json
+
+▲ Next.js 16.2.6 (Turbopack)
+- Environments: .env.local
+
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+  Creating an optimized production build ...
+✓ Compiled successfully in 2.2s
+  Running TypeScript ...
+  Finished TypeScript in 1924ms ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/19) ...
+  Generating static pages using 7 workers (4/19) 
+  Generating static pages using 7 workers (9/19) 
+  Generating static pages using 7 workers (14/19) 
+✓ Generating static pages using 7 workers (19/19) in 174ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /api/country-languages
+├ ƒ /api/pinyin-lookup
+├ ƒ /api/search
+├ ƒ /api/search-ja
+├ ƒ /api/search-ko
+├ ƒ /api/search-ru
+├ ƒ /api/transliterate
+├ ○ /convert
+├ ○ /ja
+├ ○ /ko
+├ ○ /naming-rules
+├ ○ /naming-rules/sinosphere
+├ ○ /pinyin
+├ ○ /ru
+└ ○ /zh-convert
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+Build exit: 0
+
+=== 4. API curl tests ===
+--- search-ja?q=tanaka+keizo ---
+{"input":"tanaka keizo","surnameMatches":[{"romaji":"tanaka","ja":"田中","zh":"田中"}],"givenMatches":[{"romaji":"keizo","candidates":[{"ja":"敬三","zh":"敬三"},{"ja":"惠三","zh":"惠三"},{"ja":"圭三","zh":"圭三"}],"gender":"M"}],"combinations":[{"ja":"田中敬三","zh":"田中敬三","surnameJa":"田中","givenJa":"敬三"},{"ja":"田中惠三","zh":"田中惠三","surnameJa":"田中","givenJa":"惠三"}]}
+
+--- search-ja?q=osaka ---
+{"input":"osaka","surnameMatches":[{"romaji":"osaka","ja":"大坂","zh":"大坂"}],"givenMatches":[],"combinations":[{"ja":"大坂","zh":"大坂","surnameJa":"大坂","givenJa":""}]}
+
+--- search-ja?q=ohtani+shohei ---
+{"input":"ohtani shohei","surnameMatches":[{"romaji":"ohtani","ja":"大谷","zh":"大谷"}],"givenMatches":[{"romaji":"shohei","candidates":[{"ja":"翔平","zh":"翔平"},{"ja":"昇平","zh":"昇平"}],"gender":"M"}],"combinations":[{"ja":"大谷翔平","zh":"大谷翔平","surnameJa":"大谷","givenJa":"翔平"},{"ja":"大谷昇平","zh":"大谷昇平","surnameJa":"大谷","givenJa":"昇平"}]}
+
+=== 5. Git ===
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   app/page.tsx
+	modified:   scripts/scrape_russian_names.mjs
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	TASK_14_results.txt
+	app/api/search-ja/
+	app/ja/
+	data/ja_given.json
+	data/ja_surnames.json
+	scripts/_run_ja_scrape.mjs
+	scripts/russian_names.csv
+	scripts/scrape_japanese_names.mjs
+	tasks/CLAUDE.md
+	tasks/TASK_01_init.md
+	tasks/TASK_02_db.md
+	tasks/TASK_03_ui.md
+	tasks/TASK_04_deploy.md
+	tasks/TASK_05_rate_limit.md
+	tasks/TASK_06_russian_names.md
+	tasks/TASK_07_korean_names.md
+	tasks/TASK_08_transliterate_data.md
+	tasks/TASK_09_transliterate_engine.md
+	tasks/TASK_10_naming_rules_page.md
+	tasks/TASK_11_sinosphere_names.md
+	tasks/TASK_13_zh_convert.md
+	tasks/TASK_14_japanese_names.md
+	tasks/TASK_clean_data.md
+	tasks/clean_data.py
+	tasks/clean_names.csv
+	tasks/clean_places.csv
+	tasks/names-wal.db-shm
+	tasks/names-wal.db-wal
+	tasks/names.db
+	tasks/names_wal.db-shm
+	tasks/names_wal.db-wal
+	"tasks/\344\272\272\345\220\215.pdf"
+	"tasks/\344\272\272\345\220\215\347\277\273\350\257\221.xlsx"
+	"tasks/\345\234\260\345\220\215\347\277\273\350\257\221.xlsx"
+	ui-screenshot-naming-rules.png
+	ui-screenshot-sinosphere.png
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ M app/page.tsx
+A  data/ja_given.json
+A  data/ja_surnames.json
+A  scripts/scrape_japanese_names.mjs
+ M scripts/scrape_russian_names.mjs
+?? TASK_14_results.txt
+?? app/api/search-ja/
+?? app/ja/
+?? scripts/_run_ja_scrape.mjs
+?? scripts/russian_names.csv
+?? tasks/CLAUDE.md
+?? tasks/TASK_01_init.md
+?? tasks/TASK_02_db.md
+?? tasks/TASK_03_ui.md
+?? tasks/TASK_04_deploy.md
+?? tasks/TASK_05_rate_limit.md
+?? tasks/TASK_06_russian_names.md
+?? tasks/TASK_07_korean_names.md
+?? tasks/TASK_08_transliterate_data.md
+?? tasks/TASK_09_transliterate_engine.md
+?? tasks/TASK_10_naming_rules_page.md
+?? tasks/TASK_11_sinosphere_names.md
+?? tasks/TASK_13_zh_convert.md
+?? tasks/TASK_14_japanese_names.md
+?? tasks/TASK_clean_data.md
+?? tasks/clean_data.py
+?? tasks/clean_names.csv
+?? tasks/clean_places.csv
+?? tasks/names-wal.db-shm
+?? tasks/names-wal.db-wal
+?? tasks/names.db
+?? tasks/names_wal.db-shm
+?? tasks/names_wal.db-wal
+?? "tasks/\344\272\272\345\220\215.pdf"
+?? "tasks/\344\272\272\345\220\215\347\277\273\350\257\221.xlsx"
+?? "tasks/\345\234\260\345\220\215\347\277\273\350\257\221.xlsx"
+?? ui-screenshot-naming-rules.png
+?? ui-screenshot-sinosphere.png
+ M app/page.tsx
+A  data/ja_given.json
+A  data/ja_surnames.json
+A  scripts/scrape_japanese_names.mjs
+ M scripts/scrape_russian_names.mjs
+?? TASK_14_results.txt
+?? app/api/search-ja/
+?? app/ja/
+?? scripts/_run_ja_scrape.mjs
+?? scripts/russian_names.csv
+?? tasks/CLAUDE.md
+?? tasks/TASK_01_init.md
+?? tasks/TASK_02_db.md
+?? tasks/TASK_03_ui.md
+?? tasks/TASK_04_deploy.md
+?? tasks/TASK_05_rate_limit.md
+?? tasks/TASK_06_russian_names.md
+?? tasks/TASK_07_korean_names.md
+?? tasks/TASK_08_transliterate_data.md
+?? tasks/TASK_09_transliterate_engine.md
+?? tasks/TASK_10_naming_rules_page.md
+?? tasks/TASK_11_sinosphere_names.md
+?? tasks/TASK_13_zh_convert.md
+?? tasks/TASK_14_japanese_names.md
+?? tasks/TASK_clean_data.md
+?? tasks/clean_data.py
+?? tasks/clean_names.csv
+?? tasks/clean_places.csv
+?? tasks/names-wal.db-shm
+?? tasks/names-wal.db-wal
+?? tasks/names.db
+?? tasks/names_wal.db-shm
+?? tasks/names_wal.db-wal
+?? "tasks/\344\272\272\345\220\215.pdf"
+?? "tasks/\344\272\272\345\220\215\347\277\273\350\257\221.xlsx"
+?? "tasks/\345\234\260\345\220\215\347\277\273\350\257\221.xlsx"
+?? ui-screenshot-naming-rules.png
+?? ui-screenshot-sinosphere.png
+[main caa3b0b] TASK_14: Japanese names scrape data and search support.
+ 3 files changed, 1194 insertions(+)
+ create mode 100644 data/ja_given.json
+ create mode 100644 data/ja_surnames.json
+ create mode 100644 scripts/scrape_japanese_names.mjs
+Commit exit: 0
+To https://github.com/terrafluxstudio-cyber/nametochinese.git
+   281e268..caa3b0b  main -> main
+Push exit: 0
+
+=== 6. Vercel deploy ===
+Retrieving project…
+Deploying terrafluxstudio-cybers-projects/nametochinese
+Uploading [--------------------] (0.0B/649KB)
+Uploading [=====---------------] (167.2KB/649KB)
+Uploading [==========----------] (327.2KB/649KB)
+Uploading [===============-----] (487.8KB/649KB)
+Uploading [====================] (649.0KB/649KB)
+  Inspect     https://vercel.com/terrafluxstudio-cybers-projects/nametochinese/M8Hbrm9thmWbH6Dzdn5WtfojT71D
+▲ Production  https://nametochinese-2tt17uov4-terrafluxstudio-cybers-projects.vercel.app
+Building…
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Retrieving list of deployment files...
+Downloading 163 deployment files...
+Downloading 163 deployment files...
+Restored build cache from previous deployment (9vjd2SC7VQ7cFjW5NcJ4A1LPJKiP)
+Running "vercel build"
+Vercel CLI 54.4.1
+Installing dependencies...
+up to date in 1s
+251 packages are looking for funding
+run `npm fund` for details
+Detected Next.js version: 16.2.6
+Running "npm run build"
+> nametochinese@0.1.0 build
+> next build
+Applying modifyConfig from Vercel
+▲ Next.js 16.2.6 (Turbopack)
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+Creating an optimized production build ...
+✓ Compiled successfully in 8.4s
+Running TypeScript ...
+Finished TypeScript in 4.9s ...
+Collecting page data using 1 worker ...
+Generating static pages using 1 worker (0/19) ...
+Generating static pages using 1 worker (4/19)
+Generating static pages using 1 worker (9/19)
+Generating static pages using 1 worker (14/19)
+✓ Generating static pages using 1 worker (19/19) in 345ms
+Finalizing page optimization ...
+Running onBuildComplete from Vercel
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /api/country-languages
+├ ƒ /api/pinyin-lookup
+├ ƒ /api/search
+├ ƒ /api/search-ja
+├ ƒ /api/search-ko
+├ ƒ /api/search-ru
+├ ƒ /api/transliterate
+├ ○ /convert
+├ ○ /ja
+├ ��� /ko
+├ ○ /naming-rules
+├ ○ /naming-rules/sinosphere
+├ ○ /pinyin
+├ ○ /ru
+└ ○ /zh-convert
+ƒ Proxy (Middleware)
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+Build Completed in /vercel/output [18s]
+Deploying outputs...
+[2K[1A[2K[G▲ Production  https://nametochinese-2tt17uov4-terrafluxstudio-cybers-projects.vercel.app
+Completing…
+▲ Aliased     https://nametochinese.com
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_M8Hbrm9thmWbH6Dzdn5WtfojT71D",
+    "url": "https://nametochinese-2tt17uov4-terrafluxstudio-cybers-projects.vercel.app",
+    "inspectorUrl": "https://vercel.com/terrafluxstudio-cybers-projects/nametochinese/M8Hbrm9thmWbH6Dzdn5WtfojT71D",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_M8Hbrm9thmWbH6Dzdn5WtfojT71D"
+  },
+  "message": "Deployment nametochinese-2tt17uov4-terrafluxstudio-cybers-projects.vercel.app ready.",
+  "next": [
+    {
+      "command": "vercel inspect nametochinese-2tt17uov4-terrafluxstudio-cybers-projects.vercel.app",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod",
+      "when": "Promote to production"
+    }
+  ]
+}
+Vercel exit: 0
+
+=== 5b. Additional TASK_14 files commit ===
+A  app/api/search-ja/route.ts
+A  app/ja/page.tsx
+M  app/page.tsx
+ M scripts/scrape_russian_names.mjs
+A  tasks/TASK_14_japanese_names.md
+?? TASK_14_results.txt
+?? scripts/_run_ja_scrape.mjs
+?? scripts/russian_names.csv
+?? tasks/CLAUDE.md
+?? tasks/TASK_01_init.md
+?? tasks/TASK_02_db.md
+?? tasks/TASK_03_ui.md
+?? tasks/TASK_04_deploy.md
+?? tasks/TASK_05_rate_limit.md
+?? tasks/TASK_06_russian_names.md
+?? tasks/TASK_07_korean_names.md
+?? tasks/TASK_08_transliterate_data.md
+?? tasks/TASK_09_transliterate_engine.md
+?? tasks/TASK_10_naming_rules_page.md
+?? tasks/TASK_11_sinosphere_names.md
+?? tasks/TASK_13_zh_convert.md
+?? tasks/TASK_15_seo.md
+?? tasks/TASK_clean_data.md
+?? tasks/clean_data.py
+?? tasks/clean_names.csv
+?? tasks/clean_places.csv
+?? tasks/names-wal.db-shm
+?? tasks/names-wal.db-wal
+?? tasks/names.db
+?? tasks/names_wal.db-shm
+?? tasks/names_wal.db-wal
+?? "tasks/\344\272\272\345\220\215.pdf"
+?? "tasks/\344\272\272\345\220\215\347\277\273\350\257\221.xlsx"
+?? "tasks/\345\234\260\345\220\215\347\277\273\350\257\221.xlsx"
+?? ui-screenshot-naming-rules.png
+?? ui-screenshot-sinosphere.png
+ app/api/search-ja/route.ts      |  77 ++++++
+ app/ja/page.tsx                 | 297 ++++++++++++++++++++
+ app/page.tsx                    |   3 +
+ tasks/TASK_14_japanese_names.md | 580 ++++++++++++++++++++++++++++++++++++++++
+ 4 files changed, 957 insertions(+)
+[main 8fe5cbe] TASK_14: Add Japanese search API and /ja UI.
+ 4 files changed, 957 insertions(+)
+ create mode 100644 app/api/search-ja/route.ts
+ create mode 100644 app/ja/page.tsx
+ create mode 100644 tasks/TASK_14_japanese_names.md
+To https://github.com/terrafluxstudio-cyber/nametochinese.git
+   caa3b0b..8fe5cbe  main -> main
+
+=== 7. Browser Tab1 ===
+URL tested: http://localhost:3000/ja (dev server; nametochinese.com/ja unreachable from browser MCP)
+Tab: ???? (Tab1 / japanese)
+
+Test 1 ? ???? (kanji):
+  Input:  ????
+  Output: ????
+  Result: PASS (?????: ???)
+
+Test 2 ? ??????? (katakana):
+  Input:  ???????
+  Output: ????
+  Result: PASS (?????)
+
+Tab1 overall: PASS (2/2)
+
+Screenshot: ui-screenshot-ja.png (project root, ???????????? visible)
+
+=== 8. Vercel deploy (post 8fe5cbe) ===
+Commit deployed: 8fe5cbe (Japanese search API + /ja UI)
+Production: https://nametochinese-mcqnrwmiu-terrafluxstudio-cybers-projects.vercel.app
+Alias:      https://nametochinese.com
+Inspect:    https://vercel.com/terrafluxstudio-cybers-projects/nametochinese/3tfe3UvpXNkTrrRj1aZSEZUc5oYL
+Build:      SUCCESS (/ja route included, 21 static pages)
+Vercel exit: 0
