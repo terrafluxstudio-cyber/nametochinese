@@ -94,11 +94,17 @@ function ruSurname(ru) {
   return w[w.length - 1] || ru;
 }
 
+// 皇室/君主：中文名含头衔或"X世"或欧洲王室"地名的"译法前缀。
+// 这类人无现代姓氏，不适合"按姓聚合"模型，过滤（日后可单独做君主页）。
+const ROYAL = /大公|女大公|公主|亲王|皇后|皇帝|沙皇|牧首|女亲王|[一二三四五六七八九十]世$|^(俄[罗羅]斯的|希腊和丹麦的|蒙特内哥罗的|普鲁士的|丹麦的|巴登的|巴滕贝格|萨克森|黑森)/;
+
 const raw = JSON.parse(fs.readFileSync('data/russian/celebrities.json', 'utf8'));
 
-// 加工每个人
+// 加工每个人（先 t2s，过滤皇室）
 const people = raw.map(r => {
   const zh = t2s(r.zh).trim();
+  return { _zh: zh, _r: r };
+}).filter(x => !ROYAL.test(x._zh)).map(({ _zh: zh, _r: r }) => {
   return {
     qid: r.qid,
     zh,
