@@ -2,6 +2,7 @@ import { MetadataRoute } from "next";
 import { ARTICLE_SLUGS } from "./naming-rules/content";
 import { getAllGroups } from "@/lib/ruCelebrities";
 import { getAllNameSlugs } from "@/lib/englishNames";
+import { getAllWordSlugs } from "@/lib/englishWords";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://nametochinese.com";
@@ -30,11 +31,29 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+  // 英文常用词→中文 长尾页（P2，去重：词 slug 撞人名则人名优先）
+  const nameSlugSet = new Set(getAllNameSlugs());
+  const englishWordPages: MetadataRoute.Sitemap = getAllWordSlugs()
+    .filter((slug) => !nameSlugSet.has(slug))
+    .map((slug) => ({
+      url: `${baseUrl}/${slug}`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.6,
+    }));
+
   return [
     ...namingRuleArticles,
     ...englishNamePages,
+    ...englishWordPages,
     {
       url: `${baseUrl}/names-in-chinese`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/words-in-chinese`,
       lastModified: now,
       changeFrequency: "weekly",
       priority: 0.7,

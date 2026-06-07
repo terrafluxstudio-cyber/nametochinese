@@ -72,7 +72,7 @@ export default function NamesIndexPage() {
           </section>
         ))}
 
-        <div className="mt-10 text-center">
+        <div className="mt-10 text-center space-y-3">
           <Link
             href={`/convert?lang=${encodeURIComponent('英語')}`}
             className="inline-block px-5 py-2.5 rounded-lg text-sm font-medium"
@@ -80,6 +80,11 @@ export default function NamesIndexPage() {
           >
             Translate a name not listed →
           </Link>
+          <p className="text-sm">
+            <Link href="/words-in-chinese" className="underline" style={{ color: ACCENT }}>
+              Or browse meaningful words in Chinese →
+            </Link>
+          </p>
         </div>
       </main>
       <SiteFooter />

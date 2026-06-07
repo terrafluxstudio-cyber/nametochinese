@@ -9,6 +9,8 @@ import {
   getRelatedNames,
   isNameSlug,
 } from '@/lib/englishNames';
+import { getAllWordSlugs, getWordBySlug } from '@/lib/englishWords';
+import WordInChinese from '@/components/WordInChinese';
 
 const SITE = 'https://nametochinese.com';
 const ACCENT = '#2C5F8A';
@@ -16,7 +18,10 @@ const ACCENT = '#2C5F8A';
 export const dynamicParams = false; // 只生成已有数据的 slug，其余 404
 
 export function generateStaticParams() {
-  return getAllNameSlugs().map((slug) => ({ slug }));
+  // 词页 + 人名页共用 /[slug]（同 -in-chinese 后缀）。词 slug 若与人名撞，人名优先（去重）。
+  const nameSlugs = new Set(getAllNameSlugs());
+  const wordSlugs = getAllWordSlugs().filter((s) => !nameSlugs.has(s));
+  return [...nameSlugs, ...wordSlugs].map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
@@ -26,7 +31,21 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const n = isNameSlug(slug) ? getNameBySlug(slug) : null;
-  if (!n) return {};
+  if (!n) {
+    // 词页 metadata
+    const w = getWordBySlug(slug);
+    if (w) {
+      const title = `${w.word} in Chinese — ${w.zh} (${w.pinyin})`;
+      const desc = `How to say and write "${w.word}" in Chinese: ${w.zh}, pronounced ${w.pinyin}. Meaning, characters, and pronunciation.`;
+      return {
+        title,
+        description: desc,
+        alternates: { canonical: `/${w.slug}` },
+        openGraph: { title, description: desc, url: `${SITE}/${w.slug}`, type: 'website' },
+      };
+    }
+    return {};
+  }
   const title = `${n.name} in Chinese — ${n.zh} (${n.pinyin})`;
   const desc = `How to write and say the name ${n.name} in Chinese: ${n.zh}, pronounced ${n.pinyin}. Origin, meaning, and pronunciation guide.`;
   return {
@@ -50,7 +69,11 @@ export default async function NameInChinesePage({
   const { slug } = await params;
   if (!isNameSlug(slug)) notFound();
   const n = getNameBySlug(slug);
-  if (!n) notFound();
+  if (!n) {
+    const w = getWordBySlug(slug);
+    if (w) return <WordInChinese word={w} />;
+    notFound();
+  }
 
   const related = getRelatedNames(n);
   const genderWord = n.gender === 'f' ? 'female' : 'male';
