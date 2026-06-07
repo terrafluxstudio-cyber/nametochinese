@@ -23,6 +23,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     ...namingRuleArticles,
+    {
+      url: `${baseUrl}/ru/names`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
     ...ruCelebrityPages,
     {
       url: baseUrl,

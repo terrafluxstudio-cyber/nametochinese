@@ -155,8 +155,17 @@ export default async function RuNamePage({
           ))}
         </div>
 
-        {/* 相关工具 */}
-        <div className="mt-10 flex flex-wrap gap-2 justify-center text-sm">
+        {/* 返回索引 + 相关工具 */}
+        <div className="mt-10 text-center">
+          <Link
+            href="/ru/names"
+            className="inline-block px-4 py-2 rounded-lg text-sm font-medium mb-4"
+            style={{ background: '#fff', color: ACCENT, boxShadow: '0 1px 4px rgba(0,0,0,0.06)' }}
+          >
+            ← 俄语名人索引（按姓氏浏览）
+          </Link>
+        </div>
+        <div className="flex flex-wrap gap-2 justify-center text-sm">
           <Link href="/ru" className="underline" style={{ color: ACCENT }}>俄语人名查询</Link>
           <span className="text-gray-300">·</span>
           <Link href={`/convert?lang=${encodeURIComponent('俄語')}`} className="underline" style={{ color: ACCENT }}>俄语音译引擎</Link>

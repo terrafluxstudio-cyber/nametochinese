@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import NavBar from '@/components/NavBar';
 import SearchTabs from '@/components/SearchTabs';
 import SiteFooter from '@/components/SiteFooter';
@@ -17,6 +18,17 @@ export default function RuPage() {
         <Suspense fallback={null}>
           <RuSearchClient />
         </Suspense>
+
+        {/* 名人索引入口 */}
+        <div className="mt-10 text-center">
+          <Link
+            href="/ru/names"
+            className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-xl text-sm font-medium"
+            style={{ background: '#fff', color: '#2C5F8A', boxShadow: '0 1px 6px rgba(0,0,0,0.08)' }}
+          >
+            浏览俄语名人中文译名（普京·托尔斯泰·加加林…）→
+          </Link>
+        </div>
       </main>
       <SiteFooter />
     </>
