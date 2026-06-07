@@ -52,7 +52,7 @@
 #### 🔥 LONGTAIL 长尾页路线（集成自 LONGTAIL_SEO_PLAN.md，慢线流量引擎 6–12 月爬坡）
 > 铁律：每页真实独特价值（躲薄页打击）；渐进发布别一次灌；导回工具；不 dump 67万辞典/不点名辞典（版权红线见 memory/longtail-namepage-copyright-line.md）。
 - [x] **P1 英文名→中文** `/[name]-in-chinese`（2026-06-07 上线，53→**122** 已扩量）：SSG 英文界面，中文写法+拼音+念法+词源含义+CTA+同源内链+FAQ JSON-LD，+ /names-in-chinese 索引 hub。规则音译+精选选词。sitemap→2103。**GSC 已验证（用户 2026-06-07 确认）**。可继续加 data/english_names.json 条目扩到 ~300（机制现成，加数据即可）
-- [ ] **P2 常用词/短语→中文** `/how-to-say-[word]-in-chinese`：第二簇，逐步放量。⚠️ 同样走规则生成/自选词，不 dump 辞典。需先定具体词表来源
+- [x] **P2 单个含义词→中文** `/[word]-in-chinese`（2026-06-07 上线，47词）：用户选"单个含义词"（纹身/取名/艺术搜索量最大）而非 how-to-say 短语。data/english_words.json 自选高搜索词+自写厚释义（译文=事实不dump词典）。复用 /[slug] 路由派发（撞人名则人名优先）+ /words-in-chinese hub。可继续加词扩量。短语簇(how-to-say)留作后续可选
 - [ ] **P3 平移 nameinchi**：流量起来后同模板平移到 nameinchi，出口换 Printful 卖货（跨项目，到时另开 session）
 - [ ] **通用 /name/[slug] · /place/[slug]**（85万子集，区别于 P1 精选）：⚠️不可全量（薄页拖权重），要先定铺哪个子集+每页放啥+版权合规（同红线）
 - [ ] ⚠️ 不可全量铺 85万：人名辞典是姓氏/教名词条，薄内容会拖垮全站权重。先铺高价值子集（名人库俄韩日 ~2.3万 + 地名有实义部分），每页堆够价值（音标/消歧/来源/相关名内链）才上
