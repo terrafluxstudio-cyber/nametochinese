@@ -1,3 +1,6 @@
+> 📍 **本项目正式位置：`~/Projects/nametochinese`**（2026-06-07 移出 iCloud 桌面）。代码 session 都在这里跑，**不要再用 `~/Desktop/nametochinese`** —— 那是旧的 iCloud 坏备份（含冲突副本，将删除）。
+> 🚧 **边界（强制）：只管本项目。** 不读、不写、不移动其他项目 / 桌面 / 大总管 的任何文件。**绝不碰桌面的 `我的项目总览.html`**（用户的进度表，归用户管，别顺手整理挪走它）。
+
 @AGENTS.md
 
 # nametochinese — 项目协作准则
@@ -16,7 +19,7 @@
 | | |
 |------|--------------|
 | 项目 | nametochinese.com 翻译工作者人名工具站 |
-| Web 路径 | `~/Desktop/nametochinese/` |
+| Web 路径 | `~/Projects/nametochinese/` |
 | 域名 | nametochinese.com（已上线） |
 | 目的 | 外文人名/地名 ↔ 中文，供翻译工作者使用 |
 | 阶段 | 🔵 建设中 |
