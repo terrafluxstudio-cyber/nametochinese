@@ -1,6 +1,7 @@
 import { MetadataRoute } from "next";
 import { ARTICLE_SLUGS } from "./naming-rules/content";
 import { getAllGroups } from "@/lib/ruCelebrities";
+import { getAllNameSlugs } from "@/lib/englishNames";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://nametochinese.com";
@@ -21,8 +22,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
+  // 英文名→中文 长尾页（programmatic SEO）
+  const englishNamePages: MetadataRoute.Sitemap = getAllNameSlugs().map((slug) => ({
+    url: `${baseUrl}/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.6,
+  }));
+
   return [
     ...namingRuleArticles,
+    ...englishNamePages,
+    {
+      url: `${baseUrl}/names-in-chinese`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
     {
       url: `${baseUrl}/ru/names`,
       lastModified: now,
