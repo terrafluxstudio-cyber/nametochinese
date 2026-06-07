@@ -2,6 +2,12 @@
 
 > 完成即记。CLAUDE.md 只留当前状态摘要，明细在此。
 
+## 2026-06-07 仓库治理：iCloud 损坏善后 + git filter-repo 清历史
+- **背景**：项目已迁出 iCloud → `~/Desktop/nametochinese.nosync/`（`.nosync` 后缀被 iCloud 排除同步；Desktop 软链接 `~/Desktop/nametochinese` 指向它）。早前 iCloud 导致 git object 损坏，已有 `Recover repo state after iCloud object corruption (squash)` 恢复提交。
+- **检查结论**：当前 HEAD 36 提交血缘完整（638 对象齐全），损坏只残留在恢复前的悬空提交里；fsck 的 broken link 全是那些悬空对象，不影响主线。**历史无任何密钥**（无 .env/.pem/.key，仅 names.db-shm/-wal 垃圾）。真正臃肿=被跟踪的大文件。
+- **执行 filter-repo**：用 `~/Library/Python/3.9/bin/git-filter-repo`（pip --user 装），`--invert-paths --path tasks/ --path Logo/`，从全部历史移除 `tasks/`（task 规格 + 源数据 CSV/XLSX/PDF）与 `Logo/`（源图）。两者加进 .gitignore，本地磁盘副本保留（含 names.db 62MB）。
+- **结果**：.git **56M → 11M**；commit 数仍 36（结构保留）；fsck 干净无 broken/missing；force-push origin/main（`9306c06→6ebbfb1`），remote==local。备份在 `~/Desktop/ntc-backup-20260607-000235/`（git-dir.tar.gz + tasks/ + Logo/）。public/、app/favicon 等线上资产未动。
+
 ## 已完成（截至 2026-06-03）
 
 ### 基建与上线

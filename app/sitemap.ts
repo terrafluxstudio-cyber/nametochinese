@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { ARTICLE_SLUGS } from "./naming-rules/content";
+import { getAllSurnames } from "@/lib/ruCelebrities";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://nametochinese.com";
@@ -12,8 +13,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  // 俄语名人同名聚合页（程序化 SEO）
+  const ruCelebrityPages: MetadataRoute.Sitemap = getAllSurnames().map((surname) => ({
+    url: `${baseUrl}/ru/name/${encodeURIComponent(surname)}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.5,
+  }));
+
   return [
     ...namingRuleArticles,
+    ...ruCelebrityPages,
     {
       url: baseUrl,
       lastModified: now,
