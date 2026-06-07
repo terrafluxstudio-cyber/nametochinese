@@ -219,6 +219,9 @@ export const TERMS: GovTerm[] = [
   { zh: '国际农业发展基金', en: 'International Fund for Agricultural Development', abbr: 'IFAD', category: '机构', side: 'foreign', group: '联合国专门机构与系统', status: '现行', source: UN_SRC },
   { zh: '世界银行', en: 'World Bank', category: '机构', side: 'foreign', group: '联合国专门机构与系统', status: '现行', source: UN_SRC },
   { zh: '国际货币基金组织', en: 'International Monetary Fund', abbr: 'IMF', category: '机构', side: 'foreign', group: '联合国专门机构与系统', status: '现行', source: UN_SRC },
+  { zh: '国际电信联盟', en: 'International Telecommunication Union', abbr: 'ITU', category: '机构', side: 'foreign', group: '联合国专门机构与系统', status: '现行', source: UN_SRC, note: '联合国最早的专门机构（1865年），总部日内瓦' },
+  { zh: '万国邮政联盟', en: 'Universal Postal Union', abbr: 'UPU', category: '机构', side: 'foreign', group: '联合国专门机构与系统', status: '现行', source: UN_SRC, note: '简称"万国邮联"，总部伯尔尼' },
+  { zh: '世界旅游组织', en: 'World Tourism Organization', abbr: 'UNWTO', category: '机构', side: 'foreign', group: '联合国专门机构与系统', status: '现行', source: UN_SRC, note: '联合国专门机构，总部马德里' },
 
   // ── 其他国际与区域组织 ──
   { zh: '世界贸易组织', en: 'World Trade Organization', abbr: 'WTO', category: '机构', side: 'foreign', group: '其他国际与区域组织', status: '现行', source: INTL_SRC, note: '简称"世贸组织"' },
@@ -680,6 +683,10 @@ export const TERMS: GovTerm[] = [
   { zh: '亚投行行长', en: 'President of the Asian Infrastructure Investment Bank', category: '职位', side: 'foreign', group: '更多国际与区域组织', status: '现行', source: INTL_SRC },
   { zh: '国际刑事法院', en: 'International Criminal Court', abbr: 'ICC', category: '机构', side: 'foreign', group: '更多国际与区域组织', status: '现行', source: INTL_SRC, note: '非联合国机构，独立条约组织，总部海牙' },
   { zh: '国际刑事法院院长', en: 'President of the International Criminal Court', category: '职位', side: 'foreign', group: '更多国际与区域组织', status: '现行', source: INTL_SRC },
+  { zh: '世界海关组织', en: 'World Customs Organization', abbr: 'WCO', category: '机构', side: 'foreign', group: '更多国际与区域组织', status: '现行', source: INTL_SRC, note: '总部布鲁塞尔，制定海关标准' },
+  { zh: '国际标准化组织', en: 'International Organization for Standardization', abbr: 'ISO', category: '机构', side: 'foreign', group: '更多国际与区域组织', status: '现行', source: INTL_SRC, note: '非政府组织，制定ISO国际标准，总部日内瓦' },
+  { zh: '国际能源署', en: 'International Energy Agency', abbr: 'IEA', category: '机构', side: 'foreign', group: '更多国际与区域组织', status: '现行', source: INTL_SRC, note: '经合组织框架内，总部巴黎' },
+  { zh: '国际清算银行', en: 'Bank for International Settlements', abbr: 'BIS', category: '机构', side: 'foreign', group: '更多国际与区域组织', status: '现行', source: INTL_SRC, note: '各国央行的银行，总部巴塞尔' },
 
   // ── 各国情报与安全机构 ──
   { zh: '美国中央情报局', en: 'Central Intelligence Agency', abbr: 'CIA', category: '机构', side: 'foreign', group: '各国情报与安全机构', status: '现行', source: FGOV_SRC },
