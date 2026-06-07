@@ -104,13 +104,16 @@ function zhSurname(zh) {
 
 /** 俄文姓 = 俄文全名末词 */
 function ruSurname(ru) {
-  const w = ru.trim().split(/\s+/);
+  const s = ru.trim();
+  // "姓, 名 父称" 逗号格式 → 取逗号前的姓（否则末词会误取到父称）
+  if (s.includes(',')) return s.split(',')[0].trim();
+  const w = s.split(/\s+/);
   return w[w.length - 1] || ru;
 }
 
 // 皇室/君主：中文名含头衔或"X世"或欧洲王室"地名的"译法前缀。
 // 这类人无现代姓氏，不适合"按姓聚合"模型，过滤（日后可单独做君主页）。
-const ROYAL = /大公|女大公|公主|亲王|皇后|皇帝|沙皇|牧首|女亲王|[一二三四五六七八九十]世$|^(俄[罗羅]斯的|希腊和丹麦的|蒙特内哥罗的|普鲁士的|丹麦的|巴登的|巴滕贝格|萨克森|黑森)/;
+const ROYAL = /大公|女大公|公主|亲王|皇后|皇帝|女皇|沙皇|牧首|女亲王|[一二三四五六七八九十]世$|^(俄[罗羅]斯的|希腊和丹麦的|蒙特内哥罗的|普鲁士的|丹麦的|巴登的|巴滕贝格|萨克森|黑森)/;
 
 const raw = JSON.parse(fs.readFileSync('data/russian/celebrities.json', 'utf8'));
 
@@ -147,6 +150,8 @@ for (const g of Object.values(groups)) {
   g.people.sort((a, b) => b.sitelinks - a.sitelinks);
   g.topSitelinks = g.people[0].sitelinks;
   g.count = g.people.length;
+  // 组的俄文姓用最高知名度者的（避免被逗号格式/父称污染）
+  g.ruSurname = ruSurname(g.people[0].ru);
 }
 
 const out = Object.values(groups).sort((a, b) => b.topSitelinks - a.topSitelinks);
