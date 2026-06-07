@@ -1,6 +1,7 @@
 'use client';
 import { Suspense, useState, useEffect, useMemo } from 'react';
 import { useSearchParams } from 'next/navigation';
+import Link from 'next/link';
 import NavBar from '@/components/NavBar';
 import SearchTabs from '@/components/SearchTabs';
 import SearchInput from '@/components/SearchInput';
@@ -228,9 +229,18 @@ function JaPageContent() {
           )}
 
           {!output && input && (
-            <p className="text-center text-gray-400 text-sm">
-              未能识别，请输入日文汉字或片假名
-            </p>
+            <div className="text-center">
+              <p className="text-gray-400 text-sm">
+                未能识别，请输入日文汉字或片假名
+              </p>
+              <Link
+                href="/naming-rules/japanese"
+                className="inline-block mt-2 text-sm underline"
+                style={{ color: '#2C5F8A' }}
+              >
+                日本人名的构成与读法规则 →
+              </Link>
+            </div>
           )}
 
           {/* 片假名说明：只做音译，不查人名库 */}

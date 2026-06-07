@@ -49,6 +49,7 @@
 - [x] 每页 OG/Twitter card 细化（2026-06-07）：9个主要页面加独立 openGraph + twitter 字段
 
 ### B. 程序化 SEO（量级杠杆，**必须等 UI 版式定稿再铺**，否则模板返工）
+- [x] **英文名→中文长尾页 P1**（2026-06-07 上线）：53 个 /[name]-in-chinese（SSG，英文界面）+ /names-in-chinese 索引 hub。规则音译+精选选词，**不 dump 67万辞典**（版权红线见 memory/longtail-namepage-copyright-line.md + LONGTAIL_SEO_PLAN.md）。sitemap 1980→2034。**等 GSC 收录数据**：有效→加 data/english_names.json 条目扩到~300+推 P2 常用词簇；无效→止损
 - [ ] /name/[slug] + /place/[slug] 静态详情页（SSG），进 sitemap → 吃长尾词「<外文名> 中文」「<地名> 中文译名」
 - [ ] ⚠️ 不可全量铺 85万：人名辞典是姓氏/教名词条，薄内容会拖垮全站权重。先铺高价值子集（名人库俄韩日 ~2.3万 + 地名有实义部分），每页堆够价值（音标/消歧/来源/相关名内链）才上
 - [ ] >5万 URL 必须 sitemap index 分片（每片 5万上限）
