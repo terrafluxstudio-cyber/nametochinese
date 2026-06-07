@@ -61,7 +61,7 @@ export default function RuNamesIndexPage() {
             {famous.map((g) => (
               <Link
                 key={g.surname}
-                href={`/ru/name/${encodeURIComponent(g.surname)}`}
+                href={`/ru/name/${g.slug}`}
                 className="px-3 py-1.5 rounded-full text-sm transition-colors"
                 style={{ background: '#fff', color: ACCENT, boxShadow: '0 1px 3px rgba(0,0,0,0.06)' }}
               >
@@ -90,7 +90,7 @@ export default function RuNamesIndexPage() {
                   {byLetter[letter].map((g) => (
                     <Link
                       key={g.surname}
-                      href={`/ru/name/${encodeURIComponent(g.surname)}`}
+                      href={`/ru/name/${g.slug}`}
                       className="hover:underline"
                       style={{ color: '#374151' }}
                       title={g.ruSurname}

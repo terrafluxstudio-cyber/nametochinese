@@ -18,19 +18,20 @@ export type Person = {
 export type CelebGroup = {
   surname: string;
   ruSurname: string;
+  slug: string;
   people: Person[];
   topSitelinks: number;
   count: number;
 };
 
 let cache: CelebGroup[] | null = null;
-let byName: Map<string, CelebGroup> | null = null;
+let bySlug: Map<string, CelebGroup> | null = null;
 
 function load(): CelebGroup[] {
   if (cache) return cache;
   const p = path.join(process.cwd(), 'data', 'russian', 'celebrity_groups.json');
   cache = JSON.parse(fs.readFileSync(p, 'utf8')) as CelebGroup[];
-  byName = new Map(cache.map((g) => [g.surname, g]));
+  bySlug = new Map(cache.map((g) => [g.slug, g]));
   return cache;
 }
 
@@ -38,11 +39,11 @@ export function getAllGroups(): CelebGroup[] {
   return load();
 }
 
-export function getAllSurnames(): string[] {
-  return load().map((g) => g.surname);
+export function getAllSlugs(): string[] {
+  return load().map((g) => g.slug);
 }
 
-export function getGroup(surname: string): CelebGroup | null {
+export function getGroupBySlug(slug: string): CelebGroup | null {
   load();
-  return byName!.get(surname) ?? null;
+  return bySlug!.get(slug) ?? null;
 }

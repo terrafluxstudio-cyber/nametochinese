@@ -11,11 +11,12 @@ type Tok = {
 };
 
 type RuPerson = {
-  russian: string;
-  chinese: string;
+  zh: string;
+  ru: string;
   gender: string;
-  patronymic_ru?: string;
-  patronymic_zh?: string;
+  bio: string;
+  slug: string;
+  surname: string;
 };
 
 const ACCENT = '#2C5F8A';
@@ -54,12 +55,12 @@ export default function RuSearchClient() {
           fetch(`/api/ru-translate?q=${encodeURIComponent(query)}`, {
             signal: abortRef.current.signal,
           }),
-          fetch(`/api/search-ru?q=${encodeURIComponent(query)}`),
+          fetch(`/api/ru-celebrity-search?q=${encodeURIComponent(query)}`),
         ]);
         const data = await transRes.json();
         const celebData = await celebRes.json();
         setTokens(Array.isArray(data.tokens) ? data.tokens : []);
-        setCelebrities(Array.isArray(celebData) ? celebData.slice(0, 6) : []);
+        setCelebrities(Array.isArray(celebData) ? celebData : []);
       } catch (e: unknown) {
         if (e instanceof Error && e.name !== 'AbortError') {
           setTokens([]);
@@ -169,28 +170,24 @@ export default function RuSearchClient() {
           </p>
           <div className="space-y-2">
             {celebrities.map((p, i) => (
-              <div
+              <Link
                 key={i}
-                className="flex items-center justify-between rounded-xl px-4 py-3"
+                href={`/ru/name/${p.slug}`}
+                className="flex items-center justify-between rounded-xl px-4 py-3 transition-shadow hover:shadow-md"
                 style={{ background: '#fff', boxShadow: '0 1px 4px rgba(0,0,0,0.06)' }}
               >
-                <div>
-                  <span className="text-base" style={{ color: '#374151' }}>{p.russian}</span>
-                  {p.patronymic_ru && (
-                    <span className="text-sm text-gray-400 ml-1">{p.patronymic_ru}</span>
-                  )}
+                <div className="min-w-0">
+                  <span className="text-base" style={{ color: '#374151' }}>{p.ru}</span>
                 </div>
-                <div className="flex items-center gap-2">
-                  <span className="text-base font-medium" style={{ color: ACCENT }}>{p.chinese}</span>
-                  {p.patronymic_zh && (
-                    <span className="text-sm text-gray-400">{p.patronymic_zh}</span>
-                  )}
+                <div className="flex items-center gap-2 shrink-0">
+                  <span className="text-base font-medium" style={{ color: ACCENT }}>{p.zh}</span>
                   <span className="text-xs px-2 py-0.5 rounded-full"
                     style={{ background: '#E8EDF2', color: '#6B7280' }}>
                     {p.gender === 'F' ? '女' : '男'}
                   </span>
+                  <span style={{ color: '#C7CED6' }}>›</span>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

@@ -10,6 +10,20 @@ import { Converter } from 'opencc-js';
 
 const t2s = Converter({ from: 't', to: 'cn' });
 
+// 西里尔→拉丁转写（与 lib/cyrillicToLatin.ts 保持一致），用于 URL slug
+const CYR = {
+  а:'a',б:'b',в:'v',г:'g',д:'d',е:'e',ё:'yo',ж:'zh',з:'z',и:'i',й:'y',
+  к:'k',л:'l',м:'m',н:'n',о:'o',п:'p',р:'r',с:'s',т:'t',у:'u',ф:'f',
+  х:'kh',ц:'ts',ч:'ch',ш:'sh',щ:'shch',ъ:'',ы:'y',ь:'',э:'e',ю:'yu',я:'ya',
+};
+function toSlug(ru) {
+  let s = ru.toLowerCase().replace(/ский$/g,'<<sky>>').replace(/ской$/g,'<<skoy>>');
+  let out = '';
+  for (const ch of s) out += (ch==='<'||ch==='>') ? ch : (CYR[ch] ?? ch);
+  out = out.replace(/<<sky>>/g,'sky').replace(/<<skoy>>/g,'skoy');
+  return out.replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'') || 'x';
+}
+
 // 英文 description 翻译表（Wikidata 英文 desc 格式规整: "[国籍] [职业] [(年-年)]"）
 const NATION = {
   russian: '俄罗斯', soviet: '苏联', 'russian empire': '俄罗斯帝国',
@@ -136,6 +150,18 @@ for (const g of Object.values(groups)) {
 }
 
 const out = Object.values(groups).sort((a, b) => b.topSitelinks - a.topSitelinks);
+
+// 分配拉丁 URL slug（高知名度先拿干净 slug，撞名加数字后缀）
+const usedSlugs = new Set();
+for (const g of out) {
+  let base = toSlug(g.ruSurname);
+  let slug = base;
+  let i = 2;
+  while (usedSlugs.has(slug)) slug = `${base}-${i++}`;
+  usedSlugs.add(slug);
+  g.slug = slug;
+}
+
 fs.writeFileSync('data/russian/celebrity_groups.json', JSON.stringify(out));
 
 // 统计

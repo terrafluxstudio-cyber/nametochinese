@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import NavBar from '@/components/NavBar';
 import SiteFooter from '@/components/SiteFooter';
-import { getAllSurnames, getGroup, type Person } from '@/lib/ruCelebrities';
+import { getAllSlugs, getGroupBySlug, type Person } from '@/lib/ruCelebrities';
 
 const SITE = 'https://nametochinese.com';
 const ACCENT = '#2C5F8A';
@@ -11,31 +11,32 @@ const ACCENT = '#2C5F8A';
 export const dynamicParams = false; // 只生成已有数据的姓，其余 404
 
 export function generateStaticParams() {
-  return getAllSurnames().map((surname) => ({ surname }));
+  return getAllSlugs().map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ surname: string }>;
+  params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
-  const { surname } = await params;
-  const g = getGroup(decodeURIComponent(surname));
+  const { slug } = await params;
+  const g = getGroupBySlug(slug);
   if (!g) return {};
   const names = g.people.slice(0, 3).map((p) => p.zh).join('、');
-  const title = `${g.surname}（俄语姓氏 ${g.ruSurname}）— 叫这个名字的名人`;
+  // 标题含中文+俄文+拉丁，覆盖三种搜索意图
+  const title = `${g.surname} ${g.ruSurname}（${g.ruSurname[0] && g.slug}）俄语姓氏中文译名 — 叫这个名字的名人`;
   const desc =
     g.count > 1
-      ? `俄语姓氏「${g.surname}」（${g.ruSurname}）的中文译名与 ${g.count} 位同姓名人：${names}等。含中文译名、生卒年、简介与维基百科链接。`
-      : `俄语姓氏「${g.surname}」（${g.ruSurname}）的中文译名：${names}。含俄文原名、生卒年、身份简介与维基百科链接。`;
+      ? `俄语姓氏 ${g.ruSurname}（${g.surname}）的中文译名与 ${g.count} 位同姓名人：${names}等。含中文译名、生卒年、简介与维基百科链接。`
+      : `俄语姓氏 ${g.ruSurname}（${g.surname}）的中文译名：${names}。含俄文原名、生卒年、身份简介与维基百科链接。`;
   return {
     title,
     description: desc,
-    alternates: { canonical: `/ru/name/${encodeURIComponent(g.surname)}` },
+    alternates: { canonical: `/ru/name/${g.slug}` },
     openGraph: {
       title,
       description: desc,
-      url: `${SITE}/ru/name/${encodeURIComponent(g.surname)}`,
+      url: `${SITE}/ru/name/${g.slug}`,
       type: 'website',
     },
   };
@@ -51,10 +52,10 @@ function lifespan(p: Person): string {
 export default async function RuNamePage({
   params,
 }: {
-  params: Promise<{ surname: string }>;
+  params: Promise<{ slug: string }>;
 }) {
-  const { surname } = await params;
-  const g = getGroup(decodeURIComponent(surname));
+  const { slug } = await params;
+  const g = getGroupBySlug(slug);
   if (!g) notFound();
 
   // ItemList 结构化数据
@@ -89,12 +90,17 @@ export default async function RuNamePage({
         className="min-h-screen px-4 py-12 max-w-2xl mx-auto"
         style={{ fontFamily: 'Georgia, serif', background: '#F7F5F0' }}
       >
-        {/* 标题区 */}
+        {/* 标题区：中文 / 俄文 / 拉丁 三语（覆盖三种搜索意图） */}
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold mb-2" style={{ color: '#1A1A1A' }}>
             {g.surname}
           </h1>
-          <p className="text-lg" style={{ color: ACCENT }}>{g.ruSurname}</p>
+          <p className="text-lg" style={{ color: ACCENT }}>
+            {g.ruSurname}
+            <span className="text-gray-400 text-base ml-2" style={{ fontFamily: 'Georgia, serif' }}>
+              {g.slug.replace(/-\d+$/, '').replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())}
+            </span>
+          </p>
           <p className="text-sm text-gray-500 mt-2">
             俄语姓氏 · {g.count > 1 ? `${g.count} 位同姓名人` : '名人'}
           </p>
