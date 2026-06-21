@@ -6,7 +6,7 @@
 # nametochinese — 项目协作准则
 
 > Caveman 模式全程：极简直接，无废话。禁止"当然可以"、"好的"、总结"我做了什么"。
-> **代码直接改**：Claude 直接改源码，改完 `npm run build` 验证，`vercel --prod` 部署。不写 Cursor task。
+> **代码直接改**：Claude 直接改源码，改完 `npm run build` 验证，`vercel --prod` 部署。
 > **进程记录（完成即记）：** `vercel --prod` 成功 → 立刻更新 `memory/progress_log.md`；`git commit` 后 → 划掉 `memory/project_pending_todos.md` 已完成项。
 > **思考质量：** 1) 动机不清先停，先问再做；2) 路径非最短直接说并给更好办法；3) 追根因不打补丁；4) 只说改变决策的信息。
 > **改首页/导航/搜索前必读 `memory/decisions.md`**（有红线，勿重复踩坑）。
