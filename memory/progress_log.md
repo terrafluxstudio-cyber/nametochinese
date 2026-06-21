@@ -2,6 +2,51 @@
 
 > 完成即记。CLAUDE.md 只留当前状态摘要，明细在此。
 
+## 2026-06-21 搜索提速：API 函数区域钉东京
+- **背景**：用户从大陆回来实测——站能开但加载有时慢。原假设"程序化页每请求 SSR 查库→改 ISR"，**查代码发现错了**：内容页早就是构建期静态生成（本地数据，不查库）。
+- **真因 = 函数区域错配**：Turso 在东京，API 函数却跑账号默认区 iad1(美东)，大陆用户搜一次绕太平洋一圈。
+- **修复**：新建 `vercel.json` `{"regions":["hnd1"]}` 钉东京（Hobby 免费版只认项目级单区；路由级 preferredRegion 被忽略，弃用）。
+- **验证（线上）**：x-vercel-id `sin1::iad1`→`sin1::hnd1`；/api/ping dbMs **815→62(冷)/6-7(暖)**，函数↔库往返降 ~20 倍。已 `vercel --prod`。
+- **未解（认了）**：打开页面慢=无 ICP→无大陆 CDN 节点，地理性，非 ICP 不可解。2123 页不被索引≠速度，是域权重+程序化页同质，归外链/差异化。
+
+## 2026-06-20 外链分发首日（浏览器代操作，明细见 distribution_playbook.md）
+- **策略定调**：先外链后 AdSense（零流量下挂广告=赚$0，外链才是解锁流量的唯一杠杆）。社区平台（SE/ProZ/Reddit）新号直接挂链=被当广告，统一走"先纯帮忙养号→有信誉再带链"的 B 路线。GitHub awesome-list 路线**放弃**（本细分无活跃可合目标，且 GitHub 给 README 外链加 nofollow）。
+- **Stack Exchange（chinese.SE，账号 Nancy/Google 登录）**：发 2 条优质答案（**无链接，养号**）——Q6339 译音用字集（纠正"无官方表"错误说法）、Q40718 Cambridge 康桥→剑桥（补时间线+日语剣说）。待养号有票后回 Q6339 加 nametochinese.com 链（草稿存 playbook）。
+- **ProZ.com（账号 yayuyu/Na Yang，免费）**：建号+配 profile（EN⇄ZH·Linguistics·tagline），**bio 公开提到 nametochinese.com**。KudoZ/论坛带链同走养号节奏。
+- **LinkedIn（真实账号 Na Yang，"Bilingual Chinese Language Specialist"）**：定位契合（发译名文章=外链+求职 thought-leadership 双赢）。文章《How Foreign Names Become Chinese》整篇填好+草稿存，链接已自动转蓝，**待用户点 Publish 发布**。
+- **AlternativeTo**：周末暂停提交，已 `/schedule` 周一(6/22 09:00)提醒+协助提交（草稿存任务里）。
+- **Medium 长文**已整篇写好存 `memory/draft_medium_transliteration.md`，待用户有 Medium 账号再发。
+- 全程守红线：对外只提"新华社译名室/译音表"标准，未点名版权辞典。
+- **状态**：今天打地基（2 个高权重平台真实账号+内容 presence、1 篇 LinkedIn 待发、1 篇 Medium 备好、周一提醒）。**纯 dofollow 外链尚未正式生成**（B 路线主动延后），非无进展。
+
+## 2026-06-18（续）AdSense 前内容审查 + 红线修复
+- **审查结论**：全站 96% 是程序化页（1927 俄名人 + 122 名 + 47 词 = 2096/2179）。俄名人页 1802/1927（93%）只挂 1 个人 = 模板薄页，是 AdSense「scaled/low-value」+ SEO「已发现未编入」的主体。俄页数据源 Wikidata(CC0) 无版权问题。
+- **剪枝方案取消（数据否决）**：查 `topSitelinks` 分布，单人页知名度下限 **≥20**（最低桶 20-29，无更低），即每页那人都在 20+ 语言维基有词条 = 建库时已按知名度筛过。**不存在可剪的垃圾尾巴**，剪只会误杀普京(310)/列宁(294)这类合法页。→ 决定不剪。这些页模板薄但是真实知名人物参考资料，AdSense 风险低于先前估计；靠编辑型内容（总则/4专题/36语种/辞典）撑整站质量。
+- **红线修复（已部署）**：发现 `data/transliteration/*.json` 的 `raw_note` 点名《世界人名翻译大辞典》/新华社/商务印书馆/ISBN，且**被渲染到 /convert「参考来源」区**（[app/convert/page.tsx]）。修复：① 删掉 refLines 渲染块；② 加 `CITATION_RE` 关键词过滤（含书名号/ISBN/大辞典/新华/译名室/商务/词典等），客户端两个过滤器（extractKeyRules + ruleLines）都剔除；③ **服务端 /api/lang-table 也 stripCitations**，客户端永远收不到辞典名（不只是不显示）。验证：德/俄/阿/意/捷 5 语种 API 响应均无残留 ✓。transliterate API 不返回 raw_note，干净。
+- 注：保留「来源：Wikipedia 外语译音表」这一安全署名；naming-rules/ru 页引「新华社规范/手册」属允许的标准引用，未动。
+
+## 2026-06-18 诊断零流量 + 英文支柱长文（pillar）
+- **零流量诊断**：域名 2026-05-24 注册，仅 ~3-4 周龄。GSC「网页未编入索引」：**已发现未编入 2123 页**（Google 知道但不给爬取预算）、已抓取未编入 1、404 21、备用页 1。结论：**不是技术故障，是新站零权重零外链**——SEO 冷启动。21 个 404 经核查为 v2 重构前历史 URL（当前 sitemap 2151 URL 全 200、内链无指死），返回 404 本身正确，等用户从 GSC 导出清单再判断要不要 301。
+- **战略转向**：停「继续铺薄程序化页」（只会让 2123 更大）。改两手——① 外链+分发（明天人工做，清单见 `memory/distribution_playbook.md`）；② 今日：写可链接的英文支柱长文。
+- **新建英文支柱页** `/how-to-write-your-name-in-chinese`（~1800 字正文，SSG）：讲外文名如何音译成中文（按音不按义/音节映射/标准化/选字/音译 vs 真中文名/常见误区）+ 5 条 FAQ。含 Article+FAQPage+Breadcrumb JSON-LD。**作用**：① 凭质量自己被收录；② 明天英文渠道(r/translator·Chinese SE·awesome-list)的外链靶子；③ 内链下沉 6 个示例名字页(david/emma/michael/sophia/james/anna，已核对 zh 与数据一致)+names hub+/convert+/name-to-pinyin，给薄长尾簇传权重助抓取。
+- **接线**：sitemap 加该页(priority 0.8)；names-in-chinese hub 顶部反链「Read how names are written in Chinese →」。words hub 主题不同未加。build ✓ 静态、`vercel --prod` ✓、线上 200、sitemap 已含。
+- **PM 结论留档**：代码侧能做的基本做完，瓶颈在外链/分发（人工），非代码。继续加程序化页边际收益≈0。
+
+### 内容重心改判：英文消费向 → 中文译者向（护城河·好打）
+- **用户质疑**："站主要对中文译者，写英文有用吗？" 复盘确认：站其实是两个产品——A中文译者向（核心/护城河：67万辞典+gov-titles+naming-rules，搜中文、竞争低、好排名、变现弱）vs B英文消费向（长尾簇 emma-in-chinese，搜英文、竞争惨烈、能 Printful/AdSense 变现）。今天的英文支柱页服务 B（不撤，成本低且撑已有簇）。**用户拍板：内容重心转 A**。
+- **关键发现**：naming-rules **已覆盖 36 语种**（CLAUDE.md 写的"13篇"过期），主流语言全齐 → 再加语种已饱和。真缺口=**无"通用音译总则"**（压在 36 篇之上的中文支柱页）。
+- **新建中文支柱** `/naming-rules/general`「外文人名音译总则」(~5800 汉字)：三大原则(名从主人/约定俗成/音似为主)+音译操作+用字规范+间隔号「·」+姓名顺序+头衔前缀+查证流程+5 FAQ。瞄准高频泛查询"外国人名怎么翻译成中文/人名音译规则/译名规范"。
+- **实现**：复用 [lang] 模板（content.ts 加 `general` DeepArticle，lang='外文'）→ 自动进 sitemap + **36 语种页底部"其他语言"导航自动反链**(36 条内链，spanish 验证 ✓) + 继承 Article/FAQPage/Breadcrumb 结构化数据。/naming-rules 索引页顶部加醒目「先读：总则」入口卡。build ✓、`vercel --prod` ✓、线上 200、5759 汉字完整。
+- 红线遵守：未点名版权辞典，只在教育语境引"新华社译名规范"(与既有文章一致)。
+
+### 中文译者向 3 篇翻译专题（独立支柱页，已部署）
+- 为什么独立页不复用 [lang] 模板：模板 CTA 写死"查 X 人名"，机构/地名套不上，且工具落点不同(/gov-titles ÷ /places ÷ /convert)。各页含 Article+FAQPage+Breadcrumb JSON-LD。
+- **`/gov-titles-guide`「机构与职位名称翻译规范」**(~3600 汉字)：机构名以意译为主(与人名相反)、先查官方名、专名+通名对应、缩写简称、President/Secretary/Minister/Chancellor 按机构国别定词。事实核实：UNESCO 官方全称「联合国教育、科学及文化组织」(web 核实 ✓)。CTA→/gov-titles。
+- **`/place-names-guide`「外国地名翻译规则」**(~3334 汉字)：与人名四点不同——专名+通名(通名意译)、仿译多、旧译多、派生国名。事实核实：牛津=牛(ox)+津(ford渡口雅称津) 逐词仿译、剑桥=剑(Cam音译)+桥(bridge意译) 半音半意(web 核实 ✓)；旧金山=约定俗成俗称(淘金)正式音译圣弗朗西斯科。CTA→/places。
+- **`/transliteration-characters-guide`「音译用字怎么选」**(~3450 汉字)：同音字为何要选、性别用字(女娜丽莉娅/男德克夫尔)、固定译音用字表保一致、避生僻贬义字、音准优先字义为辅。CTA→/convert。
+- 接线：3 页全进 sitemap(priority 0.7)；/naming-rules 索引页加「翻译专题」入口行；三篇互相 cross-link 且都链回 /naming-rules/general 总则；工具页反链 gov-titles ✓ places ✓ convert(客户端组件,JS 渲染可见)。build ✓ 2179 页、`vercel --prod` ✓、三页线上 200。
+- 至此中文译者向支柱内容成体系：总则(general) + 3 专题(gov/place/用字)，压在 36 语种页 + gov-titles 562 条 + /convert 引擎之上。
+
 ## 2026-06-07 仓库治理：iCloud 损坏善后 + git filter-repo 清历史
 - **背景**：项目已迁出 iCloud → `~/Desktop/nametochinese.nosync/`（`.nosync` 后缀被 iCloud 排除同步；Desktop 软链接 `~/Desktop/nametochinese` 指向它）。早前 iCloud 导致 git object 损坏，已有 `Recover repo state after iCloud object corruption (squash)` 恢复提交。
 - **检查结论**：当前 HEAD 36 提交血缘完整（638 对象齐全），损坏只残留在恢复前的悬空提交里；fsck 的 broken link 全是那些悬空对象，不影响主线。**历史无任何密钥**（无 .env/.pem/.key，仅 names.db-shm/-wal 垃圾）。真正臃肿=被跟踪的大文件。
