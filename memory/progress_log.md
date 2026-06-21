@@ -2,6 +2,15 @@
 
 > 完成即记。CLAUDE.md 只留当前状态摘要，明细在此。
 
+## 2026-06-21 SEO 审计（claude-seo skill）+ 代码项落地
+- 用户装了 claude-seo skill，并行跑 5 个 SEO 子代理（technical/content/sitemap/backlinks/geo），3 个出完整报告。
+- **根因三代理一致**：2123"已发现未索引" = **零外链(0 引荐域,28天新域) × 2000+ 薄程序化页**叠加；主闸门=外链。技术面干净(canonical/sitemap OK)。详见 decisions.md。
+- **新发现**：域名 2021-2025 曾是 parked/挂广告域(2026 重注册)，带一丝历史薄内容信号；影响小。
+- **我做的代码项（已上线）**：① `public/llms.txt`(AI 可读站点索引)；② 5 编辑页 Article schema 补 datePublished/dateModified；③ /[name]-in-chinese 加按字拆解卡(库内 zh+pinyin,字↔音,唯一内容增厚)；④ sitemap ru 大队 priority 0.5→0.3；⑤ 根 layout Organization schema。build+线上验证齐。
+- **不做**：ru 页引擎逐音节拆解(近似恐撞官方译名)；ru 剪枝(守 6-18 决策)；naming-rules 标题改问句(编辑语气决定，缓)。
+- **待用户手动**：① CF 后台关 "Block AI Scrapers"(解封 GPTBot/ClaudeBot/Google-Extended，留 CCBot/Bytespider)；② **P0 真 dofollow 外链**(台师大/中大/NUS 翻译系资源页 cold email、维基外部链接、PTT/译者社团)——审计给了详细名单，我可拟稿。
+- **falsifiable**：首条 dofollow 后 14 天看 GSC"已发现未索引"是否下降。
+
 ## 2026-06-21 AdSense 申请启动 + 过审就绪
 - **决策**：开始申请 AdSense（用户拍板，虽零流量收入=0，但审核要时间，先跑管线）。账号申请=用户手动（建账号/接受条款/填资料，Claude 不能代做）。
 - **接入现状**：layout.tsx 脚手架早就绪——Consent Mode v2（默认拒绝广告 cookie，横幅同意才放开）+ AdSense loader 脚本，门控 `NEXT_PUBLIC_ADSENSE_ID` env（未设→当前不加载）。全站无 `<ins>` 广告位（批准后再放）。
