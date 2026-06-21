@@ -35,8 +35,8 @@
 ## AdSense(2026-06-21 注册完成,待审核)
 - **账户已建**(Google 账号 terrafluxstudio@gmail.com / Na Yang)。**Publisher ID:`ca-pub-6366109058219274`**。收款国家=新加坡(终身不可改)。
 - **Vercel env `NEXT_PUBLIC_ADSENSE_ID=ca-pub-6366109058219274`(production)已设**;layout.tsx 据此注入 loader 脚本,线上 HTML 已含 `adsbygoogle.js?client=ca-pub-...`(curl 验证 ✓)。
-- 验证方式=AdSense 代码段(默认,与脚手架一致)。
-- **待用户手动**:① AdSense 后台勾「我已放置代码」→ 验证 → 申请审核;② 填收款信息(姓名/地址/税务,个人账户)。
+- **所有权验证已通过(2026-06-21,用 ads.txt 法)**。⚠️ code 段验证法当时**秒失败**(部署传播时序→Google 缓存了一次 fail + 冷却,反复点只返回缓存);**改 ads.txt 法一次过**。`public/ads.txt` = `google.com, pub-6366109058219274, DIRECT, f08c47fec0942fa0`。教训:验证卡住别死磕 code 段,换 ads.txt。
+- **待用户手动**:① 点「申请审核」提交;② 填收款信息(姓名/地址/税务,个人账户)。
 - 待批准后:放 `<ins>` 广告位(优先编辑型内容页:总则/4专题/naming-rules,别堆 2000+ 薄模板页=low value 风险)。
 
 ## 限速 / 其它
