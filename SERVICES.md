@@ -32,11 +32,12 @@
 ## Google Analytics
 - GA4:`G-SX777JZ4D3`(layout.tsx)。Consent Mode v2:默认拒绝 ad/analytics cookie,CookieConsent 横幅同意后才 granted。
 
-## AdSense(申请中,2026-06-21 起)
-- 脚手架就绪:layout.tsx 按 `NEXT_PUBLIC_ADSENSE_ID` 门控注入 loader 脚本。
-- 待:用户申请拿 `ca-pub-xxxx` → 设 Vercel env → 放 `<ins>` 广告位(批准后)。
-- 过审就绪:/about /privacy /terms /contact 齐;隐私政已声明广告/cookie。
-- 风险:2000+ 程序化模板页可能被判 low value;广告位优先放编辑型内容页。
+## AdSense(2026-06-21 注册完成,待审核)
+- **账户已建**(Google 账号 terrafluxstudio@gmail.com / Na Yang)。**Publisher ID:`ca-pub-6366109058219274`**。收款国家=新加坡(终身不可改)。
+- **Vercel env `NEXT_PUBLIC_ADSENSE_ID=ca-pub-6366109058219274`(production)已设**;layout.tsx 据此注入 loader 脚本,线上 HTML 已含 `adsbygoogle.js?client=ca-pub-...`(curl 验证 ✓)。
+- 验证方式=AdSense 代码段(默认,与脚手架一致)。
+- **待用户手动**:① AdSense 后台勾「我已放置代码」→ 验证 → 申请审核;② 填收款信息(姓名/地址/税务,个人账户)。
+- 待批准后:放 `<ins>` 广告位(优先编辑型内容页:总则/4专题/naming-rules,别堆 2000+ 薄模板页=low value 风险)。
 
 ## 限速 / 其它
 - API 限速:纯内存 Map,60 次/分/IP。

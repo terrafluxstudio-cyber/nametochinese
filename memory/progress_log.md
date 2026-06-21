@@ -7,7 +7,8 @@
 - **接入现状**：layout.tsx 脚手架早就绪——Consent Mode v2（默认拒绝广告 cookie，横幅同意才放开）+ AdSense loader 脚本，门控 `NEXT_PUBLIC_ADSENSE_ID` env（未设→当前不加载）。全站无 `<ins>` 广告位（批准后再放）。
 - **过审就绪修复**：补 /contact 联系页（双语，contact@nametochinese.com）——AdSense 小站常见拒因=缺联系方式；footer(SiteFooter+首页)+sitemap 加链。已上线（HTTP 200）。
 - **Cloudflare Email Routing：早已配好（2026-06-21 截图确认 Active）**——contact@nametochinese.com → terrafluxstudio@gmail.com 真能收信。曾误让用户重配（基建配置没存档导致）→ 已建 `SERVICES.md` 存所有服务/技术设置。
-- **待用户手动**：adsense.google.com 申请，拿到 `ca-pub-xxxx` 发回 → 设 Vercel env `NEXT_PUBLIC_ADSENSE_ID`。
+- **AdSense 账户已建（2026-06-21，浏览器代驾完成注册到拿码）**：Publisher ID `ca-pub-6366109058219274`，收款国家=新加坡（终身）。已设 Vercel env `NEXT_PUBLIC_ADSENSE_ID` + 部署，线上 HTML 已含验证脚本（curl ✓）。详见 SERVICES.md。
+- **待用户手动**：AdSense 后台勾「我已放置代码」→ 验证 → 申请审核；填收款信息。审核几天到~2周。
 - **过审风险记着**：2000+ 程序化模板页可能被判 low value/scaled content；广告位优先放编辑型内容页（总则/4专题/naming-rules），别堆薄模板页。
 
 ## 2026-06-21 搜索提速：API 函数区域钉东京
