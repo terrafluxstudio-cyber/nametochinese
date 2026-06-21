@@ -36,7 +36,9 @@
 - **账户已建**(Google 账号 terrafluxstudio@gmail.com / Na Yang)。**Publisher ID:`ca-pub-6366109058219274`**。收款国家=新加坡(终身不可改)。
 - **Vercel env `NEXT_PUBLIC_ADSENSE_ID=ca-pub-6366109058219274`(production)已设**;layout.tsx 据此注入 loader 脚本,线上 HTML 已含 `adsbygoogle.js?client=ca-pub-...`(curl 验证 ✓)。
 - **所有权验证已通过(2026-06-21,用 ads.txt 法)**。⚠️ code 段验证法当时**秒失败**(部署传播时序→Google 缓存了一次 fail + 冷却,反复点只返回缓存);**改 ads.txt 法一次过**。`public/ads.txt` = `google.com, pub-6366109058219274, DIRECT, f08c47fec0942fa0`。教训:验证卡住别死磕 code 段,换 ads.txt。
-- **待用户手动**:① 点「申请审核」提交;② 填收款信息(姓名/地址/税务,个人账户)。
+- **已申请审核(2026-06-21 提交,状态「正在准备」)**,等 Google 审核结果(几天~2周,邮件)。
+- **CMP(欧盟同意管理)暂缓**:AdSense 让设 Google CMP(EEA/UK/CH 用户 GDPR 同意)。**先点了"稍后再提醒我"**——受众基本非欧盟、不急;且会与站里自制 CookieConsent 横幅冲突(双弹窗),要统一规划(用 Google CMP 就退自制横幅),别随手开。真要服务欧盟广告时再一次理顺。
+- **待用户手动**:填收款信息(姓名/地址/税务,个人账户)。
 - 待批准后:放 `<ins>` 广告位(优先编辑型内容页:总则/4专题/naming-rules,别堆 2000+ 薄模板页=low value 风险)。
 
 ## 限速 / 其它
