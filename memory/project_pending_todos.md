@@ -13,15 +13,15 @@
 
 
 ## 功能（按风险低→高）
-- [ ] 【低】各语言页"未找到"内联引导 → /convert?lang=xxx&q=xxx（预填语言+输入）
-- [ ] 【低】/convert 接收 URL 参数 lang + q（各页 fallback 直接带入）
-- [ ] 【低】/convert 彩色结果下方加「查看完整[语言]音译表」（展开静态表，Wikipedia）
+- [x] 【低】各语言页"未找到"内联引导 → /convert?lang=xxx&q=xxx（2026-06-21 核：早已实现。/ru not-found 深链 /convert?lang=俄語&q=、/places、/search 空状态均已带 convert 引导。/ko·/ja 不做——汉字/假名定译，不走音译表，硬塞反误导）
+- [x] 【低】/convert 接收 URL 参数 lang + q（2026-06-21 核：convert/page.tsx 早已读 ?lang/?q/?type 并自动选国家+转换）
+- [x] 【低】/convert 完整音译表「展开」（2026-06-21：表本已常显，改成 <details> 默认折叠，点开看完整 Wikipedia 表）
 - [x] 【低】/ja 汉字输入检测（2026-06-07）：API 本已搜 japanese+chinese 两字段；补加片假名说明"假名仅支持音译，改用汉字或罗马字查人名记录"
 - [x] /en → /search URL 改名 + SEO redirect（2026-06-07）：next.config.ts 308 永久 redirect，app/search/ 新路由，所有内链更新，sitemap 更新
-- [ ] 名人库（俄韩日）并入主搜人物区（现有独立页先留）
+- ❌ 名人库（俄韩日）并入主搜人物区 → **不做**（2026-06-21 用户：之前试过效果极差，详见 decisions.md）
 - [x] 数据噪声：过滤 persons 中 chinese 为空/纯注释的词条（2026-06-06）：调查发现无真空词条（COUNT=0），注释是"译名+括号注释"混合形式。前端 ResultCard.tsx getDisplayChinese() 截断显示，has_note 字段不完整（漏标），改用内容检测（split 括号/中文标点）。Abel"（男子教名…）"→ 截断为"埃布尔"已验证。
 - ❌ **中文名→外文罗马化引擎**（粤拼等）→ 用户决定不做。威妥玛已单独成页（/wade-giles），其他系统不做。
-- [ ] 【中】首页搜索框实时预览（消除首查跳转延迟，单独测延迟）
+- [x] 【中】首页搜索框实时预览（2026-06-21 上线）：HomeSearch 加防抖小下拉（只查人名库·限5条·守"不刷屏"红线），边打边显示 top5（英文+中文），点条目/回车直达 /search?q=（跳过 /en 重定向那跳）；首页挂载 prefetch /search + 预热 API 消首查冷启动。preview 截图验证下拉渲染正常（约翰逊（教名）→约翰逊，注释剥离对）。
 - [ ] 接入八字起名站
 
 ## UI
