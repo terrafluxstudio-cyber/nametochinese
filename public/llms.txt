@@ -1,0 +1,24 @@
+# nametochinese.com (外文译名词典)
+
+> A reference for Chinese-language translators: 670,000+ foreign personal names and 177,000+ place names with their standard Chinese renderings, plus a rule-based transliteration engine covering 70+ languages. Renderings follow public transliteration standards (Xinhua / 新华社 transliteration norms and the per-language 译音表 tables). Audience: translators, editors and researchers working between Chinese and other languages.
+
+## Reference guides (editorial)
+- /naming-rules/general: General principles of transliterating foreign personal names into Chinese (name-from-owner, 约定俗成, sound-first; syllable splitting; gender characters; the middle dot 间隔号; name order; the verification hierarchy)
+- /naming-rules/russian: Russian names — patronymics, gendered surnames, Cyrillic-to-Chinese
+- /naming-rules/spanish: Spanish names — double surnames, which surname is used, J/LL pronunciation
+- /naming-rules/arabic: Arabic name chains — ibn/bint/Abdul, regional differences
+- /naming-rules/french, /naming-rules/german, /naming-rules/japanese, /naming-rules/korean: per-language naming and transliteration rules
+- /transliteration-characters-guide: How Chinese characters are chosen for sound (gender conventions, fixed character tables, avoidance of rare/negative characters, sound-over-meaning)
+- /place-names-guide: How place-name transliteration differs from personal-name transliteration (transliteration vs. semantic translation, e.g. 牛津 Oxford, 剑桥 Cambridge)
+- /gov-titles-guide: Translating institution names and government/official titles
+- /how-to-write-your-name-in-chinese: English-language explainer of how a foreign name becomes Chinese
+
+## Tools
+- /convert: Interactive transliteration engine — pick a source language, enter a name, get a per-syllable character breakdown (70+ languages)
+- /search: Foreign personal-name lookup (English and others)
+- /ru, /ko, /ja: Russian / Korean / Japanese name databases (with notable-person records)
+- /places: Place-name lookup
+- /name-to-pinyin: Chinese name → Hanyu Pinyin (handles polyphonic surnames and rare characters)
+
+## License
+Content may be cited with attribution to nametochinese.com. Not licensed for bulk reproduction/redistribution or for AI model training (see /robots.txt Content-Signal).

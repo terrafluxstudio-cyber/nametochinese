@@ -105,8 +105,10 @@ export default function TransliterationCharactersGuidePage() {
         description: metadata.description,
         inLanguage: 'zh-CN',
         mainEntityOfPage: `${SITE}/transliteration-characters-guide`,
-        author: { '@type': 'Organization', name: '外文译名词典' },
-        publisher: { '@type': 'Organization', name: '外文译名词典' },
+        datePublished: '2026-06-18',
+        dateModified: '2026-06-21',
+        author: { '@type': 'Organization', name: '外文译名词典', url: SITE },
+        publisher: { '@type': 'Organization', name: '外文译名词典', url: SITE },
       },
       {
         '@type': 'FAQPage',

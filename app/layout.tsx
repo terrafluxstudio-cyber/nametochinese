@@ -104,6 +104,21 @@ function gtag(){dataLayer.push(arguments);}
 gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});`,
           }}
         />
+        {/* 全站 Organization 实体（让搜索/AI 能解析这是个持续存在的站点实体） */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Organization',
+              name: '外文译名词典',
+              alternateName: 'nametochinese.com',
+              url: 'https://nametochinese.com',
+              description:
+                '为翻译工作者提供外文人名、地名的中文译名查询与按译音表音译的免费工具，译名标准参照新华社译名规范。',
+            }),
+          }}
+        />
         {children}
         <CookieConsent />
         <PwaInstall />

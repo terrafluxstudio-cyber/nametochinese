@@ -15,12 +15,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  // 俄语名人同名聚合页（程序化 SEO）
+  // 俄语名人同名聚合页（程序化 SEO）。占 sitemap ~89%、单人页模板薄，
+  // 降权至 0.3 让零权威期的爬取预算先吃编辑页/英文名页（SEO 审计 2026-06-21）。
   const ruCelebrityPages: MetadataRoute.Sitemap = getAllGroups().map((g) => ({
     url: `${baseUrl}/ru/name/${g.slug}`,
     lastModified: now,
     changeFrequency: "monthly",
-    priority: 0.5,
+    priority: 0.3,
   }));
 
   // 英文名→中文 长尾页（programmatic SEO）

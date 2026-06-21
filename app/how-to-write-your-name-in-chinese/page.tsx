@@ -115,8 +115,10 @@ export default function HowToWriteNamePage() {
         description: metadata.description,
         inLanguage: 'en',
         mainEntityOfPage: `${SITE}/how-to-write-your-name-in-chinese`,
-        author: { '@type': 'Organization', name: 'nametochinese.com' },
-        publisher: { '@type': 'Organization', name: 'nametochinese.com' },
+        datePublished: '2026-06-18',
+        dateModified: '2026-06-21',
+        author: { '@type': 'Organization', name: 'nametochinese.com', url: SITE },
+        publisher: { '@type': 'Organization', name: 'nametochinese.com', url: SITE },
       },
       {
         '@type': 'FAQPage',

@@ -69,8 +69,10 @@ export default async function NamingRuleLangPage({
         description: a.description,
         inLanguage: 'zh-CN',
         mainEntityOfPage: `${SITE}/naming-rules/${a.slug}`,
-        author: { '@type': 'Organization', name: '外文译名词典' },
-        publisher: { '@type': 'Organization', name: '外文译名词典' },
+        datePublished: '2026-06-06',
+        dateModified: '2026-06-21',
+        author: { '@type': 'Organization', name: '外文译名词典', url: SITE },
+        publisher: { '@type': 'Organization', name: '外文译名词典', url: SITE },
       },
       {
         '@type': 'FAQPage',

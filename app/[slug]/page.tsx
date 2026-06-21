@@ -78,6 +78,15 @@ export default async function NameInChinesePage({
   const related = getRelatedNames(n);
   const genderWord = n.gender === 'f' ? 'female' : 'male';
 
+  // 按字拆解：把已存的 zh 与 pinyin 对齐成 字↔音 单元（纯库内数据，不经引擎猜测）。
+  // 数量不一致（极少数含间隔号/标点）则不展示，避免错位。
+  const zhChars = Array.from(n.zh);
+  const pyParts = n.pinyin.trim().split(/\s+/);
+  const breakdown =
+    zhChars.length > 1 && zhChars.length === pyParts.length
+      ? zhChars.map((c, i) => ({ char: c, py: pyParts[i] }))
+      : null;
+
   // FAQ 结构化数据（rich result）
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -139,6 +148,39 @@ export default async function NameInChinesePage({
             Mandarin) this reads <b>{n.pinyin}</b>.
           </p>
         </div>
+
+        {/* 卡片：按字拆解（字↔音，每页唯一内容） */}
+        {breakdown && (
+          <div
+            className="rounded-xl px-5 py-4 mb-6"
+            style={{ background: '#fff', boxShadow: '0 1px 6px rgba(0,0,0,0.06)', color: '#374151' }}
+          >
+            <p className="text-xs font-medium tracking-wide uppercase mb-3" style={{ color: '#9CA3AF' }}>
+              Character-by-character breakdown
+            </p>
+            <div className="flex flex-wrap gap-4 justify-center mb-3">
+              {breakdown.map((b, i) => (
+                <div key={i} className="flex flex-col items-center">
+                  <span className="text-3xl font-bold" style={{ color: '#1A1A1A' }}>{b.char}</span>
+                  <span className="text-sm" style={{ color: ACCENT }}>{b.py}</span>
+                </div>
+              ))}
+            </div>
+            <p className="text-base leading-relaxed">
+              In Chinese, <b>{n.name}</b> is written with {breakdown.length} characters, each
+              standing for one syllable of the sound:{' '}
+              {breakdown.map((b, i) => (
+                <span key={i}>
+                  {i > 0 ? ', ' : ''}
+                  <b style={{ color: '#1A1A1A' }}>{b.char}</b> ({b.py})
+                </span>
+              ))}
+              . Each character here is a phonetic unit — picked for how it sounds, not for what
+              it means — so read together they echo <b>{n.name}</b> rather than spelling out a
+              literal meaning.
+            </p>
+          </div>
+        )}
 
         {/* 卡片：词源含义 */}
         <div
