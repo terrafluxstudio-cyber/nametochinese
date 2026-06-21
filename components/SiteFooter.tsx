@@ -39,6 +39,7 @@ const GROUPS: { title: string; links: { href: string; label: string }[] }[] = [
     title: '关于',
     links: [
       { href: '/about', label: '关于本站' },
+      { href: '/contact', label: '联系我们' },
       { href: '/privacy', label: '隐私政策' },
       { href: '/terms', label: '服务条款' },
     ],

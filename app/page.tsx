@@ -142,6 +142,7 @@ export default function Home() {
               <p className="text-gray-300 uppercase tracking-widest mb-2" style={{ fontFamily: 'var(--font-geist-mono)' }}>关于</p>
               <div className="flex flex-wrap gap-x-4 gap-y-1">
                 <TextLink href="/about">关于本站</TextLink>
+                <TextLink href="/contact">联系我们</TextLink>
                 <TextLink href="/privacy">隐私政策</TextLink>
                 <TextLink href="/terms">服务条款</TextLink>
               </div>
