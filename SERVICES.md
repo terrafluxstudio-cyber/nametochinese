@@ -37,8 +37,10 @@
 - **Vercel env `NEXT_PUBLIC_ADSENSE_ID=ca-pub-6366109058219274`(production)已设**;layout.tsx 据此注入 loader 脚本,线上 HTML 已含 `adsbygoogle.js?client=ca-pub-...`(curl 验证 ✓)。
 - **所有权验证已通过(2026-06-21,用 ads.txt 法)**。⚠️ code 段验证法当时**秒失败**(部署传播时序→Google 缓存了一次 fail + 冷却,反复点只返回缓存);**改 ads.txt 法一次过**。`public/ads.txt` = `google.com, pub-6366109058219274, DIRECT, f08c47fec0942fa0`。教训:验证卡住别死磕 code 段,换 ads.txt。
 - **已申请审核(2026-06-21 提交,状态「正在准备」)**,等 Google 审核结果(几天~2周,邮件)。
+- **收款人信息已填(2026-06-21)**:个人账户,Na Yang + 新加坡地址(onboarding/payments「客户信息」表,只填姓名+地址,非绑卡;收款银行账户等赚够 $100 门槛+批准后再加)。
+  - ⚠️ **坑**:AdSense 收款人资料 ≠ Google 账号通用「钱包和订阅 / 添加付款方式」(那是花钱的)。正确入口=AdSense 首页「收款」卡→输入信息→`/onboarding/payments`「客户信息」。用户一度误入通用钱包页,警觉"我是收钱不是付钱"才发现。**AdSense 全程不需向 Google 付款。**
+- **AdSense 申请所有步骤 100% 完成(2026-06-21)**,面板显示"已完成所有步骤"。等 Google 审核结果(几天~2周,邮件)。
 - **CMP(欧盟同意管理)暂缓**:AdSense 让设 Google CMP(EEA/UK/CH 用户 GDPR 同意)。**先点了"稍后再提醒我"**——受众基本非欧盟、不急;且会与站里自制 CookieConsent 横幅冲突(双弹窗),要统一规划(用 Google CMP 就退自制横幅),别随手开。真要服务欧盟广告时再一次理顺。
-- **待用户手动**:填收款信息(姓名/地址/税务,个人账户)。
 - 待批准后:放 `<ins>` 广告位(优先编辑型内容页:总则/4专题/naming-rules,别堆 2000+ 薄模板页=low value 风险)。
 
 ## 限速 / 其它
