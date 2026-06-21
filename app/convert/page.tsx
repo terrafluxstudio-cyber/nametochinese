@@ -5,6 +5,7 @@ import { useSearchParams } from 'next/navigation';
 import NavBar from '@/components/NavBar';
 import SiteFooter from '@/components/SiteFooter';
 import SearchInput from '@/components/SearchInput';
+import Link from 'next/link';
 
 type Segment = { input: string; output: string; color: number; missing?: boolean };
 type Result = { result: string; segments: Segment[]; language: string; hasRules: boolean; hasMissing?: boolean };
@@ -77,12 +78,16 @@ const LANG_DISPLAY: Record<string, string> = {
 };
 function dn(lang: string) { return LANG_DISPLAY[lang] ?? lang; }
 
-/** 从 raw_note 提取操作性规则 */
+/** 版权/出处行检测：含书名号、ISBN、辞典/词典、出版社、译名室等的行一律不对外显示 */
+const CITATION_RE = /《|》|ISBN|大辞典|大辭典|新华|新華|译名室|譯名室|商务|商務|词典|詞典|对外翻译|對外翻譯|译名手册|譯名手冊/;
+
+/** 从 raw_note 提取操作性规则（剔除任何出处/版权行） */
 function extractKeyRules(note: string): string[] {
   if (!note) return [];
   return note.split('\n').map(l=>l.trim()).filter(l=>
-    l.length>8 && !l.startsWith('《') && !l.startsWith('请注意') &&
-    !l.startsWith('大陆') && !l.startsWith('台湾') && !l.startsWith('ISBN') &&
+    l.length>8 && !l.startsWith('请注意') &&
+    !l.startsWith('大陆') && !l.startsWith('台湾') &&
+    !CITATION_RE.test(l) &&
     /[一-鿿]/.test(l)
   ).slice(0,5);
 }
@@ -110,11 +115,8 @@ function TableView({ langTable }: { langTable: LangTable }) {
   const table = langTable.tables.find(t=>t.type==='person') ?? langTable.tables[0];
   if (!table) return null;
   const ruleLines = (langTable.raw_note??'').split('\n').map(l=>l.trim()).filter(l=>
-    l.length>8 && !l.startsWith('《') && !l.startsWith('ISBN') &&
-    !l.startsWith('请注意') && !l.startsWith('大陆') && !l.startsWith('台湾')
-  );
-  const refLines = (langTable.raw_note??'').split('\n').map(l=>l.trim()).filter(l=>
-    l.startsWith('《') || l.startsWith('ISBN')
+    l.length>8 && !l.startsWith('请注意') && !l.startsWith('大陆') && !l.startsWith('台湾') &&
+    !CITATION_RE.test(l)
   );
   return (
     <div className="mt-4">
@@ -138,24 +140,16 @@ function TableView({ langTable }: { langTable: LangTable }) {
           </tbody>
         </table>
       </div>
-      {(ruleLines.length>0||refLines.length>0) && (
+      {ruleLines.length>0 && (
         <div className="mt-3 rounded-xl overflow-hidden" style={{border:'1px solid #E5E7EB'}}>
-          {ruleLines.length>0 && (
-            <div className="px-4 py-3" style={{background:'#FAFAFA'}}>
-              <p className="text-xs font-semibold mb-2" style={{color:'#6B7280'}}>注记</p>
-              <ul className="space-y-1">
-                {ruleLines.map((l,i)=>(
-                  <li key={i} className="text-xs leading-relaxed" style={{color:'#374151'}}>{l}</li>
-                ))}
-              </ul>
-            </div>
-          )}
-          {refLines.length>0 && (
-            <div className="px-4 py-2 border-t" style={{background:'#F9FAFB',borderColor:'#F3F4F6'}}>
-              <p className="text-xs font-semibold mb-1" style={{color:'#9CA3AF'}}>参考来源</p>
-              {refLines.map((l,i)=><p key={i} className="text-xs" style={{color:'#9CA3AF'}}>{l}</p>)}
-            </div>
-          )}
+          <div className="px-4 py-3" style={{background:'#FAFAFA'}}>
+            <p className="text-xs font-semibold mb-2" style={{color:'#6B7280'}}>注记</p>
+            <ul className="space-y-1">
+              {ruleLines.map((l,i)=>(
+                <li key={i} className="text-xs leading-relaxed" style={{color:'#374151'}}>{l}</li>
+              ))}
+            </ul>
+          </div>
         </div>
       )}
       <p className="text-xs text-gray-300 mt-2 text-right">来源：Wikipedia 外语译音表</p>
@@ -471,6 +465,11 @@ function ConvertContent() {
             })}
           </div>
         )}
+        <p className="mt-10 text-center text-sm text-gray-400">
+          先读：<Link href="/transliteration-characters-guide" className="underline" style={{ color: '#2C5F8A' }}>音译用字怎么选</Link>
+          {' · '}
+          <Link href="/naming-rules/general" className="underline" style={{ color: '#2C5F8A' }}>人名音译总则</Link>
+        </p>
       </main>
       <SiteFooter />
     </>

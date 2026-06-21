@@ -46,6 +46,15 @@ export default function NamesIndexPage() {
             How common English first names are written and pronounced in Chinese.
             Tap a name for its characters, pinyin, origin and meaning.
           </p>
+          <p className="text-sm mt-4">
+            <Link
+              href="/how-to-write-your-name-in-chinese"
+              className="underline"
+              style={{ color: ACCENT }}
+            >
+              New here? Read how names are written in Chinese →
+            </Link>
+          </p>
         </div>
 
         {letters.map((L) => (

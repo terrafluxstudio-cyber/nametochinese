@@ -47,6 +47,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...englishNamePages,
     ...englishWordPages,
     {
+      url: `${baseUrl}/how-to-write-your-name-in-chinese`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/gov-titles-guide`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/place-names-guide`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/transliteration-characters-guide`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
       url: `${baseUrl}/names-in-chinese`,
       lastModified: now,
       changeFrequency: "weekly",

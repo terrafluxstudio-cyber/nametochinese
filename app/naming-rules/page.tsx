@@ -478,6 +478,36 @@ export default function NamingRulesPage() {
         各国取名方式大不相同——了解背后的规律，才能译得准确
       </p>
 
+      {/* 总则支柱页入口 */}
+      <Link
+        href="/naming-rules/general"
+        className="block rounded-2xl px-6 py-5 mb-8 text-center transition-shadow hover:shadow-md"
+        style={{ background: '#2C5F8A', color: '#fff' }}
+      >
+        <div className="text-base font-bold mb-1">先读：外文人名音译总则</div>
+        <div className="text-sm" style={{ color: '#D6E4F0' }}>
+          名从主人 · 约定俗成 · 用字与间隔号规范 · 查证流程——所有语言共通的底层规则
+        </div>
+      </Link>
+
+      {/* 翻译专题 */}
+      <div className="flex flex-wrap gap-2 mb-10 justify-center">
+        {[
+          { href: '/transliteration-characters-guide', label: '音译用字怎么选' },
+          { href: '/place-names-guide', label: '地名译名规则' },
+          { href: '/gov-titles-guide', label: '机构与职位翻译' },
+        ].map((t) => (
+          <Link
+            key={t.href}
+            href={t.href}
+            className="px-3 py-1.5 rounded-lg text-sm"
+            style={{ background: '#fff', color: '#2C5F8A', boxShadow: '0 1px 4px rgba(0,0,0,0.06)' }}
+          >
+            {t.label} →
+          </Link>
+        ))}
+      </div>
+
       {/* 快速跳转 */}
       <div className="flex flex-wrap gap-2 mb-10 justify-center">
         {sections.map(s => (

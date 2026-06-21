@@ -67,7 +67,9 @@ export default function GovTitlesPage() {
         <GovTitlesClient />
 
         <p className="mt-10 text-center text-sm text-gray-400">
-          另可查：<Link href="/search" className="underline" style={{ color: '#2C5F8A' }}>人名·地名译名</Link>
+          先读：<Link href="/gov-titles-guide" className="underline" style={{ color: '#2C5F8A' }}>机构与职位翻译规范</Link>
+          {' · '}
+          <Link href="/search" className="underline" style={{ color: '#2C5F8A' }}>人名·地名译名</Link>
           {' · '}
           <Link href="/naming-rules" className="underline" style={{ color: '#2C5F8A' }}>各国人名规则</Link>
           {' · '}

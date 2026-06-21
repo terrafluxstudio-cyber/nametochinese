@@ -1,5 +1,6 @@
 import NavBar from '@/components/NavBar';
 import SiteFooter from '@/components/SiteFooter';
+import Link from 'next/link';
 import { Suspense } from 'react';
 import PlacesSearchClient from './PlacesSearchClient';
 
@@ -31,6 +32,11 @@ export default function PlacesPage() {
         <Suspense fallback={null}>
           <PlacesSearchClient />
         </Suspense>
+        <p className="mt-10 text-center text-sm text-gray-400">
+          先读：<Link href="/place-names-guide" className="underline" style={{ color: '#2C5F8A' }}>外国地名翻译规则</Link>
+          {' · '}
+          <Link href="/naming-rules/general" className="underline" style={{ color: '#2C5F8A' }}>人名音译总则</Link>
+        </p>
       </main>
       <SiteFooter />
     </>
