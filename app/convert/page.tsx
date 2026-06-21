@@ -447,20 +447,23 @@ function ConvertContent() {
           <p className="text-center text-gray-400">未能转换，该语言规则可能未收录</p>
         )}
 
-        {/* 音译表（选国家后展示，多表时逐一展示） */}
+        {/* 音译表（选国家后展示，默认折叠，点开看完整表；多表时逐一展示） */}
         {Object.keys(langTables).length > 0 && (
-          <div className="mt-10 space-y-8">
+          <div className="mt-10 space-y-4">
             {countryTables.map(lang=>{
               const lt = langTables[lang];
               if (!lt) return null;
               return (
-                <div key={lang}>
-                  <p className="text-xs font-medium tracking-wide uppercase mb-3"
+                <details key={lang} className="rounded-xl overflow-hidden"
+                  style={{border:'1px solid #E5E7EB', background:'#fff'}}>
+                  <summary className="cursor-pointer select-none px-4 py-3 text-xs font-medium tracking-wide uppercase flex items-center gap-2"
                     style={{color:'#9CA3AF'}}>
-                    {dn(lang)} · Wikipedia 标准音译表
-                  </p>
-                  <TableView langTable={lt} />
-                </div>
+                    查看 {dn(lang)} 完整音译表 · Wikipedia
+                  </summary>
+                  <div className="px-4 pb-4">
+                    <TableView langTable={lt} />
+                  </div>
+                </details>
               );
             })}
           </div>
