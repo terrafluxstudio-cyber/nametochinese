@@ -73,6 +73,11 @@ export default async function NamingRuleLangPage({
         dateModified: '2026-06-21',
         author: { '@type': 'Organization', name: '外文译名词典', url: SITE },
         publisher: { '@type': 'Organization', name: '外文译名词典', url: SITE },
+        isBasedOn: {
+          '@type': 'Book',
+          name: '新华社姓名译名手册',
+          publisher: { '@type': 'Organization', name: '新华通讯社' },
+        },
       },
       {
         '@type': 'FAQPage',

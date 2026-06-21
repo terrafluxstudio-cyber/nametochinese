@@ -119,6 +119,11 @@ export default function HowToWriteNamePage() {
         dateModified: '2026-06-21',
         author: { '@type': 'Organization', name: 'nametochinese.com', url: SITE },
         publisher: { '@type': 'Organization', name: 'nametochinese.com', url: SITE },
+        isBasedOn: {
+          '@type': 'Book',
+          name: '新华社姓名译名手册',
+          publisher: { '@type': 'Organization', name: '新华通讯社' },
+        },
       },
       {
         '@type': 'FAQPage',

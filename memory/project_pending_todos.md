@@ -2,6 +2,12 @@
 
 > git commit 后划掉已完成项。
 
+## 🔴 待用户做（SEO 审计的"需要你"两块，用户定 2026-06-22 做）
+> 缘起 claude-seo 审计（2026-06-21）。主闸门=外链。详见 decisions.md / progress_log。
+- [ ] **A. Cloudflare 解封 AI 检索爬虫**：CF 后台 → Security → Bots → 关 "Block AI Scrapers"。放开 GPTBot/ClaudeBot/Google-Extended/OAI-SearchBot/Applebot-Extended；只留 CCBot/Bytespider（训练类）封着。robots.txt 现由 CF 托管块注入，故改设置不改代码。本站是该被 AI 引用的参考工具，封检索爬虫零收益。
+- [ ] **B. P0 真 dofollow 外链**（唯一解 2123"已发现未索引"的杠杆）：① 3 封 cold email（台师大翻译所 / 中大翻译系 / NUS 中文系，推 /naming-rules + /gov-titles 作学生资源）；② 维基百科外部链接（中文「外文译名」+ 英文 "Transcription into Chinese characters"，挂 /naming-rules/general）；③ PTT/译者 FB 社团帖（讲问题、工具当答案，非广告）。**文案 Claude 可代拟，发送=用户。**
+- falsifiable：首条 dofollow 后 14 天看 GSC「已发现未索引」是否下降；降=链是闸门，纹丝不动=转攻内容。
+
 ## ✅ 提速：函数区域钉东京（2026-06-21 上线）
 > **缘起：** 用户从大陆回来实测——站能开但加载有时慢。
 > **查代码更正了昨天的错假设：** 内容页（/[slug] 名字/词页、/ru/name/[slug]、/naming-rules/[lang]）**早就是构建期静态生成**（generateStaticParams + dynamicParams=false，数据来自本地文件，请求时不查库）。**没有 SSR→ISR 可改**，那条 P0 不成立。

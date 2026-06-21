@@ -58,6 +58,18 @@ export default async function RuNamePage({
   const g = getGroupBySlug(slug);
   if (!g) notFound();
 
+  // 兄弟姓氏内链：在 1927 个 ru 页之间建横向链接网，破单 hub 星形拓扑，利爬取
+  // （SEO 审计 2026-06-21：ru 叶子页原本 0 互链）
+  const allSlugs = getAllSlugs();
+  const idx = allSlugs.indexOf(slug);
+  const neighborSlugs =
+    idx >= 0
+      ? [...allSlugs.slice(Math.max(0, idx - 4), idx), ...allSlugs.slice(idx + 1, idx + 5)]
+      : allSlugs.slice(0, 8);
+  const neighbors = neighborSlugs
+    .map((s) => getGroupBySlug(s))
+    .filter((x): x is NonNullable<typeof x> => Boolean(x));
+
   // ItemList 结构化数据
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -178,6 +190,30 @@ export default async function RuNamePage({
           <span className="text-gray-300">·</span>
           <Link href="/naming-rules/russian" className="underline" style={{ color: ACCENT }}>俄语人名规则</Link>
         </div>
+
+        {/* 其他俄语姓氏：兄弟内链，建横向链接网（避免单 hub 星形拓扑） */}
+        {neighbors.length > 0 && (
+          <nav className="mt-10">
+            <p className="text-xs font-medium tracking-wide uppercase mb-3" style={{ color: '#9CA3AF' }}>
+              其他俄语姓氏
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {neighbors.map((n) => (
+                <Link
+                  key={n.slug}
+                  href={`/ru/name/${n.slug}`}
+                  className="px-3 py-1.5 rounded-lg text-sm"
+                  style={{ background: '#fff', color: ACCENT, boxShadow: '0 1px 4px rgba(0,0,0,0.06)' }}
+                >
+                  {n.surname}
+                  <span className="text-gray-400 text-xs ml-1.5" style={{ fontFamily: 'Georgia, serif' }}>
+                    {n.ruSurname}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </nav>
+        )}
 
         <p className="mt-8 pt-6 border-t border-gray-200 text-center text-xs text-gray-300">
           人物资料来源：维基百科（Wikidata, CC0）· 译名依新华社规范，仅供参考
