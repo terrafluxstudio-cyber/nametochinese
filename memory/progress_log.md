@@ -2,6 +2,15 @@
 
 > 完成即记。CLAUDE.md 只留当前状态摘要，明细在此。
 
+## 2026-06-22 SEO 审计补缺口（technical/sitemap 代理未回传，自查补上）+ 第二批代码项
+- **technical/sitemap 两代理连续两次不回传最终报告**（做了 20+ 工具调用但 output 只有 agentId）→ 改自己 curl 直查。
+- **内链/孤儿页直查结论**：① /ru/names hub 链全部 1927 ru 页（不算孤儿），但 ru 叶子页**0 互链**=单 hub 星形拓扑、链权稀释；② /names-in-chinese hub 仅链 124/172 英文名页，但叶子各互链 7 兄弟有横向网兜底，不算严重。
+- **修（已上线）**：ru/name/[slug] 加「其他俄语姓氏」8 个相邻姓氏 chip 内链（星形→网状，putin 在首位故 4 个）。
+- **第二批小项（已上线）**：5 编辑页 Article 加 `isBasedOn` 新华社姓名译名手册（权威链，合红线）。
+- **故意没做（理由记 decisions）**：/[name] "惯用 vs 音译"语境句（无逐名数据→只会加同款 boilerplate 稀释）；sitemap 真实 lastmod（无逐页编辑日期，构建时戳本是标准）。
+- **sitemap 自评**：2100 URL 单文件（<50k 限）技术上 OK；已做的 ru 降权 0.5→0.3 已取得大部分"让爬取预算先吃编辑页"效果，暂不必拆分/移除 ru。CWV：静态页 SSG 应 OK，待 GSC/CrUX 实测。
+- **结论**：SEO 审计该做的代码项已全部清完；剩**外链(P0)+ CF 解封 AI 爬虫**两块=用户活，已入 todo。
+
 ## 2026-06-21 SEO 审计（claude-seo skill）+ 代码项落地
 - 用户装了 claude-seo skill，并行跑 5 个 SEO 子代理（technical/content/sitemap/backlinks/geo），3 个出完整报告。
 - **根因三代理一致**：2123"已发现未索引" = **零外链(0 引荐域,28天新域) × 2000+ 薄程序化页**叠加；主闸门=外链。技术面干净(canonical/sitemap OK)。详见 decisions.md。
