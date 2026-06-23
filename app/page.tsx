@@ -22,6 +22,7 @@ function TextLink({ href, children }: { href: string; children: React.ReactNode 
 // 卡片区：5 张纯链接跳转（次级工具/库）。主搜=查人名，音译/命名规则在导航。
 const CARDS: { href: string; title: string; desc: string }[] = [
   { href: '/places', title: '地名查译', desc: '17 万地名 · 外文 ↔ 中文' },
+  { href: '/tw', title: '臺灣標準譯名', desc: '國教院 8,767 條 · 德法義西斯拉夫等 9 語系' },
   { href: '/convert', title: '外文音译', desc: '外文名按译音表转中文 · 70+ 语言' },
   { href: '/pinyin', title: '拼音找名', desc: '拼音 → 中文姓名（反查）' },
   { href: '/name-to-pinyin', title: '姓名转拼音', desc: '中文名 → 汉语拼音（含多音姓/生僻字）' },
