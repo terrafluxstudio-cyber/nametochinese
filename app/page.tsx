@@ -105,6 +105,13 @@ export default function Home() {
             ))}
           </div>
 
+          <p className="mt-4 text-xs text-gray-400 text-center">
+            各国人名背后，藏着很多有意思的故事 →{' '}
+            <Link href="/naming-rules" className="underline underline-offset-2 hover:text-gray-600">
+              各国人名规则
+            </Link>
+          </p>
+
         </section>
 
         <footer className="border-t border-gray-100 bg-white">
