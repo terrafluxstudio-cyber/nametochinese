@@ -48,3 +48,6 @@ next-env.d.ts
 # dev scaffolding & source data (purged from history 2026-06-07, kept local only)
 /tasks/
 /Logo/
+
+# Claude Code local config (machine-specific)
+/.claude/
