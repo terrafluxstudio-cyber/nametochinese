@@ -36,7 +36,8 @@ export async function GET(req: NextRequest) {
   // chinese 含标点 = 释义注（如"男子教名,亦作姓用"），排到最后
   const NOTE_PENALTY = `CASE WHEN chinese LIKE '%,%' OR chinese LIKE '%，%' OR chinese LIKE '%、%' OR chinese LIKE '%;%' OR chinese LIKE '%；%' OR chinese LIKE '%。%' THEN 1 ELSE 0 END`;
   // 拉丁名优先"英语读法"（nationality 含 英），如 Smith 优先 史密斯 而非 斯米特
-  const ENGLISH_PREF = searchChinese ? "0" : `CASE WHEN nationality LIKE '%英%' THEN 0 ELSE 1 END`;
+  // ⚠️ 中文搜索不需要此排序，用 NULL 占位——绝不能用裸整数 "0"：SQLite 会把 ORDER BY 里的裸整数当成列序号(第0列越界→SQL_INPUT_ERROR 500)
+  const ENGLISH_PREF = searchChinese ? "NULL" : `CASE WHEN nationality LIKE '%英%' THEN 0 ELSE 1 END`;
 
   const halfLimit = Math.ceil(limit / 2);
 

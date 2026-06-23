@@ -2,9 +2,20 @@
 
 > git commit 后划掉已完成项。
 
-## 🔴 待用户做（SEO 审计的"需要你"两块，用户定 2026-06-22 做）
+## 🔴 待用户做（SEO 审计，原定 2026-06-22 → 因 CF/Gmail 后台集体抽风顺延 2026-06-23）
 > 缘起 claude-seo 审计（2026-06-21）。主闸门=外链。详见 decisions.md / progress_log。
-- [ ] **A. Cloudflare 解封 AI 检索爬虫**：CF 后台 → Security → Bots → 关 "Block AI Scrapers"。放开 GPTBot/ClaudeBot/Google-Extended/OAI-SearchBot/Applebot-Extended；只留 CCBot/Bytespider（训练类）封着。robots.txt 现由 CF 托管块注入，故改设置不改代码。本站是该被 AI 引用的参考工具，封检索爬虫零收益。
+> **2026-06-22 实况：当天 Cloudflare 后台写入故障 + Gmail 临时 404，所有要碰后台的配置全部做不了，顺延。**
+>
+> **明天(2026-06-23)清单 —— 后台恢复后逐条点：**
+> 1. **CF Block AI bots**：顶层 Overview → Control AI crawlers → Block AI training bots → 改 "Do not block (allow crawlers)"。选完刷新确认存上(6/22 选了回弹=后台坏)。
+> 2. **CF Managed robots.txt**：AI Crawl Control → Overview → 关掉开关(确认变灰、刷新不回弹)。
+> 3. **Gmail send-as contact@**：见下 A2(先开 2FA + 生成应用专用密码 → SMTP smtp.gmail.com:465)。
+> 4. **CF DNS 加 SPF**：TXT `@` = `v=spf1 include:_spf.google.com ~all`。
+> 5. **P0 外链**：见下 B。文案已存 `memory/outreach_drafts.md`，过目即发。
+> 6. (其它已自动排期：AlternativeTo 提交=定时任务 6/28；SE 线已收尾,无新动作。)
+- [x] **A. Cloudflare 解封 AI 检索爬虫**（2026-06-23 完成）：进站确认 Block AI training bots=「Do not block (allow crawlers)」✓ + Manage your robots.txt=「Disable robots.txt configuration」✓（CF 不插手 robots，交给自家站）。两项均已是目标值，未回弹。精确路径已摸清 → CF 后台 nametochinese.com 域 → **顶层 Overview**(域首页，非 AI Crawl Control 的 Overview) → 右侧 "Control AI crawlers" → **Block AI training bots** 下拉，改 "Block on all pages" → **"Do not block (allow crawlers)"**。这是主闸，盖住 AI Crawl Control→Security 逐爬虫表(free 版只能全开/全关，没法精细留封 CCBot/Bytespider，直接全放，小站可忽略)。第二处:AI Crawl Control→Overview→关 **Managed robots.txt** 开关。
+  - ⚠️ **2026-06-22 卡点**：CF 后台当天写入故障(维护窗 12:00–13:00 UTC=北京 20:00–21:00)，下拉选了变灰、刷新回弹 "Block on all pages"，人工+自动化都存不上。**待 2026-06-22 21:00(北京)后重试**，同一下拉再选一次即可。robots.txt 开关也要一起复查(同后台可能回滚)。
+- [x] **A2. contact@ 发信通道(Gmail send-as)**（2026-06-23 完成）：Gmail send-as contact@nametochinese.com 已加并验证成功（SMTP smtp.gmail.com:465 SSL + 应用专用密码，显示名 Na Yang，Treat as alias）。CF DNS SPF 已合并为一条：`v=spf1 include:_spf.google.com include:_spf.mx.cloudflare.net ~all`（同时授权 Gmail 发信 + CF 收信）。决定走 Gmail「Send mail as」用自己 Gmail 的 SMTP 发(不付费搬 Zoho — Zoho 免费版 1 域名已被 dsalink.sg 占满，加域名要付费$12/年，零营收阶段不值)。配置:Gmail 设置→Accounts→Send mail as→Add `contact@nametochinese.com`(Treat as alias)→SMTP `smtp.gmail.com`:465 SSL / user `terrafluxstudio@gmail.com` / pw=**Google 应用专用密码**(需先开 2FA)→验证信发到 contact@(CF 已转发到 Gmail 收件箱)点确认。**+CF DNS 加 SPF**:TXT `@` = `v=spf1 include:_spf.google.com ~all`(压低进垃圾箱)。⚠️ 2026-06-22 当天 Gmail 也临时 404，全部待今晚后台恢复一起做。
 - [ ] **B. P0 真 dofollow 外链**（唯一解 2123"已发现未索引"的杠杆）：① 3 封 cold email（台师大翻译所 / 中大翻译系 / NUS 中文系，推 /naming-rules + /gov-titles 作学生资源）；② 维基百科外部链接（中文「外文译名」+ 英文 "Transcription into Chinese characters"，挂 /naming-rules/general）；③ PTT/译者 FB 社团帖（讲问题、工具当答案，非广告）。**文案 Claude 可代拟，发送=用户。**
 - falsifiable：首条 dofollow 后 14 天看 GSC「已发现未索引」是否下降；降=链是闸门，纹丝不动=转攻内容。
 

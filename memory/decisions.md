@@ -79,6 +79,8 @@
 ## 技术事实
 - 日文 DB：ja_surnames.json `{romaji,ja,zh}`；ja_given.json `{romaji,candidates:[{ja,zh}],gender}`；无假名字段，不支持假名输入
 - 音译表数据：data/transliteration/ 57 种语言 JSON，结构 `{language,tables:[{type,rows}]}`
+- **🔴 DB 索引红线（2026-06-23 踩坑后定，新增可搜索表/列必读）**：所有 `WHERE col LIKE ?` 查询的列**必须建 `COLLATE NOCASE` 索引**，普通索引无效。原因：SQLite `LIKE` 默认大小写不敏感，优化器只对 NOCASE 索引应用 LIKE→区间扫转换，否则**全表扫**（曾因此一次搜索扫 67 万行、Turso 配额一月读 3.82 亿差点撞 5 亿上限爆站）。改完务必 `EXPLAIN QUERY PLAN` 确认是 `SEARCH ... USING INDEX` 而非 `SCAN`。前导通配 `%q%`（如 places 英文）无解，任何 B-tree 索引都救不了，只能 FTS 或避免。详见 progress_log 2026-06-23。
+- **🔴 ORDER BY 裸整数红线（2026-06-23 踩坑后定）**：动态拼 SQL 时，ORDER BY 子句**绝不能塞裸整数字面量**（如条件占位 `searchChinese ? "0" : "CASE..."`）。SQLite 把 ORDER BY 里的裸整数当**列序号**（`ORDER BY 0` = 第0列越界 → `SQL_INPUT_ERROR` 500）。占位用 `NULL` 或包成表达式。曾因此中文人名搜索长期静默 500。
 
 ## 服务配置（2026-06-06）
 - **联系邮箱**：对外公布 `contact@nametochinese.com`（about/privacy 页）。实际收信靠 **Cloudflare Email Routing** 转发 → 私人 gmail `terrafluxstudio@gmail.com`。在 Cloudflare → nametochinese.com → Email → Email Routing → Routing rules 里设的（一条 Active 规则；catch-all=Drop/Disabled，够用）。已发测试邮件验证可收。

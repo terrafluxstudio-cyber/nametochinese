@@ -2,6 +2,17 @@
 
 > 完成即记。CLAUDE.md 只留当前状态摘要，明细在此。
 
+## 2026-06-23 🔥 Turso 配额拆雷：搜索全表扫描 → 建 NOCASE 索引（生产库）
+- **症状**：Turso 用户截图配额 77%（行读取 3.82 亿 / 免费版上限 5 亿/月，周期 6/1–7/1）。
+- **追因（非补丁）**：`EXPLAIN QUERY PLAN` 实测 persons/places/ru/ko/ja 搜索**全部 `SCAN` 全表**，索引一次没用上。根因=**SQLite 的 `LIKE` 默认大小写不敏感，普通 BINARY 索引不被 LIKE 前缀查询采用，必须 `COLLATE NOCASE` 索引**。每次人名搜索扫 67 万行 persons。
+- **算账**：旧速率 ≈1660 万行/天（3.82亿÷23天），剩 8 天 ×1660万=1.33亿 > 余量 1.18亿 → 约 **6/30 撞 100%**（搜索 API 会报错=站搜索挂），差一天爆。
+- **修（生产库 nametochinese-tokyo，纯新增索引、不动数据、可逆）**：建 NOCASE 索引共 9 条 — persons(english/chinese)、places(english/chinese)、russian_names(russian/chinese)、korean_names(korean/english/chinese)、japanese_names(chinese/japanese/romaji_norm)。全部 `EXPLAIN` 复验：`SCAN`→`SEARCH ... USING INDEX (col>? AND col<?)`。**读取量砍 100~1000 倍，无需改任何代码**（现有 `LIKE ?` 自动用上）。
+- **结论**：这周期已安全（新增读取降到日均几十万，余量纹丝不动），7/1 清零后长期无忧。
+- **遗留（低优先）**：① places 英文 `%q%` 模糊匹配（前导通配）SQLite 硬限制无法走索引，小表低频，未动；② `/api/warmup` 每调用打真搜索（cron 实际打的是便宜的 /api/ping `SELECT 1`，故 warmup 非主因），now persons 已索引便宜，暂不改。
+- **坑记**：旧 BINARY 索引（idx_persons_english 等）保留未删（无害，read-mostly 库写极少）；查 Turso 凭证时本地 .env.test/.env.local 与 `vercel env pull` 拉的 TURSO_* 全为空（敏感变量加密不下传）→ 改用 `turso auth login` + `turso db shell` 直连。
+- **🐛 顺带挖出并修了一个潜伏 bug（与索引无关，验证时发现）**：用户要核对查词效果，实测发现**中文输入的人名搜索全 500**（英文正常）。Vercel 日志真凶：`SQLite input error: 3rd ORDER BY term out of range`。根因 = app/api/search/route.ts 中文分支 `ENGLISH_PREF="0"` 拼进 ORDER BY，**SQLite 把裸整数当列序号**（第0列越界）。这是 SQL 解析期错误，与今天建的索引（执行期）零关系，是早就潜伏的代码 bug（git 历史被 iCloud 事故压扁查不到引入日；6/21 那次"预览验证"测的是英文输入显示中文结果，没真测中文输入）。**修：`"0"`→`"NULL"`**（中文搜索本不需此排序项，NULL 是值不是序号）。build+`vercel --prod` 已部署，7 场景全验 200（中文/英文/type=all/ru/ko/ja），结果正确。
+- **数据噪声旁观**：ja `tanaka` 首条 chinese="我念歌词呆呆的"=维基来源的垃圾词条，非功能 bug，待清（低优先）。
+
 ## 2026-06-22 SEO 审计补缺口（technical/sitemap 代理未回传，自查补上）+ 第二批代码项
 - **technical/sitemap 两代理连续两次不回传最终报告**（做了 20+ 工具调用但 output 只有 agentId）→ 改自己 curl 直查。
 - **内链/孤儿页直查结论**：① /ru/names hub 链全部 1927 ru 页（不算孤儿），但 ru 叶子页**0 互链**=单 hub 星形拓扑、链权稀释；② /names-in-chinese hub 仅链 124/172 英文名页，但叶子各互链 7 兄弟有横向网兜底，不算严重。

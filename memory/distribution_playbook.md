@@ -120,17 +120,18 @@
 
 ## 📌 执行记录（外链一条条来，防重复 + 记着回头加链）
 
-> SE 账号：Chinese Language Stack Exchange，显示名 **Nancy**（Google 登录，新号）。策略 = 先纯知识养号，攒信誉后再回编辑加链。
+> SE 账号：Chinese Language Stack Exchange，显示名 **Nancy**（Google 登录，新号）。
+> ⚠️ **2026-06-22 教训：chinese.SE 有 GenAI 政策**，版主 dROOOze 把两条答案都 flag 了(① 没声明用 AI ② 没参考来源)。已按要求改合规(见下)。**结论:SE 是 nofollow + 雷区，性价比差，不再加码、不回去加站链**(加链=坐实自我推广，更易被删)。这条线只做"已发的两条保住合规"，新答不发。
 
 | 日期 | 平台 | 帖子 | 状态 | 备注 |
 |---|---|---|---|---|
-| 2026-06-20 | chinese.SE | Q6339 [Is there a limited character set for European loanwords?](https://chinese.stackexchange.com/questions/6339) | ✅ 已发（**B/无链接**） | 纠正"没有官方表"的错误说法，点明新华社译音表。**待养号后回编辑加 nametochinese.com 链 + 披露句**（草稿见本次 session）。↩ 加链时这条最对口（/transliteration-characters-guide 或 /convert） |
-| 2026-06-20 | chinese.SE | Q40718 [Cambridge 康桥→剑桥](https://chinese.stackexchange.com/a/64137) | ✅ 已发（**B/无链接**） | 补"何时/为何换"时间线（徐志摩康桥 vs 标准化剑桥 + 日语剣说），纠正"康桥也是音译+意译混合"。对口 /place-names-guide，加链时可用 |
+| 2026-06-20 | chinese.SE | Q6339 [a/64136](https://chinese.stackexchange.com/a/64136) | ✅ 已发，**2026-06-22 改合规** | 新华社译音表。被 flag→已补 References(译音表/英语姓名译名手册/GB-T 17693)+ AI 声明。**不加站链。** |
+| 2026-06-20 | chinese.SE | Q40718 [a/64137](https://chinese.stackexchange.com/a/64137) | ✅ 已发，**2026-06-22 改合规** | 康桥/剑桥。被 flag→已补 References(徐志摩《再别康桥》/维一《域外怀旧录》/译音表)+ AI 声明，日语剣说标注为无出处民间词源。**不加站链。** |
 
-**下一步候选（纯知识暖场，现成可答）：** Q6105「Why is George 乔治」、Q58025「Why do Chinese people complicate… 译字」(均已 5-6 答铺满，价值低，暂不答)。
+**SE 不再开新答**(2026-06-22 决策)。原"下一步候选"Q6105/Q58025 作废。
 
 ### 其他平台进度
-- **AlternativeTo**（terrafluxstudio-cyber 账号已登录）：⏸️ **周末暂停提交，待 2026-06-22 周一交**。提交内容草稿：Name=NameToChinese / URL=nametochinese.com / Short="Free tool to render foreign personal names and place names into standard Chinese — built for translators." / Full=译者向查译名+音译+中文转拼音 / Alternative to=Google Translate / tags=chinese translation transliteration dictionary names pinyin / Free · Web。提交后走人工审核。
+- **AlternativeTo**（terrafluxstudio-cyber 账号已登录）：⏸️ **被账号龄卡住——AlternativeTo 规则：新号注册满 7 天才能提交 app。2026-06-22 试过被弹窗拦，解封时间「2026-06-27 16:35 斯德哥尔摩时间(=北京时间 22:35)」之后。** 提交流程已验证：登录→右上汉堡菜单→Suggest new application→/manage-item/ 表单。提交内容草稿：Name=NameToChinese / URL=nametochinese.com / Short="Free tool to render foreign personal names and place names into standard Chinese — built for translators." / Full=译者向查译名+音译+中文转拼音 / Alternative to=Google Translate / tags=chinese translation transliteration dictionary names pinyin / Free · Web。提交后走人工审核。
 - **LinkedIn**（真实账号 **Na Yang** — "Bilingual Chinese AI Data & Language Specialist", Singapore；本是求职号，但定位与本项目契合，发译名文章=外链+求职 thought-leadership 双赢，不冲突）：🔨 文章《How Foreign Names Become Chinese…》**已在 LinkedIn 文章编辑器整篇填好+草稿自动保存，nametochinese.com 已自动转蓝链（nofollow）**，待用户点 Next→Publish 发布。草稿编辑 URL: linkedin.com/article/edit/7474120947990544384。⚠️ **此 LinkedIn 是用户求职号，与项目共用一个身份是用户知情选择（2026-06-20）**；勿擅自再发其他项目内容。
 - **ProZ.com**：✅ 账号已建（用户名 **yayuyu** / 显示名 Na Yang / 邮箱 terrafluxstudio@gmail.com / 免费 freelancer / Singapore）。profile 已配：语言 EN⇄ZH（中文母语）、服务 Translation+Editing/proofreading、专长 Linguistics、tagline「EN-ZH names, places & transliteration」。**Bio 公开提到 nametochinese.com**（链接呈现=bio 文字；免费号无独立 dofollow 网站字段，公司网站字段仅 company 账号有）。profile URL: proz.com/profile/4665781。
   - **下一步（养号→带链）：** KudoZ 术语题 / Chinese 论坛先纯帮忙答几题攒信誉，再在相关问题自然带对口页（同 SE 节奏）。bio 已是presence，不急。
