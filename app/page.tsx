@@ -29,7 +29,6 @@ const CARDS: { href: string; title: string; desc: string }[] = [
   { href: '/zh-convert', title: '简繁转换', desc: '简体 ↔ 繁体互转' },
   { href: '/wade-giles', title: '威妥玛拼音', desc: '中文名 → 威妥玛式（海外华人·涉外文件）' },
   { href: '/gov-titles', title: '机构职位', desc: '555 条 · 党政机构·官员职位中英对照' },
-  { href: '/naming-rules', title: '各国人名规则', desc: '33 种语言 · 姓名结构·文化习俗详解' },
 ];
 
 function Card({ href, title, desc }: { href: string; title: string; desc: string }) {
