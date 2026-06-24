@@ -52,11 +52,8 @@
 
 ## 四、当前状态
 
-已上线，核心功能齐：主搜 /en（已剥离地名，纯人名）、/ru /ko /ja /places、/convert 音译引擎、/naming-rules（13 篇）、/gov-titles（机构职位384条）、/pinyin /zh-convert、/name-to-pinyin（中文名转拼音，英文界面）。
+已上线，核心功能齐：主搜 /en（已剥离地名，纯人名）、/ru /ko /ja /places、/convert 音译引擎、/naming-rules（13 篇）、/gov-titles（机构职位507条含臺灣123条）、/pinyin /zh-convert、/name-to-pinyin、/tw（國教院8767條）。首页 v2 全上线（SearchTabs+5卡片+台灣入口）。英文名247条/词107条长尾页在线。3封cold email已发（2026-06-23）。
 
-🟢 **首页布局 v2 重构已全部完成（2026-06-05，Step0-5 全上线）**：SearchTabs 一框+tab 软跳转(查询/en·俄/ru·韩/ko·日/ja)、首页门户+5卡片、场景3 /name-to-pinyin 中文名转拼音页(pinyin-pro,多音姓+生僻字)、NavBar 对齐、sitemap+内链。待用户手动：GSC 提交 sitemap。
-
-- **首页 v2 重构计划（已完成存档）→ `memory/homepage_v2_plan.md`**
 - 进度明细 → `memory/progress_log.md`
 - 待做清单 → `memory/project_pending_todos.md`
 - 设计决策与红线 → `memory/decisions.md`

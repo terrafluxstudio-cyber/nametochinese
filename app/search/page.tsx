@@ -115,13 +115,20 @@ function EnPageContent() {
                 外文音译引擎 →
               </Link>
               <p className="text-xs text-gray-400 leading-relaxed">
-                知名人物没找到？换种拼写，或试试{' '}
+                知名人物没找到？换种拼写，或试试专库：{' '}
                 <Link href="/ru" className="underline" style={{ color: '#2C5F8A' }}>俄</Link>
                 {' / '}
                 <Link href="/ko" className="underline" style={{ color: '#2C5F8A' }}>韩</Link>
                 {' / '}
                 <Link href="/ja" className="underline" style={{ color: '#2C5F8A' }}>日</Link>
-                {' '}专库。
+                {' / '}
+                <Link href="/de" className="underline" style={{ color: '#2C5F8A' }}>德</Link>
+                {' / '}
+                <Link href="/fr" className="underline" style={{ color: '#2C5F8A' }}>法</Link>
+                {' / '}
+                <Link href="/vi" className="underline" style={{ color: '#2C5F8A' }}>越</Link>
+                {' / '}
+                <Link href="/ar" className="underline" style={{ color: '#2C5F8A' }}>阿</Link>
               </p>
             </div>
             <MiniGame />

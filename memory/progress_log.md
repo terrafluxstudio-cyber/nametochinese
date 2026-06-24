@@ -2,6 +2,23 @@
 
 > 完成即记。CLAUDE.md 只留当前状态摘要，明细在此。
 
+## 2026-06-24（三）台灣機構庫 65→123 條
+- 新增 4 組 58 條（全繁體字，來源 gov.tw）：
+  - 司法・檢察體系 15 條：最高法院/最高行政法院/高等法院/地方法院/IPCC、最高/高等/地方檢察署、法官/庭長/院長/檢察總長/檢察長/檢察官/公設辯護人
+  - 外交體制（臺灣）11 條：大使/大使館/代表/副代表、駐外代表處/TECO/TECRO/AIT/日台交流協會、駐台代表、領事事務局
+  - 軍事機構・職銜 18 條：聯合參謀本部/各軍種司令部/後備指揮部/憲兵指揮部/海巡署、參謀總長/各軍種司令/上將→少校
+  - 行政院下屬重要機關 15 條：NIA/NPA/NFA（內政部下）、調查局/廉政署/矯正署（法務部下）、關務署/國有財產署、CDC/TFDA/NHIA（衛福部下）、TIPO/貿易署、CAA、體育署
+- GROUP_ORDER 加 4 個新分組
+- vercel --prod 部署成功（commit 34c3f5e）
+
+## 2026-06-24（二）英文名詞擴充 + hub FAQ + 搜索頁chips
+- english_words.json: 47→107 條（+60 詞，新增哲學/宇宙分類：道/禪/天/因果/緣分/陰/陽等）
+- /names-in-chinese + /words-in-chinese: 底部加 FAQ 各 4 題（SEO 長尾+E-E-A-T）
+- /en 空查詢: 加常見示例 chips（Johnson/Williams/Smith 等 10 個）
+- /places 空查詢: 加示例 chips（London/Paris/Berlin 等 10 個）
+- /en + /places 空結果: 補 /naming-rules + /place-names-guide 內鏈
+- 部署 vercel --prod（commit 7189922）
+
 ## 2026-06-24 /gov-titles 台灣政府機構上線
 - data.ts: side 類型擴展 'cn'|'foreign' → 'cn'|'foreign'|'tw'，加 TW_SRC 常數
 - 新增 65 條臺灣（中華民國）政府條目（全繁體字，來源 gov.tw），分 4 組：

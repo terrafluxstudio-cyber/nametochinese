@@ -18,7 +18,9 @@
 - [x] **A2. contact@ 发信通道(Gmail send-as)**（2026-06-23 完成）：Gmail send-as contact@nametochinese.com 已加并验证成功（SMTP smtp.gmail.com:465 SSL + 应用专用密码，显示名 Na Yang，Treat as alias）。CF DNS SPF 已合并为一条：`v=spf1 include:_spf.google.com include:_spf.mx.cloudflare.net ~all`（同时授权 Gmail 发信 + CF 收信）。决定走 Gmail「Send mail as」用自己 Gmail 的 SMTP 发(不付费搬 Zoho — Zoho 免费版 1 域名已被 dsalink.sg 占满，加域名要付费$12/年，零营收阶段不值)。配置:Gmail 设置→Accounts→Send mail as→Add `contact@nametochinese.com`(Treat as alias)→SMTP `smtp.gmail.com`:465 SSL / user `terrafluxstudio@gmail.com` / pw=**Google 应用专用密码**(需先开 2FA)→验证信发到 contact@(CF 已转发到 Gmail 收件箱)点确认。**+CF DNS 加 SPF**:TXT `@` = `v=spf1 include:_spf.google.com ~all`(压低进垃圾箱)。⚠️ 2026-06-22 当天 Gmail 也临时 404，全部待今晚后台恢复一起做。
 - [x] **新功能：臺灣標準譯名 /tw（2026-06-23 上線）**：爬取國教院《外國學者人名譯名》8,767條，導入 Turso naer_names 表，建 NOCASE 索引，新 API /api/search-tw + 新頁面 /tw。
 - [x] **台灣政府機構：/gov-titles 加繁體台灣機構條目**（2026-06-24 上線）：65 條，四分組，全繁體字，gov.tw 來源，加「臺灣（中華民國）」篩選 tab。
-- [ ] **B. P0 真 dofollow 外链**（唯一解 2123"已发现未索引"的杠杆）：① 3 封 cold email（台师大翻译所 / 中大翻译系 / NUS 中文系，推 /naming-rules + /gov-titles 作学生资源）；② 维基百科外部链接（中文「外文译名」+ 英文 "Transcription into Chinese characters"，挂 /naming-rules/general）；③ PTT/译者 FB 社团帖（讲问题、工具当答案，非广告）。**文案 Claude 可代拟，发送=用户。**
+- [x] **B1. Cold email 3 封**（2026-06-23 已发）：台师大翻译研究所 / 香港中大翻译系 / NUS 中文系，推 /naming-rules + /gov-titles，contact@nametochinese.com 发出。等回复，14 天内看 GSC 变化。
+- [ ] **B2. 维基百科外链**：中文「外文译名」+ 英文 "Transcription into Chinese characters" 挂 /naming-rules/general。⚠️ 需先注册账号积 5-10 次小编辑再加外链。
+- [ ] **B3. PTT/译者 FB 社团帖**：讲问题、工具当答案，非广告。
 - falsifiable：首条 dofollow 后 14 天看 GSC「已发现未索引」是否下降；降=链是闸门，纹丝不动=转攻内容。
 
 ## ✅ 提速：函数区域钉东京（2026-06-21 上线）

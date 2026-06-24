@@ -1,9 +1,12 @@
-# P0 外链文案草稿（2026-06-22 拟，待 2026-06-23 发）
+# P0 外链文案草稿
 
-> 用途：SEO 主闸门=真 dofollow 外链。译者本人(Na Yang)口吻，非营销腔。
-> **铁律：一所一封，按各系微调主旨/称呼，禁止群发。** 发送=用户。
-> 发信地址：配好 Gmail send-as 后用 contact@nametochinese.com（见 project_pending_todos A2）。
-> 预期：10 封进 1-2 个资源页链接=赢（.edu 域权重极高）。
+> ✅ **3 封已于 2026-06-23 发出**（contact@nametochinese.com）：
+> - 台師大翻譯研究所 giti@deps.ntnu.edu.tw
+> - 香港中文大學翻譯系 tra@cuhk.edu.hk
+> - NUS 中文系 chssec@nus.edu.sg
+>
+> 剩余动作：B2 Wikipedia 外链（需养老号）、B3 PTT/FB 社团帖。
+> 发送=用户。falsifiable：首条 dofollow 后 14 天看 GSC「已发现未索引」。
 
 ---
 
@@ -22,7 +25,7 @@
 站台無廣告、無需註冊。若您覺得對修習翻譯的同學有幫助，歡迎隨意分享，或放進課程資源頁；若不合適也完全沒關係，純粹希望這份整理能幫到需要的人。
 
 順頌 教安
-Na Yang
+Nancy Yang
 
 ---
 
@@ -32,7 +35,7 @@ Na Yang
 
 老師好：
 
-我是 Na Yang，一名中英雙語譯者。實務中最磨人的瑣事之一，就是外文人名/地名的標準中文譯法查證。我依新華社譯名規範整理了一個免費網站 **nametochinese.com**，含人名、地名、機構職位譯名查詢與音譯規則說明，無廣告、免註冊。
+我是 Nancy Yang，一名中英雙語譯者。實務中最磨人的瑣事之一，就是外文人名/地名的標準中文譯法查證。我依新華社譯名規範整理了一個免費網站 **nametochinese.com**，含人名、地名、機構職位譯名查詢與音譯規則說明，無廣告、免註冊。
 
 對翻譯訓練可能有用的兩頁：
 ・人名音譯總則：https://nametochinese.com/naming-rules
@@ -40,7 +43,7 @@ Na Yang
 
 若覺得合用，歡迎轉給同學或納入系上資源連結；不合適也無妨。謝謝您撥冗一讀。
 
-Na Yang 敬上
+Nancy Yang 敬上
 
 ---
 
@@ -50,7 +53,7 @@ Na Yang 敬上
 
 Dear Professor [Name],
 
-I'm Na Yang, a Chinese–English translator based in Singapore. One recurring pain in my own work is verifying the standard Chinese rendering of foreign names and place names. I built a free, ad-free site — **nametochinese.com** — that combines a name/place lookup with the underlying transliteration rules (based on the Xinhua naming standards).
+I'm Nancy Yang, a Chinese–English translator based in Singapore. One recurring pain in my own work is verifying the standard Chinese rendering of foreign names and place names. I built a free, ad-free site — **nametochinese.com** — that combines a name/place lookup with the underlying transliteration rules (based on the Xinhua naming standards).
 
 Two pages may be useful as a student reference:
 • Transliteration rules for foreign personal names: https://nametochinese.com/naming-rules
@@ -59,7 +62,7 @@ Two pages may be useful as a student reference:
 No sign-up, nothing to sell. If you think it might help students in your translation/Chinese-language courses, feel free to share it or add it to a resources page — and no worries at all if not.
 
 Best regards,
-Na Yang
+Nancy Yang
 
 ---
 
