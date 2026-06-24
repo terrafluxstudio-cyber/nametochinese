@@ -39,8 +39,8 @@ export async function GET(req: NextRequest) {
 
   const { rows } = await db.execute({
     sql: `SELECT en, zh, lang FROM naer_names
-          WHERE ${col} LIKE ? COLLATE NOCASE
-          ORDER BY CASE WHEN ${col} = ? COLLATE NOCASE THEN 0 ELSE 1 END,
+          WHERE UPPER(${col}) LIKE UPPER(?)
+          ORDER BY CASE WHEN UPPER(${col}) = UPPER(?) THEN 0 ELSE 1 END,
                    length(${col})
           LIMIT 40`,
     args: [`${q}%`, q],
