@@ -123,6 +123,10 @@ function EnPageContent() {
                 <Link href="/ja" className="underline" style={{ color: '#2C5F8A' }}>日</Link>
                 {' '}专库。
               </p>
+              <p className="text-xs text-gray-400 mt-2">
+                了解外文人名翻译规则 →{' '}
+                <Link href="/naming-rules" className="underline underline-offset-2" style={{ color: '#2C5F8A' }}>各语言命名规则</Link>
+              </p>
             </div>
             <MiniGame />
           </div>

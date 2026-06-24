@@ -78,6 +78,11 @@ export default function PlacesSearchClient() {
           >
             按语言规则音译（地名）→
           </Link>
+          <p className="mt-3 text-xs text-gray-400">
+            <Link href="/place-names-guide" className="underline underline-offset-2" style={{ color: '#2C5F8A' }}>
+              了解地名翻译规则 →
+            </Link>
+          </p>
           <MiniGame />
         </div>
       )}
