@@ -2,6 +2,35 @@
 
 > 完成即记。CLAUDE.md 只留当前状态摘要，明细在此。
 
+## 2026-06-24 /gov-titles 台灣政府機構上線
+- data.ts: side 類型擴展 'cn'|'foreign' → 'cn'|'foreign'|'tw'，加 TW_SRC 常數
+- 新增 65 條臺灣（中華民國）政府條目（全繁體字，來源 gov.tw），分 4 組：
+  - 中央政府（總統府・五院）：9 條
+  - 行政院各部：14 條（含 2023 改制：交通及建設部/農業部/環境部/數位部）
+  - 行政院委員會・獨立機關：17 條（含 CBC/NSTC/金管會/國人委等）
+  - 臺灣政府職銜：25 條（職位 + 地方通名）
+- GovTitlesClient.tsx: 加「臺灣（中華民國）」tab
+- GROUP_ORDER: 4 個台灣分組插入（機構通名對照 之後，聯合國之前）
+- vercel --prod 部署成功
+
+## 2026-06-24（二）内容扩充 + SEO 小修
+- /tw layout.tsx: 新建，补 SEO metadata（title/desc/OG/Twitter）
+- sitemap.ts: 补 /tw 条目（priority 0.8）
+- english_names.json: 122 → 247 条（+60 女名 +65 男名，全部含 zh/origin/meaning，SSG 长尾页自动扩量）
+- /places 空结果区: 加 /place-names-guide 内链
+- /en 空结果区: 加 /naming-rules 内链
+- 部署 vercel --prod（commit 219f729）
+
+## 2026-06-24 首页布局调整 + 台灣標準譯名 /tw 上線
+- 爬取國家教育研究院《外國學者人名譯名》：8,767 條（9 語系：英/德/法/斯拉夫/義/西/日韓/阿拉伯/土耳其）
+- 導入 Turso `naer_names` 表，建 `idx_naer_en_nocase` / `idx_naer_zh_nocase` NOCASE 索引
+- 新 API `/api/search-tw`：前綴匹配 + 語種標籤（langDisplay）
+- 新頁面 `/tw`：繁體介面，標示國教院來源，空結果引導跳新華社搜索
+- 首頁 CARDS 加「臺灣標準譯名」卡片，移除「各國人名規則」卡片（保留 footer 文字連結 + NavBar 入口）
+- 卡片區底部加一行小字引導：「各国人名背后，藏着很多有意思的故事 → 各国人名规则」
+- 三封冷外聯郵件全發：台師大（giti@deps.ntnu.edu.tw）、中大（tra@cuhk.edu.hk）、NUS（chssec@nus.edu.sg）
+- 外鏈 B 剩：維基百科（需養老號）、PTT/FB（PTT 不對口繁體圈，改討論目標社群）
+
 ## 2026-06-23 🔥 Turso 配额拆雷：搜索全表扫描 → 建 NOCASE 索引（生产库）
 - **症状**：Turso 用户截图配额 77%（行读取 3.82 亿 / 免费版上限 5 亿/月，周期 6/1–7/1）。
 - **追因（非补丁）**：`EXPLAIN QUERY PLAN` 实测 persons/places/ru/ko/ja 搜索**全部 `SCAN` 全表**，索引一次没用上。根因=**SQLite 的 `LIKE` 默认大小写不敏感，普通 BINARY 索引不被 LIKE 前缀查询采用，必须 `COLLATE NOCASE` 索引**。每次人名搜索扫 67 万行 persons。

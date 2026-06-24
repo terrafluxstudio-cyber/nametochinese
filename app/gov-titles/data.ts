@@ -8,7 +8,7 @@ export type GovTerm = {
   en: string;
   abbr?: string;
   category: '机构' | '职位' | '通名';
-  side: 'cn' | 'foreign';
+  side: 'cn' | 'foreign' | 'tw';
   group: string;        // 卡片分组名
   level?: string;       // 职位才有
   status: '现行' | '历史';
@@ -40,6 +40,8 @@ const FGOV_SRC = '新华社译名标准 + 中国外交部';
 const DIPL_SRC = '外交部礼宾知识 + 驻外外交人员法';
 // 来源：新加坡政府官方中文 + 新华社（新加坡为华语区，机构有官方中文名）
 const SG_SRC = '新加坡政府官方中文 + 新华社';
+// 來源：中華民國政府官方英文版 gov.tw（臺灣，繁體字）
+const TW_SRC = '中華民國政府官方英文版（gov.tw）';
 
 export const TERMS: GovTerm[] = [
   // ── 党中央机构（无争议党务机构；官方英文名）──
@@ -719,6 +721,82 @@ export const TERMS: GovTerm[] = [
   { zh: '坎特伯雷大主教', en: 'Archbishop of Canterbury', category: '职位', side: 'foreign', group: '宗教机构与领袖', status: '现行', source: FGOV_SRC, note: '英国国教会（圣公会）精神领袖' },
   { zh: '世界基督教联合会', en: 'World Council of Churches', abbr: 'WCC', category: '机构', side: 'foreign', group: '宗教机构与领袖', status: '现行', source: INTL_SRC, note: '总部日内瓦，代表全球基督教各宗派（天主教未加入）' },
   { zh: '世界基督教联合会总干事', en: 'General Secretary of the World Council of Churches', category: '职位', side: 'foreign', group: '宗教机构与领袖', status: '现行', source: INTL_SRC },
+
+  // ── 臺灣（中華民國）政府機構 ── 全部繁體字；來源：gov.tw 官方英文版 ──
+
+  // ── 中央政府（總統府・五院）──
+  { zh: '總統府', en: 'Office of the President', category: '机构', side: 'tw', group: '中央政府（總統府・五院）', status: '现行', source: TW_SRC },
+  { zh: '行政院', en: 'Executive Yuan', abbr: 'EY', category: '机构', side: 'tw', group: '中央政府（總統府・五院）', status: '现行', source: TW_SRC, note: '相當於內閣，院長即行政首長（Premier）' },
+  { zh: '立法院', en: 'Legislative Yuan', abbr: 'LY', category: '机构', side: 'tw', group: '中央政府（總統府・五院）', status: '现行', source: TW_SRC, note: '單院制國會，113席立法委員' },
+  { zh: '司法院', en: 'Judicial Yuan', category: '机构', side: 'tw', group: '中央政府（總統府・五院）', status: '现行', source: TW_SRC },
+  { zh: '考試院', en: 'Examination Yuan', category: '机构', side: 'tw', group: '中央政府（總統府・五院）', status: '现行', source: TW_SRC, note: '掌理公務人員考選、銓敘事務' },
+  { zh: '監察院', en: 'Control Yuan', category: '机构', side: 'tw', group: '中央政府（總統府・五院）', status: '现行', source: TW_SRC, note: '彈劾、糾舉、審計三職能；2020年起設國家人權委員會' },
+  { zh: '憲法法庭', en: 'Constitutional Court', category: '机构', side: 'tw', group: '中央政府（總統府・五院）', status: '现行', source: TW_SRC, note: '2022年改制，原大法官會議更名；隸屬司法院' },
+  { zh: '國家安全局', en: 'National Security Bureau', abbr: 'NSB', category: '机构', side: 'tw', group: '中央政府（總統府・五院）', status: '现行', source: TW_SRC, note: '隸屬總統府，主管情報協調與國家安全' },
+  { zh: '國家安全會議', en: 'National Security Council', abbr: 'NSC', category: '机构', side: 'tw', group: '中央政府（總統府・五院）', status: '现行', source: TW_SRC, note: '由總統主持，協調國防外交政策' },
+
+  // ── 行政院各部 ──
+  { zh: '內政部', en: 'Ministry of the Interior', abbr: 'MOI', category: '机构', side: 'tw', group: '行政院各部', status: '现行', source: TW_SRC },
+  { zh: '外交部', en: 'Ministry of Foreign Affairs', abbr: 'MOFA', category: '机构', side: 'tw', group: '行政院各部', status: '现行', source: TW_SRC },
+  { zh: '國防部', en: 'Ministry of National Defense', abbr: 'MND', category: '机构', side: 'tw', group: '行政院各部', status: '现行', source: TW_SRC },
+  { zh: '財政部', en: 'Ministry of Finance', abbr: 'MOF', category: '机构', side: 'tw', group: '行政院各部', status: '现行', source: TW_SRC },
+  { zh: '教育部', en: 'Ministry of Education', abbr: 'MOE', category: '机构', side: 'tw', group: '行政院各部', status: '现行', source: TW_SRC },
+  { zh: '法務部', en: 'Ministry of Justice', abbr: 'MOJ', category: '机构', side: 'tw', group: '行政院各部', status: '现行', source: TW_SRC },
+  { zh: '經濟部', en: 'Ministry of Economic Affairs', abbr: 'MOEA', category: '机构', side: 'tw', group: '行政院各部', status: '现行', source: TW_SRC },
+  { zh: '交通及建設部', en: 'Ministry of Transportation and Construction', abbr: 'MOTC', category: '机构', side: 'tw', group: '行政院各部', status: '现行', source: TW_SRC, note: '2023年8月改制擴編，原交通部' },
+  { zh: '勞動部', en: 'Ministry of Labor', abbr: 'MOL', category: '机构', side: 'tw', group: '行政院各部', status: '现行', source: TW_SRC },
+  { zh: '衛生福利部', en: 'Ministry of Health and Welfare', abbr: 'MOHW', category: '机构', side: 'tw', group: '行政院各部', status: '现行', source: TW_SRC, note: '俗稱「衛福部」' },
+  { zh: '環境部', en: 'Ministry of Environment', abbr: 'MOENV', category: '机构', side: 'tw', group: '行政院各部', status: '现行', source: TW_SRC, note: '2023年8月改制，原行政院環境保護署升格' },
+  { zh: '農業部', en: 'Ministry of Agriculture', abbr: 'MOA', category: '机构', side: 'tw', group: '行政院各部', status: '现行', source: TW_SRC, note: '2023年8月改制，原行政院農業委員會升格' },
+  { zh: '文化部', en: 'Ministry of Culture', abbr: 'MOC', category: '机构', side: 'tw', group: '行政院各部', status: '现行', source: TW_SRC },
+  { zh: '數位部', en: 'Ministry of Digital Affairs', abbr: 'MODA', category: '机构', side: 'tw', group: '行政院各部', status: '现行', source: TW_SRC, note: '2022年8月新設，主管數位政府與資通安全' },
+
+  // ── 行政院委員會・獨立機關 ──
+  { zh: '國家科學及技術委員會', en: 'National Science and Technology Council', abbr: 'NSTC', category: '机构', side: 'tw', group: '行政院委員會・獨立機關', status: '现行', source: TW_SRC, note: '2022年改制，原科技部改制為委員會' },
+  { zh: '國家發展委員會', en: 'National Development Council', abbr: 'NDC', category: '机构', side: 'tw', group: '行政院委員會・獨立機關', status: '现行', source: TW_SRC, note: '俗稱「國發會」' },
+  { zh: '大陸委員會', en: 'Mainland Affairs Council', abbr: 'MAC', category: '机构', side: 'tw', group: '行政院委員會・獨立機關', status: '现行', source: TW_SRC, note: '主管兩岸政策事務' },
+  { zh: '金融監督管理委員會', en: 'Financial Supervisory Commission', abbr: 'FSC', category: '机构', side: 'tw', group: '行政院委員會・獨立機關', status: '现行', source: TW_SRC, note: '俗稱「金管會」，獨立機關' },
+  { zh: '國家通訊傳播委員會', en: 'National Communications Commission', abbr: 'NCC', category: '机构', side: 'tw', group: '行政院委員會・獨立機關', status: '现行', source: TW_SRC, note: '獨立機關，監管廣電與電信' },
+  { zh: '中央選舉委員會', en: 'Central Election Commission', abbr: 'CEC', category: '机构', side: 'tw', group: '行政院委員會・獨立機關', status: '现行', source: TW_SRC, note: '獨立機關，主管公職選舉事務' },
+  { zh: '公平交易委員會', en: 'Fair Trade Commission', abbr: 'FTC', category: '机构', side: 'tw', group: '行政院委員會・獨立機關', status: '现行', source: TW_SRC, note: '獨立機關，主管競爭法與消費者保護' },
+  { zh: '原住民族委員會', en: 'Council of Indigenous Peoples', abbr: 'CIP', category: '机构', side: 'tw', group: '行政院委員會・獨立機關', status: '现行', source: TW_SRC },
+  { zh: '客家委員會', en: 'Hakka Affairs Council', category: '机构', side: 'tw', group: '行政院委員會・獨立機關', status: '现行', source: TW_SRC },
+  { zh: '海洋委員會', en: 'Ocean Affairs Council', abbr: 'OAC', category: '机构', side: 'tw', group: '行政院委員會・獨立機關', status: '现行', source: TW_SRC },
+  { zh: '僑務委員會', en: 'Overseas Community Affairs Council', abbr: 'OCAC', category: '机构', side: 'tw', group: '行政院委員會・獨立機關', status: '现行', source: TW_SRC },
+  { zh: '國軍退除役官兵輔導委員會', en: 'Veterans Affairs Council', abbr: 'VAC', category: '机构', side: 'tw', group: '行政院委員會・獨立機關', status: '现行', source: TW_SRC, note: '俗稱「退輔會」' },
+  { zh: '中央銀行', en: 'Central Bank of the Republic of China (Taiwan)', abbr: 'CBC', category: '机构', side: 'tw', group: '行政院委員會・獨立機關', status: '现行', source: TW_SRC },
+  { zh: '銓敘部', en: 'Ministry of Civil Service', category: '机构', side: 'tw', group: '行政院委員會・獨立機關', status: '现行', source: TW_SRC, note: '隸屬考試院，掌理文官銓敘事項' },
+  { zh: '考選部', en: 'Ministry of Examination', category: '机构', side: 'tw', group: '行政院委員會・獨立機關', status: '现行', source: TW_SRC, note: '隸屬考試院，主辦各類公務人員考試' },
+  { zh: '國家審計部', en: 'National Audit Office', category: '机构', side: 'tw', group: '行政院委員會・獨立機關', status: '现行', source: TW_SRC, note: '隸屬監察院，掌審計職能' },
+  { zh: '國家人權委員會', en: 'National Human Rights Commission', category: '机构', side: 'tw', group: '行政院委員會・獨立機關', status: '现行', source: TW_SRC, note: '2020年設立，隸屬監察院；符合聯合國巴黎原則' },
+
+  // ── 臺灣政府職銜 ──
+  { zh: '總統', en: 'President of the Republic of China', category: '职位', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC, note: '民選，任期4年；英文簡稱 President' },
+  { zh: '副總統', en: 'Vice President of the Republic of China', category: '职位', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC },
+  { zh: '行政院院長', en: 'Premier', category: '职位', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC, note: '全銜 President of the Executive Yuan；俗稱行政院長' },
+  { zh: '行政院副院長', en: 'Vice Premier', category: '职位', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC, note: '全銜 Vice President of the Executive Yuan' },
+  { zh: '部長', en: 'Minister', category: '职位', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC },
+  { zh: '政務次長', en: 'Political Deputy Minister', category: '职位', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC },
+  { zh: '常務次長', en: 'Administrative Deputy Minister', category: '职位', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC },
+  { zh: '主任委員', en: 'Chairperson', category: '职位', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC, note: '委員會首長通用頭銜' },
+  { zh: '副主任委員', en: 'Vice Chairperson', category: '职位', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC },
+  { zh: '立法院院長', en: 'President of the Legislative Yuan', category: '职位', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC },
+  { zh: '立法院副院長', en: 'Vice President of the Legislative Yuan', category: '职位', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC },
+  { zh: '立法委員', en: 'Legislator', category: '职位', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC, note: '官方英文為 Legislator；勿用 MP 或 Congressman' },
+  { zh: '大法官', en: 'Justice of the Constitutional Court', category: '职位', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC, note: '2022年憲法法庭改制後正式頭銜' },
+  { zh: '司法院院長', en: 'President of the Judicial Yuan', category: '职位', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC },
+  { zh: '直轄市市長', en: 'Mayor', category: '职位', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC, note: '六都（臺北/新北/桃園/臺中/臺南/高雄）首長頭銜' },
+  { zh: '縣長', en: 'County Magistrate', category: '职位', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC },
+  { zh: '市長', en: 'City Mayor', category: '职位', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC, note: '省轄市（非直轄市）首長頭銜' },
+  { zh: '議長', en: 'Speaker', category: '职位', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC, note: '縣市議會/直轄市議會首長' },
+  { zh: '議員', en: 'Council Member', category: '职位', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC, note: '地方民意代表通用頭銜' },
+  { zh: '局長', en: 'Director-General', category: '职位', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC, note: '各機關下設局首長；執法機關用 Commissioner' },
+  { zh: '處長', en: 'Director-General', category: '职位', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC, note: '各部內下設處之首長' },
+  { zh: '科長', en: 'Section Chief', category: '职位', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC },
+  { zh: '直轄市', en: 'Special Municipality', category: '通名', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC, note: '六都：臺北市/新北市/桃園市/臺中市/臺南市/高雄市' },
+  { zh: '縣', en: 'County', category: '通名', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC },
+  { zh: '省轄市', en: 'Provincial City', category: '通名', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC },
+  { zh: '鄉鎮市', en: 'Township / Town / City', category: '通名', side: 'tw', group: '臺灣政府職銜', status: '现行', source: TW_SRC, note: '鄉=township，鎮=town，市（縣轄市）=city' },
 ];
 
-export const GROUP_ORDER = ['党中央机构', '中共中央领导职务', '国务院组成部门', '国务院直属机构与国家局', '中国人民解放军', '全国人大·政协', '最高法·最高检', '中央国家机关职务', '地方行政区划', '地方政府职务', '外交衔级', '机构通名对照', '联合国主要机关', '联合国专门机构与系统', '其他国际与区域组织', '更多国际与区域组织', '国际组织主要职务', '各国情报与安全机构', '宗教机构与领袖', '欧盟机构', '美国主要机构', '英国主要机构', '法国主要机构', '德国主要机构', '意大利主要机构', '日本主要机构', '俄罗斯主要机构', '韩国主要机构', '印度主要机构', '印度尼西亚主要机构', '澳大利亚主要机构', '加拿大主要机构', '巴西主要机构', '墨西哥主要机构', '阿根廷主要机构', '沙特阿拉伯主要机构', '土耳其主要机构', '南非主要机构', '新加坡主要机构', '马来西亚主要机构', '泰国主要机构', '越南主要机构', '菲律宾主要机构', '东盟其他国家', '朝鲜主要机构', '以色列主要机构', '伊朗主要机构', '乌克兰主要机构'];
+export const GROUP_ORDER = ['党中央机构', '中共中央领导职务', '国务院组成部门', '国务院直属机构与国家局', '中国人民解放军', '全国人大·政协', '最高法·最高检', '中央国家机关职务', '地方行政区划', '地方政府职务', '外交衔级', '机构通名对照', '中央政府（總統府・五院）', '行政院各部', '行政院委員會・獨立機關', '臺灣政府職銜', '联合国主要机关', '联合国专门机构与系统', '其他国际与区域组织', '更多国际与区域组织', '国际组织主要职务', '各国情报与安全机构', '宗教机构与领袖', '欧盟机构', '美国主要机构', '英国主要机构', '法国主要机构', '德国主要机构', '意大利主要机构', '日本主要机构', '俄罗斯主要机构', '韩国主要机构', '印度主要机构', '印度尼西亚主要机构', '澳大利亚主要机构', '加拿大主要机构', '巴西主要机构', '墨西哥主要机构', '阿根廷主要机构', '沙特阿拉伯主要机构', '土耳其主要机构', '南非主要机构', '新加坡主要机构', '马来西亚主要机构', '泰国主要机构', '越南主要机构', '菲律宾主要机构', '东盟其他国家', '朝鲜主要机构', '以色列主要机构', '伊朗主要机构', '乌克兰主要机构'];

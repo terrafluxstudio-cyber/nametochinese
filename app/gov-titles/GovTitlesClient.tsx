@@ -57,7 +57,7 @@ export default function GovTitlesClient() {
   const [open, setOpen] = useState<Record<string, boolean>>(() =>
     Object.fromEntries(GROUP_ORDER.map((g) => [g, false]))
   );
-  const [side, setSide] = useState<'all' | 'cn' | 'foreign'>('all');
+  const [side, setSide] = useState<'all' | 'cn' | 'foreign' | 'tw'>('all');
   const [cat, setCat] = useState<'all' | GovTerm['category']>('all');
 
   const filtered = useMemo(
@@ -103,6 +103,7 @@ export default function GovTitlesClient() {
           {([
             ['all', '全部'],
             ['cn', '中国'],
+            ['tw', '臺灣（中華民國）'],
             ['foreign', '国际·各国'],
           ] as const).map(([val, label]) => (
             <button
