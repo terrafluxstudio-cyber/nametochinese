@@ -85,6 +85,25 @@ function EnPageContent() {
           />
         </div>
 
+        {!q && !loading && (
+          <div className="mb-6">
+            <p className="text-xs text-gray-400 mb-2">常见示例：</p>
+            <div className="flex flex-wrap gap-2">
+              {['Johnson', 'Williams', 'Smith', 'Brown', 'Anderson', 'Emma', 'Oliver', 'Sophia', 'Lucas', 'Adams'].map((name) => (
+                <button
+                  key={name}
+                  type="button"
+                  onClick={() => { setQ(name); search(name); }}
+                  className="px-3 py-1 rounded-full text-sm border transition-colors hover:border-gray-400"
+                  style={{ background: '#fff', color: '#374151', borderColor: '#D1D5DB' }}
+                >
+                  {name}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
         {loading && <p className="text-center text-gray-400 py-4">搜索中…</p>}
 
         {persons.length > 0 && (

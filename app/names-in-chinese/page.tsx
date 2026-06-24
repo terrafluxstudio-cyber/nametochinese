@@ -95,6 +95,30 @@ export default function NamesIndexPage() {
             </Link>
           </p>
         </div>
+
+        <section className="mt-14 border-t border-gray-200 pt-10">
+          <h2 className="text-xl font-semibold mb-6" style={{ color: '#1A1A1A' }}>
+            Frequently Asked Questions
+          </h2>
+          <div className="space-y-6 text-sm text-gray-600 leading-relaxed">
+            <div>
+              <p className="font-semibold text-gray-800 mb-1">How are English names written in Chinese?</p>
+              <p>English names are transliterated — mapped sound-by-sound into Chinese characters using standardized tables (the Xinhua standard used by China&apos;s state media). Characters are chosen to approximate the original pronunciation while carrying neutral or positive meanings. Emma becomes 艾玛 (Àimǎ), James becomes 詹姆斯 (Zhānmǔsī).</p>
+            </div>
+            <div>
+              <p className="font-semibold text-gray-800 mb-1">Does every English name have an &quot;official&quot; Chinese translation?</p>
+              <p>Common names like Emma, James, and Sophia have widely recognized Chinese equivalents that appear consistently in books, news, and media. Less common names typically follow the phonetic rules to create a transliteration — there may be minor regional variations.</p>
+            </div>
+            <div>
+              <p className="font-semibold text-gray-800 mb-1">Can I use these translations for official documents?</p>
+              <p>For Chinese legal documents, passports, or contracts, the standard Xinhua transliterations are the appropriate forms. Always verify with the relevant authority, as specific contexts (e.g. Hong Kong vs mainland China) may use different conventions.</p>
+            </div>
+            <div>
+              <p className="font-semibold text-gray-800 mb-1">What do the Chinese characters mean?</p>
+              <p>Transliteration prioritizes <em>sound</em>, not meaning — but chosen characters are generally neutral or auspicious. Each name&apos;s page shows the individual character meanings so you can see exactly what characters were selected and why.</p>
+            </div>
+          </div>
+        </section>
       </main>
       <SiteFooter />
     </>

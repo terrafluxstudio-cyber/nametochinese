@@ -80,6 +80,30 @@ export default function WordsIndexPage() {
             Looking for a name instead? →
           </Link>
         </div>
+
+        <section className="mt-14 border-t border-gray-200 pt-10">
+          <h2 className="text-xl font-semibold mb-6" style={{ color: '#1A1A1A' }}>
+            Frequently Asked Questions
+          </h2>
+          <div className="space-y-6 text-sm text-gray-600 leading-relaxed">
+            <div>
+              <p className="font-semibold text-gray-800 mb-1">Why are Chinese characters popular for tattoos and art?</p>
+              <p>Chinese characters (汉字) are visually striking — each is a compact pictographic unit that can express in one symbol what takes several words in English. A single character like 龙 (dragon) or 福 (blessing) carries centuries of cultural resonance.</p>
+            </div>
+            <div>
+              <p className="font-semibold text-gray-800 mb-1">Are these simplified or traditional Chinese characters?</p>
+              <p>All characters here use <strong>Simplified Chinese</strong> — the standard script used in mainland China and Singapore. Traditional characters (used in Taiwan and Hong Kong) are written differently but share the same pronunciation and meaning. Each word page shows both forms where they differ.</p>
+            </div>
+            <div>
+              <p className="font-semibold text-gray-800 mb-1">How do I know which characters to use for a concept?</p>
+              <p>Many concepts have multiple Chinese expressions with subtle differences. For example, &quot;love&quot; can be 爱 (general love), 爱情 (romantic love), or 仁 (benevolent love in Confucian ethics). Each entry here uses the most widely recognized, broadly applicable translation.</p>
+            </div>
+            <div>
+              <p className="font-semibold text-gray-800 mb-1">Can I combine characters to make a phrase?</p>
+              <p>Yes — Chinese lends itself to elegant two- and four-character combinations. Common pairings like 龙凤 (dragon-phoenix) or 平安 (peace and safety) carry meanings greater than the sum of their parts. Ask a native speaker before using any combination in permanent art.</p>
+            </div>
+          </div>
+        </section>
       </main>
       <SiteFooter />
     </>

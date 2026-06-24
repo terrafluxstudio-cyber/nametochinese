@@ -60,6 +60,25 @@ export default function PlacesSearchClient() {
         />
       </div>
 
+      {!q && !loading && (
+        <div className="mb-6">
+          <p className="text-xs text-gray-400 mb-2">常见示例：</p>
+          <div className="flex flex-wrap gap-2">
+            {['London', 'Paris', 'Berlin', 'Moscow', 'Sydney', 'Toronto', 'Mumbai', 'Cairo', 'Amsterdam', 'Geneva'].map((place) => (
+              <button
+                key={place}
+                type="button"
+                onClick={() => { setQ(place); search(place); }}
+                className="px-3 py-1 rounded-full text-sm border transition-colors hover:border-gray-400"
+                style={{ background: '#fff', color: '#374151', borderColor: '#D1D5DB' }}
+              >
+                {place}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
       {loading && <p className="text-center text-gray-400 py-4">搜索中…</p>}
 
       <div className="space-y-2">
