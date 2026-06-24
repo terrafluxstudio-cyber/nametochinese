@@ -81,17 +81,32 @@ function TwPageContent() {
 
         {results.length > 0 && (
           <div className="space-y-2">
-            {results.map((r, i) => (
+            {/* 按英文名分组：同名不同语种合并为一张卡片 */}
+            {Object.values(
+              results.reduce<Record<string, { en: string; items: { zh: string; langDisplay: string }[] }>>(
+                (acc, r) => {
+                  const key = r.en.toLowerCase();
+                  if (!acc[key]) acc[key] = { en: r.en, items: [] };
+                  acc[key].items.push({ zh: r.zh, langDisplay: r.langDisplay });
+                  return acc;
+                },
+                {}
+              )
+            ).map((group, i) => (
               <div
                 key={i}
-                className="flex items-center justify-between py-4 px-5 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow"
+                className="py-4 px-5 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow"
               >
-                <span className="font-serif text-xl text-[#1A1A1A]">{r.en}</span>
-                <div className="flex items-center gap-3">
-                  <span className="text-2xl text-[#1A1A1A] font-medium">{r.zh}</span>
-                  <span className="text-xs px-2 py-0.5 rounded-md bg-amber-50 text-amber-700">
-                    {r.langDisplay}
-                  </span>
+                <p className="font-serif text-xl text-[#1A1A1A] mb-2">{group.en}</p>
+                <div className="space-y-1.5">
+                  {group.items.map((item, j) => (
+                    <div key={j} className="flex items-baseline gap-3">
+                      <span className="text-xl font-medium text-[#1A1A1A]">{item.zh}</span>
+                      <span className="text-xs px-2 py-0.5 rounded-md bg-amber-50 text-amber-700 shrink-0">
+                        {item.langDisplay}
+                      </span>
+                    </div>
+                  ))}
                 </div>
               </div>
             ))}
